@@ -1,0 +1,53 @@
+:: Start
+You are looking for a person.
+
+[[Start looking]]
+
+::Start looking
+You are looking for a person, and he has a name. It is written on the palm of your hand in blue ballpoint pen. The ink is beginning to run. The hallway you are standing in is bright, sterile. The walls are white. The ceiling is white. Even the floor is white, polished to a shine. It squeaks underneath your shoes.
+
+"Can I help you?" a woman wearing a white apron asks. Her teeth are very white as she smiles.
+
+"No, thank you," you say, because your parents always taught you to be polite. You stand there, awkward, in the middle of the hallway with your brown shoes and red shirt, an ugly smudge of color against your pristine surroundings.
+
+You've never liked hospitals.
+
+You check your watch. Wes said you had half an hour until pickup. That was ten minutes ago. You tuck your fingers around the phone in your pocket and resist the urge to check it. There won't be any messages, and you need to learn this, how to track the time in your head. You won't always have your phone, not with the kind of life you lead now.
+
+The rooms around you are numbered, but you don't have a number, you have a name.
+
+[[Room 204]]
+[[Room 205]]
+[[Room 206]]
+[[Room 207]]
+
+
+:: Room 204
+
+She's still asleep when you step inside. The machines beep, beep, beep. Her hair is a messy, frizzy gray, and her face has deep lines, even in sleep.
+
+This isn't the right room.
+
+<<back>>
+
+:: Room 205
+"What are--" the man says when you peek your head in.There's a tattoo on the inside of his left wrist, mostly covered with concealer, and you wouldn't have noticed if you didn't know what to look for. A Dissenter, then. He can take care of himself, though his hair is getting a little on the long side. You look him straight in the eye and nod. He nods back.
+
+"Sorry, wrong room," you say, before closing the door behind you.
+
+<<back>>
+
+:: Room 206 
+There's a teenage boy sitting on a chair, biting a lip. He's not much older than you. When you open the door, he looks up
+
+:: Room 207
+The room is empty. A bed, two chairs. You wonder who was here before you, if they got out of here alive.
+
+<<back>>
+
+
+:: Who are you?
+# Your name is Blaine Devon Anderson.
+# When you were five, you were normal. You lived with your parents in a house that looked identical to all the other houses on the street. Cooper was still around, in high school then. He wasn't quite normal, not the way people wanted him to be, always prone to fits of dramatics that would annoy his teachers and frustrate the other students. ("They're all so <em>boring</em>, squirt," he'd say to you when the house was quiet. "One day you'll understand. Now try that dance move again.  You won't manage to scandalize anyone if you don't learn how to move your hips.")
+# When you are eight, Cooper leaves. He has to.
+
