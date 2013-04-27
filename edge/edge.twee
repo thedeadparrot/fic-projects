@@ -1,18 +1,21 @@
 :: Start
+!! Chapter 1
 You are looking for a person.
 
-[[Start looking]]
+[[Look]]
 
-::Start looking
-You are looking for a person, and he has a name. It is written on the palm of your hand in blue ballpoint pen. The ink is beginning to run. The hallway you are standing in is bright, sterile. The walls are white. The ceiling is white. Even the floor is white, polished to a shine. It squeaks underneath your shoes.
+::Look
+You are looking for a person, and he has a name. It is written on the palm of your hand in blue ballpoint pen. The ink is beginning to run, distorting the letters into ugly shapes.
+
+The hallway you are standing in is bright, sterile. The walls are white. The ceiling is white. Even the floor is white, polished to a shine. It squeaks underneath your shoes.
 
 "Can I help you?" a woman wearing a white apron asks. Her teeth are very white as she smiles.
 
-"No, thank you," you say, because your parents always taught you to be polite. You stand there, awkward, in the middle of the hallway with your brown shoes and red shirt, an ugly smudge of color against your pristine surroundings.
+"No, thank you," you say, because your parents always taught you to be polite. You stand there, awkward, in the middle of the hallway with your black shoes and red shirt and brown messenger bag, a smudge of color against your pristine surroundings.
 
 You've never liked hospitals.
 
-You check your watch. Wes said you had half an hour until pickup. That was ten minutes ago. You tuck your fingers around the phone in your pocket and resist the urge to check it. There won't be any messages, and you need to learn this, how to track the time in your head. You won't always have your phone, not with the kind of life you lead now.
+You check your watch. Wes said you had half an hour until pickup. That was ten minutes ago. You tuck your fingers around the phone in your pocket and resist the urge to check it. There won't be any messages. Everyone who knows you knows that you're on a sensitive mission, and if Wes needs to tell you something, he has other ways of conveying that information.
 
 The rooms around you are numbered, but you don't have a number, you have a name.
 
@@ -23,7 +26,6 @@ The rooms around you are numbered, but you don't have a number, you have a name.
 
 
 :: Room 204
-
 She's still asleep when you step inside. The machines beep, beep, beep. Her hair is a messy, frizzy gray, and her face has deep lines, even in sleep.
 
 This isn't the right room.
@@ -31,23 +33,106 @@ This isn't the right room.
 <<back>>
 
 :: Room 205
-"What are--" the man says when you peek your head in.There's a tattoo on the inside of his left wrist, mostly covered with concealer, and you wouldn't have noticed if you didn't know what to look for. A Dissenter, then. He can take care of himself, though his hair is getting a little on the long side. You look him straight in the eye and nod. He nods back.
+"What are--" the man says when you peek your head in. There's a tattoo on the inside of his left wrist, mostly covered with concealer, and you wouldn't have noticed if you didn't know what to look for. He's not supposed to be here, either. You would think that hospitals would be one of the few places that are the most 'pure,' but they're one of the places where the lines in the sand are the thinnest. Even doctors in Over will take patients if they can pay. And no matter what they teach in school, there's plenty of money in Under.
+
+He's not who you're looking for, and if he knows enough to cover up his tattoo, he can take care of himself. You look him straight in the eye and nod. He nods back.
 
 "Sorry, wrong room," you say, before closing the door behind you.
 
 <<back>>
 
 :: Room 206 
-There's a teenage boy sitting on a chair, biting a lip. He's not much older than you. When you open the door, he looks up
+There's a teenage boy sitting on a chair, biting a lip. He's not much older than you. When you open the door, he looks up. His hair is maintained, swooping upward, showing a bit of personality even if it matches the letter of the regulations. You've learned how to keep your own hair in check over the years, but for you that's about brute force, about forcing it into submission. For him, it's a work of art.
+
+"I'm here to help," you say.
+
+He snorts. "You're here to take me away, aren't you?"
+
+"You're Kurt Hummel, right?" you say. You check your watch. You're down to five minutes.
+
+"That depends on who's asking," he says. He stands up, head up and shoulders square. He's a couple inches taller than you.
+
+You show him his name on your hand. "I need to take you across the border," you say.
+
+"But, my dad--" Kurt says.
+
+His dad is a politician, you know. He recently had a heart attack. It was all over the news for a day. "Sorry," you say, grabbing his hand. "But we really have to go. Look, they know about you. We need to get you across the border."
+
+A alarm goes off. Wes must be on his way. He never did particularly care for subtlety when it came to extracting people from Over.
+
+"What?" Kurt says, but he doesn't pull his hand away.
+
+There are shouts from down below, the rhythmic stamping of feet. The police. "Come on," you say. "I know a shortcut."
+
+[[Run|Run hallway]]
 
 :: Room 207
-The room is empty. A bed, two chairs. You wonder who was here before you, if they got out of here alive.
+The room is empty. A bed, two chairs. You wonder who has been here, but there's no point in lingering.
 
 <<back>>
 
+::Run hallway
+The hallways are empty of people. The police probably have the place under lockdown. The alarms are still blaring, loud enough that you can barely hear yourself think. Kurt's hand is sweaty in yours.
 
-:: Who are you?
+There's a glowing red exit sign, down the hall. A stairwell.
+
+[[Run|Run stairwell]]
+
+::Run stairwell
+
+You climb the steps, pulling Kurt along behind you, using the railings for leverage as you drag yourself upwards.
+
+"Where are we--" he asks.
+
+You reach the roof access. The shouts are getting closer.
+
+[[Kick the door open|Hospital Roof]]
+
+::Hospital Roof
+
+The sun is bright today, and the city all around you is bright and gleaming glass. You're fond of rooftops. It's one of the easiest ways of getting around for a Courier, one of the most free. Very few people think to look up.
+
+Wes is waiting for you. He brought the helicopter today. Of course he did.
+
+Kurt climbs into the cabin, though he looks hesitant about it, his eyes round and wide at the sight of it. You pull yourself in after him.
+
+"Warbler Blaine," Wes says from where he's already sitting in the cabin, stiff as always, even when he needs to shout to be heard over the sound of the propellers, "you're cutting it awfully close."
+
+Unique gives a thumbs up from the cockpit, and you take off as the cops spill out all over the roof, the H of on the roof of the hospital getting smaller, further away.
+
+"Okay," Kurt says. "Now will someone tell me what the hell is going on here? Who the hell are you people?"
+
+It's not a bad question, you have to admit.
+
+[[Who are you really?]]
+
+
+::Secret Warbler meeting
+
+"They're going to be angry at us," you say to Wes.
+
+
+:: Who are you really?
+
 # Your name is Blaine Devon Anderson.
-# When you were five, you were normal. You lived with your parents in a house that looked identical to all the other houses on the street. Cooper was still around, in high school then. He wasn't quite normal, not the way people wanted him to be, always prone to fits of dramatics that would annoy his teachers and frustrate the other students. ("They're all so <em>boring</em>, squirt," he'd say to you when the house was quiet. "One day you'll understand. Now try that dance move again.  You won't manage to scandalize anyone if you don't learn how to move your hips.")
-# When you are eight, Cooper leaves. He has to.
+# You were born in Over to a nice, well-behaved family. Your mother was a physicist. Your father was a lawyer. You had a nice house on a nice street. You did well in school.
+# You have a brother named Cooper. He dropped out of college and went Under when you were eight, and you didn't see him again until you were seventeen.
+# Your best friend in Under is Sam. He taught you how to play the guitar, and when you were eighteen, you had a crush on him that was so intense you almost thought you were in love with him. That's faded by now, but there are still sometimes when you remember 
+# You became a Courier at the age of nineteen, because Wes asked you to and because you didn't know how to say 'no.'
+# There's this feeling you get when you run, when you jump over a ledge and hang suspended for a moment above the ground below. In that moment, you feel weightless; you feel almost free.
+
+
+
+
+
+::More backstory
+# When you are five, you are normal. You play nicely with the other kids and the other kids play nicely with you. Everyone is good at following the rules at that age. You've been trainted to be. Cooper is still around, still in high school. He isn't quite normal, not the way people want him to be, always prone to fits of dramatics that annoy his teachers and frustrate the other students. ("They're all so <em>boring</em>, squirt," he says to you when the house is quiet, Mom and Dad still at work. "One day you'll understand. Now try that dance move again. You won't manage to scandalize anyone if you don't learn how to move your hips.")
+
+# In school, they teach you about the Rules. There are scientific studies, they say, about how humans are happiest when they have clearly defined limits, if they have order and faith in their institutions. To ensure that faith and that trust, the Rules were written, and anyone (young or old, male or female) who did not want to follow the Rules would be exiled to Under. They understood that you would be happier in a place without Rules. If you wanted to stay in Over, all you had to do was follow the Rules. It was simple. Simplicity above all else was one of the Rules.
+
+# There are always rumors about what it's like in Under, whispered in the hallways between classes, that it's dirty and ugly and wild. Trash everywhere, violence on every street corner. It sounds scary, of course it sounds scary, but there's a little part of you that's seduced by it, a part of you that wonders.
+
+# When you are eight, Cooper leaves. He has to. Mandatory higher education, a chance to live with everyone else in your age group, a chance to see the society you'll become down the line. He's to be studying Electrical Engineering. Cooper spends a few days moping around the house, humming to himself in the kitchen, drumming his fingers against the stainless steel appliances. "It's going to be stupid," Coop says. "Don't ever do this yourself."
+
+# You realize out that there is something wrong with yourself when you're fourteen. Adolescent hormones, they say. Your parents shake their heads and tut at you, but you're not like Cooper. You don't have 
 
