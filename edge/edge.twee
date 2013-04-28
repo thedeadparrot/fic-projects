@@ -1,5 +1,10 @@
 :: Start
-!! Chapter 1
+
+Header + Notes + explanation of what this is
+
+[[Begin|Part 1]]
+
+::Part 1
 You are looking for a person.
 
 [[Look]]
@@ -41,12 +46,17 @@ He's not who you're looking for, and if he knows enough to cover up his tattoo, 
 
 <<back>>
 
+:: Room 207
+The room is empty. A bed, two chairs. You wonder who has been here, but there's no point in lingering.
+
+<<back>>
+
 :: Room 206 
 There's a teenage boy sitting on a chair, biting a lip. He's not much older than you. When you open the door, he looks up. His hair is maintained, swooping upward, showing a bit of personality even if it matches the letter of the regulations. You've learned how to keep your own hair in check over the years, but for you that's about brute force, about forcing it into submission. For him, it's a work of art.
 
 "I'm here to help," you say.
 
-He snorts. "You're here to take me away, aren't you?"
+He snorts. "Forgive me if I think that's highly unlikely. You don't exactly look like a doctor."
 
 "You're Kurt Hummel, right?" you say. You check your watch. You're down to five minutes.
 
@@ -54,7 +64,7 @@ He snorts. "You're here to take me away, aren't you?"
 
 You show him his name on your hand. "I need to take you across the border," you say.
 
-"But, my dad--" Kurt says.
+"But my dad--" Kurt says.
 
 His dad is a politician, you know. He recently had a heart attack. It was all over the news for a day. "Sorry," you say, grabbing his hand. "But we really have to go. Look, they know about you. We need to get you across the border."
 
@@ -65,11 +75,6 @@ A alarm goes off. Wes must be on his way. He never did particularly care for sub
 There are shouts from down below, the rhythmic stamping of feet. The police. "Come on," you say. "I know a shortcut."
 
 [[Run|Run hallway]]
-
-:: Room 207
-The room is empty. A bed, two chairs. You wonder who has been here, but there's no point in lingering.
-
-<<back>>
 
 ::Run hallway
 The hallways are empty of people. The police probably have the place under lockdown. The alarms are still blaring, loud enough that you can barely hear yourself think. Kurt's hand is sweaty in yours.
@@ -98,7 +103,7 @@ Kurt climbs into the cabin, though he looks hesitant about it, his eyes round an
 
 "Warbler Blaine," Wes says from where he's already sitting in the cabin, stiff as always, even when he needs to shout to be heard over the sound of the propellers, "you're cutting it awfully close."
 
-Unique gives a thumbs up from the cockpit, and you take off as the cops spill out all over the roof, the H of on the roof of the hospital getting smaller, further away.
+Unique gives a thumbs up from the cockpit, and you take off as the cops spill out all over the roof, the H of on the helicopter getting smaller, shrinking until it's nothing.
 
 "Okay," Kurt says. "Now will someone tell me what the hell is going on here? Who the hell are you people?"
 
@@ -106,33 +111,67 @@ It's not a bad question, you have to admit.
 
 [[Who are you really?]]
 
+[[Wes answers.]]
+
+
+:: Who are you really?
+
+This is who you are:
+* Your name is Blaine Devon Anderson.
+* You were born in Over to a nice, well-behaved family. Your mother was a physicist. Your father was a lawyer. You had a nice house on a nice street. You did well in school.
+* You have a brother named Cooper. He dropped out of college and went Under when you were eight, and you didn't see him again until you were seventeen.
+* Your best friend in Under is Sam Evans. He taught you how to play the guitar, and when you were eighteen, you had a crush on him that was so intense you almost thought you were in love with him. That's faded by now, but there are still sometimes when you remember the way your heart fluttered every time he smiled at you.
+* You became a Courier at the age of nineteen, because Wes asked you to and because you didn't know how to say 'no.'
+* You don't regret it, even now. Being a Courier is about negotiating the in-between places, where the distinctions between Under and Over are thinnest, and you learn how to travel between them, to be who you need to be when the situation demands it. You learn how to run, how to slide under pipes and climb over fences, how to slip over the border without being seen, without being caught.
+* There's this feeling you get when you when you jump from one roof to another, hanging suspended for a moment above the ground below. That just might be your favorite part. In that moment, you feel weightless; you feel almost free.
+
+<<back>>
+
+::Wes answers.
+
+"We're Couriers," Wes says, still shouting to be heard over the noise. "Warblers." He always gets this look on his face when he's talking about the Warblers. He takes being a Courier, being a Warbler, more seriously than anyone you know. There are reasons for that. He won't tell you what they are, 
+
+"And what the hell do you want with me?" Kurt asks. His arms are crossed over his chest, defensive. This isn't your first time doing an extraction, but this is the first time it's been someone so reluctant. A lot of times there's a family member, a lover, a person they know waiting for them on the other side. Most of the time they just want a meeting, just a chance to see each other again. The government doesn't stop anyone from leaving Over, but once you leave officially, you can't go back, not in any real way.
+
+"Someone in Under paid for your extraction. We extracted you,"  Wes says. "They've taken an interest in your father's work."
+
+Kurt's mouth drops open, his eyebrows raising up. "And that's it? You're going to do that just because they paid you?'"
+
+"That's how things work in Under," you say. You know what it's like, the first time [[the Rules]] no longer apply to your life, that feeling of the ground under your feet shifting until you're cut off, adrift and you need to relearn the world from scratch.
+
+His face falls. "Oh," he says. He turns to look out the window at the buildings below.
+
+[[You sit the rest of the trip in silence.|Part 2]]
+
+
+::the Rules
+
+In school, they teach you about the Rules. There are scientific studies, they say, about how humans are happiest when they have clearly defined limits, if they have order and faith in their institutions. To ensure that faith and that trust, the Rules were written, and anyone (young or old, male or female) who did not want to follow the Rules would be exiled to Under. They understood that you would be happier in a place without Rules. If you wanted to stay in Over, all you had to do was follow the Rules. It was simple. Simplicity above all else was one of the Rules.
+
+<<back>>
+
+
+::Part 2
+
+The person who 
+
 
 ::Secret Warbler meeting
 
 "They're going to be angry at us," you say to Wes.
 
 
-:: Who are you really?
-
-# Your name is Blaine Devon Anderson.
-# You were born in Over to a nice, well-behaved family. Your mother was a physicist. Your father was a lawyer. You had a nice house on a nice street. You did well in school.
-# You have a brother named Cooper. He dropped out of college and went Under when you were eight, and you didn't see him again until you were seventeen.
-# Your best friend in Under is Sam. He taught you how to play the guitar, and when you were eighteen, you had a crush on him that was so intense you almost thought you were in love with him. That's faded by now, but there are still sometimes when you remember 
-# You became a Courier at the age of nineteen, because Wes asked you to and because you didn't know how to say 'no.'
-# There's this feeling you get when you run, when you jump over a ledge and hang suspended for a moment above the ground below. In that moment, you feel weightless; you feel almost free.
-
-
+"You're Blaine, right?" Kurt says. He touches your wrist, where you're still wearing the watch your father gave you when you turned twelve. You still get the battery replaced every few years,
 
 
 
 ::More backstory
-# When you are five, you are normal. You play nicely with the other kids and the other kids play nicely with you. Everyone is good at following the rules at that age. You've been trainted to be. Cooper is still around, still in high school. He isn't quite normal, not the way people want him to be, always prone to fits of dramatics that annoy his teachers and frustrate the other students. ("They're all so <em>boring</em>, squirt," he says to you when the house is quiet, Mom and Dad still at work. "One day you'll understand. Now try that dance move again. You won't manage to scandalize anyone if you don't learn how to move your hips.")
 
-# In school, they teach you about the Rules. There are scientific studies, they say, about how humans are happiest when they have clearly defined limits, if they have order and faith in their institutions. To ensure that faith and that trust, the Rules were written, and anyone (young or old, male or female) who did not want to follow the Rules would be exiled to Under. They understood that you would be happier in a place without Rules. If you wanted to stay in Over, all you had to do was follow the Rules. It was simple. Simplicity above all else was one of the Rules.
+# When you are five, you are normal. You play nicely with the other kids and the other kids play nicely with you. Everyone is good at following the rules at that age. You've been trainted to be. Cooper is still around, still in high school. He isn't quite normal, not the way people want him to be, always prone to fits of dramatics that annoy his teachers and frustrate the other students. ("They're all so <em>boring</em>, squirt," he says to you when the house is quiet, Mom and Dad still at work. "One day you'll understand. Now try that dance move again. You won't manage to scandalize anyone if you don't learn how to move your hips.")
 
 # There are always rumors about what it's like in Under, whispered in the hallways between classes, that it's dirty and ugly and wild. Trash everywhere, violence on every street corner. It sounds scary, of course it sounds scary, but there's a little part of you that's seduced by it, a part of you that wonders.
 
 # When you are eight, Cooper leaves. He has to. Mandatory higher education, a chance to live with everyone else in your age group, a chance to see the society you'll become down the line. He's to be studying Electrical Engineering. Cooper spends a few days moping around the house, humming to himself in the kitchen, drumming his fingers against the stainless steel appliances. "It's going to be stupid," Coop says. "Don't ever do this yourself."
 
-# You realize out that there is something wrong with yourself when you're fourteen. Adolescent hormones, they say. Your parents shake their heads and tut at you, but you're not like Cooper. You don't have 
+# You realize out that there is something wrong with yourself when you're fourteen. Adolescent hormones, they say. Your parents shake their heads and tut at you, but you're not like Cooper. You don't have that instinct to act out the way Cooper does
 
