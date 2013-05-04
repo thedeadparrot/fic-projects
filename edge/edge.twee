@@ -1,15 +1,17 @@
-:: Start
+::StoryAuthor
+thedeadparrot
 
-Header + Notes + explanation of what this is
+:: Start
+<<set $whoareyou = 0>>Header + Notes + explanation of what this is
 
 [[Begin|Part 1]]
 
-::Part 1
+::Part 1[bookmark]
 You are looking for a person.
 
-[[Look]]
+[[Look.]]
 
-::Look
+::Look.
 You are looking for a person, and he has a name. It is written on the palm of your hand in blue ballpoint pen. The ink is beginning to run, distorting the letters into ugly shapes.
 
 The hallway you are standing in is bright, sterile. The walls are white. The ceiling is white. Even the floor is white, polished to a shine. It squeaks underneath your shoes.
@@ -35,7 +37,7 @@ She's still asleep when you step inside. The machines beep, beep, beep. Her hair
 
 This isn't the right room.
 
-<<back>>
+<<return>>
 
 :: Room 205
 "What are--" the man says when you peek your head in. There's a tattoo on the inside of his left wrist, mostly covered with concealer, and you wouldn't have noticed if you didn't know what to look for. He's not supposed to be here, either. You would think that hospitals would be one of the few places that are the most 'pure,' but they're one of the places where the lines in the sand are the thinnest. Even doctors in Over will take patients if they can pay. And no matter what they teach in school, there's plenty of money in Under.
@@ -44,12 +46,12 @@ He's not who you're looking for, and if he knows enough to cover up his tattoo, 
 
 "Sorry, wrong room," you say, before closing the door behind you.
 
-<<back>>
+<<return>>
 
 :: Room 207
 The room is empty. A bed, two chairs. You wonder who has been here, but there's no point in lingering.
 
-<<back>>
+<<return>>
 
 :: Room 206 
 There's a teenage boy sitting on a chair, biting a lip. He's not much older than you. When you open the door, he looks up. His hair is maintained, swooping upward, showing a bit of personality even if it matches the letter of the regulations. You've learned how to keep your own hair in check over the years, but for you that's about brute force, about forcing it into submission. For him, it's a work of art.
@@ -81,7 +83,7 @@ The hallways are empty of people. The police probably have the place under lockd
 
 There's a glowing red exit sign, down the hall. A stairwell.
 
-[[Run|Run stairwell]]
+[[Take the stairs.|Run stairwell]]
 
 ::Run stairwell
 
@@ -116,16 +118,24 @@ It's not a bad question, you have to admit.
 
 :: Who are you really?
 
-This is who you are:
-* Your name is Blaine Devon Anderson.
-* You were born in Over to a nice, well-behaved family. Your mother was a physicist. Your father was a lawyer. You had a nice house on a nice street. You did well in school.
-* You have a brother named Cooper. He dropped out of college and went Under when you were eight, and you didn't see him again until you were seventeen.
-* Your best friend in Under is Sam Evans. He taught you how to play the guitar, and when you were eighteen, you had a crush on him that was so intense you almost thought you were in love with him. That's faded by now, but there are still sometimes when you remember the way your heart fluttered every time he smiled at you.
-* You became a Courier at the age of nineteen, because Wes asked you to and because you didn't know how to say 'no.'
-* You don't regret it, even now. Being a Courier is about negotiating the in-between places, where the distinctions between Under and Over are thinnest, and you learn how to travel between them, to be who you need to be when the situation demands it. You learn how to run, how to slide under pipes and climb over fences, how to slip over the border without being seen, without being caught.
-* There's this feeling you get when you when you jump from one roof to another, hanging suspended for a moment above the ground below. That just might be your favorite part. In that moment, you feel weightless; you feel almost free.
+<<set $whoareyou += 1>>
+Who are you really?
 
-<<back>>
+Your name is Blaine Devon Anderson.
+
+You were born in Over to a nice, well-behaved family. Your mother was a physicist. Your father was an administrator at the Department of Transportation. You had a nice house on a nice street. You did well in school. Your teachers always praised you for being quiet and well-behaved.
+
+You have a brother named Cooper. He dropped out of college and went Under when you were eight, and you didn't see him again until you were seventeen.
+
+Your best friend in Under is Sam Evans. He taught you how to play the guitar, and when you were eighteen, you had a crush on him that was so intense you almost thought you were in love with him. That's faded by now, but there are still sometimes when you remember the way your heart fluttered every time he smiled at you.
+
+You became a Courier at the age of nineteen, because Wes asked you to and because you didn't know how to say 'no.'
+
+You don't regret it, even now. Being a Courier is about negotiating the in-between places, where the distinctions between Under and Over are thinnest, and you learn how to travel between them, to be who you need to be when the situation demands it. You learn how to run, how to slide under pipes and climb over fences, how to slip over the border without being seen, without being caught.
+
+There's this feeling you get when you when you jump from one roof to another, hanging suspended for a moment above the ground below. That just might be your favorite part. In that moment, you feel weightless; you feel almost free.
+
+<<return>>
 
 ::Wes answers.
 
@@ -133,7 +143,7 @@ This is who you are:
 
 "And what the hell do you want with me?" Kurt asks. His arms are crossed over his chest, defensive. This isn't your first time doing an extraction, but this is the first time it's been someone so reluctant. A lot of times there's a family member, a lover, a person they know waiting for them on the other side. Most of the time they just want a meeting, just a chance to see each other again. The government doesn't stop anyone from leaving Over, but once you leave officially, you can't go back, not in any real way.
 
-"Someone in Under paid for your extraction. We extracted you,"  Wes says. "They've taken an interest in your father's work."
+"Someone in Under paid for your extraction. We extracted you,"  Wes says.
 
 Kurt's mouth drops open, his eyebrows raising up. "And that's it? You're going to do that just because they paid you?'"
 
@@ -141,37 +151,208 @@ Kurt's mouth drops open, his eyebrows raising up. "And that's it? You're going t
 
 His face falls. "Oh," he says. He turns to look out the window at the buildings below.
 
-[[You sit the rest of the trip in silence.|Part 2]]
+[[You sit through the rest of the trip in silence.|Part 2]]
 
 
 ::the Rules
 
-In school, they teach you about the Rules. There are scientific studies, they say, about how humans are happiest when they have clearly defined limits, if they have order and faith in their institutions. To ensure that faith and that trust, the Rules were written, and anyone (young or old, male or female) who did not want to follow the Rules would be exiled to Under. They understood that you would be happier in a place without Rules. If you wanted to stay in Over, all you had to do was follow the Rules. It was simple. Simplicity above all else was one of the Rules.
-
-<<back>>
+In school, they teach you about the Rules. There have been scientific studies, they say, about how humans are happiest when they have clearly defined limits, if they have order and faith in their institutions. To ensure that faith and that trust, the Rules were written, and anyone (young or old, male or female) who did not want to follow the Rules would be exiled to Under. They understood that you would be happier in a place without Rules.
 
 
-::Part 2
-
-The person who 
+<<return>>
 
 
-::Secret Warbler meeting
+::Part 2[bookmark]
 
+The person who paid for Kurt Hummel's extraction is a man by the name of Mr. Shue. He has a bit of a reputation in Under for collecting Over refugees at his school, the kind who end up in Under with full pockets and a confused look on their face. It's unclear if he really helps people or if he just takes their money, but you've never heard anyone complain. It also functions as a regular private school. Tuition is respectable but not too expensive.
+
+The school is in one of the nicer areas of Under, where the people have enough money to pay for their own police force. The building is old brick, built before the split. It used to be an elementary school. The old name is still etched in the stone. The lawn is patchy in places, unmaintained and overgrown.
+
+Mr. Shue is waiting for you outside on the steps. The helicopter was left behind at the airfield, well-guarded, so this is a quiet meeting, like so many other ones you've seen before. Wes had other things to handle for the Warblers, so it was up to you to make the final delivery.
+
+"Welcome to New Directions," Mr. Shue says. He holds out his arms in greeting. Kurt watches him with wary eyes. "I've wanted to speak to you for a while, Mr. Hummel."
+
+"You could have just sent a letter," Kurt says.
+
+Mr. Shue pretends not to hear him. "We can go into my office."
+
+[[Follow them inside.]]
+
+
+::Follow them inside.
+<<set $school_floors = 0>>There's a low level hum to the school. Classes are in session. It feels different from the schools  you remember. There's a looseness, controlled chaos. One classes laughs at a teacher's joke. In Over, classes were quiet, formal affairs. School uniforms and self-directed study off tablets. 
+
+Kurt looks around with a similar sort of trepidation on his face. This isn't what he expected at all. You can see it in the tightness in his shoulders, the way he chews on his bottom lip.
+
+Mr. Shue ushers him into his office on the ground floor and closes the door behind them.
+
+You aren't going to leave without Kurt, but you can wander around, see what else is going on.
+
+[[Explore the upper floors.|School upper]]
+[[Explore the basement.|School basement]]
+
+::School upper
+<<set $school_floors += 1>>This hallway is quieter. The students are probably older, more settled. You can hear a lecture about the founding of Over. You touch one of the metal lockers that line the hallway, feel the cool metal against your fingers. They're in good shape, though the paint has worn thin in places. The combination locks are sturdy, well-made.
+
+On one wall, they've put up drawings from the third grade class. They've been done in crayon, a bright riot of color, reds and greens and yellows and blues. None of the particular drawings are particularly good. The shapes are uneven, and the sizes are distorted, but there's something sweet and bright about it all the same. They're nothing like the simple geometric shapes they made you practice over and over again at your own school, done in simple black pen, a ruler, a protractor.
+
+<<if $school_floors gte 2>>
+[[Return to the ground floor.|School ground floor]]
+<<else>>
+[[Explore the basement.|School basement]]
+<<endif>>
+
+::School basement
+<<set $school_floors += 1>>The basement has a cafeteria. It's empty of students at the moment, though the tables have been unfolded. There's a woman sitting there by herself, reading a book. She looks up as you walk closer, and you realize that you recognize her.
+
+"Quinn," you say.
+
+She smiles. "Blaine."
+
+"It's been a while," you say. You remember her at six, her head held up high, uncompromising and sharp, a little dangerous. You never knew her well, but she was in the same classes as you. The teachers liked to say that she had a bright future ahead of her. You could see what they meant. "I didn't expect to ever see you here."
+
+She shrugs. "Things happen," she says. "Not all of them are what we expect."
+
+It's the understatement of the year, the century. "Do you--?" you ask.
+
+"Yes, I teach here," she says. Another shrug. "It doesn't matter as long as Beth is happy. It's not as bad as I thought it might be," she says, and there's another smile now, something softer, realer.
+
+You think of your own apartment, cramped and messy and shared with two other people. You think about the group sing-alongs, the sheet music spread out over Sam's dresser and the way Tina always knows how to make you laugh. "Yeah," you say. "It was good to see you again." And it's the truth. 
+
+<<if $school_floors gte 2>>
+[[Return to the ground floor.|School ground floor]]
+<<else>>
+[[Explore the upper floor.|School upper]]
+<<endif>>
+
+::School ground floor
+
+You find yourself back outside the door to Mr. Shue's office, waiting.
+
+"I know it's going to be difficult," Mr. Shue says, his voice muffled through the wood. "but I think we can work together on this."
+
+"I don't know what you want me to do," Kurt says. "My dad's the one who's doing the work."
+
+"It's pretty common knowledge that he wants you be his replacement. This kind of work will take more than one lifetime to complete. I may have grown up on this side of the border, but I know this isn't going to be easy."
+
+The response takes too long. You tap your feet against the old tile, waiting. "I'll think about it," Kurt says. "I can't make a decision like this while-- while my dad is still recovering."
+
+"Of course," Mr. Shue says. He opens the door. "I hope that we've established enough here to keep working together going forward. This split benefits no one at the moment. I'm sure your father would agree."
+
+Kurt's face is still and serious. "Maybe," he says. "Thanks for meeting with me, but I really need to go back to my father."
+
+He heads for the exit, his footsteps speedy and sure. It's still a nice day when you get outside. The sun is bright, and the air is cool. The wind rustles the trees.
+
+Kurt looks at you. "What next?" he asks.
+
+"We can bring you back across the border," you say. It doesn't have to be right now, but it sounds like Kurt's anxious to get back to the hospital. "Or--" 
+
+"Okay," he says. "That first thing. Let's do that."
+
+"Sure," you say.
+
+[[Leave.|Leave school]]
+
+::Leave school
+
+There's a certain point near the border where taking a car is risky, even in Under. The sound of the engine can usually alert the guards, and it's easier to travel by foot undetected.  MORE DETAILS HERE
+
+"Your name's Blaine, right?" Kurt says. He touches your wrist, where you're still wearing the watch your father gave you when you turned twelve. You still get it a new battery every few years, and you've replaced the leather band once, after it became too worn. Kurt's skin is soft where it's touching your own.
+
+"Yes," you say.
+
+He draws his hand back. "Before, when you said they knew about me," Kurt says, "it was about what my dad was thinking of doing, not about-- not about me, specifically."
+
+You tilt your head to one side. "What about you?"
+
+He takes a deep breath, steeling himself. "That I'm gay."
+
+"Oh," you say. "No, I have no idea if they know about that. And they won't-- you know they won't care, right? Not as long as you're willing to--" You figured out there was something wrong with you when you were [[fourteen]], and you know what it feels like.
+
+"Yeah," Kurt says, "but I don't want-- I didn't want to have to lie like that, not about who I am. My dad-- that's why he wants to do this"
+
+You watch him as he seems to fold into himself, uncertain and unsure. "That's why I left," you say. "I didn't like all the hiding."
+
+He blinks. Once. Twice. "You're--"
+
+"Yes," you say. "I am." You like the way it sounds when you say it, a simple fact.
+
+His eyes go round and wide and the tiniest hint of a smile curl at the edge of his lips, surprised and pleased. You can almost imagine him being happy. "I don't think-- I've never met anyone like me before. No one who was willing to admit it anyway."
+
+"It's not so unusual," you say, "over here."
+
+"I'd heard that," he says, "but I hadn't--"
+
+You shrug. The border looms ahead, concrete walls, barbed wire, guards at  various checkpoints. "Come on," you say. "We're almost there."
+
+There's a particular place, where there's a gap in the wall, hidden and carefully maintained on both sides. Both of you fit through it easily. When you're back in Over, Kurt takes a deep breath, like he's trying reacclimate to the air on this side of the border, like it's different somehow.
+
+"Are you okay from here?" you ask.
+
+"Yes," he says. He smiles, for real this time. It makes him look younger, tinged with a warmth and a silliness that surprises you.  "Thank you for this."
+
+You smile back. "Just doing my job. Good luck. I hope your father gets better."
+
+He starts walking back towards the denser parts of the city. From there he can grab a bus to the hospital, and from there, even back home, wherever home is for him.
+
+[[You slip back through the gap, back home.|Warbler meeting]]
+
+
+:::fourteen
+
+<<set $whoareyou += 1>>You figure out that there is something wrong with yourself when you're fourteen. Adolescent hormones, they say. Your parents shake their heads and tut at you, but you're not like Cooper. You don't act out the way he does, by picking fights and getting into philosophical arguments. You mostly keep to yourself, huddled up in your room with your textbooks, not talking to anyone outside of school, trying to wish the world away.
+
+When they wrote the Rules, it was decided that homosexuality, much like murder and cheating on your taxes, was an undesirable inefficiency in the system.
+
+It's not until you've graduated high school, about to start college, that you get the note from Cooper.
+
+NOTE FROM COOPER + MENTION OF WES
+
+<<return>>
+
+::Warbler meeting
+<<if $whoareyou gte 2>>
 "They're going to be angry at us," you say to Wes.
 
+Wes almost cracks a smile at that. "They're always angry at us," he says. Over has no jurisdiction over Under; it never has. Couriers have always been a thorn in its side, slipping through the cracks between the two, flagrantly disregarding the Rules that have been put in place.
 
-"You're Blaine, right?" Kurt says. He touches your wrist, where you're still wearing the watch your father gave you when you turned twelve. You still get the battery replaced every few years,
+"That helicopter stunt didn't help," you say.
+
+Wes raises one eyebrow at you. Most of the time, he's very good at playing the respectable elder statesman of the group, but underneath it all, he's got a flair for the dramatic that rivals yours or David's. "I felt that particular job needed to be executed efficiently," he says.
+
+"Of course," you say. "I never should have doubted you, Warbler Wes."
+
+"See that you don't again, Warbler Blaine," he says, and this time there's a smile. A small one, but it's there.
+<<else>>
+<<display "Part 3">>
+<<endif>>
+
+
+::Part 3[bookmark]
+
+You don't expect to hear from Kurt Hummel again, but as a Courier, you work for clients on both sides of the border, even if it isn't strictly legal in Over. It's not so weird to find yourself ringing the doorbell of one house, no different than any other house. DESCRIPTION OF HOUSE.
+
+When the door opens, Kurt is standing there. He smiles when he sees you, warm and delighted, showing off the slightest hint of teeth. "Hello," he says.
+
+"Hi," you say. "How's your father doing?"
+
+The smile on his face softens. "Better," he says. "It looks like he'll make a full recovery. Thanks for asking."
 
 
 
-::More backstory
 
-# When you are five, you are normal. You play nicely with the other kids and the other kids play nicely with you. Everyone is good at following the rules at that age. You've been trainted to be. Cooper is still around, still in high school. He isn't quite normal, not the way people want him to be, always prone to fits of dramatics that annoy his teachers and frustrate the other students. ("They're all so <em>boring</em>, squirt," he says to you when the house is quiet, Mom and Dad still at work. "One day you'll understand. Now try that dance move again. You won't manage to scandalize anyone if you don't learn how to move your hips.")
+# When you are five, you are normal. You play nicely with the other kids and the other kids play nicely with you. Everyone is good at following the rules at that age. You've been trained to be. Cooper is still around, still in high school. He isn't quite normal, not the way people want him to be, always prone to fits of dramatics that annoy his teachers and frustrate the other students. ("They're all so <em>boring</em>, squirt," he says to you when the house is quiet, Mom and Dad still at work. "One day you'll understand. You're not quite there yet, but one day you will.")
 
 # There are always rumors about what it's like in Under, whispered in the hallways between classes, that it's dirty and ugly and wild. Trash everywhere, violence on every street corner. It sounds scary, of course it sounds scary, but there's a little part of you that's seduced by it, a part of you that wonders.
 
 # When you are eight, Cooper leaves. He has to. Mandatory higher education, a chance to live with everyone else in your age group, a chance to see the society you'll become down the line. He's to be studying Electrical Engineering. Cooper spends a few days moping around the house, humming to himself in the kitchen, drumming his fingers against the stainless steel appliances. "It's going to be stupid," Coop says. "Don't ever do this yourself."
 
-# You realize out that there is something wrong with yourself when you're fourteen. Adolescent hormones, they say. Your parents shake their heads and tut at you, but you're not like Cooper. You don't have that instinct to act out the way Cooper does
+# It was an experiment at first, to create a perfect city-state. One that would be known for its lack of crime, its beauty, its wealthy, happy, and productive citizenry. Like the laws of the universe, it could merely be given a set of Rules and the system would be able to sustain itself.
+
+No one could have predicted the split. You learned in class that a secret separatist movement forcibly took over half the city. Wes says that Over simply got tired of maintaining a large and ever growing prison system and decided to simply turn out the undesirables. Who knows what the real truth is.
+
+
+
+Notes:
+Use <<replace>>/<<revision>> for the lists?
 
