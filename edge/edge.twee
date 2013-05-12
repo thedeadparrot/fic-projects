@@ -2,7 +2,8 @@
 thedeadparrot
 
 :: Start
-<<set $whoareyou = 0>>Header + Notes + explanation of what this is
+<<set $wesisabro = 0>>Header + Notes + explanation of what this is
+
 
 [[Begin|Part 1]]
 
@@ -23,6 +24,10 @@ The hallway you are standing in is bright, sterile. The walls are white. The cei
 You've never liked hospitals.
 
 You check your watch. Wes said you had half an hour until pickup. That was ten minutes ago. You tuck your fingers around the phone in your pocket and resist the urge to check it. There won't be any messages. Everyone who knows you knows that you're on a sensitive mission, and if Wes needs to tell you something, he has other ways of conveying that information.
+
+[[Keep looking.|Hospital rooms]]
+
+::Hospital rooms
 
 The rooms around you are numbered, but you don't have a number, you have a name.
 
@@ -54,7 +59,7 @@ The room is empty. A bed, two chairs. You wonder who has been here, but there's 
 <<return>>
 
 :: Room 206 
-There's a teenage boy sitting on a chair, biting a lip. He's not much older than you. When you open the door, he looks up. His hair is maintained, swooping upward, showing a bit of personality even if it matches the letter of the regulations. You've learned how to keep your own hair in check over the years, but for you that's about brute force, about forcing it into submission. For him, it's a work of art.
+There's a man sitting on a chair, biting a lip. He's not much older than you. When you open the door, he looks up. His hair is maintained, swooping upward, showing a bit of personality even if it matches the letter of the regulations. You've learned how to keep your own hair in check over the years, but for you that's about brute force, about forcing it into submission. For him, it's a work of art.
 
 "I'm here to help," you say.
 
@@ -70,30 +75,30 @@ You show him his name on your hand. "I need to take you across the border," you 
 
 His dad is a politician, you know. He recently had a heart attack. It was all over the news for a day. "Sorry," you say, grabbing his hand. "But we really have to go. Look, they know about you. We need to get you across the border."
 
-A alarm goes off. Wes must be on his way. He never did particularly care for subtlety when it came to extracting people from Over.
+The alarm on your phone goes off. Wes must be on his way. He never did particularly care for subtlety when it came to extracting people from Over.
 
 "What?" Kurt says, but he doesn't pull his hand away.
 
-There are shouts from down below, the rhythmic stamping of feet. The police. "Come on," you say. "I know a shortcut."
+"Let's go," you say.
 
-[[Run|Run hallway]]
+[[Go.|Hospital hallway]]
 
-::Run hallway
-The hallways are empty of people. The police probably have the place under lockdown. The alarms are still blaring, loud enough that you can barely hear yourself think. Kurt's hand is sweaty in yours.
+::Hospital hallway
+The hallways are quiet. Kurt's hand is sweaty in yours. He's glancing around, nervous
 
 There's a glowing red exit sign, down the hall. A stairwell.
 
-[[Take the stairs.|Run stairwell]]
+[[Take the stairs.|Hospital stairwell]]
 
-::Run stairwell
+::Hospital stairwell
 
 You climb the steps, pulling Kurt along behind you, using the railings for leverage as you drag yourself upwards.
 
 "Where are we--" he asks.
 
-You reach the roof access. The shouts are getting closer.
+You reach the roof access. Your phone vibrates in your pocket, a steady reminder of what you need to do.
 
-[[Kick the door open|Hospital Roof]]
+[[Kick the door open.|Hospital Roof]]
 
 ::Hospital Roof
 
@@ -105,7 +110,7 @@ Kurt climbs into the cabin, though he looks hesitant about it, his eyes round an
 
 "Warbler Blaine," Wes says from where he's already sitting in the cabin, stiff as always, even when he needs to shout to be heard over the sound of the propellers, "you're cutting it awfully close."
 
-Unique gives a thumbs up from the cockpit, and you take off as the cops spill out all over the roof, the H of on the helicopter getting smaller, shrinking until it's nothing.
+Unique gives a thumbs up from the cockpit, and you take off, the H of the helicopter pad getting smaller and smaller, shrinking until it's nothing.
 
 "Okay," Kurt says. "Now will someone tell me what the hell is going on here? Who the hell are you people?"
 
@@ -118,12 +123,11 @@ It's not a bad question, you have to admit.
 
 :: Who are you really?
 
-<<set $whoareyou += 1>>
-Who are you really?
+<<set $wesisabro += 1>>Who are you really?
 
 Your name is Blaine Devon Anderson.
 
-You were born in Over to a nice, well-behaved family. Your mother was a physicist. Your father was an administrator at the Department of Transportation. You had a nice house on a nice street. You did well in school. Your teachers always praised you for being quiet and well-behaved.
+You were born in Over to a nice, well-behaved family. Your mother worked part time as a . Your father was an administrator at the Department of Transportation. You had a nice house on a nice street. You did well in school. Your teachers always praised you for being quiet and well-behaved.
 
 You have a brother named Cooper. He dropped out of college and went Under when you were eight, and you didn't see him again until you were seventeen.
 
@@ -151,12 +155,16 @@ Kurt's mouth drops open, his eyebrows raising up. "And that's it? You're going t
 
 His face falls. "Oh," he says. He turns to look out the window at the buildings below.
 
-[[You sit through the rest of the trip in silence.|Part 2]]
+[[Sit through the rest of the trip in silence.|Part 2]]
 
 
 ::the Rules
 
-In school, they teach you about the Rules. There have been scientific studies, they say, about how humans are happiest when they have clearly defined limits, if they have order and faith in their institutions. To ensure that faith and that trust, the Rules were written, and anyone (young or old, male or female) who did not want to follow the Rules would be exiled to Under. They understood that you would be happier in a place without Rules.
+In school, they teach you about the Rules. There have been scientific studies, they say, about how humans are happiest when they have clearly defined limits, if they have order and faith in their institutions. The Rules were written to ensure that this order and faith could be preserved. While new Rules could be written, no old Rules could be overwritten or removed.
+
+The city was to be an experiment at first, developed during the depths of the Cold War, a chance to create a perfect society. One that would be known for its lack of crime, its beauty, its wealthy, happy, and productive citizenry. Like the laws of the universe, it could merely be given a set of Rules and the system would be able to sustain itself.
+
+No one could have predicted the split. You learned in class that a secret separatist movement forcibly took over half the city. Wes says that Over simply decided to start exiling their undesirables, marking them as impossible to rehabilitate. Who knows what the real truth is.
 
 
 <<return>>
@@ -164,7 +172,7 @@ In school, they teach you about the Rules. There have been scientific studies, t
 
 ::Part 2[bookmark]
 
-The person who paid for Kurt Hummel's extraction is a man by the name of Mr. Shue. He has a bit of a reputation in Under for collecting Over refugees at his school, the kind who end up in Under with full pockets and a confused look on their face. It's unclear if he really helps people or if he just takes their money, but you've never heard anyone complain. It also functions as a regular private school. Tuition is respectable but not too expensive.
+The person who paid for Kurt Hummel's extraction is a man by the name of Mr. Shue. He has a bit of a reputation in Under for collecting Over refugees at his school, the kind who end up in Under with full pockets and a confused look on their face. It's unclear if he really helps people or if he just takes their money, but you've never heard anyone complain. It also functions as a regular private school. Tuition is respectable but not too expensive. One of the couples in your building has a daughter who goes here.
 
 The school is in one of the nicer areas of Under, where the people have enough money to pay for their own police force. The building is old brick, built before the split. It used to be an elementary school. The old name is still etched in the stone. The lawn is patchy in places, unmaintained and overgrown.
 
@@ -267,7 +275,7 @@ You tilt your head to one side. "What about you?"
 
 He takes a deep breath, steeling himself. "That I'm gay."
 
-"Oh," you say. "No, I have no idea if they know about that. And they won't-- you know they won't care, right? Not as long as you're willing to--" You figured out there was something wrong with you when you were [[fourteen]], and you know what it feels like.
+"Oh," you say. "No, I have no idea if they know about that. And they won't-- you know they won't care, right? Not as long as you're willing to--" You figured out there was something wrong with you [[when you were fourteen|fourteen]], and you know what it feels like.
 
 "Yeah," Kurt says, "but I don't want-- I didn't want to have to lie like that, not about who I am. My dad-- that's why he wants to do this"
 
@@ -289,32 +297,38 @@ There's a particular place, where there's a gap in the wall, hidden and carefull
 
 "Are you okay from here?" you ask.
 
-"Yes," he says. He smiles, for real this time. It makes him look younger, tinged with a warmth and a silliness that surprises you.  "Thank you for this."
+"Yes," he says. He smiles, for real this time. It makes him look younger, tinged with a warmth that surprises you. "Thank you for this."
 
 You smile back. "Just doing my job. Good luck. I hope your father gets better."
 
-He starts walking back towards the denser parts of the city. From there he can grab a bus to the hospital, and from there, even back home, wherever home is for him.
+He starts walking back towards the denser parts of the city. From there he can grab a bus to the hospital, see his father, maybe give him a hug. You think of all the things you left behind when you crossed the border. Would you trade places with him to get it all back again?
 
-[[You slip back through the gap, back home.|Warbler meeting]]
+No.
+
+You wouldn't. You wouldn't give your life up for anything.
+
+[[Slip back through the gap, back home.|Warbler meeting]]
 
 
 :::fourteen
 
-<<set $whoareyou += 1>>You figure out that there is something wrong with yourself when you're fourteen. Adolescent hormones, they say. Your parents shake their heads and tut at you, but you're not like Cooper. You don't act out the way he does, by picking fights and getting into philosophical arguments. You mostly keep to yourself, huddled up in your room with your textbooks, not talking to anyone outside of school, trying to wish the world away.
+<<set $wesisabro += 1>>You figure out that there is something wrong with yourself when you're fourteen. Adolescent hormones, they say. Your parents shake their heads and tut at you, but you're not like Cooper. You don't act out the way he does, by picking fights and getting into philosophical arguments. You mostly keep to yourself, huddled up in your room with your textbooks, not talking to anyone outside of school, trying to wish the world away.
 
-When they wrote the Rules, it was decided that homosexuality, much like murder and cheating on your taxes, was an undesirable inefficiency in the system.
+When they wrote the Rules, it was decided that homosexuality, much like murder and cheating on your taxes, was an undesirable inefficiency in the system. Each family would have one mother, one father, and two children to maintain population growth. There is no place for you in the perfect system. There is no place for you, because you are imperfect, a flaw.
 
 It's not until you've graduated high school, about to start college, that you get the note from Cooper.
+
+Wes is the one who delivers it, dropping in on you one late afternoon when the  
 
 NOTE FROM COOPER + MENTION OF WES
 
 <<return>>
 
 ::Warbler meeting
-<<if $whoareyou gte 2>>
-"They're going to be angry at us," you say to Wes.
+<<if $wesisabro gte 2>>
+"They're going to be happy with us," you say to Wes. "Burt Hummel's son extracted straight from the hospital? It'd be a scandal if anyone found out about it." DESCRIBE WHERE THEY ARE
 
-Wes almost cracks a smile at that. "They're always angry at us," he says. Over has no jurisdiction over Under; it never has. Couriers have always been a thorn in its side, slipping through the cracks between the two, flagrantly disregarding the Rules that have been put in place.
+Wes almost cracks a smile at that. "They're never happy with us," he says. Over has no jurisdiction over Under; it never has. Couriers have always been a thorn in its side, slipping through the cracks between the two, flagrantly disregarding the Rules that have been put in place.
 
 "That helicopter stunt didn't help," you say.
 
@@ -323,36 +337,298 @@ Wes raises one eyebrow at you. Most of the time, he's very good at playing the r
 "Of course," you say. "I never should have doubted you, Warbler Wes."
 
 "See that you don't again, Warbler Blaine," he says, and this time there's a smile. A small one, but it's there.
+
+It's your night to cook at the apartment, so you have to leave early today, and Wes gives your shoulder before you go.
+
+[[Go back to your apartment. Sleep.|Part 3]]
 <<else>>
 <<display "Part 3">>
 <<endif>>
 
-
 ::Part 3[bookmark]
 
-You don't expect to hear from Kurt Hummel again, but as a Courier, you work for clients on both sides of the border, even if it isn't strictly legal in Over. It's not so weird to find yourself ringing the doorbell of one house, no different than any other house. DESCRIPTION OF HOUSE.
+Another day, another job. As a Courier, you work for clients on both sides of the border, even if it isn't strictly legal in Over. It's not so weird to find yourself ringing the doorbell of one house, no different than any other house. Last job of the evening. An extraction, Wes said. Client was anonymous, wanted to meet at this location. DESCRIPTION OF HOUSE.
 
-When the door opens, Kurt is standing there. He smiles when he sees you, warm and delighted, showing off the slightest hint of teeth. "Hello," he says.
+When the door opens, Kurt Hummel is standing there. You blink a few times. It's been three weeks since you extracted him across the border, and you weren't sure you'd ever see him again. He smiles when he sees you, warm and delighted, showing off the slightest hint of teeth. "Hello," he says. "Come on in."
 
-"Hi," you say. "How's your father doing?"
+"Hi," you say as you step inside. "How's your father doing?" Inside, the house is immaculate, neat, much like the one you grew up in yourself, but it feels subtly different somehow. There are photographs with bright easy smiles and the wood of the bannister looks worn in and smooth.
 
-The smile on his face softens. "Better," he says. "It looks like he'll make a full recovery. Thanks for asking."
+The smile on Kurt's face softens. "Better," he says. "It looks like he'll make a full recovery. He's even told me to stop hovering, because I was apparently--" He bites his lip. "Thanks for asking." There's a sweetness there, and you wonder how close he is to his father. You could go back to visit your parents, but you're not sure if they'd want-- if you could go back home and see them. You remember how they were when Cooper left, quiet and stoic and carrying on.
+
+"I'm glad," you say. "I hope he makes a full recovery. You didn't get in trouble for--"
+
+"No," he says. "They can't make any accusations about me or my father until he's better, and the hospital, and they don't have any real evidence about what we've been working on, just rumors."
+
+"That's good," you say.
+
+He watches you, steady and focused. "I wasn't sure it'd be-- that you'd be the one to show up today. I wanted to thank you for..." He trails off, and his face flushes pink.
+
+You don't know what to say to that, so the two of you stand there for a few seconds, trying to pick up a conversational thread. "So," you finally manage to get out, clearing your throat. "Wes mentioned that you wanted an extraction? Who's the lucky person?"
+
+"Me," Kurt says.
+
+That wasn't what you were expecting, especially with how stressful his last extraction was.  "Oh," you say. "Sure, we can do that." He probably just needs to talk to Mr. Shue again about whatever mysterious project they're putting together face-to-face. There's only so much you can do when it takes a few days to get a message across the border.
+
+"Could I... what's it like over there? Could you show it to me?" he asks. He says it like he's expecting you to say no.
+
+Maybe you should say no. You don't really have time to babysit someone new around Under, where saying the wrong thing to the wrong person is the fastest way to get killed. There are always new jobs
+
+But you do remember what it was like, the first time you ventured over the border, how big and intense and scary it all was. Kurt is-- Kurt reminds you of yourself, lonely and trying to find somewhere, anywhere you could possibly fit. You could make things easier for him than it ever was for you.
+
+"Sure," you say.
+
+[[You hold out a hand. He takes it.|Across the border]]
+
+::Across the border
+
+You don't cross through the same hole in the concrete that you did last time. There are a few different ways across, and you have to be careful about using too many of the same ones. There's this place, where the barbed wire has grown loose and thin, where you can crawl underneath it. You throw a rope ladder over from the other side, letting Kurt scramble up and over himself. Once he's safely across the border, you pull the ladder back and stash it away, careful to hide it well. No one on this side of the wall cares about people trying to get over it, but they will steal a perfectly decent rope ladder if it's just lying around.
+
+This part of Under is not quite as nice as the one the school is in. There's a corporation that controls this particular block that doesn't particularly care about upkeep, which means that it's a little cheap and rundown. The sidewalks are overgrown with weeds, and graffiti tags on the various walls. There's nothing much to steal, so the gangs don't run through as often.
+
+Kurt's eyes are wide and startled as he follows you. "Wow," he says.
+
+You grab his hand so he won't wander off by himself. "Come on," you say. "I know a shortcut."
+
+[[Take the shortcut.|The shortcut]]
+
+::The shortcut
+The shortcut you usually take goes over a row of buildings on Central Street, but Kurt probably can't do that climb without the practice you have, so you end up sneaking into one of the friendlier buildings instead, one that doesn't mind that you're coming in the front door and leaving out the back.
+
+Mrs. Richardson smiles at you as you pass by her coming out of the elevator, her work bag slung over one shoulder. "Good morning, dear," she says. "Is this your newest young man?" She pinches you on your arm the way she always does. She has three daughters, and you think she enjoys treating you like the son she never had.
+
+Kurt blushes scarlet. That probably has more to do with her assuming he's gay than about assuming he's with you. "No," you say, "I don't have one, and Kurt's just a friend."
+
+"Hi," Kurt says, giving her a tiny wave himself.
+
+She smiles, indulgent. "It's a pleasure to meet you, young man." She shakes his hand.
+"You treat him right, you hear?" she whispers, pretending like you can't hear every word she's saying. MENTION BLAINE'S EX OR SOMETHING
+
+Kurt grins, playing into the joke. "Of course," he says, shooting you an odd look.
+
+"It was great to see you again, Mrs. Richardson," you say. 
+
+[[Tug him out the back door.|Your apartment]]
+
+::Go to your apartment
+
+By the time you get back to your apartment, Kurt looks startled and shaken. Along the way, you ran into SOME UNDER TYPE WACKINESS
+
+The house you live in is an old wooden thing, built before the split, along a row of identically-built old houses. Once, they were probably all painted the same shade of white and had the same neatly trimmed lawns, and now the street is a riot of color and lumpy new balconies and front steps, gardens overflowing with summer vegetables and flowers. Some kids are playing kickball down the street, shouting at each other when one of the others cheats.
+
+Your own apartment is on the second floor of the building, converted from a single-family unit into a two-person unit. The transition was a little awkward, so the stairs up to your own place are small and cramped, and the floorboards creak under your feet.
+
+"I think my roommates are home," you say. "They're pretty cool. Just don't believe anything they tell you about me."
+
+Kurt laughs, and the sound of it echos up and down the narrow staircase.
+<<set $samsroom = false>><<set $tinasroom = false>><<set $yourroom = 0>>
+[[Open the front door.|Your apartment]]
+
+::Your apartment
+
+The front door opens up into the common living space, a couch, two armchairs, a tv, a ratty old rug that came with the place when you moved in.
+
+Sam's door down the hall is cracked open and the light is on. You can hear the faintest sounds of music.
+
+Tina's room is further down. You can hear her laughing through the door. 
+
+Your own room is shadowed, the lights off, the door firmly closed.
+
+<<if !$samsroom>>
+[[Visit Sam's room|Sam's room]]
+<<endif>>
+<<if !$tinasroom>>
+[[Visit Tina's room|Tina's room]]
+<<endif>>
+<<if $samsroom and $tinasroom>>
+[[Visit your own room|Your room]]
+<<endif>>
+
+::Sam's room
+<<set $samsroom = true>> Sam's tuning his guitar while sitting on his bed when you step inside. He waves at you, breaking out into a warm grin.
+
+"Hey, man. Listen to the rad jam I've been working on." He strums you a few chords. They're nice if a little derivative. It sounds a lot like the guy who was playing last week at Callbacks, the one who was also really into bongos. You're not sure if he liked it more for the guy's actual music or for the excuse to use bongos on his newest song.
+
+"I like it," you say. "This is Kurt. He's going to be staying with us for the next few days. Kurt, this is Sam, my roommate and amateur songwriter."
+
+Kurt stares at him and says, "You write music? For fun?"
+
+Sam grew up in Under, and he doesn't know what it's like back in Over where you learn about Mozart and Beethoven and sometimes even how to play them, but the idea of letting a child attempt to write their own music unsupervised is unheard of.  "Yeah," Sam says. "Doesn't everybody?" His face is furrowed in confusion.
+
+"I--" Kurt starts. He fidgets, biting his lower lip.
+
+"Kurt's not really from around here," you say. "It's all kind of new to him."
+
+"Oh," Sam says. "That's cool." You met him for the first time after you first crossed the border, and he's used to the confusion that comes from being new to it all. You'd been living on Cooper's savings at the time, trying not to be overwhelmed by the sheer number of options and choices you'd been given, and Sam had been the first person besides Cooper to really try to befriend you.
+
+<<if !$tinasroom>>
+"Is Tina in her room?" you ask. "I think I heard her in there."
+
+"Yeah," Sam says. "Mike's been rehearsing here for his dance-off, because the floors are thinner over at his place."
+
+It makes you realize that you have barely done much more than sleep here for the past week or so. You can't even remember what you ate for dinner yesterday. When you first moved in, the three of you used to cook dinner together, squeezed together in the converted kitchen and talking about your day.
+<<else>>
+"Are you going to the Battle of the Bands tomorrow night?" you ask him.
+
+Sam shrugs. "Not like I have anything better to do." Sam spends most of his nights perfecting impressions of the Over politicians he sees on TV (you're close enough to the border that the antenna picks up the signals). 
+<<endif>>
+
+Kurt clears his throat. "I like your room. The colors," he says with a nervous, shaky laugh, "they're different." The former tenants of the apartment had painted the walls in dark greens and purples. Sam ended up with it because Tina thought it looked gross and you didn't mind having a room facing the street.
+
+"Thanks. Can't really take credit for it, but, you know, I like it."
+
+"Sorry," Kurt says, shoulders pulled in tight and uncomfortable, and you don't like it, because this is your home. Kurt shouldn't be uncomfortable here "I feel like a moron all the time."
+
+Sam laughs. "Dude, you should have seen Blaine when he first got here. It was all like-- 'hey, what's a toaster?' And like--"
+
+"I never said that," you mutter.
+
+"-- 'what's up with that dude with all the guns? Is he going to //shoot// somebody?' Remember that time when you--"
+
+"Sorry," you say, "but Kurt and I are leaving now."
+
+You grab Kurt's arm and tug him towards the door so Sam can't keep telling him more lies.
+
+But not before you hear Kurt whisper, "We are totally continuing this conversation later."
+
+<<return>>
+
+::Tina's room
+<<set $tinasroom=true>>You knock once on the door before pushing your way inside. Tina is sitting on her bed, knees up next to her chest, and Mike is on the spare patch of floor doing some sort of twisting thing with his legs that seems like it shouldn't be physically possible.
+
+"Blaine!" she shouts, jumping off the bed and pulling you into a hug. Tina's job
+
+Mike punches your arm. "Good to see you, man," he says.
+
+Kurt lurks by the doorway as if he doesn't quite know what do with himself. "Come on," you say, reaching out to tug him closer.
+
+"Who is this?" Tina asks. She pinches your side, the way she does when she thinks you've been holding out on her.
+
+"I'm Kurt," Kurt says. "I'm-- I'm new here." He shakes both their hands. Mike gives him a slap on the back.
+
+Tina smiles. "New, huh? I'm Tina, and this is Mike. Are you coming to the Battle of the Bands tomorrow night?"
+
+Kurt straightens his back and glances over at you. "Um," he says. "Sure, yes, I'd love that."
+
+"Wait, that's tomorrow?" you say.
+
+Tina rolls her eyes. "Yes, silly. It's tomorrow." You promised Mercedes and Rachel last week that you'd show up to cheer the BAND NAME on, and you do keep your promises. The last time you had to back out of watching the perform, Rachel left you a ten page letter on your doorstep explaining exactly why you need to work on scheduling your commitments better and how it is of the utmost importance to support friends during their struggling music careers.
+
+"What //is// a Battle of the Bands?" Kurt asks. "They aren't going to actually fight or something, right?"
+
+"It's like a long concert with a lot of bands, but with voting at the end," Mike explains.
+
+"Oh," Kurt says. He smiles, a small tentative thing. "I'm looking forward to it, then."
+
+"Good," she says. "Lucky for you, Rachel has the extra ticket she got for Brody before they broke up. It's all yours as long as you promise to keep Blaine from moping in the corner by himself."
+
+"I don't //mope//--" you say, crossing your arms across your chest.
+
+"I'd be happy to," Kurt says. He nudges your shoulder with his own. "No moping."
+
+"Come on. I think Mike needs to practice some more," you say. You move towards the hallway, and Kurt follows, dutifully. You are thankful for small mercies.
+
+"But--" Mike starts, but by the time he finishes, you're already out the door.
+
+<<return>>
+
+::Your room
+
+Your room is silent and waiting. It's clean, spare. You've never quite managed to embrace the chaos of a messy room. All that's left is what you can't get rid of, the things that linger on long after they should. 
+
+"So those were my roommates," you say.
+
+Kurt's expression is soft. "I liked them," he says, a warmth threading through his voice.
+
+"And this is my room."
+
+Kurt peers around. He leans forward and hesitates at a picture you have of you and Cooper sitting on your nightstand, aged [[five and fifteen]] respectively. Cooper has a hand resting on the top of your head, and you're wearing matching smiles, wide and bright.
+
+"That's my brother," you say.
+
+Kurt runs his fingers along the the rim frame, glancing at you like he's trying to put all the pieces back in place. "Do you miss him? I-- my brother, well, step-brother, is--"
+
+"I see him once a week," you say. "His play is about to start next month, and he won't shut up about it." 
+
+"Oh," Kurt says. His smile gets the slightest bit wider.
+
+"He's kind of an asshole, but he's still--"
+
+"-- still family." Kurt finishes for you.
+
+"Yeah."
+<<if $five>>
+----
+<<display_transition "room baseball">>
+<<endif>>
+<<if $baseball>>
+----
+<<display_transition "room bow ties">>
+<<endif>>
 
 
+::five and fifteen
+<<set $five = true>>When you are five, you're normal. You play nicely with the other kids and the other kids play nicely with you. Everyone is good at following the rules at that age. You've been trained to be. 
+
+Cooper is still around, still in high school. He isn't quite normal, not the way people want him to be, always prone to fits of dramatics that annoy his teachers and frustrate the other students. 
+
+"They're all so //boring//, squirt," he says to you when the house is quiet, Mom and Dad still at work. "It doesn't even bother them that their whole lives have been planned out for them already."
+
+"You shouldn't get in trouble," you say. "If you do, you'll get kicked out."
+
+There are always rumors about what it's like in Under, whispered into ears, murmured under breaths. The other children say that it's nothing a normal place, that it's dirty and ugly and wild. Trash everywhere, violence on every street corner, roving gangs who murder and steal, all the chaos that the Rules are supposed to prevent. It sounds scary, of course it sounds scary, and if Cooper goes there, he can't come back.
+
+"You're real funny, Blainers," Cooper says. "You know they just say that to scare you, right?"
+
+<<return>>
+
+::room baseball
+Kurt  picks up [[your old baseball]] and turns it over in his hands. The leather has been worn smooth and shining, and the original whites and reds have been dulled to a pale brown.
+
+"Finn was always more of the sports person in the family," Kurt says. "My dad would sit with me during my tea parties."
+
+"You had tea parties?" you ask.
+
+Kurt tilts his head, eyes fixed on some point on the ceiling, lost in thought. "I liked the idea of hosting the most amazing social events of the season," he said. "It seemed like a lot more fun than all the running around and grunting."
+
+You find yourself laughing at that, the image of a tiny Kurt Hummel, wearing the same intense look on his face, sorting through guest lists and perfecting his table arrangements. "I'm sure you were adorable," you say.
+
+Kurt snorts. "I must have looked so silly, but my dad indulged me."
+
+"He sounds like a great dad," you say.
+
+"The best," Kurt says.
+
+::your old baseball
+<<set $baseball = true>>You did play catch with your dad growing up. Sunny days in the backyard with a glove and the shiny new baseball. Grass stains on your knees and dirt wedged underneath your fingernails. Your dad patting your head, giving you warm hugs afterwards. 
+
+Cooper had been too old for that sort of thing by that point. He'd been reading a lot of Shakespeare then. There were rumors that the versions you read in school were censored, and he was determined to find the hidden words, the missing spaces. For him, sunny days were for spending time with his friends, tucked away in rooms, talking about adult things that you're not supposed to hear.
+
+"Don't stick your nose where it doesn't belong, little brother," Cooper says to you, patting your head.
+
+<<return>>
+
+::room bow ties 
+"Is it okay if I--"
 
 
-# When you are five, you are normal. You play nicely with the other kids and the other kids play nicely with you. Everyone is good at following the rules at that age. You've been trained to be. Cooper is still around, still in high school. He isn't quite normal, not the way people want him to be, always prone to fits of dramatics that annoy his teachers and frustrate the other students. ("They're all so <em>boring</em>, squirt," he says to you when the house is quiet, Mom and Dad still at work. "One day you'll understand. You're not quite there yet, but one day you will.")
+::eight
+When you are eight, Cooper leaves, off to university. Mandatory higher education, a chance to live with everyone else in your age group, a chance to see the society you'll become down the line. He's to be studying Electrical Engineering. Cooper spends a few days moping around the house, humming to himself in the kitchen, drumming his fingers against the stainless steel appliances. 
 
-# There are always rumors about what it's like in Under, whispered in the hallways between classes, that it's dirty and ugly and wild. Trash everywhere, violence on every street corner. It sounds scary, of course it sounds scary, but there's a little part of you that's seduced by it, a part of you that wonders.
+"It's going to be stupid," Coop says. "I can't believe I let Mom and Dad convince me that it was a good idea."
 
-# When you are eight, Cooper leaves. He has to. Mandatory higher education, a chance to live with everyone else in your age group, a chance to see the society you'll become down the line. He's to be studying Electrical Engineering. Cooper spends a few days moping around the house, humming to himself in the kitchen, drumming his fingers against the stainless steel appliances. "It's going to be stupid," Coop says. "Don't ever do this yourself."
+You're sitting on the couch, legs folded underneath you. "It's not their idea, is it? Doesn't everyone go?"
 
-# It was an experiment at first, to create a perfect city-state. One that would be known for its lack of crime, its beauty, its wealthy, happy, and productive citizenry. Like the laws of the universe, it could merely be given a set of Rules and the system would be able to sustain itself.
+"That's just what they tell you," Cooper says. 
 
-No one could have predicted the split. You learned in class that a secret separatist movement forcibly took over half the city. Wes says that Over simply got tired of maintaining a large and ever growing prison system and decided to simply turn out the undesirables. Who knows what the real truth is.
+::end room
 
+You pull a spare sleeping bag out of your closet and unroll it at the foot of your bed. You had to get one while you were still staying at Cooper's apartment because he always had drunk actor friends sleeping on his couch.
 
+"Is this okay?" you ask.
 
-Notes:
-Use <<replace>>/<<revision>> for the lists?
+"It's great," Kurt says. "Thanks for doing this."
+
+[[Sleep.|Part 4]]
+
+::Part 4[bookmark]
 

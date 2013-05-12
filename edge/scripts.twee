@@ -1,0 +1,53 @@
+::Tag-specific CSS[script]
+(function(){ var render2 = Passage.prototype.render; Passage.prototype.render = function () { var b = render2.call(this); var t = this.tags.join(" "); document.body.setAttribute("data-tags", t); return b; }}());
+
+:: CSS transitions for everything![script]
+History.prototype.display=function(d,b,a){var c=tale.get(d);this.history.unshift({passage:c,variables:clone(this.history[0].variables)});
+this.history[0].hash=this.save();var e=c.render();e.style.visibility="visible";if(a!="offscreen"){var p=document.getElementById("passages");
+for(var i=0;i<p.childNodes.length;i+=1){var q=p.childNodes[ i ];q.classList.add("transition-out");
+setTimeout(function(){p.removeChild(q);},1000);}e.classList.add("transition-in");
+setTimeout(function(){e.classList.remove("transition-in");},1);p.appendChild(e);}if((a=="quietly")||(a=="offscreen")){e.style.visibility="visible";
+}if(a!="offscreen"){document.title=tale.title;this.hash=this.save();document.title+=": "+c.title;
+window.location.hash=this.hash;window.scroll(0,0);}return e;};
+
+::Display Transition[script]
+(macros['display_transition'] = {
+	handler: function(place, name, params) {
+        function display_transition(place, name, params) {
+            var passageClass = 'inner-passage';
+            var length = document.getElementsByClassName(passageClass).length;
+            // fetch the correct passage
+            var passage = tale.get(params[0]);
+            // render it (omg hacks everywhere)
+            var elementId = 'inner-passage-' + passage.title.split(' ').join('_');
+            var body = insertElement(null, 'div', elementId, passageClass);
+            body.classList.add('addition');
+            body.classList.add('addition-in');
+            new Wikifier(body, passage.text);
+            // append it to the page
+            content = document.getElementsByClassName('content')[0];
+            place.appendChild(body);
+
+            // polls until we know the DOM has updated and then scroll to passage
+            function pollForNew(){
+                var el = document.getElementById(elementId);
+                if(el) {
+                   // trigger CSS transition
+                    setTimeout(function() {
+                        el.classList.remove('addition-in');
+                        // release lock
+                        scrollWindowTo(el);
+                    }, 600);
+                }
+                else {
+                    setTimeout(pollForNew, 100);
+                }
+            }
+
+            pollForNew();
+        }
+        display_transition(place, name, params);
+      }
+}
+)
+
