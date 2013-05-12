@@ -3,6 +3,7 @@
 
 :: CSS transitions for everything![script]
 History.prototype.display=function(d,b,a){var c=tale.get(d);this.history.unshift({passage:c,variables:clone(this.history[0].variables)});
+window.transitionCount=0;
 this.history[0].hash=this.save();var e=c.render();e.style.visibility="visible";if(a!="offscreen"){var p=document.getElementById("passages");
 for(var i=0;i<p.childNodes.length;i+=1){var q=p.childNodes[ i ];q.classList.add("transition-out");
 setTimeout(function(){p.removeChild(q);},1000);}e.classList.add("transition-in");
@@ -37,7 +38,7 @@ window.location.hash=this.hash;window.scroll(0,0);}return e;};
                         el.classList.remove('addition-in');
                         // release lock
                         scrollWindowTo(el);
-                    }, 600);
+                    }, 300);
                 }
                 else {
                     setTimeout(pollForNew, 100);
@@ -46,7 +47,13 @@ window.location.hash=this.hash;window.scroll(0,0);}return e;};
 
             pollForNew();
         }
-        display_transition(place, name, params);
+        // set the delay we want on transition
+        var transitionDelay = window.transitionCount * 100; 
+        window.transitionCount++;
+        // delay the display of the passage
+        setTimeout( function() {
+            display_transition(place, name, params);
+        }, transitionDelay);
       }
 }
 )
