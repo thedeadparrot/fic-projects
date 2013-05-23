@@ -35,7 +35,9 @@ window.location.hash=this.hash;window.scroll(0,0);}return e;};
                 if(el) {
                    // trigger CSS transition
                     setTimeout(function() {
-                        el.classList.remove('addition-in');
+                        setTimeout(function() {
+                            el.classList.remove('addition-in');
+                        }, 400);
                         // release lock
                         scrollWindowTo(el);
                     }, 300);
