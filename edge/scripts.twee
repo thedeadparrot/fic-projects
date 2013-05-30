@@ -347,51 +347,64 @@ setTimeout(function(){e.classList.remove("transition-in");},1);p.appendChild(e);
 window.location.hash=this.hash;window.scroll(0,0);}return e;};
 
 ::Display Transition[script]
-(macros['display_transition'] = {
+macros['display_scroll'] = {
 	handler: function(place, name, params) {
-        function display_transition(place, name, params) {
-            var passageClass = 'inner-passage';
-            var length = document.getElementsByClassName(passageClass).length;
-            // fetch the correct passage
-            var passage = tale.get(params[0]);
-            // render it (omg hacks everywhere)
-            var elementId = 'inner-passage-' + passage.title.split(' ').join('_');
-            var body = insertElement(null, 'div', elementId, passageClass);
-            body.classList.add('addition');
-            body.classList.add('addition-in');
-            new Wikifier(body, passage.text);
-            // append it to the page
-            content = document.getElementsByClassName('content')[0];
-            place.appendChild(body);
-
-            // polls until we know the DOM has updated and then scroll to passage
-            function pollForNew(){
-                var el = document.getElementById(elementId);
-                if(el) {
-                   // trigger CSS transition
-                    setTimeout(function() {
-                        setTimeout(function() {
-                            el.classList.remove('addition-in');
-                        }, 400);
-                        // release lock
-                        scrollWindowTo(el);
-                    }, 300);
-                }
-                else {
-                    setTimeout(pollForNew, 100);
-                }
-            }
-
-            pollForNew();
-        }
         // set the delay we want on transition
         var transitionDelay = window.transitionCount * 100; 
         window.transitionCount++;
+        // fetch the correct passage
+        var passage = tale.get(params[0]);
         // delay the display of the passage
         setTimeout( function() {
-            display_transition(place, name, params);
+            display_transition(place, passage.text, passage.title, true);
         }, transitionDelay);
       }
 }
-)
+macros['text_fade'] = {
+    handler: function(place, name, params) {
+        var text = params[0];
+        var title = "fade-title"+window.transitionCount;
+        var transitionDelay = window.transitionCount * 1000; 
+        window.transitionCount++;
+        setTimeout( function() {
+            debugger;
+            display_transition(place, text, title, false);
+        }, transitionDelay);
+    }
+}
+function display_transition(place, text, title, scroll) {
+    var passageClass = 'inner-passage';
+    var length = document.getElementsByClassName(passageClass).length;
+    // render text 
+    var elementId = 'inner-passage-' + title.split(' ').join('_');
+    var body = insertElement(null, 'div', elementId, passageClass);
+    body.classList.add('addition');
+    body.classList.add('addition-in');
+    new Wikifier(body, text);
+    // append it to the page
+    content = document.getElementsByClassName('content')[0];
+    place.appendChild(body);
+
+    // polls until we know the DOM has updated and then scroll to passage
+    function pollForNew(){
+        var el = document.getElementById(elementId);
+        if(el) {
+           // trigger CSS transition
+            setTimeout(function() {
+                setTimeout(function() {
+                    el.classList.remove('addition-in');
+                }, 400);
+                // release lock
+                if(scroll) {
+                    scrollWindowTo(el);
+                }
+            }, 300);
+        }
+        else {
+            setTimeout(pollForNew, 100);
+        }
+    }
+
+    pollForNew();
+}
 

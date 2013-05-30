@@ -9,8 +9,6 @@ Header + Notes + explanation of what this is
 
 Click the links to progress through the story. There's only one ending. 
 
-If you're using any version of IE lower than 10, you're going to have a bad time.
-
 [[Begin|Part 1]]
 
 ::Part 1[bookmark]
@@ -566,7 +564,7 @@ Kurt runs his fingers along the the rim frame, glancing at you like he's trying 
 <<display "room baseball">>
 <<else>>
 <<if $five>>
-<<display_transition "room baseball">>
+<<display_scroll "room baseball">>
 <<endif>>
 <<endif>>
 
@@ -604,7 +602,7 @@ Kurt snorts. "I must have looked so silly, but my dad indulged me."
 <<display "room bow ties">>
 <<else>>
 <<if $baseball>>
-<<display_transition "room bow ties">>
+<<display_scroll "room bow ties">>
 <<endif>>
 <<endif>>
 
@@ -647,7 +645,7 @@ You don't really know what else to say, so open the closet door for him and gest
 <<display  "room warblers sneakers">>
 <<else>>
 <<if $bowtie>>
-<<display_transition  "room warblers sneakers">>
+<<display_scroll  "room warblers sneakers">>
 <<endif>>
 <<endif>>
 
@@ -675,7 +673,7 @@ Kurt shakes his head, laughing softly to himself. There's a new fondness on his 
 <<display "room sheet music">>
 <<else>>
 <<if $letter>>
-<<display_transition "room sheet music">>
+<<display_scroll "room sheet music">>
 <<endif>>
 <<endif>>
 ::meeting Wes
@@ -724,7 +722,7 @@ His smile is wry, a little amused, eyebrows raised, and you wonder whether music
 
 "Me too," you say, because you understand, you do.
 <<if $piano>>
-<<display_transition "end room">>
+<<display_scroll "end room">>
 <<endif>>
 
 ::piano
@@ -797,35 +795,7 @@ The lights in the bar area dim, the stage lights come on. Rachel and Mercedes lo
 
 ::Performance
 
-music has always been this
-
-this thing that crawls inside the empty spaces
-
-that opens you up
-
-pulls out the things you've always kept hidden
-
-and here, you understand what it means
-
-the buzz of the crowd
-
-the throb of the bass
-
-the jangle of the guitar
-
-voices harmonizing
-
-bright and beautiful and powerful and sweet and sharp and quiet and vibrant and loud and painful and perfect
-
-you turn
-
-Kurt is watching the stage, enraptured as they sing and play, eyes huge and round
-
-a smile crosses his face, wide enough to bring out his dimples, 
-
-and you know he feels it too.
-
-[[afterwards.|Post-performance]]
+<<text_fade "music has always been this">><<text_fade "this thing that crawls inside the empty spaces">><<text_fade "that opens you up">><<text_fade "pulls out the things you've always kept hidden">><<text_fade "and here, you understand what it means">><<text_fade "the buzz of the crowd">><<text_fade "the throb of the bass">><<text_fade "the jangle of the guitar">><<text_fade "voices harmonizing">><<text_fade "bright and beautiful and powerful and sweet and sharp and quiet and vibrant and loud and painful and perfect">><<text_fade "you turn">><<text_fade "Kurt is watching the stage, enraptured as they sing and play, eyes huge and round">><<text_fade "a smile crosses his face, wide enough to bring out his dimples,">><<text_fade "and you know he feels it too.">><<text_fade "[[afterwards.|Post-performance]]">>
 
 ::Post-performance
 
@@ -1589,4 +1559,5 @@ FIN.
 
 [[Custom CSS passage transitions|http://www.glorioustrainwrecks.com/node/5084]]
 [[apply CSS to passages with specific tags|http://www.glorioustrainwrecks.com/node/5013]]
+[[Revision macro|http://www.glorioustrainwrecks.com/node/5239]]
 
