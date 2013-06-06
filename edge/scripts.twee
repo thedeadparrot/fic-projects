@@ -1,6 +1,18 @@
 ::Tag-specific CSS[script]
 (function(){ var render2 = Passage.prototype.render; Passage.prototype.render = function () { var b = render2.call(this); var t = this.tags.join(" "); document.body.setAttribute("data-tags", t); return b; }}());
 
+::Escape using backslashes[script]
+(function(){
+var bs = String.fromCharCode(92);
+Wikifier.formatters.unshift({
+    name: "continuedLine",
+    match: bs+bs+"s",
+    handler: function(a) {
+        a.nextMatch = a.matchStart+3;
+    }
+});
+}());
+
 ::Revisions[script]
 (function () {
   version.extensions['revisionMacros'] = {
@@ -349,21 +361,18 @@ window.location.hash=this.hash;window.scroll(0,0);}return e;};
 ::Display Transition[script]
 macros['display_scroll'] = {
 	handler: function(place, name, params) {
-        // set the delay we want on transition
-        var transitionDelay = window.transitionCount * 100; 
-        window.transitionCount++;
         // fetch the correct passage
         var passage = tale.get(params[0]);
-        // delay the display of the passage
-        setTimeout( function() {
-            display_transition(place, passage.text, passage.title, true);
-        }, transitionDelay);
+        //  display of the passage
+        display_transition(place, passage.text, passage.title, true);
       }
 }
 macros['text_fade'] = {
     handler: function(place, name, params) {
+        // use the given text
         var text = params[0];
         var title = "fade-title"+window.transitionCount;
+        // set the delay we want on transition
         var transitionDelay = window.transitionCount * 1000; 
         window.transitionCount++;
         setTimeout( function() {
