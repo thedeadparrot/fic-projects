@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<title>Sympathy for the Devil Boston Adventure Map</title>
+<style type="text/css">
+  html { height: 100% }
+  body { height: 100%; margin: 0; padding: 0 }
+  #map_canvas { height: 100% }
+  .infowindow-inner { font-family: Arial; font-size:10pt; margin: 10px;}
+  .info-window-image { text-align:center; }
+  .heading { color: #63151b; font-size: 1.5em;}
+  .map-dialog{ font-family: Arial; font-size: 10pt; display:none;}
+  h4 {margin-bottom: 2px; color: #63151b;}
+  ul { margin-top: 0px;}
+</style>
+<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+<script type="text/javascript"
+    src="http://maps.googleapis.com/maps/api/js?sensor=false">
+</script>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.6.2");google.load("jqueryui", "1.8.16");
+</script>
+<script type="text/javascript">
+
+    /***************************
+     *
+     * DATA - modify this if you want different markers/text
+     *
+     ********************************/
+     
+
+    // marker url
+    var jsonURL="markers.json"
+
+    var formatstring = '<div class="infowindow-inner">' +
+                       '<h1 class="heading">{0}</h1>'+
+                       '{1}'+
+                       '</div>';
+
+    var iconimage = 'images/shooting.png';
+    var center = new google.maps.LatLng(42.34193,-71.05677);
+    var zoom = 13;
+
+    // intro dialog title
+    var dialogTitle = 'Sympathy for the Devil Boston Adventure Map';
+    // to edit dialog content, edit the "intro-dialog" html down below
+
+    /*************
+     *
+     * CODE STUFF - Initialize maps, set markers and infowindows
+     *
+     ***************/
+
+    String.prototype.format = function() {
+      var args = arguments;
+      return this.replace(/{(\d+)}/g, function(match, number) { 
+        return typeof args[number] != 'undefined'
+          ? args[number]
+          : '{' + number + '}'
+        ;
+      });
+    };
+
+    // global variables (i know, i know)
+    var setMarkers =[];
+    var infoWindows = [];
+    var markerInfo;
+    var map;
+    var currentMarker; 
+
+
+    // load marker data
+    function loadMarkerJSON(url)
+    {
+        $.ajax({
+        type: 'GET',
+        url: url,
+        dataType: 'json',
+        success: function(data) { markerInfo = data; },
+        data: {},
+        async: false});
+    }
+
+    //return the closure that will open the infowindow with the given index
+    function displayWindow(index)
+    {
+        return function()
+        {
+            closeAllInfoWindows();
+            currentMarker = index;
+            infoWindows[index].open(map, setMarkers[index]);
+        }
+    }
+
+    //close all the info windows
+    function closeAllInfoWindows()
+    {
+        for(var i in infoWindows)
+        {
+            infoWindows[i].close();
+        }
+    }
+
+    // handle the iteration between all of the various locations
+
+    // increment the marker
+    function incrementMarker()
+    {
+        if(currentMarker == null)
+        {
+            currentMarker = 0;
+        }
+        // wrap around when reaching the end
+        else if(currentMarker+1 >= infoWindows.length)
+        {
+            currentMarker = 0;
+        }
+        else
+        {
+            currentMarker++;
+        }
+    }
+    // decrement the marker
+    function decrementMarker()
+    {
+        // wrap around if at the beginning
+        if (currentMarker == null || currentMarker-1 < 0)
+        {
+            currentMarker = infoWindows.length-1;
+        }
+        else
+        {
+            currentMarker--;
+        }
+    }
+    // open whichever window is set to the 
+    function openCurrent()
+    {
+        closeAllInfoWindows();
+        infoWindows[currentMarker].open(map, setMarkers[currentMarker]);
+    }
+
+    // toggle map type
+    function toggleType()
+    {
+        var mapType = map.getMapTypeId();
+        if(mapType == google.maps.MapTypeId.HYBRID)
+        {
+            map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+        }
+        else
+        {
+            map.setMapTypeId(google.maps.MapTypeId.HYBRID);
+        }
+    }
+// toggle dialog state
+    function toggleDialogOpen(mapDialog)
+    {
+        if(mapDialog.dialog("isOpen"))
+        {
+            mapDialog.dialog("close");
+        }
+        else
+        {
+            mapDialog.dialog("open");
+        }
+    }
+
+  function initialize() {
+      // set center
+    var myOptions = {
+      zoom: zoom,
+      center: center,
+      mapTypeId: google.maps.MapTypeId.HYBRID
+    };
+
+    // set up intro dialog
+    var intro = $('#intro-dialog').dialog({
+        title: dialogTitle, 
+        minHeight: 475, 
+        minWidth:700, 
+        resizable: false, 
+        modal: true,
+        // IE8 modal dialog hack
+        open: function(event, ui){$('body').css('overflow','hidden');$('.ui-widget-overlay').css('width','100%'); },
+        close: function(event, ui){$('body').css('overflow','auto'); },
+        buttons: {"close": function(){ $(this).dialog("close");}}});
+
+
+    // set up intro dialog
+    var credits = $('#credits-dialog').dialog({
+        title: "Credits", 
+        minHeight: 475, 
+        minWidth:700, 
+        resizable: false, 
+        autoOpen: false,
+        modal: true,
+        // IE8 modal dialog hack
+        open: function(event, ui){$('body').css('overflow','hidden');$('.ui-widget-overlay').css('width','100%'); },
+        close: function(event, ui){$('body').css('overflow','auto'); },
+        buttons: {"close": function(){ $(this).dialog("close");}}});
+    // load JSON
+    loadMarkerJSON(jsonURL);
+    // wait for json to load
+    map = new google.maps.Map(document.getElementById("map_canvas"),
+        myOptions);
+
+    // set up keyboard hotkeys
+    $(document).keypress( 
+      function(event) { 
+        // "o" toggles the intro dialog open and close
+          if(event.which == 111) 
+          { toggleDialogOpen(intro);} 
+          // "r" resets the map to its original state (without the intro dialog)
+          else if(event.which == 114)
+          {  currentMarker = null; closeAllInfoWindows(); map.setCenter(center); map.setZoom(zoom);}
+          // "m" toggles the type of the map
+          else if(event.which == 109)
+          { toggleType();}
+          // "c" toggles the credits dialog
+          else if(event.which == 99)
+          { toggleDialogOpen(credits); }
+        
+      });
+    // when arrow keys are pressed, move to the next infowindow and open it
+    $(document).keydown(
+            function(event) {
+                if(event.which == 37)
+                {
+                    decrementMarker();
+                    openCurrent();
+                }
+                else if(event.which == 39)
+                {
+                    incrementMarker();
+                    openCurrent();
+                }
+            }
+        );
+            
+
+    // set up markers
+    for(var i = 0, marker; marker = markerInfo.markers[i]; i++) 
+    {
+        // create marker
+        var position=new google.maps.LatLng(marker.lat, marker.lng);        
+        var setMarker = new google.maps.Marker(
+                { position:position, map: map, title: marker.name, icon: iconimage});
+
+        // create infowindow
+        var infowindow = new google.maps.InfoWindow({
+                content: formatstring.format(marker.name, marker.text, marker.img)});
+
+        setMarkers.push(setMarker);
+        infoWindows.push(infowindow);
+        // add listener
+        google.maps.event.addListener(setMarkers[i], 'click', displayWindow(i));
+    }
+
+  }
+
+</script>
+</head>
+<body onload="initialize()">
+  <div id="map_canvas" style="width:100%; height:100%"></div>
+  <div id="intro-dialog" class="map-dialog" style="display:none;">
+      <p>Welcome to our map of the greater Boston area! We've marked off some of the locations that have been prominently featured in the Mafia AU for your enjoyment. Each location with a gun icon contains an exciting ficlet adventure, so click away! Most of them are in Boston proper, but a few of them are across the river in Cambridge. Not all the locations we mention show up here, but most of the important ones do.</p>
+      <p>We've had such a good time hanging out in this universe, and we'll be sad to say goodbye to it. As strange as it seems, this series wasn't originally supposed to take place in Boston. I was pushing really hard for a sort of fake-city, like Gotham, where some more ridiculously over-the-top stuff could take place, but merisunshine36 really wanted it to take place in a specific city. There may have been some kicking and screaming involved on my part (her words, not mine). Still, Boston ended up winning in the end, and I have to say that I'm glad it did.</p>
+      <p> I'm hardly an expert on the area, but I tried to put in as much as I could, to try to make the story <em>feel</em> like Boston on top of being factually accurate about Boston. I like to think that we succeeded.</p>
+      <p style="text-align:right;"><em>--thedeadparrot (code monkey) & merisunshine36 (loyal sidekick and shameless freeloading humanities major)</em></p>
+      <p>
+          <img style="position:relative; float:left; margin:3px;" src="images/shooting.png" />
+          <p>Click on the markers for more information on each location.</p>
+      </p>
+      <p style="clear:both;">
+      <h4>hot keys:</h4>
+      <ul>
+          <li>
+            <strong>o</strong> - open and close this dialog box
+          </li>
+          <li>
+            <strong>r</strong> - reset the map (recenter and rezoom)
+          </li>
+          <li>
+            <strong>left + right arrow keys</strong> - navigate the map in chronological order
+          </li>
+          <li>
+            <strong>m</strong> - toggle between road map view and satellite view
+          </li>
+          <li>
+            <strong>c</strong> - toggle open the credits dialog
+          </li>
+      </ul>
+      </p>
+  </div>
+  <div id="credits-dialog" class="map-dialog" style="display:none;">
+      <p>This map was pretty much entirely built on top of the <a href="http://code.google.com/apis/maps/documentation/javascript/">Google Maps API</a> and <a href="http://jqueryui.com/">JQuery UI</a>, both of which were incredibly easy to work with.</p>
+      <p>The icons were generated by the awesome <a href="http://mapicons.nicolasmollet.com/">Map Icons Collection</a>.</p>
+      <p>I found <a href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm">this page</a> incredibly useful in my construction of this map, by making it simple to find the correct latitude and longitude needed for these markers.</p>
+      <p>All photography, with the exception of Christy's and the Police Headquarters, was taken by thedeadparrot.</p>
+      <p>The Police Headquarters photo is by <a href="http://www.flickr.com/photos/kingdafy/578404257/">kingdafy</a> on Flickr.</p>
+      <p>The photograph used for Christy's is by <a href="http://www.flickr.com/photos/edkopp4/3391916816/">EdKopp4</a> on Flickr.</p>
+      <p>Feel free to reuse any of this code in any future projects you wish. I tried to keep everything as modular and reusable as possible, but please feel free to ask me questions about any of this if you want any explanations for any of it.</p>
+      <p>If you have questions or comments (or praise ;)), etc., <a href="http://thedeadparrot.dreamwidth.org/501749.html">Let me know!</a> </p>
+  </div>
+</body>
+</html>
