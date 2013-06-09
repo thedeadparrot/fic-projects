@@ -1,5 +1,21 @@
+Interactive Map
+================
+
+How to reuse this code
+-----------------------
+
+I put in some effort towards making this modular enough that it could be reused easily, but I didn't quite get all the way there.
+
+All of the ficlets are contained in `markers.json` and each ficlet has a corresponding entry in the list. Each ficlet has a name, a latitude (`lat`), a longitude (`lng`) and the text of the ficlet formatted in HTML. It should be easy to create your own markers if you use my files as a base.
+
+Most of the actual code used to render the map is in `mafiamap.html`. At the top of the Javascript section of the code (marked `DATA`), you can edit certain things, like the icons used for the markers, what the center of the map is defined to be and the zoom level of the map. To edit the content of the opening dialog box and the credits dialog box, just edit the HTML at the bottom of the page contained in the `intro-dialog` and `credits-dialog` divs.
+
+Feel free to reuse any of this code in any future projects you wish. Also, I know that this is all of this is a little technical, but please feel free to ask me questions about any of this if you want a more detailed explanation.
+
+If you have questions or comments (or praise ;)), etc., [Let me know!](http://thedeadparrot.dreamwidth.org/501749.html)
+
 Credits
-=======
+--------
 
 This map was pretty much entirely built on top of the [Google Maps API](http://code.google.com/apis/maps/documentation/javascript/) and [JQuery UI](http://jqueryui.com/), both of which were incredibly easy to work with.
 
@@ -13,6 +29,3 @@ The Police Headquarters photo is by [kingdafy](http://www.flickr.com/photos/king
 
 The photograph used for Christy's is by [EdKopp4](http://www.flickr.com/photos/edkopp4/3391916816/) on Flickr.
 
-Feel free to reuse any of this code in any future projects you wish. I tried to keep everything as modular and reusable as possible, but please feel free to ask me questions about any of this if you want any explanations for any of it.
-
-If you have questions or comments (or praise ;)), etc., [Let me know!](http://thedeadparrot.dreamwidth.org/501749.html)

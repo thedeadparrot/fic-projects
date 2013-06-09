@@ -10,7 +10,7 @@ Built and written as a part of a [mafia AU](http://archiveofourown.org/series/98
 
 The code and images used for this fic can be found in the mafiamap/ folder.
 
-You can also [view the complete map](http://thedeadparrot.github.io/mafiamap/mafiamap.html) to get a sense of what it looks like.
+You can also [view the complete map](http://thedeadparrot.github.io/fic-projects/mafiamap/mafiamap.html) to get a sense of what it looks like.
 
 
 codename: edge
