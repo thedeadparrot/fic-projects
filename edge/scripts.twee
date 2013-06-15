@@ -373,10 +373,9 @@ macros['text_fade'] = {
         var text = params[0];
         var title = "fade-title"+window.transitionCount;
         // set the delay we want on transition
-        var transitionDelay = window.transitionCount * 1000; 
+        var transitionDelay = window.transitionCount * 1750; 
         window.transitionCount++;
         setTimeout( function() {
-            debugger;
             display_transition(place, text, title, false);
         }, transitionDelay);
     }
