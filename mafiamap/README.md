@@ -1,6 +1,8 @@
 Interactive Map
 ================
 
+You can [view the map](http://thedeadparrot.github.io/fic-projects/mafiamap/mafiamap.html) that this code generates.
+
 How to reuse this code
 -----------------------
 
