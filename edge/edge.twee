@@ -1,0 +1,1790 @@
+::StoryAuthor
+thedeadparrot
+
+::StoryTitle
+A Far Better Thing
+
+:: Start
+''Summary:'' AU. For as long as anyone can remember, the city has been split into two halves, Under and Over. Blaine Anderson works as a courier, delivering messages and helping people cross the border. It's a living. He makes do. And then one day, he gets a job that will turn everything upside down...
+
+''Notes:'' Written in the [[Twine|http://www.auntiepixelante.com/twine/]] interactive fiction engine. You can also view the [[end notes|End notes]] for more details. Many thanks to zulu for the patient betaing of this!
+
+Click the links to progress through the story. There is only one ending.
+
+[[Begin|Part 1]]
+
+::Part 1[bookmark]
+You are looking for a person.
+
+[[Look.]]
+
+::Look.
+You are looking for a person, and he has a name. The name is written on the palm of your hand in blue ballpoint pen. The ink is beginning to run, distorting the letters into ugly shapes.
+
+The hospital hallway you are standing in is bright, sterile. The walls are white. The ceiling is white. Even the floor is white, polished to a shine. It squeaks underneath your shoes.
+
+"Can I help you?" a woman wearing a white apron asks. Her teeth are very white as she smiles.
+
+"No, thank you," you say, because your parents always taught you to be polite. You stand there, awkward, in the middle of the hallway with your black shoes and navy blue shirt and brown messenger bag, a smudge of color against your pristine surroundings.
+
+You've never liked hospitals.
+
+You check your watch. Wes said you had half an hour until pickup. That was ten minutes ago. You tuck your fingers around the timer in your pocket and resist the urge to check it. If Wes needs to change the timetables, he has his own ways of getting you that information.
+
+[[Keep looking.|Hospital rooms]]
+
+::Hospital rooms
+
+The rooms around you are numbered, but you don't have a number, you have a name.
+
+[[Room 204]]
+[[Room 205]]
+[[Room 206]]
+[[Room 207]]
+
+
+:: Room 204
+The woman is asleep when you step inside. The room is dark and quiet, save for the machine that's monitoring her vitals, //beep beep beep//. Her hair is a messy, frizzy gray, and her face has deep lines, even in sleep.
+
+This isn't the right room. You slip away without another sound.
+
+<<return>>
+
+:: Room 205
+"What are--" the man says when you peek your head in. There's a tattoo on the inside of his left wrist, covered over with concealer, and you wouldn't have noticed if you didn't know what to look for. He's not supposed to be here, either. You wonder who helped him cross the border, which route they used. 
+
+Hospital security in Over can be somewhat lax, which is part of why you're here today. If you have the money to fake your papers, you can usually get admitted, and despite what people say about Under, there's plenty of money to be found there. Maybe not so many hospitals -- there's one that you need to pay through the nose for in order to get simple stitches -- but money, there's plenty of that.
+
+He's not who you're looking for, and if he knows enough to cover up his tattoo, he can take care of himself. You look him straight in the eye and nod. He nods back.
+
+"Sorry, wrong room," you say, before closing the door behind you.
+
+<<return>>
+
+:: Room 207
+The room is empty. A bed, two chairs. You wonder who has been here -- a family, maybe, a father, their injured mother, their two doting children -- but you don't linger for long. You have a job to do.
+
+<<return>>
+
+:: Room 206 
+There's a young man sitting on a chair, biting his lip. He looks up when you open the door.
+
+He's not much older than you, no more than twenty-three, and there's a boyishness to his cheeks and nose that could make him look younger in the right circumstances. He's tall and lean, good posture, bright eyes. If you spotted him in a club somewhere, you'd probably make a fool out of yourself trying to flirt with him. His hair is maintained, swept upwards, showing a bit of personality, yet still within the regulations on proper men's hair styling. You learned how to keep your own hair in check over the years, but for you that was about forcing it into submission, into something acceptable. For him, it's a work of art.
+
+"I was looking for you," you say.
+
+He snorts. "Forgive me if I think that's highly unlikely. You don't exactly look like a doctor." His voice is higher than you expected, sweeter, even as his eyes narrow, preparing for a fight.
+
+"You're Kurt Hummel, right?" you say. You check your timer. You're down to five minutes.
+
+"That depends on who's asking," he says. He stands up, head up and shoulders square. You have to tilt your head up in order to meet his eyes.
+
+You show him his name on your hand. "I need to take you across the border," you say.
+
+That brings him up short. He blinks. "But my dad--" Kurt says.
+
+His dad is a politician, you remember, a member of the city council. He recently had a heart attack. It was all over the news for a day. They showed his official government picture, and there was something gentle about his smile even though his expression was serious and severe. "Sorry," you say. "But we really have to go. Look, they're going to be coming after you. We need to get you across the border."
+
+The alarm on your timer goes off. Wes must be on his way. He's decided to make it showy this time around, who knows why, and that means you have to go //right now//. You grab Kurt's hand. 
+
+"What?" Kurt says. His eyes are wide and startled and the timer is still beeping loud and shrill, but he doesn't pull his hand away.
+
+"We have to go," you say.
+
+[[Go.|Hospital hallway]]
+
+::Hospital hallway
+The hallways are quiet. Your footsteps seem to echo on the tile. Wes had warned you that someone might try to stop you, but there's no one paying you any attention.
+
+ Kurt's hand is sweaty in yours. He glances around, nervous.
+
+There's a glowing red exit sign, down the hall. A stairwell.
+
+You hear a commotion behind you. Two men in dark clothes stride down the hallway. The kind of men you don't mess with. Not on the job. Not off of it either. One of them looks right at you, and something cold twists in your stomach. They don't look like cops -- you've dodged enough of them to know how to spot one on sight -- so someone else must be after Kurt.
+
+You start to run, pulling Kurt along behind you.
+
+[[Take the stairs.|Hospital stairwell]]
+
+::Hospital stairwell
+
+You climb the steps, still gripping Kurt's hand, using the railings for leverage as you drag yourself upwards.
+
+"Where are we--" he asks. You hear the door bang open below, the sound of muffled cursing drifting up. They're gaining ground. You move faster, and Kurt keeps up, but you're not going to make it unless you can put more distance between you and them. The alarms have started to go off, and that means the cops are going to become a problem very soon if you don't get up to the roof.
+
+There's a door to your left, leading into another hallway.
+
+[[Shove open the door.|Hospital hallway 2]]
+[[Continue up the stairs.|Hospital stairwell continue]]
+
+::Hospital hallway 2
+
+This floor has been evacuated, the hallways empty, the alarms shrieking. You run, turning a corner. You hear the door shoved open behind you. 
+
+You run flat out, muscles screaming, until Kurt stumbles, tripping over his feet. You slow down to help him up, hands underneath his armpits, half dragging him along. One of the men shouts behind you, closer this time.
+
+Once Kurt finds his feet again, you push him forward. "Go!" He runs for the next stairwell, shoving the doorway open.
+
+Once he's safely ahead of you, you pull an empty medical gurney behind you, a wheelchair, a cart loaded up with some sort of equipment. It's not much, but hopefully it'll be enough.
+
+You can hear their muffled curses as they slow down to shove things out of their way, but you can't dwell on that. You have to keep moving.
+
+[[Run.|Hospital stairwell 2]]
+
+::Hospital stairwell continue
+
+You keep running up the stairs. Their footsteps echo yours, coming closer every second.
+
+They're only a flight behind you before one of them jumps, grabbing for your foot. His fingers catch on the cuff of your pants.
+
+It's not a good grip, but it's enough to slow you down. Kurt shouts. 
+
+Not the first time you've had to break a grip. You manage a good kick out, your sneaker catching the man square in the jaw with a satisfying //smack//. He curses as he goes down, falling into the man coming up behind him, tripping them both up, giving you both more time.
+
+Kurt's at the roof access doorway, struggling with the handle.
+
+"I've got this," you say, coming up behind him.
+
+[[Kick the door open.|Hospital roof]]
+
+::Hospital stairwell 2
+
+You push your way into the stairwell. Kurt's already a flight above you, but you can see that he's slowing down, his movements taking on a new clumsiness, and his face is sharp with a grim sort of determination. But that's okay. You're almost there.
+
+You catch up to him as you reach the roof access. The timer vibrates in your pocket, a steady reminder of what you need to do.
+
+[[Kick the door open.|Hospital roof]]
+
+::Hospital roof
+
+The sun is bright today, and the city all around you is gleaming glass. You squint even as you smile. You're fond of rooftops. It's one of the easiest ways of getting around for a courier. Very few people think to look up.
+
+Wes is waiting for you, looking as cool and collected as always. He brought the helicopter today, and the wind from the propellers tugs on the lapels of his jacket, distorts his hair. He pulls the door to the cabin open and gestures for you to get inside. No point in talking just yet.
+
+[[Climb inside.|Helicopter]]
+
+::Helicopter
+
+Kurt climbs into the cabin, though he looks hesitant about it, his eyes round and wide at the sight of it. You pull yourself in after him. You're both tired, breathing hard.
+
+"Warbler Blaine," Wes says once he gets the door closed behind you. He needs to shout to be heard over the sound of the propellers, "you're cutting it awfully close."
+
+"We need to go. Right now," you say.
+
+David gives a thumbs up from the cockpit. "We're ready to roll," he says.
+
+[[Take off.|Helicopter 2]]
+
+::Helicopter 2
+
+As you lift off the helicopter pad, you watch as the two men spill out onto the roof. It's too late for them. There's no way for them to take you out without risking their own lives, and mercs aren't all that self-sacrificing. You can't see the anger on their faces, but you can see the frustration in their body language. A few police cars pull into the hospital parking lot, sirens blaring, but you're already a few buildings over. The H of the helicopter pad gets smaller and smaller, shrinking until it's nothing.
+
+"Okay," Kurt says. "Now will someone tell me what the hell is going on here? Who //are// you people?"
+
+It's not a bad question, you have to admit.
+
+[[Who are you really?]]
+
+[[Wes answers.]]
+
+:: Who are you really?
+
+<<set $wesisabro=true>>Who are you really?
+
+Your name is Blaine Devon Anderson.
+
+You were born in Over to a nice, well-behaved family. Your mother worked part time as an elementary school teacher. Your father was an administrator at the Department of Transportation. You had a nice house on a nice street. You did well in school. Your teachers always praised you for being quiet and well-behaved.
+
+You have a brother named Cooper. He dropped out of college and went Under when you were eight, and you didn't see him again until you were seventeen.
+
+Your best friend in Under is Sam Evans. He taught you how to play the guitar, and when you were eighteen, you had a crush on him that was so intense you almost thought you were in love with him. That's faded by now, but there are still times when you remember the way your heart fluttered every time he smiled at you.
+
+You became a courier at the age of nineteen, because Wes asked you to and because you didn't know how to say 'no' and because it's not like you had any better options rnat the time.
+
+You don't regret it, even now. Being a courier is about negotiating the in-between places, where the distinctions between Under and Over are thinnest, and you learn how to travel between them, to be who you need to be when the situation demands it. You learn how to run, how to slide under pipes and climb over fences, how to slip over the border without being seen, without being caught.
+
+There's this feeling you get when you when you jump from one roof to another, hanging suspended for a moment above the ground below. That just might be your favorite part. In that moment, you feel weightless; you feel almost free.
+
+<<return>>
+
+::Wes answers.
+
+"We're couriers," Wes says, still shouting to be heard over the noise. "Warblers." He always gets this look on his face when he's talking about the Warblers. He takes being a courier, being a Warbler, more seriously than anyone you know. There are reasons for that. He won't tell you what they are, but you have suspicions.
+
+"And what the hell do you want with me?" Kurt asks. His arms are crossed over his chest, defensive. This isn't your first time doing an extraction, but this is the first time it's been someone so reluctant. A lot of times there's a family member, a lover, a person they know waiting for them on the other side. Most of the time they just want a meeting, just a chance to see each other again. The government doesn't stop anyone from leaving Over, but once you leave officially, you can't go back, not in any real way.
+
+"Someone in Under paid us a good deal of money and asked for an immediate extraction, said there might be some trouble. We extracted you,"  Wes says.
+
+Kurt's mouth drops open, his eyebrows rising up. "And that's it? You're going to do that just because they paid you?'"
+
+"Yes," you say. You know what it's like, the first time [[the Rules]] no longer apply to your life, that feeling of the ground under your feet shifting until you're cut off, adrift. Under has its own rules, though. It's just that no one ever bothered to write them down. Money talks. This particular amount of money spoke louder than most.
+
+Kurt's face falls. "Oh," he says. He turns to look out the window at the buildings below.
+
+[[Sit through the rest of the trip in silence.|Part 2]]
+
+::the Rules
+
+Growing up in Over, they taught you about the Rules in school. There have been scientific studies, they said, about how humans are happiest when they have clearly defined limits, if they have order and faith in their institutions. The Rules were written to ensure that this order and faith could be preserved, govern every aspect of a person's life, from the cradle to the grave. 
+
+There were other concerns, of course. Humans were weak, too prone to giving into their worst instincts, so it was decided that while new Rules could be written, no Rules could be overwritten or removed.
+
+The city was to be an experiment at first, developed during the depths of the United States' Cold War, a chance to create a perfect society. A city that would be known for its lack of crime, its beauty, its wealthy, happy, and productive citizenry. Like the laws that governed t	he universe, the people of the city could merely be given a set of Rules and the system would be able to sustain itself.
+
+No one could have predicted the split, the city broken into two parts: Over and Under. In your classes growing up, you learned that a secret separatist movement forcibly took over half the city, creating a place of lawlessness, anarchy and violence. Wes says that some people still believe that a particular Over government became so unpopular and so weak that they decided to cut themselves off from half the city and exile their undesirables. 
+
+It happened long enough ago that the details have faded from living memory, so it's impossible to know what the real truth is. Now, the two halves are balanced against each other, separated by the border, a physical wall between them. That's the way it's always been. That's the way it's always going to be.
+
+<<return>>
+
+::Part 2[bookmark under]
+
+The person who paid for Kurt Hummel's extraction is a man by the name of William Schuester, though he usually goes by the name Mr. Schue. He has a bit of a reputation in Under for collecting Over refugees at his school, the kind who end up in Under with full pockets and a confused look on their face when they decide to leave. It's unclear if he really helps people or if he just takes their money, but you've never heard anyone complain. It also functions as a regular private school for some of the more well-off kids who grow up in Under. One of the couples in your building has a daughter who goes there.
+
+The school is in one of the nicer neighborhoods of Under, where the people have enough money to maintain the roads themselves and keep their own police force. The building is old brick, built before the split. It used to be an elementary school. The old name is still etched in the stone. The lawn is patchy in places but still neat, respectable.
+
+Mr. Schue is waiting for you outside on the front steps, smiling in a way that may or may not be sincere. It's always hard to tell with a face like that. Wes already returned the helicopter to the airfield he must have 'borrowed' it from (and you're sure the bribes he made in order to get ahold of it must have cost at least as much as the entire Warblers' budget for the last month), so your approach is quiet, unremarkable. You're tagging along to complete the rest of this job, make sure that Kurt gets to his destination safe and on time.
+
+"Welcome to New Directions," Mr. Schue says. He holds out his arms in greeting. Kurt watches him with wary eyes. "I've wanted to speak to you for a while, Mr. Hummel."
+
+Kurt hesitates for a moment before shaking his hand. "You could have just sent a letter," Kurt says. He raises an eyebrow, face cool and collected, and for a moment, you don't see that surprised kid in the hospital room; you see Burt Hummel's son, every bit the politician his father is. 
+
+Mr. Schue pretends not to hear him. His smile doesn't waver. "We can go into my office."
+
+[[Follow them inside.]]
+
+
+::Follow them inside.[under]
+<<set $school_floors = 0>>There's a low level hum to the school. Classes are in session. It feels different from the schools  you remember. There's a looseness to the atmosphere, a controlled chaos. 
+
+One of the classes laughs at a teacher's joke. You can hear them through the door. In Over, classes were quiet, formal affairs. School uniforms and self-directed study with occasional teacher assistance. It was about the betterment of the self. Social activities were allotted their own time slots.
+
+Kurt looks around with a similar sort of trepidation on his face. This isn't what he expected at all. You can see it in the tightness in his shoulders, the way he chews on his bottom lip.
+
+Mr. Schue ushers him into his office on the ground floor and closes the door behind them, a firm 'fuck you' if you've ever seen one.
+
+Your instructions are to bring Kurt back over the border when he's ready, so you aren't going to leave without him, but you can wander around, see what else is going on.
+
+[[Explore the upper floors.|School upper]]
+[[Explore the basement.|School basement]]
+
+::School upper[under]
+<<set $school_floors += 1>>This hallway is quieter. The students are probably older, more settled. You can hear a lecture about the founding of the City, an explanation of the Rules. One of the students asks whether or not Over and Under will ever become one city again, and the rest of the class breaks out into childish titters. You touch one of the cut metal lockers that line the hallway, feel the cool metal against your fingers. They're in good shape, though the paint has worn thin in places. The combination locks are sturdy, well-made. You wonder if you could break into it. Wes has been giving you a crash course on locks, and you've been itching to try out some of what you've learned.
+
+On one wall, they've put up drawings from the third grade class, or at least, that's what the sign says. The drawings have been done with colored markers, a bright riot of color, reds and greens and yellows and blues. The drawings are good for a bunch of eight year olds. The shapes are uneven, and the sizes are distorted, but there's something sweet and bright about it all the same. They're nothing like the simple geometric shapes they made you practice over and over again at your own school, done in simple black pencil, a ruler, a protractor. Useful skills. Fun was for your free time. School was about grooming you for your future.
+
+<<if $school_floors gte 2>>
+[[Return to the ground floor.|School ground floor]]
+<<else>>
+[[Explore the basement.|School basement]]
+<<endif>>
+
+::School basement[under]
+<<set $school_floors += 1>>The basement has a cafeteria. It's empty of students at the moment, after lunch, though the tables have been cleaned and wiped down. There's a woman sitting inside by herself, reading a book. She looks up as you walk closer, and you realize that you recognize her.
+
+"Quinn," you say.
+
+She smiles. "Blaine."
+
+"It's been a while," you say. You remember her at ten, her head held up high, uncompromising and sharp, a little dangerous. You never knew her well, but she was in the same classes as you, and you remember the way she had honed excellence into a fine art. Most of the boys you knew were half in love with her and half terrified of her. The teachers liked to say that she had a bright future ahead. You could see what they meant. "I didn't expect to ever see you here."
+
+She shrugs. "Things happen," she says. "Not all of them are what we expect."
+
+It's the understatement of the year, the century. "Do you--?" you ask.
+
+"Yes, I teach here," she says. Another shrug. "It's not as bad as they used to say when we were kids."
+
+"It isn't," you agree. You weren't sure what to expect yourself, the first time you crossed the border, but Cooper was waiting for you, and Cooper said it was better, and that was-- that was enough.
+
+"And Beth is happy here; she's doing well," Quinn says, and there's another smile now, something softer, realer. You don't ask who Beth is.
+
+You think of your own apartment, cramped and messy and shared with two other people. You think about the sing-alongs after dinner, the sheet music spread out over Sam's dresser, and the way Tina always knows how to make you laugh. "I'm glad," you say. "It was good to see you again." And it's the truth. 
+
+<<if $school_floors gte 2>>
+[[Return to the ground floor.|School ground floor]]
+<<else>>
+[[Explore the upper floor.|School upper]]
+<<endif>>
+
+::School ground floor[under]
+
+You find yourself back outside the door to Mr. Schue's office, waiting.
+
+"I know it's going to be difficult," Mr. Schue says, his voice muffled through the wood. "but I think we can work together on this. You've already put things in motion."
+
+"I don't know what you want me to do," Kurt says. "My dad's in the hospital, and I haven't even started--"
+
+"People have begun to take an interest. We don't know how word got out, but we do know that it's only going to get more difficult from here. We need to start immediately. I think we both understand that the current state of things is unsustainable. It's going to harm the entire city in the long run."
+
+The response takes too long. You tap your feet against the old tile, waiting. "I'll think about it," Kurt says. "I can't make a decision like this while-- while my dad is still recovering."
+
+"Of course," Mr. Schue says. He opens the door. "I hope that we've established enough here to keep working together going forward. I'm sure your father would agree."
+
+Kurt's face is still and serious, and you think he's probably still sizing Mr. Schue up, trying to figure out his angle. "Maybe," he says. "Thanks for meeting with me, but I really need to go back to my father."
+
+He heads for the exit, his footsteps steady and sure. You follow him. It's still a nice day when you get outside. The sun is bright, and the air is cool. The school faces the street of a leafy residential neighborhood, mostly empty while everyone is at work or in school. The wind rustles the nearby trees.
+
+Kurt looks at you. "What next?" he asks.
+
+"We can bring you back across the border immediately," you say. It doesn't have to be right now, but it sounds like Kurt's anxious to get back to the hospital. "Or--" 
+
+"Okay," he says. "That first thing. Let's do that."
+
+"Sure," you say. Wes had you borrow the company car, and it's sitting in the parking lot, waiting for you.
+
+[[Leave the school behind.|Leave school]]
+
+::Leave school[under]
+
+Kurt is quiet during most of the car ride, but when you get out to walk the rest of the way, he seems to work up some sort of courage to say something else. There are places near the border where taking a car is risky, even in Under. The sound of the engine can make the guards patrolling the border more alert, and it's easier to travel by foot undetected. You leave the car hidden in a tucked away alley and walk the rest of the way through the narrow city streets.
+
+"Your name's Blaine, right?" Kurt asks. He touches your wrist, where you're still wearing the watch your father gave you when you turned twelve. You still get it a new battery every few years, and you've replaced the leather band once, after it became too worn. Kurt's skin is pampered, soft where it's touching your own. But that's not fair of you. It wasn't so long ago when your hands were like that too.
+
+"Yes," you say.
+
+He draws his hand back. "Before, when you said they were coming for me," Kurt says, "I thought you meant the government, and that it was about-- about me, specifically and not about the work."
+
+"Mr. Schue told me someone was after you. He didn't say who." You tilt your head to one side. "What do you mean, about you?"
+
+He takes a deep breath, steeling himself. "That I'm gay."
+
+"Oh," you say. "You know they won't care, right? Not as long as you're willing to--" You figured it out for yourself [[when you were fourteen|fourteen]], and you know every rationalization, every last-ditch attempt to feel normal.
+
+"Yeah," Kurt says, "but I don't want-- I didn't want to have to lie like that, not about who I am. My dad-- he understands that about me."
+
+You watch him as he seems to fold into himself, uncertain and unsure, the insecurity takes years of his face. "That's why I left," you say. "I didn't want to keep hiding."
+
+He blinks. Once. Twice. "You're--"
+
+"Yes," you say. "I am." You like the way it sounds when you say it, a simple fact. It took you so long to say it out loud, to put it out there without fear, and now it feels almost easy.
+
+His eyes go round and wide and the tiniest hint of a smile curl at the edge of his lips, surprised and pleased. You can almost imagine what he must look like when he's happy. "I don't think-- I've never met anyone like me before. No one who was willing to admit it anyway."
+
+"It's not so unusual," you say, "over here."
+
+"I'd heard that," he says, "but I hadn't--"
+
+You shrug.
+
+[[Reach the border.|Reach border]]
+
+:::fourteen
+
+You figure out that there is something wrong with you when you're fourteen. Adolescent hormones, they say. Your parents shake their heads and tut at you, but you're not like Cooper. You don't act out the way he does, by picking fights and getting into philosophical arguments about the nature of free will and human choice. You mostly keep to yourself, huddled up in your room with your textbooks, sometimes downstairs with the piano, not talking to anyone outside of school, trying to wish the world away. You get called into the guidance counselor's office more than once for lack of focus and motivation. She gives you reassuring smiles and gentle reminders that the Rules were put into place for a reason, and you sit there, staring at the wall behind her head, wondering why you couldn't just be //normal//.
+
+When they wrote the Rules, it was decided that homosexuality, much like murder and cheating on your taxes, was an undesirable inefficiency in the system. Each family unit should have one mother, one father, and two children to maintain population growth. It took a while for it to sink in that there was no place for you in the perfect system, that you were a flaw, an inefficiency to be handled.
+
+You could have married a woman, of course, smiled at her and lied every time you told her you loved her. You could have.
+
+But you didn't.
+
+<<return>>
+
+::Reach border[under]
+
+The border looms ahead, concrete walls, barbed wire. There are guards on the other side, few and far between. "Come on," you say. "We're almost there." On the Over side of things, nothing exists within 100 feet of the wall that protects the border, but on Under, the city buildings grow right up against it. You see people walking by there all the time. You even got invited to a block party right next to it, once.
+
+When you get close, Kurt looks up, taking a deep breath. The wall has taken almost a mystical property in the minds of a lot of people, and just the thought of trying to cross it is enough to keep them away. You weren't so different at first. You used to feel butterflies every time you approached the border, sweaty palms, your heart beating heavy in your chest. It took months for it to feel like an everyday occurrence for you.
+
+[[Cross the border.|Border crossing 1]]
+
+::Border crossing 1
+
+Given the time of day, most of the guards are probably manning the sole checkpoint between the two halves of the city, controlling the flow of people in and out. It's almost always a one way trip for the people involved, and so the tensions run high there. You find the particular place you like to use, where there's a gap in the wall, hidden with a sheet of painted fabric. The Warblers built this hole themselves over several years, slowly chipping away at the concrete until the gap was large enough to fit a person through it. You lift the fabric, gesturing for Kurt to go through first. He hesitates for just a moment before he ducks underneath the sheet, squeezing himself through the gap in the wall. Maybe he doesn't quite trust you yet. It wouldn't be the first time someone has questioned your motives.
+
+When you're back in Over, Kurt takes a deep breath, like he's  trying reacclimate to the air on this side of the border, like it's different somehow.
+
+The coast seems clear, but you're all too aware of how exposed you are right here. "Run," you say.
+
+<<revision border_crossing_1_run>> <<revise border_crossing_1_run "Run.">><<becomes>>You run over the dead zone, feet fast on the ground until you reach the edge of the city's buildings, until you're hidden away in their shadows. You drag Kurt into a nearby back alley so the two of you can catch your breath. He looks at you with wide, bright eyes, adrenaline still pumping through his system. His skin his flushed from the exertion.
+
+You want to ask him if he's okay, but you're interrupted before you can speak.
+
+"Is everything all right here, gentlemen?" a police officer asks, standing in the entrance to the alley. You freeze in place, heart speeding up. He's dressed in the standard uniform, blue shirt, black pants, and his arms crossed over his chest. He's looking at the two of you curiously, and you know there's only a few reasons why two men would be hiding in a back alley like this so close to the border, and none of them are good. The last time you faced down a police officer, you had an ugly bruise on your hip for a week afterwards. She didn't get your name or your face, though, and you managed to lose her in some of the sewers before you tried to cross the border again.
+
+You school your expression into something careful and polite, taking a deep breath.
+
+<<revision border_crossing_1_police>><<revise border_crossing_1_police "Answer.">><<becomes>>You're about to say something, but Kurt interrupts you. 
+
+"I had some asthma problems," Kurt says, standing up straight and smoothing out his hair. He's still breathing hard, and your own breathing has evened out. "Blaine here was kind enough to assist me. Thank you for asking, officer."
+
+The officer gives the two of you a once-over, and you make sure your posture is correct, your hair in place. You may not be a citizen of Over anymore, but you still know how to blend in. "Good to hear it," the officer says with a careful nod, and he turns around, continuing on his way.
+
+<<revision border_crossing_1_wait>><<revise border_crossing_1_wait "Wait.">><<becomes>>When the officer disappears from view, out of earshot, you turn to look at Kurt. His shoulders have relaxed, his breath smoothing out as the danger passes. "Quick thinking," you say to him.
+
+His lips twitch upwards, a hint of a smile. "Thank you. I try," he says.
+
+You walk with Kurt back toward the main streets. "Are you okay from here?" you ask. The people who came after him in the hospital are probably still after him, but the hospital was an easy guess at where to find him. They probably won't try again so soon, especially not on the street, where the police have a presence on the major intersections, watching every move. The hospitals are a much easier. That's why you extracted him from there yourself.
+
+"Yes," he says. He smiles, for real this time. It's tinged with a warmth that surprises you, an affection that feels genuine. "Thank you for this."
+
+You smile back. "Just doing my job. Good luck. I hope your father gets better."
+
+"Thanks again," he says.
+
+He turns away from you and starts walking towards the denser parts of the city. From there he can grab a bus to the hospital, see his father, linger at his bedside. You think of all the things you left behind when you packed it all up. You're one of the few people who crosses the border regularly, but you've never gone back to see your parents, to ask them if they understood--
+
+Would you trade places with Kurt to get it all back again?
+
+No.
+
+You wouldn't. You wouldn't give your choices up for anything.
+
+<<if $wesisabro>>
+[[Head back home.|Warbler meeting]]
+<<else>>
+[[Head back home.|Part 3]]
+<<endif>><<endrevision>><<endrevision>><<endrevision>>
+
+::Warbler meeting[under]
+
+"They're going to be happy with us," you say to Wes later. "Burt Hummel's son extracted straight from the hospital? It'd be a scandal if anyone found out about it." You're both in the Warblers' headquarters, a simple second floor office space with an arrangement of desks and chairs that almost no one ever uses. Well, except for Wes, who keeps the books up to date and organizes the schedules.
+
+Wes almost cracks a smile at that. Almost. "They're never happy with us," he says. Despite their physical proximity, no official communication lines exist between Over and Under. Couriers fill that need, slipping through the cracks between the two, flagrantly disregarding the Rules that have been put in place to keep the two halves of the city separate. 
+
+"That helicopter stunt didn't help," you say. You don't know exactly how much New Directions paid to get Kurt Hummel extracted, but it must have been quite a bit.
+
+Wes raises one eyebrow at you. Most of the time, he's very good at playing the respectable elder statesman of the group, but underneath it all, he's got a flair for the dramatic that rivals yours. "I felt that particular job needed to be executed efficiently," he says, stiffly. "It was our best option at the time. You know I don't take drastic actions lightly."
+
+"Of course," you say. "I never doubted you for a second, Warbler Wes."  Wes is careful -- he's one of the most careful people you know -- and you wonder why-- what makes Kurt so special.
+
+"See that you don't again, Warbler Blaine," he says, and this time there's a smile. A small one, but it's there.
+
+It's getting late. The sun has dipped below the skyline, and you're already exhausted from today's excitement. You should get back home. Get some sleep before you pick up another job tomorrow. Wes gives your shoulder a squeeze before you go.
+
+[[Go back to your apartment. Sleep.|Part 3]]
+
+::Part 3[bookmark]
+
+A few weeks pass, and then it's just another day, another job. As a courier, you work for clients on both sides of the border, even though the Over government frowns upon it. 
+
+It's not so weird to find yourself ringing the doorbell of one house, no different than any other house on the street. It's your last job of the evening. An extraction, Wes said. Client was anonymous, wanted to meet at this location to discuss details. It's a quiet residential neighborhood, rows and rows of identical white houses, identical mailboxes, identical driveways. Before you lived in Under, the conformity never struck you as particularly odd, but now it seems to scream with how unnatural it is, how regimented and how forced.
+
+When the door opens, Kurt Hummel is standing there. You blink a few times. It's been a while since that incident with the hospital and the extraction and Mr. Schue, and you weren't sure you'd ever see him again. He smiles when he sees you, warm and delighted, showing off the slightest hint of teeth. "Hello," he says. "Come on in."
+
+[[Step inside.|Kurt's house]]
+
+::Kurt's house
+
+"Hi," you say as you step inside. "How's your father doing?" Inside, the house is immaculate, neat, much like the one you grew up in yourself, but it feels subtly different somehow. There are photographs with easy smiles and the wood of the bannister looks worn in and smooth. A vase full of fresh summer flowers sits in the foyer, bright and welcoming, and the air still smells faintly of dinner, something meaty and rich.
+
+The smile on Kurt's face softens. "Better," he says. "It looks like he'll make a full recovery. He's even told me to stop hovering, because I was apparently--" He bites his lip. "Thanks for asking." You wonder how close he is to his father. There have been so many times when you've been tempted to go back to visit your parents, but you're not sure if they'd want-- if you could go back home and see them. You remember how they were when Cooper left, quiet and stoic and carrying on.
+
+"I'm glad," you say. "You didn't get in trouble for--"
+
+"No," he says. "They never managed to catch the two guys in the hospital, and they don't know it was me that they were-- that they were looking for."
+
+"That's good," you say.
+
+He watches you, steady and focused. "I wasn't sure it'd be-- that you'd be the one to show up today. I wanted to thank you for..." He trails off and starts to fidget, shifting from foot to foot.
+
+"You're welcome." You don't know what else to say to that, so the two of you stand there for a few seconds, trying to pick up a conversational thread. "So," you finally manage to get out, clearing your throat. "Wes mentioned that you wanted an extraction? Who's the lucky person?"
+
+"Me," Kurt says.
+
+That wasn't what you were expecting, especially with how stressful his last extraction was. You realize that he has a bag tucked over one shoulder, small, light, built for traveling. "Oh," you say. "Are you sure? It's not exactly--"
+
+He sets his jaw. "Yes," he says. "This is something I need to do." He stares you right in the eye, daring you to contradict him. You get the feeling like people have doubted him in the past, and that they've regretted it afterwards.
+
+You say, "We can do that." He probably just needs to talk to Mr. Schue again about whatever mysterious project they're working on together face-to-face. There's only so much you can do when it can take a few days to get a message across the border.
+
+"Could I... I really want-- I need to know what it's like over there. It's important. Would you be able to show it to me?" he asks. He says it like he's expecting you to say no.
+
+Maybe you should say no. You don't really have time to babysit someone new around Under, where wandering into the wrong place at the wrong time is the fastest way to get yourself killed. 
+
+But you do remember what it was like, the first time you ventured over the border, how big and intense and scary it all was. Kurt is-- Kurt reminds you of yourself, lonely and trying to find somewhere, anywhere you could possibly fit. You could make things easier for him than it ever was for you. You have to work tomorrow, but after that, you have a few days free.
+
+"Sure," you say.
+
+[[Hold out a hand. Let him take it.|Across the border]]
+
+::Across the border
+
+You don't cross through the same hole in the wall that you did last time. There are a few different ways across the border, and you have to be careful about re-using them. Too much activity could draw suspicion, and it's always good to have more than one escape route. 
+
+The guards are always more lax about people travelling in this direction, but that doesn't mean you can slack off. You've still got another hour before most of the standard rotation guards move to cover the checkpoint, but you'll need to be careful as you approach the dead zone.
+
+[[Call for some backup.|Call backup]]
+
+::Call backup
+
+David's in the area, willing to help you out. It's always a little bit more difficult when you have to get other people over the border as well. You buzz him on the radio, asking for some help distracting the guards, and he laughs as he agrees.
+
+There's this other place along the wall where the barbed wire has grown loose and thin, where you can climb up the wall and crawl underneath the wire without getting some ugly scratches (which has happened to you plenty of times over the last few years). There are two guards in visual range. You'll have to wait for David to do his thing.
+ 
+[[Wait.|Border crossing 2]]
+
+::Border crossing 2
+
+You can see the moment they get the alert, both of them reaching for their own radios to acknowledge the request for backup before they run off. David must be leading them on quite a chase.
+
+"Let's go," you say to Kurt. The two of you run flat out towards the wall. You reach it first, using your momentum to run yourself up the side until you can get a good grip on the top edge of the wall. You pull yourself up by your fingers and push yourself forward, squeezing yourself underneath the barbed wire. Once you're through, you twist your body so you land feet first as you jump down.
+
+You land with a heavy thud, and even with your knees bending to absorb the impact, you can feel it in your bones. But you don't dwell on it, you need to get Kurt across before the guards come back.
+
+[[Throw a rope ladder over.|Rope ladder]]
+
+::Rope ladder[under]
+
+You pull a rope ladder from its hiding place, throwing it over the wall and letting Kurt scramble up and over himself. Once he climbs over, you pull the ladder back and stash it away, careful to hide it well. No one on this side of the wall cares about people trying to cross the border, but they will steal a perfectly decent rope ladder if it's just lying around.
+
+This part of Under is not quite as nice as the one the school is in. There's a corporation that owns this particular block and doesn't particularly care about upkeep, which means that it's a little cheap and rundown, squat brick buildings and bumpy streets. The sidewalks are overgrown with weeds, and graffiti lingers on the various walls. There's nothing much to steal, so the gangs don't run through as often.
+
+Kurt's eyes are wide and startled as he follows you. "Wow," he says.
+
+You grab his hand so he won't wander off by himself. "Come on," you say. "I know a shortcut."
+
+[[Take the shortcut.|The shortcut]]
+
+::The shortcut[under]
+The shortcut you usually take goes over a row of buildings on Central Street, but Kurt probably can't do that climb without the practice you have, so you end up sneaking into one of the friendlier buildings instead, one that doesn't mind that you're coming in the front door and leaving out the back.
+
+Mrs. Richardson smiles at you as you pass by her coming out of the elevator, her work bag slung over one shoulder. "Good morning, dear," she says. "Is this your newest young man?" She pinches you on your arm the way she always does. She has three daughters, and you think she enjoys treating you like the son she never had.
+
+Kurt blushes, his cheeks going a blotchy pink. That probably has to do with how easily she asks it, like the fact that you date men is casual and unremarkable. "No," you say, fingers tightening around Kurt's hand, "Kurt's just a friend." She tends to be a bit nosy and gossipy and you don't want to give her any ideas.
+
+"Hi," Kurt says, giving her a tiny wave himself.
+
+She smiles, indulgent. "It's a pleasure to meet you, Kurt." She shakes his hand. "You treat him right, you hear?" she whispers, pretending like you can't hear every word she's saying. "I didn't like the look of that last one very much. Greg, was it? You seem much nicer."
+
+Kurt grins, playing into the joke. "Of course I'll take care of him," he says, shooting you an odd look.
+
+That's really enough of that. If you don't get out of here, she'll be trying to get Kurt's entire life story out of him before he even realizes what's going on. "It was great to see you again, Mrs. Richardson," you say.
+
+[[Tug Kurt out the back door.|Go to your apartment]]
+
+::Go to your apartment[under]
+
+By the time you get back to your apartment, Kurt looks a little overwhelmed. Along the way, you ran into a roving band of bikers (not really out for any trouble, just being loud and rambunctious), a couple getting into a vicious argument on the street (there may have been some throwing of household appliances involved), and at least one man walking down the street without his shirt on. Summer is in full swing, and the heat seems to be soaked into the streets, rising up from the pavement.
+
+The house you live in is an old wooden thing, built before the split, along a row of identically-built old houses. Once, they were probably all painted the same shade of white and had the same neatly trimmed lawns, and now the street is a riot of color and lumpy new balconies and front steps, gardens overflowing with summer vegetables and flowers. You nod to Puck, your security guy at his station, as you walk by. The area's well enough to afford a small security detail. It's a paltry thing, only a few guys and a few guns, but it's enough to make you less interesting to raid than some of the other neighborhoods, and that's really enough.
+
+Some kids are playing kickball down the street, shouting at each other and laughing. A couple sits on their porch, drinking ice water, waving their paper fans at you as you walk by. A few of the other kids race their bikes on the sidewalks, whooping and hollering as they ride down the street.
+
+Your own apartment is on the second floor of your building, which was converted long ago from its original one-family layout. The transition was a little awkward, so the stairs up to your own place are small and cramped, and the floorboards creak under your feet.
+
+"I think my roommates are home," you say. "They're pretty cool. Just don't believe anything they tell you about me."
+
+Kurt laughs, and the sound of it echos up and down the narrow staircase.
+
+[[Open the front door.|Your apartment]]
+
+::Your apartment[under]
+
+The front door opens up into the common living space, a couch, two armchairs, a TV hooked up to an antenna and a VCR, a ratty old rug that came with the place when you moved in.
+
+Sam's door down the hall is cracked open and the light is on. You can hear the faintest sounds of music.
+
+Tina's room is further down. You can hear her laughing through the door. 
+
+Your own room is shadowed, the lights off, the door firmly closed.
+
+<<if !$samsroom>>
+[[Visit Sam's room|Sam's room]]
+<<endif>>
+<<if !$tinasroom>>
+[[Visit Tina's room|Tina's room]]
+<<endif>>
+<<if $samsroom and $tinasroom>>
+[[Visit your own room|Your room]]
+<<endif>>
+
+::Sam's room[under]
+<<set $samsroom = true>> Sam's tuning his guitar while sitting on his bed when you step inside. He waves at you, breaking out into a warm grin.
+
+"Hey, man. Listen to the rad jam I've been working on." He strums you a few chords. They're nice, though they do sound similar to that guy you heard last week at Callbacks, the one who was really into bongos. You're not sure if Sam liked the performance more for the guy's actual music or for the excuse to use bongos on his newest song.
+
+"Nice," you say. "This is Kurt. He's going to be staying with us for a while. Kurt, this is Sam, my roommate, amateur songwriter, and all around good guy."
+
+Kurt stares at him and says, "You write music?"
+
+Sam grew up in Under, and he doesn't know what it's like back in Over where you learn about Mozart and Beethoven and sometimes even how to play them, but the idea of letting anyone else attempt to match their greatness is frowned upon. It wasn't considered a productive use of your time. "Yeah," Sam says. "Doesn't everybody?" His face is furrowed in confusion.
+
+"I--" Kurt starts. He fidgets, biting his lower lip.
+
+"Kurt's not really from around here," you say. "It's all kind of new to him."
+
+"Oh," Sam says. "That's cool." You met him after you first crossed the border, and he's used to the confusion that comes from being new to it all. You'd been living in Cooper's apartment at the time, trying not to figure out what you were going to do with your life now that you had left your old one behind, and Sam had been the first person besides Cooper to really try to befriend you.
+
+<<if !$tinasroom>>
+"Is Tina in her room?" you ask. "I think I heard her in there."
+
+"Yeah," Sam says. "Mike's been rehearsing here for his dance-off, because the floors are thinner over at his place."
+
+It makes you realize that you have barely done much more than sleep here for the past week or so. You can't even remember what you ate for dinner yesterday. When you first moved in, the three of you used to cook dinner together, squeezed together in the converted kitchen and talking about your day. Now you get maybe a few minutes to see each other before you go to bed.
+<<else>>
+"Are you going to the Battle of the Bands tomorrow night?" you ask him.
+
+Sam shrugs. "Can't. Some of the other guys at work are doing something." Sam spends most of his nights going out with you to music clubs or perfecting impressions of the Over politicians he sees on TV (you're close enough to the border that the antenna picks up the signals), but sometimes he goes out for drinks with his work buddies instead. He does some construction work for one of the newer companies that's trying to make new inroads into the city, the Rhodes Corporation, and he needs to make good with his boss.
+<<endif>>
+
+Kurt clears his throat. "I like your room. The colors," he says with a high, breathy laugh, "they're different." The former tenants of the apartment painted the walls in dark greens and purples long before you moved in. Sam ended up with this particular room because Tina thought it looked gross and you didn't mind having a room facing the street.
+
+"Thanks. Can't really take credit for it, but, you know, I like it."
+
+"Oh," Kurt says, shoulders pulled in tight and uncomfortable, and you don't like it, because this is your home. Kurt shouldn't be uncomfortable here. "I feel like a moron all the time."
+
+Sam laughs. "Dude, you should have seen Blaine when he first got here. It was all like-- 'hey, what's a toaster?' And like--"
+
+"I never said that," you mutter.
+
+"-- 'what's up with that dude with all the guns? Is he going to //shoot// somebody?' Remember that time when you--"
+
+"Sorry," you say, "but Kurt and I are leaving now."
+
+You grab Kurt's arm and tug him towards the door so Sam can't keep telling him more lies.
+
+But not before you hear Kurt whisper, "You are really going to have to tell me more later."
+
+[[Leave.|Your apartment]]
+
+::Tina's room[under]
+<<set $tinasroom=true>>You knock once on the door before pushing your way inside. Tina is sitting on her bed, knees up next to her chest, and Mike is on the spare patch of floor doing some sort of twisting thing with his legs that looks like it shouldn't be physically possible.
+
+"Blaine!" she shouts, jumping off the bed and pulling you into a hug. "You've been so busy lately, we haven't seen you in like a week, jerk."
+
+Mike punches your shoulder, friendly as always. "Good to see you, man," he says.
+
+Kurt lurks by the doorway as if he doesn't quite know what do with himself. "Come on," you say, reaching out to tug him closer by the sleeve of his shirt.
+
+"Who is this?" Tina asks. She smacks your arm, the way she does when she thinks you've been holding out on her.
+
+"I'm Kurt," Kurt says. "I'm-- I'm new here." He shakes both their hands. Mike gives him a slap on the back.
+
+Tina smiles. "New, huh? I'm Tina, and this is Mike. I hope Blaine's been a good host. He can sometimes forget his manners."
+
+"Hey," you say. That isn't true at all.
+
+Tina rolls her eyes at you before she turns back to Kurt. "Are you coming to the Battle of the Bands tomorrow night?"
+
+Kurt straightens his back and glances over at you. "Um," he says. "Sure, yes, I'd love that."
+
+"Wait, that's tomorrow?" you say.
+
+Tina rolls her eyes. "Yes, silly. It's tomorrow." You promised Mercedes and Rachel last week that you'd show up to cheer their band, Divalicious, on, and you do keep your promises. The last time you had to back out of watching the perform, Rachel left you a ten page letter in your mailbox explaining exactly why you need to work on scheduling your commitments better and how it is of the utmost importance to support friends with their struggling music careers.
+
+"Uh, what //is// a Battle of the Bands?" Kurt asks. "They're not going to get into fistfights onstage, are they?"
+
+"It's like a long concert with a lot of bands, but with voting at the end," Mike explains.
+
+"Oh," Kurt says. He smiles, brighter, more comfortable with himself. "I'm looking forward to it, then."
+
+"Good," she says. "Lucky for you, Rachel has the extra ticket she got for Brody before they broke up. It's all yours as long as you promise to keep Blaine from moping in the corner by himself."
+
+"I don't //mope//--" you say, crossing your arms across your chest.
+
+"I'd be happy to," Kurt says. He nudges your shoulder with his own. "No moping."
+
+"You totally mope," Tina says. "Remember that time I caught you crying over //Gone with the Wind//? Sam had to put you through a Charlie Chaplin marathon right afterwards to cheer you up."
+
+"That really doesn't count," you say.
+
+"Mhm," Tina says, not sounding convinced at all. "Well, it was very nice to meet you, Kurt, but Mike and I should go back to rehearsing."
+
+"Uh, sure," Mike says, eyebrows going up, but he still stretches his arms out and bounces on his toes like he's warming up.
+
+You mouth a 'thank you' to Tina as you tug Kurt out the door.
+
+[[Leave.|Your apartment]]
+
+::Your room[under]
+
+Your room is silent and waiting. It's clean, spare. You've never quite managed to embrace the chaos of a messy room, not even after you were allowed to. All that's left is what you can't get rid of, the things that linger on long after they should. This used to be one of the two children's bedrooms in the house. Sam got the other one, and Tina got the master bedroom. 
+
+You like your room. There's a closet in one corner, an old wooden dresser in another with a mirror sitting on top, a desk for reading and writing when you have the time.
+
+"So those were my roommates," you say.
+
+Kurt's expression is soft. "I liked them," he says, a warmth threading through his voice.
+
+"And this is my room." You feel silly, wanting Kurt to, well, wanting Kurt to like it, but there's something about Kurt that makes you feel awkward and ungainly, like you need to impress him. You get the impression that he could do anything he sets his mind to through sheer force of will, and you, you pretty much do whatever happens to come your way.
+
+Kurt peers around. He leans forward and hesitates at a picture you have of you and Cooper sitting on your nightstand, aged [[five and fifteen]] respectively. Cooper has a hand resting on the top of your gelled head, and you're wearing mis-matched smiles, yours stiff, closed-lipped, Cooper's wide and grinning. You remember taking it off your parents' dresser before you left, shoving it into your luggage and zipping it closed.
+
+"That's my older brother and me," you say.
+
+Kurt runs his fingers along the the frame, glancing at you like he's trying to put all the pieces back in place. "Do you miss him? I-- If I left, my brother, well, step-brother, is--"
+
+"I see him once a week," you say. "His play is about to start next month, and he won't shut up about it. I'm supposed to go to his dress rehearsal in a few days." 
+
+"Oh," Kurt says. His smile gets the slightest bit wider, a little affection.
+
+"He's kind of an asshole, but he's still--" You don't really know how to fill in the rest of that sentence, how to really capture Cooper's //Cooperness//.
+
+"-- still family." Kurt finishes for you.
+
+"Yeah," you say, and a warm familiar feeling spreads through your chest.
+<<if $fifteen and $baseball>>
+<<display "room baseball">>
+<<else>>
+<<if $fifteen>>
+<<display_scroll "room baseball">>
+<<endif>><<endif>>
+
+::five and fifteen
+<<set $fifteen = true>>When you're five, you're normal. You play nicely with the other kids and the other kids play nicely with you. Everyone is good at following the rules at that age. You've been trained to be.
+
+Cooper is still around, still in high school. He isn't quite normal, not the way people want him to be, always prone to fits of dramatics that annoy his teachers and frustrate the other students. He watches old movies with you in your living room, and they're always fascinating, a window into a different world. Cooper likes the intensity of the emotions, the extravagance of the costumes.
+
+"They're all so //boring// at school, squirt," he says to you when the house is quiet, Mom and Dad still at work. "It doesn't even bother them that their whole lives have been planned out for them already."
+
+"You shouldn't get in trouble," you say, hugging your knees to your chest. "If you do, you'll get kicked out."
+
+There are always rumors about what it's like in Under, whispered into ears, murmured under breaths. The other children say that it's nothing like a normal place, like it is on this side of the wall, that it's dirty and ugly and wild. Trash everywhere, violence on every street corner, roving gangs who murder and steal, all the chaos that the Rules are supposed to prevent. It sounds terrifying, of course it sounds terrifying, and if Cooper goes there, he can't come back.
+
+"You're real funny, Blainers," Cooper says, rubbing your hair, messing up the gel. "You know they just say that to [[scare you|Your room]], right?"
+
+::room baseball
+----
+Kurt accidentally kicks over your duffel bag as he's making his way around the tiny space, and [[your old baseball]] spills out. The leather has been worn smooth and shining, and the original whites and reds have been dulled to a pale brown. Sometimes you and Sam play pickup games with some of the other guys in the nearby park. The ground there is mostly dust from repeated use, but every few years or so, the entire neighborhood pitches in some money to pay for more seed, and Mr. Henrricks down the street always puts in the time to water it and make sure it grows back out.
+
+"Finn -- my step-brother -- was always more of the sports person in the family," Kurt says as he helps you pack it all in again. "My dad would sit with me during my tea parties."
+
+"You had tea parties?" you ask.
+
+Kurt tilts his head, eyes fixed on some point on the ceiling, lost in thought. "I liked the idea of hosting the most amazing social events of the season," he said. "It seemed like a lot more fun than all that running around and grunting."
+
+You find yourself laughing at that, the image of a tiny Kurt Hummel, wearing the same intense look on his face, sorting through guest lists and perfecting his table arrangements. "I'm sure you were adorable," you say.
+
+Kurt snorts. "I must have looked so silly, but my dad indulged me." His voice has gone softer, distant, lost in the memory.
+
+"He sounds like a great dad," you say.
+
+"The best," Kurt says, and he sounds so genuine, you have no idea what to say to that.
+<<if $baseball and $bowtie>>
+<<display "room bow ties">>
+<<else>>
+<<if $baseball>>
+<<display_scroll "room bow ties">>
+<<endif>><<endif>>
+
+::your old baseball
+<<set $baseball = true>>You did play catch with your dad growing up. Sunny days in the backyard with a glove and the shiny new baseball. Grass stains on your knees and dirt wedged underneath your fingernails. Your dad patting your head, giving you warm hugs afterwards. 
+
+There was this boy down the street, Jared, who was bigger and stronger than everyone else. He was the sort of boy who was the best at every sport, and his teeth were very white when he smiled. Your heart turned over in your chest every time he looked at you or said your name or noticed that [[you even exist|Your room]].
+
+When you first crossed the border, sports were the only way you and Sam understood each other. He was a friend of a friend of Cooper's, someone else your age, different in so many ways from the kids you grew up with, louder, rougher, more open to everything, anger, happiness, annoyance, fear. The first time you met him, he tried to bump fists with you, much to your confusion.
+
+A bunch of Cooper's friends and co-workers  used to play pickup touch football games on the patch of pavement near the theater that used to be a parking lot, now with weeds poking up in a makeshift field. It was the most fun on sunny days after work when the sun was low in the sky, all of you running out whatever energy you had left at the end of the day. It wasn't exactly the safest hobby in the world, but it felt good for you to have something to do that was more than just odd jobs around the neighborhood, drifting, just keeping afloat. Sam was one of the better players, strong and fast. The two of you ended up talking plays, strategy together in your free time. When you found out that he played the guitar, the whole world of music opened up as well.
+
+And that's, well, that's how you met everyone else, Tina and Mike and Rachel and Mercedes. Tina and Mike were already pretty good friends with Sam, and Mercedes had been dating him at the time. Rachel has never found herself in a social situation that she didn't want to insert herself into, so of course you met her when she tagged along. They were amused by your history as a former citizen of Over, but they accepted you easily, even if you didn't know half the things they talked about or when you said something stupid about the ever shifting not-politics of Under. For the first time in your life, you had friends, real friends, people who knew you and all your quirks and still thought-- still thought you were worth keeping around. 
+
+::room bow ties 
+----
+"Is it okay if I--" Kurt runs his fingers along the surface of your dresser. You just dusted it yesterday, so it shouldn't be too dirty. It's a little cluttered, though, filled up with the knick knacks you've collected over the past few years. There's [[a bow tie|bow tie]] hanging off the mirror. You haven't worn it in years, but you never seem to get rid of it.
+
+Kurt's eyes linger on the closed door to your closet. "I love digging through people's closets. It's like you get to peek into all the things they're trying to hide away."
+
+"Well, there's not much to hide in there anyway. I-- I didn't pack all that much before I crossed the border."
+
+Kurt sways for a moment on his feet, like he's not sure what to do next. "I'm sorry," he says, his voice soft.
+
+You find yourself shrugging. "Don't be." You knew what you were doing when you took that last step. You didn't bring anything but what you needed. "It's better this way."
+
+"It shouldn't be," Kurt says. His voice is quiet, and there's a steel there you didn't expect.
+
+"What are you talking about?" you ask, because you definitely aren't talking about clothes anymore.
+
+"It shouldn't be this way. You shouldn't-- we shouldn't be forced to give up everything just so we can be who we are. Something has to give," he says. His back has gone straighter, his voice sharper, his eyes clearer. He's angry, but not at you. There's a power to his anger, strong enough that you feel it, that it rattles you. He's so sure of himself, and you're still-- you're still figuring things out for yourself.
+
+"That's the way it's always been," you say, your voice gone soft and hoarse. The Rules are immutable, everlasting. That's what they taught you. That's what you've learned.
+
+"It shouldn't be," Kurt repeats.
+
+You don't really know what else to say, so open the closet door for him and gesture for him to take a look. His shoulder brushes yours, your bodies crowded together so he can peer inside. You realize very suddenly, how warm he is, a physical presence in the narrow space.
+<<if $bowtie and $sneakers>>
+<<display  "room warblers sneakers">>
+<<else>>
+<<if $bowtie>>
+<<display_scroll "room warblers sneakers">>
+<<endif>><<endif>>
+
+::bow tie
+<<set $bowtie = true>>When you were still living in Over, you liked to dress up, gel down your hair, make yourself neat and presentable. Top it off with a bowtie, an incongruous burst of color against your throat, small enough to be within regulations. Something the mothers could coo over and tell you how cute you were, all dressed up like that.
+
+Your wardrobe changed after crossing the border, not just out of self-preservation -- broadcasting wealth isn't always the best idea in some neighborhoods -- but also a switch to things that are more functional than decorative. Your job requires you to dodge angry cops and annoyed security officers at a moment's notice, to make your way over roofs and under fences. It also requires you to fit into Over, to look like you belong there without standing out.
+
+You're still getting used to it. Sam has taught you how to patch up smaller tears in your clothing, especially at the seams, and you find you like the feel of [[old shirts|Your room]], soft and worn and comfortable. But you still miss the bow ties, the familiarity of tying one around your neck, the way it made you feel-- put together, a whole picture. It was easier, then, to know who you were.
+
+::room warblers sneakers 
+----
+The first thing that Kurt notices in your closet is your old pair of sneakers, neatly lined up along the wall. He picks them up, turns them over in his hands. The soles have been worn down, and there are holes in the leather from where you caught them in a fence once. The colors have faded, hidden underneath a layer of dirt. You haven't managed to get rid of them yet, and you're not even sure you want to.
+
+The Warblers gave them to you when you first became one of them after finishing your training. They paint the new sneakers by hand, just to show they mean business, dark navy with red accents, group colors. [[Wes was the one|meeting Wes]] who handed them to you, a formal welcome to the team.
+
+Kurt puts the sneakers back down before reaches up to push his way through your hangers full of old cardigans, t-shirts, jeans, in dark blues, whites, grays. You have exactly one nice jacket and pair of pants, packed away in your things before you left. "You need more colors in your wardrobe," he says. "Since you actually get to wear them and everything." He sounds wistful, and you think about how long it has been for him, yearning for something more.
+
+"Hey," you say, nudging Kurt's shoulder with your own. "It'll be-- you'll figure it out." You don't know what else to say here. Any sort of hope you could give to him seems hollow, false.
+
+Kurt shakes his head, laughing softly to himself. There's a new fondness on his face, and the thud in your heart in your chest feels startling and unfamiliar. "You're-- you're not what I expected," he says. "Most people, they don't, they don't-- //see// things, not even when they're right in front of their face. Do you know what I mean?"
+
+"Yeah," you say, thinking of your parents, of your classmates, of your teachers. "I know."
+<<if $sneakers and $music>>
+<<display "room sheet music">>
+<<else>>
+<<if $sneakers>>
+<<display_scroll "room sheet music">>
+<<endif>><<endif>>
+
+::meeting Wes
+<<set $sneakers = true>>It wasn't until you graduated high school, about to start college, that you get the note from Cooper. Wes was the one who delivered it -- not that you knew him at the time -- dropping in on your house one late afternoon while your parents were at work. He was the first courier you'd ever met, and he was different than you expected.
+
+His hair was cut short, and his pants and shirt were regulation-standard, but there was something about him that felt ever so subtly off-- a piece of him that was out of sync with the world around him. Maybe it was the way he was always watching his surroundings, keeping a careful eye out for-- something. Most people in Over don't watch their backs like that, content to live by the Rules and trust that everyone around them was living by the Rules, too.
+
+"Are you by any chance Blaine Anderson?" he asked.
+
+"Uh, yes," you said.
+
+"Your brother asked me to deliver this to you." He handed over the envelope, white and flimsy, thin. Cooper must not have had much to say. You hadn't seen or heard from him since he left for University when you were eight, and you weren't sure why he was sending you anything now.
+
+"Thank you," you said, fingers curling around the rough paper, smiling, uncomfortable, confused.
+
+The answering smile he gave you was stiff, a little formal, but there was something genuine about it all the same. "It's been a pleasure to do business with you, sir," he said.
+
+The letter read:
+> Hey little brother,
+>
+> I know you probably have spent years crying yourself to sleep over how much you've missed me, but it's okay! I've missed you, too. You may be wondering why it took me so long to get this letter to you. I would be wondering the same thing in your situation. I could make up something about being held hostage in a cave this entire time, but the truth is, I was waiting for you to be old enough to hear what I have to say.
+>
+> We've had our differences over the years (jeez, was that really nine years back?), but I know that we were always more alike than not. If you're still anything like that little tyke who wouldn't stop singing and dancing around the house, then I know you're starting to feel it the way I did. You know what I'm talking about, don't you? That itch under your skin, that need to get //out//. 
+>
+> There is a way out, squirt. (Can I still call you squirt? Who am I joking, I'll always be able to call you squirt.) Forget what they teach you in school. It doesn't have to be like that. I've seen it. Hell, I've even lived it.
+>
+> It's not as bad on this side of the border as you've been led you to believe. Sure, it's no walk in the park, but it's //real// in a way that you've never seen before. So consider this [[an invitation|Your room]]. If you need a place to stay instead of going off to University (you are going to University this year, aren't you?), I've got a spare couch.
+>
+> Cooper
+
+::room sheet music
+----
+Kurt's extended tour of your room moves over to your desk. It's less of a desk, the kind you saw in your father's study, than a table that was left behind by the previous occupants, There are strange stains on the surface, dirt and dust collecting where the legs meet the wall.
+
+You've left a stack of sheet music there. Sometimes, when you have a free minute or two to yourself, you'll prop up the latest thing that Tina's picked up and hum a few bars to yourself, [[tap out imaginary chords|piano]] on the old wood. Tina works for an importer, and she has first pick on any new pop music that comes through her shop. You and Sam take advantage of this as much as possible, and your apartment can sometimes end up covered with the white sheets until you feel obligated to pick up after them.
+
+"I've never heard this one," Kurt says. He lifts the music and starts singing a few bars of it. There's something about his voice that's unexpected, clear and sweet.
+
+"I'd be more surprised if you did," you say.
+
+His smile is wry, a little amused, eyebrows raised, and you wonder whether music was for him what it was for you, a chance express yourself, to escape. You never quite got the hang of words, the way they can be uncomfortable, difficult to fit together. Kurt says, "I can't say I know what a Wonderwall is, though."
+
+"I'm not sure anyone is," you say.
+
+"Music, though," he says. "I always-- It was what kept me sane for a while, after I figured out that I was--" He glances over at you, and you can almost see what he must have looked like then, raw and lonely and afraid.
+
+"Me too," you say, because you understand, you do.
+<<if $music>>
+<<display_scroll "end room">>
+<<endif>>
+
+::piano
+<<set $music=true>>The piano is Cooper's before it's ever yours. He's the one whose feet reach the pedals, whose fingers are long enough to play the tricky chords. It sits in the back of the living room, the wood of it polished to a shine.
+
+You spend years listening to him as he bangs out Chopin and Hayden, sometimes awkwardly, sometimes beautifully, in front of guests, by himself when he's practicing, when his friends are over. You try it yourself, your fingers still clumsy and uncertain, learning the notes in his footsteps. Cooper thinks it's cute, encourages you when you're having trouble, teaches you his favorite songs.
+
+When Cooper leaves for University, the piano is [[all yours|Your room]]. You play by yourself in the quiet of your house while your parents are at work, and your fingers get longer, surer, on the keys.
+
+School is-- school is fine. Bullying isn't allowed, not according to the Rules, but there are other ways to show you that you aren't wanted, that you don't belong. There's something about you that sets you apart, makes you different, and they can see it. When you get through the icy stares, the cool politeness of the hallways at school, the chance to sit at the piano is the best part of your day, where it's just you and the music and the feelings that you don't know how to-- that you can't express in any other way.
+
+::end room
+----
+It's late now, the last lingering bit of sun turning the sky a brilliant orange. You turn on a light and pull down the shades, careful not to let your room be visible to anyone on the street. While you're both getting ready to sleep for the night, you pull a spare sleeping bag out of your closet and unroll it at the foot of your bed. You had to get one while you were still staying at Cooper's apartment because he always had at least one of his drunk actor friends sleeping on his couch.
+
+"Is this okay?" you ask.
+
+"Yes, thank you, it's great," Kurt says. He's changed into his pajamas, and he looks relaxed, like he's actually starting to feel comfortable. He takes the second pillow you offer him and tucks himself in, rolling around for a bit to see if he's comfortable. The air still retains some of its sticky heat from earlier today, though it's better than it was when the sun was still out.
+
+There's a quiet moment when you settle in for the night, and you listen to the sounds of his breathing, so loud in the quiet of the room.
+
+"Blaine?" Kurt asks. His voice is a little hoarse. 
+
+You're about to drift off, your eyelids heavy. "Mmm?" you say.
+
+"Never mind," he says.
+
+[[Sleep.|Part 4]]
+
+::Part 4[bookmark under]
+
+The next day, you have to go to work, and Kurt wants to go back to the school to talk over things with Mr. Schuester. There's still a lot to work out between the two of them, apparently, and Kurt wants to make sure that things are sorted before he goes back over the border.
+
+"Are you sure you're going to be okay?" you ask him. "I could ask Wes--"
+
+He rolls his eyes. "No, you should go. I'll be fine. Mr. Schue is sending a car and everything." He's already put himself together for the day, showered, gotten dressed, teased his hair up, and you almost miss the Kurt you saw first this morning, sleep-rumpled and touchable, pillow creases on his cheeks and a drowsy softness to his eyes.
+
+You linger in the doorway, "Okay, but still, call Wes if you need anything. I'll see you tonight, then?"
+
+The smile he gives you is sweet and bright. "I can't wait for it," he says, and there's a nervous flutter to his fingers. "A real battle of the bands. How exciting."
+
+You find yourself grinning back. "Eight PM. I'll see you there."
+
+A car honks its horn outside your apartment. When you peek outside your window, you can see a car waiting. Two more short honks follow, and Kurt jumps to his feet.  "That's me," he says.
+
+You watch as he gets in the car, as the car drives away. You take a deep breath. Kurt's out of your hands now, so it makes no sense to keep-- to //fret// over him. You pat your pocket to make sure your keys are still there. You say bye to Tina before you leave.
+
+[[Step outside. Breathe in.|Work]]
+
+::Work[under]
+
+Work is much as the same as usual, though you manage to collect quite a bit of gossip. There's been rumbles of corporate movement going on by the docks. No one has any information on what they're planning, exactly. Clarington Industries plays their cards close to their chests. Some of the corporations that have taken up operations in Under are playing a long game, seeing how much they can wring out this half of the city before they own it entirely.
+
+Something's shifting in the air, getting antsy. You wonder if this has to do with Kurt's father, the mysterious project that Mr. Schue wants to collaborate on. Maybe it's better if you don't ask.
+
+You make it to the Battle of the Bands with five minutes to spare. The bar is already packed, a riot of sound and bodies. It's in the most overgrown district of Under, where the buildings have come up right on top of each other, growing tall and tightly clustered, leaving behind dirty, narrow streets. The air in the bar already smells of cigarettes, and the floor is sticky underneath your feet. Tina and Mike have already staked out your usual table, and Kurt sits with them, smiling, though his shoulders are a little tense, his eyes wide as he sneaks glances around the room. You remember how overwhelming everything was the first time you visited anything this chaotic, this wild. You survived it. Kurt will, too.
+
+Kurt brightens when he sees you, relieved to see a familiar face.
+
+"Hey guys," you say, giving Kurt a squeeze on the shoulder.
+
+Mike fistbumps you with a sweet smile on his face. Tina gives you a one-armed hug.
+
+"So, how was your day?" you say, pitching your voice loud enough to be heard over the ambient noise.
+
+Mike shrugs. Tina rolls her eyes in a way that means that work was awful.
+
+"It was good," Kurt says, smile getting even wider. "Even better now. The anticipation is killing me here."
+
+"Great," you say, because you want Kurt to enjoy this. You want to share this with him, show him that yes, it can-- it does get better than what he has now.
+
+He looks like he wants to say more, but the announcer interrupts him.
+
+She turns on the microphone, causing a wave of feedback which gets a shout of displeasure from the people in the crowd. Eventually, she wrangles it into submission and they quiet down. "Wow. This is some awesome turnout," she says. "I hope you're all here to listen to some fantastic bands." A cheer this time. "Well, I know you don't want to keep listening to me talk. Allow me to introduce our first band. They've made quite a splash this last month, and we're all eager to hear more. So please put your hands together and give a warm welcome to Divalicious!"
+
+The lights in the bar area dim; the stage lights come on.
+
+[[Listen.|Performance]]
+
+::Performance[under]
+
+music has always been this
+<<text_fade "this //thing// that crawls inside the empty spaces">>\
+<<text_fade "that opens you up">>\
+<<text_fade "pulls out the things you've always kept hidden">>\
+<<text_fade "and here, you understand what it means">>\
+<<text_fade "the buzz of the crowd">>\
+<<text_fade "the throb of the bass">>\
+<<text_fade "voices harmonizing">>\
+<<text_fade "bright and beautiful and powerful and sweet and sharp and quiet and vibrant and loud and painful and perfect">>\
+<<text_fade "you turn">>\
+<<text_fade "Kurt is watching the stage">>\
+<<text_fade "mouth open">>\
+<<text_fade "eyes huge and round">>\
+<<text_fade "a smile crosses his face">>\
+<<text_fade "dimples showing">>\
+<<text_fade "and you know he [[feels it|Post-performance]] too.">>\
+
+::Post-performance[under]
+
+After everyone has finished performing, the topic of conversation turns from the bands to petty work annoyances, and Tina starts regaling the table with a story about this asshole buyer she has to deal with. Kurt leans forward, curious, and you watch as they get into a discussion about politely freezing out assholes.
+
+"You guys made it!" Rachel says as she bounds up to the table, beaming from ear to ear. She demands hugs from everyone, even Kurt, who she hasn't even met yet.
+
+Mercedes is less aggressive about it, but she still pulls you into a warm hug, shakes Kurt's hand, gives Mike a friendly squeeze on the arm, gives Tina a kiss on the cheek. "See how much better it is when you show up?" she says to you. "I didn't even need to sic Rachel on you this time around." 
+
+"You guys totally killed it up there," Tina says. Divalicious was clearly the best of the bunch, both Rachel and Mercedes out in front, trading off verses, harmonizing on the choruses. Most of the time, no one knows how Rachel and Mercedes ever decided that they could share a stage, but it's easy to see what good their (mostly) friendly competition does for their performances.
+
+"Why thank you," Rachel says. "I know that this one night may seem insignificant, but this victory will be the first stepping stone towards our international fame and fortune." It's unusual for anyone to make it out of Under without some sort of corporate sponsorship, but it's been rumored to have happened once or twice. You've always found those stories hard to believe, but Rachel is pretty convinced, and no one seems to have the heart to dissuade her.
+
+"Uh," Mike says, "they haven't announced the winners yet."
+
+Rachel ignores him. "And I haven't met you yet!" she says to Kurt, who raises his eyebrows so high, they're almost at his hairline. "Hi, I'm Rachel Berry!" She sticks out a hand.
+
+Kurt says. "Kurt Hummel. I'm-- I'm a friend of Blaine's."
+
+"Ohhhhh,"  Rachel says, nodding like that means something. Her smile somehow gets wider.
+
+"Just a friend," Kurt says. He shoots you a pleading look, but there's no really saving either of you when your friends get like this.
+
+"Mmmhmmm," Mercedes says.
+
+Tina leans forward. "He slept in //Blaine's room// last night," she says with a mock-whisper.
+
+You know you're blushing, starting from your neck and moving upwards. "In a sleeping bag," you mutter.
+
+Mike gives you a sympathetic half-smile, but it doesn't help.
+
+"It's all right," Rachel says, patting your arm. "I'm sure this is just the beginning of their torrid love affair. Of course you'll have to let us write a song about it once it's over. If the song ends up being particularly good, we'll even let you sing backing vocals."
+
+You roll your eyes while Mercedes laughs at you, and Kurt blushes red.
+
+The announcer clears her throat on stage. "Okay, the votes from the judges are in. Drumroll, please."
+
+The whole crowd quiets.
+
+[[Listen.|The winner]]
+
+::The winner[under]
+
+"The winner is... Exaltation Exasperation!"
+
+There are some cheers, a smattering of applause, some grumbling. "They win every time," Rachel says with a huff. She glares daggers at their lead singer -- James? Justin? -- you can't remember his name, but you think you heard a rumor that Rachel dated him once.
+
+Despite the upset, it's still worth cheering the fact that Divalicious ends up getting an Honorable Mention from the judges. Tina pulls Mercedes into a big hug. Mike gives the drummer (Matt, shaggy haired and always smiling) a high five. Kurt just beams and claps loudly, caught up in the moment.
+
+"We're celebrating!" Rachel says. "Anyone up for a trip to the Underground?" The Underground is a club a few blocks from here. It's a favorite in the area, good drinks and good music and good bouncers.
+
+"I'm out," Tina says. "I have work tomorrow." As if on cue, she starts to yawn. You don't really have weekends in Under, just days where you don't work and days where you do work, and that's only if you're lucky enough to find a job that lets you take days off.
+
+Mike shrugs. "Sure," he says.
+
+"Wouldn't miss it for the world," Mercedes says. "I'll just call in sick tomorrow. They're really paranoid about germs there." She takes a bottle of beer from a passing waitress. She and Rachel have day jobs as administrators at one of the nearby foam factories, one of the ones that likes Under for its cheap labor and lack of labor laws. It's hard to hate the corporations when they're one of the only things keeping the gang wars from overrunning the city, keeping a slow steady flow of cash trickling into it.
+
+You look over at Kurt, a question, and he nods, biting his lip.
+
+"We're in," you say.
+
+[[Head over to the Underground.|Underground]]
+
+::Underground[under]
+
+The inside of the Underground is dark, thick with the smell of bodies and booze. The music is loud, booming, and the few lights are disorienting, vivid strobes, shifting pink-green-blues. You make sure to keep an eye on Kurt so that he doesn't wander off by himself. It's easy to get lost in here, lured away by the lights, the drugs, the people on the prowl for fresh meat.
+
+Rachel immediately heads for the dance floor, dragging Mike along behind her. Mercedes leads you and Kurt to the bar, already in a discussion with Kurt about what it's like, fronting a band like this. Clubbing was never a huge thing for you, but you can't deny the way it feels with the bass in your chest, the shifting colors transporting you into another world. It gets under your skin. It lights you up.
+
+Sometimes you can't really dance without a little alcohol in you, something to help loosen up your body when work has been bad or you still feel like that fresh-faced kid from over the border, awkward and uncertain of his own body. But tonight, you're already a little wired up from the Battle of the Bands. Your blood is already humming, alive. Still, maybe it'll be more fun after one drink.
+
+[[Get a drink.|drink]]
+[[Dance.|Dance]]
+
+::drink[under]
+<<set $drinks=true>>The bartender is so busy handling drink orders he barely gives you a second look when you ask for a beer, sliding it over as you shove a few bills into the nearby tip glass.
+
+The bitterness of the alcohol tastes good right now. You tilt the bottle up so you can drink more quickly, letting it slide past your tongue down your throat. Kurt is staring at you, mouth open in a way that most likely means that you've offended some sense of Over-trained propriety.
+
+Mercedes just smirks at the two you, and you don't understand why. "Don't mind me, boys."she says. "Just keep doing your thing."
+
+"What thing?" you ask.
+
+She just smirks and shoos you off with a wave of her hand.
+
+When you finish your bottle, you can already feel a pleasant buzz working its way through your system. "Come on," you say, holding out a hand to Kurt. He looks a little lost, a frown crossing his face, and you want to make him smile again. "Let's dance."
+
+[[Dance.|Dance]]
+
+::Dance[under]
+
+The dance floor is a writhing mass of bodies. It's less like the neat, elegant ballroom dances you went to while growing up, and more about raw feeling, wild and primal.
+
+You pull Kurt along behind you, staking out a small slice of the floor. He just stands there when you finally let go of his hand. The lights catch on his face, and he looks otherworldly, holding so still he seems chiseled from stone. The crowd pushes you close together, into each others' space, breathing the same air. This close, you're fully aware that he's a few inches taller than you.
+
+<<if $drinks>>
+<<display "Dance drunk">>
+<<else>>
+<<display "Dance sober">>
+<<endif>>
+
+::Dance sober
+He freezes up, and you put your hands on his shoulders, trying to gentle him. "Hey," you say, shouting a little to be heard.
+
+"I--" Kurt says. "I don't know what I'm doing."
+
+"That's fine," you say. "It doesn't matter." You point in the direction of a guy with no sense of rhythm and no coordination, waving his arms in the air and shaking his head, laughing. "Just do what feels good."
+
+Kurt takes a deep breath. "Okay," he says, smiling at you through his discomfort, and you feel a swell of pride at his bravery. He starts off hesitant at first, copying the shoulder shimmy of the guy next to him, but then the song hits the chorus, and you can really see the moment he actually lets go. His hips start to sway, a full smile breaking across his face, and his feet get in the action, tapping along with the beat.
+
+You grin at him, shaking your own hips, laughing.
+
+The next song kicks up, and you raise your arms, singing along with the lyrics. It's impossible to hear you over the music, but that doesn't seem to matter as much with the feel of it all around you, the press of bodies, the shine of the lights, the thud of the bass.
+
+Kurt slides in closer, and up close, you can see the sheen of sweat on his skin, the flush on his cheeks from the heat. Your arms go around his neck before you can think about it, acting on instinct. You can smell him like this, a hint of coconut underneath the sweat. His body is solid, giving off heat.
+
+He looks down, meeting your eyes, and in that moment, you know. 
+
+Kurt sucks in a quick breath when you cup his cheek. His eyes flutter shut as you kiss him. His lips are soft, parting easily for your tongue, and it's good, electric in the best sort of way. You make a soft noise. Kurt sucks on your bottom lip. 
+
+When you pull back, his eyes are shining, and your heart races ahead of the beat. "Hi," you say.
+
+Kurt slides his arms around your waist, pulling you closer. Next to you, a woman is grinding against a man at least a head taller than her, their hips pressed in close, uncontrolled in their movements. Kurt has closed his eyes, losing himself in the music. You breathe him in and lean ever so closer.
+
+[[Dance.|Leave club]]
+
+::Dance drunk
+He freezes up as you press in closer, so close that your chests brush against one another. "Hey," you say.
+
+He tenses up even further, and that's all wrong, that's not what you wanted. "I--" Kurt says. "This is really new to me," he says.
+
+"Hey," you say. "That's cool. It doesn't matter." You put your hands on his hips, so you can show him how to move. The alcohol makes you feel loose-limbed, silly, and you can give Kurt that feeling, too. You want to make him feel good here, where he's with you, where you're here together.
+
+"Blaine--" Kurt says. There's an expression on his face that's foreign to you, and you're not sure you like it.
+
+"Hi," you say, letting go, and you know you're grinning sloppily, but you can't help it. Kurt just makes everything brighter, and you're buzzed and happy and alive. "It doesn't matter," you repeat. "Just-- the music." The music is a physical sensation here, deep inside your chest. You want him to feel it too.
+
+You dance, and you know you must look ridiculous. You always lose some coordination after a drink or two, but it feels good, letting loose. Someone jostles you from behind forcing you closer to Kurt, where he smells like sweat, like the cigarettes in the bar you just left, the faintest hint of coconut underneath. His eyes are big and round, and so pretty in these lights. You lean in to get a better look, swaying unsteady on your feet.
+
+"You have pretty eyes," you say. Kurt sucks in a sharp breath. His hands go to your waist, holding you up. He turns his head to the side for one moment, before turning back to face you. The expression on his face has changed.
+
+His face is flushed, sweaty, and his breathing is uneven. "Thank you," he says. His hand comes up, cups your cheek and jaw, and you freeze in place. The moment feels drawn out, slowed down. You may still be buzzed, but you know what's coming next.
+
+You close your eyes right as he kisses you, your heart hammering in your chest. One of your hands curls into his shirt, clutching a fistful of the fabric. He parts his lips, and you press your tongue inside, slow, so much slower than anything happening around you. You swallow a soft gasp from his lips.
+
+Kurt pulls back first, his breathing heavy, his eyes dark. You let go of his shirt. "Hi," he says.
+
+"Hey," you say back.
+
+"I think I'm getting the hang of this," he says, a wry grin crossing his face.
+
+You laugh and grab his hands, pulling him along to the beat.
+ 
+[[Dance.|Leave club]]
+
+::Leave club[under]
+
+You dance for a few more hours, taking occasional breaks to pee and sit, feeling wild and ridiculous. Kurt tries a drink that Mercedes orders for him, something pink and bubbly, and he looks surprised that he likes it. You keep dancing until Rachel and Mercedes bow out at the same time, until your feet start to ache and the club starts to thin out.
+
+There are a few guys who are lurking outside the club when you finally leave. Tall, thuggish, not the usual partying crowd. You suspect they're just here to prey on the drunk girls who come out of here unsupervised, the kind that think they're protected by money or by friends or by both. Sometimes it's true. Sometimes it's not.
+
+Kurt has an arm thrown over your shoulders, leaning against you. He's heavier than he looks, and if he's like this after one drink, he must be as much of a lightweight as you are. "God," he says, "that was amazing." His smile is sloppy, fond.
+
+"It was," you say, tugging him along.
+
+Right now, the night air is crisp, lit up by the surrounding buildings, glowing neon in shop windows, and you think about kissing Kurt again. You could reel him in right here, in the middle of the street, and bring your lips together.
+
+Amotorcycle honks behind you, and you dodge for the narrow sidewalks, dragging Kurt along with you. Overhead, you can hear a couple arguing through their windows. You're too far away to hear their words.
+
+Somewhere else, you hear the rev of a souped up car engine. Might be nothing, might be someone looking for a fight. And you don't want to do any more of this where anyone can see you.
+
+"Let's get back," you say to Kurt.
+
+[[Go home.]]
+
+::Go home.[under]
+
+The apartment is quiet as you stumble back inside. Kurt has a hand over his mouth to hide his giggles, but it's not very effective. Sam and Tina have their doors firmly closed, lights off. You don't want to disturb them.
+
+[[Pull him into your room.|Post-club room]]
+
+::Post-club room[under]
+
+Kurt trips over his feet on his way inside, and two of you end up giggling so hard, you have to cling to one another to keep from falling down. His smile is silly and soft, and you lean in closer, kissing him again, feeling it against your lips.
+
+You pull back, grinning yourself. "Sleep. We should-- we should get some sleep." You, unfortunately, have plans to see Cooper tomorrow, and you're going to need all your energy for that.
+
+Kurt looks down at the sleeping bag, still laid out on the floor, and he can't keep his distaste for it off of his face.
+
+"You don't need to sleep there, silly," you say. After a night like this, you usually don't bother changing into pajamas, preferring to strip down to your underwear instead. You toss your discarded clothes off the side of the bed and pat the bed beside you.
+
+Kurt's eyes go wide and round. "Um," he says. "I-- I don't think I'm--"
+
+"Just sleep," you say, and his shoulders relax.
+
+"Okay," he says. He leaves the room to change in the bathroom, and when he comes back, he's scrubbed clean, hair free from its product, out of his tight jeans and into soft cotton pajama bottoms. He loses his edges like this, unguarded, vulnerable. You wonder what it's like for him in Over, how much of himself that he needs to hide away.
+
+Your bed isn't huge or anything, but it does fit two people comfortably. Kurt rolls onto his side, so he's facing you. "This was-- I-- I really-- it was a great night," he says. "Really great." He curls one of his hands over your own, and even though you've held hands plenty of times, this time it feels intimate and new, dangerously sweet. His thumb rubs against your knuckles, steady and gentle.
+
+"It's fine," you mumble, drifting off. "I was glad to help."
+
+[[Sleep.|Part 5]]
+
+::Part 5[bookmark under]
+
+You wake up to your phone ringing on your nightstand. Kurt makes a sleepy noise beside you and tightens the arm he's got wrapped around your waist. If this were a perfect world, you would close your eyes, snuggle in closer to Kurt's touch, fall asleep again for at least another two hours.
+
+Unfortunately, you don't live in a perfect world.
+
+"Will you just answer the fucking phone?" Tina yells. The walls are way too thin in your apartment.
+
+[[Answer it.|Answer]]
+
+::Answer[under]
+
+You pick up your phone and hold it to your ear without getting up. "Blaine Anderson," you say, your voice still hoarse with sleep.
+
+"Blainers!" Cooper yells. "Didn't I tell you about sleeping in? It's bad for the soul, man. All your energies will fall out of sync. Get your lazy bum down here before you do yourself some permanent damage."
+
+You look at the time listed on your clock with bleary eyes, squinting to make sure you can still read the hands. "Coop, it's six am."
+
+"Early bird catches the worm!" Cooper says.
+
+"Your rehearsal doesn't even start until nine," you say, rubbing at your eyes.
+
+"Whatever," Cooper says. "That's just a technicality. A true actor never stops working."
+
+"I'm not an actor," you say.
+
+"Twenty minutes, squirt. Be there or be square."
+
+He hangs up. You roll over. Kurt's eyes are closed, mouth open, drooling onto the pillow, and for one slow, crazy moment you think about pushing him back against the bed, straddling his hips, and kissing him, morning breath and all. Making out in a bed, comfortable and lazy, is one of your favorite things, and would be so easy to-- But you get ahold of yourself. You need to get up, get your stuff together, get ready to start the day. Cooper's waiting, and who knows what he could get up to with all that free time.
+
+[[Nudge Kurt awake.|Morning]]
+
+::Morning[under]
+
+Kurt blinks, brain slowly coming online again. The morning sun catches on his cheeks, the sharpness of his features. "Morning," he murmurs, a slow, sweet smile spreading across his face.
+
+You touch his shoulder, feeling the solid shape of it under your fingers. "Good morning," you say. "That was Cooper. He says I have another twenty minutes to--"
+
+Kurt bites his lower lip. "Uh, I don't have anything until later today. Do you... do you mind if I join you?" He looks hopeful, his eyes bright.
+
+You've barely known him for month, and there's no reason for why your heart feels silly and ridiculous, flopping about inside your chest. "Yeah, sure," you say.
+
+He beams for a moment before his face falls. "Twenty minutes?" he says. He holds a hand up to discreetly smell his breath.
+
+"For Cooper, that means at least an hour," you say. "He doesn't actually have a good sense of time."
+
+[[Get ready. Head out.|Go to the theater]]
+
+::Go to the theater[under]
+
+The theater is tucked away in the run down area near the edge of the city, where the buildings are squat and spread out. The brick of the old buildings has turned brown, patchy in places, the metal signs rusted over and corroded, the road covered in ugly pot holes.
+
+Kurt seems fascinated by it all, kicking some chunks of pavement, trailing his fingers over some of the rust. In Over, they routinely raze down the old buildings to put up new ones. Constant improvement of infrastructure was written into the Rules a while back. You never see anything fall into disrepair like this.
+
+As soon as you get inside the theater, Cooper grabs you and pulls you into a hug before you can say anything. "Blainey, Blainey's boyfriend, I am so glad you are here. We need your help."
+
+"Um, okay," you say, your voice muffled by his chest.
+
+"Yeah," someone behind you -- Jack, probably, the main script writer -- "we need someone to put these posters up."
+
+It's strange that you can recognize the feeling of someone hitting you in the back with a sheaf of papers, but you can.
+
+"This place is-- it's really amazing," Kurt says. The theater for Cooper's acting troupe used to be a movie theater, and the decor still speaks to its attempts at grandiosity and elegance. The gold-painted light fixtures are beginning to chip and peel and heavy maroon fabrics are covered in dust and dirt. You can personally attest to the fact that most of the chairs have lost any cushioning they might have once had. That's not to say that they haven't done any work on it. The original movie screen was torn down, and an extension to the stage was built, and they've done the work of finding and repairing some discarded old stage lights.
+
+"We've been working on it," Jack mutters. He's really touchy about the place, and he tends to take even the most innocuous of compliments as sarcastic insults.
+
+Cooper lets you go. "Don't listen to him, Blainey's boyfriend. It's okay as long as you're making my brother happy."
+
+Before you can even open your mouth, he pulls Kurt into a hug just as ridiculous as the one he gave you, a wide, ridiculous grin on his face. Kurt looks surprised, and there's something a little dreamy about his expression. That sets your teeth on edge for reasons you don't want to examine too closely. "Oh," Kurt says. "Thank you?"
+
+"He's been so lonely since Craig left him," Cooper says. "I hate seeing him so alone."
+
+You manage to pull Kurt free of his arms, and you don't bother to tell him that he's getting the name of your ex-boyfriend wrong. "Come on," you say, grabbing the stack of posters from Jack's hands. "Rehearsal doesn't start for another couple of hours."
+
+[[Poster around town.|Postering]] 
+
+::Postering[under]
+
+You, fortunately or unfortunately, know all the places you need to hit in order to drum up some interest in Cooper's play, the neighborhoods with the right combination of artistic inclinations and disposable income. Kurt is game for the trip, and he likes hearing about the different neighborhoods you pass through. There's Bricktown, most people know it as a hideout for painters and sculptors. The old brick of the buildings are covered in murals and graffiti, the paint accumulating in layers. Sugar Hill was only named that recently, and it's filled with foreign expats and corporate housing for Motta Incorporated employees who might be interested in getting to know the local color better. Most of the artists in Under get their funding from Motta Incorporated. No one really understands how money gets allocated, but it works for them. Brush Park is one of the wealthier neighborhoods, the kind that's full of people who crossed the border after emptying out their bank accounts, not so different from yourself. Several of the residents even helped fund Cooper's play when it was just a script.
+
+You like the way Kurt looks when you explain these things to him, eager and thoughtful and curious, and you like the little touches he sneaks when he thinks no one else is looking, his fingers on your elbow, your hip, your shoulder. When you have a free moment, you like to drag him into back alleys, the kind that are best for hiding in, to steal kisses, soft ones, quick ones, drawn out ones, silly ones. It doesn't matter what kind they are; they all leave you feeling breathless and overwhelmed.
+
+When the two of you get back to the theater, they're set up to work on the big dramatic scene where Cooper finds his best friend dead on the ground and then starts sobbing before giving a ten minute monologue cursing the government for their unwillingness to bend the Rules to save him.
+
+The full dress rehearsal is happening tonight, but they're still working out some of the individual scenes. Costume designers and props people are running around trying to get any last minute changes done in time, and the actors are distracted as they try to memorize their lines.
+
+You grab one of the seats near the back, one of the ones that doesn't smell like stale soda and greasy popcorn. On stage, Cooper falls to his knees and starts rending his clothes on his body. Kurt scrunches his nose. "Is he supposed to sound like he's in physical pain?" he asks.
+
+"Just go with it," you say.
+
+[[Settle in.|Dress rehearsal]]
+
+::Dress rehearsal[under]
+
+By the time the full dress rehearsal starts, you're exhausted. The production needs every spare set of hands they can get, so they have you do odd jobs, holding paint cans, sewing costumes, wiring up the sound system. Kurt left the theater after watching a few scenes for another meeting at New Directions with Mr. Schue, but he's back before the full rehearsal starts, looking a little worn out himself.
+
+But now you can just sit back, relax, watch the show. All the friends and family of the production have been invited, and about a third of the seats are filled. The play was written as a political history of the split. Most of it is conjecture, though some of it matches up to the bits you've read in your history books, the bursts of violence, the ugly political aftermath of the new Rules that were set up to govern to interactions between the new divided city, the conscientious objectors who wanted to keep the city whole. Cooper is playing the leader of the rebellion, a hero here, the only one brave enough to stand up to the Rules and the government dangerously obsessed with upholding them.
+
+Halfway through the second scene, Kurt curls his fingers around your own. His palm is warm, slightly sweaty, and you feel almost glad for the opportunity to share these things with him, these pieces of Under that are different from what he knows, these pieces that are yours.
+
+Cooper is a ridiculous actor, but the topic of the play is something that's close to his heart, and it's easy to see his passion when he performs. As silly as it sounds, Cooper is never happier than he is when he's on a stage, giving it his all, when he's allowed the space to be as over-the-top and overwhelming as he is.
+
+The play itself is overlong, lacks any sort of nuance or subtlety, and is kind of boring for something with so much implied violence and death. You could almost cry with relief when you finally reach the intermission. 
+
+You stand up, stretching. When you glance at Kurt, he waves you off. "You can go see your brother. I'm just going to go to the bathroom."
+
+Well, you could go backstage and see him, but maybe you've had a little too much Cooper for one day.
+
+[[Go backstage.|Backstage]]
+[[Hang out in the lobby.|Lobby]]
+
+::Backstage[under]
+
+It's not nearly as frenetic backstage as it would be for a real performance, but there is still a barely controlled chaos it all. You sometimes like it, the feeling of everyone coming together to reach a common goal, each cog in the machine doing their part, even if it is also a haphazard, disorganized mess. This area is all narrow hallways and piles of discarded props and costumes that would be labelled a fire hazard back in Over. You only manage to find your way through it all because you're already familiar with the building.
+
+Cooper grins at you when he sees you, throwing his arms wide, his face sweaty, still caked with makeup. "How're you liking things, squirt?"
+
+"You're really great out there, Coop," you say. No matter what, the two of you have always been supportive of each other, even when Cooper has a funny way of showing it.
+
+"I like the new boyfriend," Cooper says. "What's his name again? David, Daniel?"
+
+You don't bother to tell him that he never asked Kurt for his name. "Kurt," you say, "and we're not--" You snap your mouth shut. It's really not clear what you are to each other, not yet. And the thought of finally defining it, putting in the correct limits, makes your stomach drop out, because you don't think Kurt can-- that Kurt will want to stay.
+
+"Right, of course," Cooper says, like he understands anything, which he doesn't.
+
+The production assistant barrels her way down through one of the backstage hallways, shouting that they have five minutes before they need to get their asses back onstage.
+
+You give Cooper's arm a quick squeeze before you leave.
+
+[[Go back to your seat.|Seats]]
+
+::Lobby[under]
+
+There's not a whole lot of people loitering in the lobby. The front doors are made of glass, though one of them broke last year, and since then it's been covered over in cardboard and duct tape. The late evening sun creeps in, deep hazy yellows on the dirty old rug, the hollowed-out remnants of a concession stand. It's the first moment you've had to really stop and think since you woke up this morning, a chance to catch your thoughts. 
+
+Kurt is-- he's inside the theater waiting for you. It's been hard to think-- to remember that this is temporary, an extraction. You've done some of these before, a chance for the people of Over to sow their wild oats for a few days, a week, before they go back to being respectable, a model citizen who follows the Rules. It's a risk, a big risk, and they're usually sweaty, nervous, wide-eyed and prone to staring at everything even mildly out of the ordinary. Thinking about Kurt, about whatever Kurt is doing, makes your throat tighten, makes your chest feel hollow. It's not-- Kurt's not like that. Kurt has actual business here, and he's fitting in well with your friends, but this is all still temporary, unless-- unless Kurt stays. You know it. He knows it. There's no getting around that.
+
+Someone calls out that there's five minutes left before Act Two starts up, and you turn around, heading back inside.
+
+[[Go back to your seat.|Seats]]
+
+::Seats[under]
+
+As you make your way back your seat, you can see that Kurt is talking to a few people you recognize. You'd almost forgotten that Thad, who plays Cooper's second-in-command, is still friends with some former Warblers. No one you miss, unfortunately.
+
+The two of them clear out, returning to their own seats, before you can get close. 
+
+"What was that all about?" you ask Kurt as you slide into the seat next to him. You know that Sebastian wouldn't pass up a chance to mess with anyone you've spent time around, and you want to make sure that he wasn't telling Kurt too many lies about that time he got drunk and tried to put his hand down your pants.
+
+"They said that they've worked with you and they asked me a bunch of questions," Kurt says. "Are they Warblers?"
+
+"No," you say, glancing over at them. They glance back. "Not anymore." The smile Sebastian shoots you, smug and self-satisfied, makes your skin crawl. He tilts his head in Kurt's direction and raises his eyebrows. He and Flint left a few months ago to work for Clarington Industries. Wes didn't tell you any more than that, and to be honest, you were relieved to hear the news.
+
+"Oh," Kurt says. His forehead furrows, stuck on a thought, but you don't have much time to study him. The theater lights begin to dim, and the two of you go quiet.
+
+[[Watch.|After play]]
+
+::After play[under]
+
+The second half of the play is not much better than the first. Cooper has his big dramatic moment. He and five other people have neverending monologues about the tyranny of the Rules. One of the extras trips over his feet when walking onstage.
+
+When the play is finally (//finally//) over, Kurt begs off spending more time with the cast and crew. "They're just a little... much," he says.
+
+You laugh as you agree. You say your goodbyes to Cooper and leave before he can rope you into anything even remotely resembling a cast party.
+
+Night has fallen, and the two of you end up walking the dark city streets. Your hands brush every other step. Halfway there, you take a deep breath, readying yourself. "How much longer are you staying?"
+
+Kurt goes tense and quiet beside you. "I-- I wanted to go tomorrow. I need to see my dad, and Mr. Schue is right that we need to--" He stops walking, and when you turn to him, his face cast in shadow, his eyes liquid and bright.
+
+"Okay," you say, because it's been three days, and you knew, you //knew//.
+
+"These past few days have been... amazing, but I can't-- I can't-- This is so much bigger than just what I want." Kurt's voice cracks as he speaks, reaching out to hold your hand. His hair is haloed in the light of a nearby shop window.
+
+"I get it," you say, and you really wish you didn't, that it would be easier to be angrier at Kurt for-- at yourself for letting yourself get caught up in something that can't, that won't be anything. "Come on," you say, grabbing his hand, wondering how many more times you'll get the chance to do this again. "We should get home."
+
+You don't even realize what you've said until much later.
+
+[[Home.|Get home]]
+
+::Get home[under]
+
+In your room, the air is tense, heavy as you get ready to go to sleep. Kurt looks hesitant as you climb into bed, ducking his head, rubbing at his arms. With his hair down, he looks smaller, younger, and you've never been more aware of your ability to hurt someone. "Come here," you say.
+
+Kurt crawls onto the bed and tucks himself in next to you, and there's a distance there, deliberate. You nudge yourself closer, so that the two of your are facing each other on the bed. "I'll-- we can still see each other," Kurt whispers. "I'm due to move out as soon as my dad is better, and you cross the border all the time."
+
+It won't be the same, and you both know it. There will always be a space separating you, a literal wall between your lives. "I'll miss you," you say, reaching out to cup the back of his neck. You press a quick kiss to his lips.
+
+When you pull back, Kurt wipes his eyes and says, "I'll miss you, too." He wraps an arm around your waist, fingers clinging to the fabric of your t-shirt, and you rest your foreheads together.
+
+For a moment, you stay like that, breathing each other in.
+
+And then Kurt surges forward, kissing you with a ferocity he hasn't shown before. You grab onto his shoulders, letting him roll you onto your back. "It's not enough time," he says, gasping into your mouth, biting at your lips.
+
+"It'll be okay," you say around the lump in your throat, running a soothing hand down his back, because one of you has to hold it together. Might as well be you.
+
+"I know," he says, "but it still--"
+
+"Hey," you say. You cup his cheek, run a thumb along his jaw. "Shhh. It'll be okay. We'll be okay."
+
+It seems like all the energy leaves him at once, leaving him slumped over, pulling in wet, shuddery breaths against your shoulder. It takes a few moments for those to subside, until he's breathing normally again. "This isn't the end," he says. He blinks a few times, and his eyes are bright and determined. "It isn't." He curls into your side, tangling your limbs together in a way that should be awkward and uncomfortable, but it just feels easy and warm.
+
+"Yeah, okay," you say, because you want to believe him. You squeeze his hip. He presses his nose against your neck. You close your eyes.
+
+[[Sleep.|Part 6]]
+
+::Part 6[bookmark under]
+
+When you wake up, Kurt is gone. You have a moment of panic wondering where he is before remembering that he had an early meeting with Mr. Schue today. He mentioned it yesterday morning after breakfast.
+
+You pull yourself out of bed, working out the kinks in your back as you stretch. Today's your second day off work in a row, and you're not sure what to do with the time. Sometimes, you spend your days playing music, messing about with the second-hand keyboard you managed to buy off one of the bands that Rachel and Mercedes knows. When your schedule matches up with Sam's, the two of you play and sing together, laughing when you mess up, laughing when you get it right. Sometimes you clean your apartment, sweeping the back corners, dusting the surfaces, scrubbing the counters. Tina and Sam don't really understand the obsessive cleanliness that was drilled into you growing up, but they're willing to indulge you when you get in the mood.
+
+In the kitchen, Sam is eating breakfast, shoving spoonfuls of cereal into his mouth as quickly as he can. You make yourself toast.
+
+"Hey, man," he says. "Kurt said he'd call when he's ready to leave, whatever that means."
+
+"Oh," you say. "Thanks." You need a knife to spread some butter on your toast, so you reach for the silverware drawer.
+
+He squints at you, and you've never been good at hiding your feelings. "Everything okay?"
+
+"Yeah, I'm fine," you say. Your knuckles are going white where you're gripping the knob of the drawer too tight.
+
+"I'm here for you, man," he says. "Even with your man problems." He offers up his hand for you.
+
+"Thanks," you say. The high five you give him is half-hearted as best. "But it'll be fine." You've only known Kurt for so long, and people have always made fun of you for building things up in your head too soon. Even with all of Kurt's promises, it will probably be like Jeremiah all over again: silly and ridiculous and pretty much a complete delusion on your part. For all of Kurt's promises, he'll get busy in Over, all adults are busy in Over, and he'll-- he'll forget you. He'll move on with his life, and you'll just-- you'll get over it. You always do.
+
+"If you say so, dude," Sam says.
+
+[[Go about your day.|Rest of day]]
+
+::Rest of day[under]
+
+It's early evening when someone knocks on your door, a heavy banging that shakes you out of a book you've been reading. Kurt hasn't called yet. You spend a lot of time trying not to think of when he will.
+
+You're the only person in the apartment right now, and you hold your breath as the banging gets louder, moving as slowly as you can so that you're pressed up against the wall next to the door. If the person on the other side breaks through, you can knock them off balance and try to make a run for it. You're fast and you're small and you're a lot better at getting around the city than any of the mercs you've run into before.
+
+Another round of banging. "Blaine!" someone shouts through the door. The voice sounds vaguely familiar, but that doesn't mean anything. You don't trust it.
+
+You breathe, quiet and steady. Going out a window isn't the best solution, but you're not too high up. You've jumped from higher before. If you take the shortcut through the Patels' backyard, you can get to the front gate before the intruder (intruders?) would know where you're going.
+
+"Blaine, it's Quinn!" the voice says. "It's about Kurt."
+
+You freeze. It's about Kurt, and you don't even hesitate.
+
+[[Open the door.|Talk to Quinn]]
+
+::Talk to Quinn[under]
+
+Quinn strides into the room like she owns the place. The expression on her face is severe, serious. Her hair is tied back. Her eyes are clear and sharp.
+
+"What's going on?" you ask, but it doesn't feel like you even need to ask. You don't know Quinn very well, but you know her well enough to know that she wouldn't show up unannounced without a reason.
+
+"Kurt's gone missing," she says. "He called us before he left here this morning, but he never arrived at the school."
+
+The bottom drops out of your stomach, and a chill creeps over your skin, but you manage to keep calm, keep steady. "Okay," you say. "What do you need me for?"
+
+"We know who the kidnappers are. We had information that they were going after Kurt in the hospital three weeks ago, too. That's why we asked for a rushed extraction," she says. "They went after Mr. Schue, yesterday, but he was better guarded. We had hoped that by staying here Kurt could pass undetected, but they managed to find him."
+
+You take a deep breath. "Who are we talking about here?"
+
+"Clarington Industries has taken an, shall we say, unwelcome interest in our work." Quinn says.
+
+You think about how he met Sebastian and Flint yesterday at the theater. It had happened right under your nose, and you hadn't even noticed. "What do we know about them? About where Kurt is?"
+
+Quinn tilts her head to the side. "We've got intelligence that says that they have him in one of their warehouses by the docks. None of us knows the docks well, but you do. Your skills as a courier will get you farther than any of the rest of us."
+
+You rub your forehead, the corners of your mouth, the skin around your eyes. "Why do they even care?" you ask. "What the hell is it that you're doing?" Kurt considered it important enough to-- to visit Under for a few days, to want to go back Over afterwards, and now Clarington is holding him hostage over it.
+
+"I thought you would have guessed it by now," Quinn says with one perfect raised eyebrow. "Reunification. Over and Under becoming one city again, under the same government. With some changes in place, of course."
+
+"What?" you say. "There's no way that can happen. The split was written into the Rules decades ago."
+
+"Things change," Quinn says. "That was the first mistake they made when they wrote those stupid things down. We've changed, and so have they. I know what you're thinking, and it's not as hopeless as you think it is. We have allies on the other side of the border who are willing to work with us."
+
+The pieces are beginning to fall into place in your head. "Kurt's father," you say.
+
+Her smile is a little bit kind and a little bit patronizing. "And Kurt himself. You know that his father was grooming him to go into politics as well."
+
+You hadn't, actually. You'd been too busy trying to play mentor, trying to show him how it could be on this side of the border. "Shit," you say, running your fingers through your hair. "What do you need me to do?" you ask.
+
+She pulls a map out of her pocket. The city grid of Under is familiar enough to you. Sure enough, by the docks someone has drawn a star in ball-point pen. "This is where we think he's being held. Our source hasn't gotten close enough to confirm it, but there's been an unusual amount of security activity at their warehouse near there."
+
+You take the map, fold it up again and hand it over. You don't need to look at it twice. "Okay," you say. "I'll do it." There isn’t even a question. Kurt's in trouble, and he needs your help.
+
+"He talked about you," Quinn says, "not a whole lot, but there was this expression that he'd get..." Her smile gets kinder, more pitying. "When the reunification happens, you can be together again." 
+
+You notice that she doesn't say 'if'.
+
+You wait until nightfall, when you'll have a bit more protection. It gives you a few hours to prepare, to gather your things. There's a bag you usually pack when you know you're going to have a difficult delivery or extraction. The preparation keeps you busy, which is good. That way you don't have to think, just move from one thing to the next. Your body knows this. It's easy, familiar.
+
+When the sky finally darkens, you're ready.
+
+[[Take a trip to a the docks.|The docks]]
+
+::The docks[under]
+<<display "The docks description">>
+
+<<revision fence>><<revise fence "Clip the fence.">><<becomes>><<display "Clipped fence">><<endrevision>>
+
+::The docks description[under]
+
+The lighting at the docks is spotty, and the area tends to go quiet at this time of night, most of the day workers gone home to bed. You've never had to do deliveries here as a courier, whether they be people or messages, but Sam has worked on and off as a dock worker before. You know this area well.
+
+The section of the docks owned by Clarington Industries is busier than expected, but it's still only lightly guarded. They're not knuckling down and fortifying themselves or preparing for any kind of frontal assault. The warehouses are only protected by a simple chain link fence. Easy enough to beat if you've got heavy duty cable cutters and plenty of experience sneaking into where you aren't wanted.
+
+::Clipped fence
+The fence gives way easily underneath your cable cutters. You're careful to keep things quiet, but each snap of the metal links seems to echo in your ears. You need to focus, keep your breathing under control. You've chosen this spot well. You're shrouded in darkness, a blind spot in the lights, but at the same time, it makes it difficult for you to see what you're doing.
+
+Eventually, you make a hole in the fence just large enough for you (and Kurt) to sneak underneath. You toss the cable cutters back into your bag. You toss the bag over your shoulder.
+
+The sharp points of the links scratch you as you push your way through, but then it's done, you've made it past the first perimeter. Ahead, in the orange glow of the warehouse lights, two guards share a cigarette. A few hundred feet behind them is a trailer that's pressed up against the warehouse wall.
+
+<<revision guards>><<revise guards "Sneak past the guards">><<becomes>><<display "Sneak guards">><<endrevision>>
+
+::Sneak guards
+
+You spot a pile of industrial tubes to your right. You duck behind them, and they hide you easily. For once, you're thankful for how short and small you are. Underneath, your feet, someone left a soda can, probably from today's lunch. You take a deep breath, pick up the can, and throw it as far as you can to your right.
+
+It rattles as it hits the ground, distinctly metallic. The guards startle, and a few dogs start barking. They start making their way towards the sound, away from you. When they're far enough away, you sprint for the trailer, keeping your footsteps as light on the ground as you can make them.
+
+When you reach the trailer, you duck underneath it,  breathing heavy from the adrenaline and the exertion. Your body is pressed flat against the ground. The dirt scrapes at your cheek.
+
+"Must have been a rat or something," one of the guards shouts.
+
+"Might as well keep looking," the other one shouts back. They keep walking, their backs receding into the darkness. You keep your breathing calm and controlled.
+
+You roll out from underneath the trailer and look up. It's a little bit hard to see in the darkness, but it looks like there's an open window into the warehouse you can reach from the roof of the trailer.
+
+<<revision trailer>><<revise trailer "Climb the trailer.">><<becomes>><<display "Climb trailer">><<endrevision>>
+
+::Climb trailer
+
+The trailer has a convenient window just above your own head. There's not much there to help you grip the edge of the windowsill, but you've climbed up worse before. Your feet slip as you make your way up, and you bite back a curse, readjusting your fingers. You have to be quiet. You think about Kurt, inside, scared, alone. You think about what will happen to him if you screw this up.
+
+You manage to get your feet up onto the sill as you reach for the edge of the roof with your hands. Your fingers manage to get a good grip, and for a moment, you just hang there.
+
+Taking a deep breath, you pull yourself up. Your arms scream with the effort, but eventually, your body has enough height to swing your legs onto the roof as well.
+
+From this vantage point, you can see the window more clearly, wide enough for you to get inside. It's a little bit of a jump, but you can do it. The guards have returned to their post, still facing out towards the fence.
+
+<<revision window>><<revise window "Crawl in the window.">><<becomes>><<display "Crawl window">><<endrevision>>
+
+::Crawl window
+
+With a soft grunt, you jump up, feet scrabbling against the wall until your hands catch the edge of the windowsill. You push yourself up and forward through the open window head-first and tumble onto the hardwood floor underneath.
+
+Looking up, you see that this window is at the end of a hallway. It's lit only by the emergency lighting, quiet and dark. A door slams shut, but the sound of it is distant, echoing.
+
+[[Explore the warehouse.|Warehouse]]
+
+::Warehouse[under warehouse]
+
+This part of the warehouse has been converted into offices. A few of the office doors are open, but most of them are closed. They all seem empty. At the end of the hallway is a stairway. The hallway turns to the right at the end, probably leading to another hallway.
+
+[[Go into the stairwell|Warehouse stairwell 1]]
+[[Turn down the hallway to the right.|Warehouse hallway right 2]]
+
+::Warehouse stairwell 1[under warehouse]
+
+This is the top floor. The stairs don't lead up. The stairwell is empty.
+
+Your footsteps seem to echo as you make your way down the stairs. The door at the bottom is locked. You can't go through.
+<<if !$stairwell1>>
+
+There's a little window on the door, and you peek out into the hallway. Sebastian picks that moment to walk by, a familiar smug expression on his face. He's talking to one of the security guards. You duck below the window, press your body against the wall. 
+
+When nothing happens, you breathe a sigh of relief. He doesn't seem to have seen you.
+<<set $stairwell1 = true>><<endif>>
+<<return>>
+
+::Warehouse hallway right 2[under warehouse]
+
+This hallway is nearly identical to the previous one except the offices are bigger. The biggest one has a nameplate on the door, //Hunter Clarington//. He's the son of the CEO, sent here to prove his worth to the company or something like that.
+
+There's another window at the end of this hallway. A red exit sign glows dimly, pointing to another stairwell further down the hall.
+
+<<if !$huntersoffice>>
+[[Investigate the office.|Hunter's office]]
+<<endif>>
+[[Investigate the stairwell.|Warehouse stairwell 2]]
+[[Go back.|Warehouse]]
+
+::Hunter's office[under warehouse]
+
+<<set $hunteroffice=true>>The door isn't locked, surprisingly. The office itself is dark and empty. You close the door and flip on the lightswitch.
+
+It's a typical corporate office, wooden furniture, bookcases filled with old-looking books. A folder is laid out on the desk. You walk up to it, leaning over so you can read the neatly printed words.
+
+The title page says //Impacts of Reunification//. The rest of the folder is full of names, dates, pictures. Mr. Schue has four whole pages dedicated to him. Kurt has one. His father has five. There's a few paragraphs about New Directions recruiting efforts, but Quinn doesn't get mentioned by name. The most interesting things in the report are the graphs showing projected profits if the reunification goes through. You're not an expert in corporate finance, but you've taken enough math classes to understand the sharp downward trend. 
+
+The last section of the report has its own title page. //Risk Management// it says. Bile rises up in your throat. You don't even bother reading through to the end. You grab a lighter and flick it on. The paper of the folder catches fire easily, and you toss it into the trash can by the door, watching it burn.
+
+<<return>>
+
+::Warehouse stairwell 2[under warehouse]
+
+One of the lights is broken in the stairwell, casting unsettling shadows on the walls. This is the top floor for the stairs, so you head down, careful and silent on your feet.
+
+At the bottom of the stairs, you peek out the small window of the door. The hallway outside is empty. You press down on the door handle. The door opens with a soft click.
+
+[[Step out|Warehouse hallway corner 1]]
+
+::Warehouse hallway corner 1
+
+You can see that you're at the corner of two hallways, one going right, one going left. 
+
+<<if !$sebastianconfrontation>>
+You hear muffled voices coming from one of the doors in the left hallway.
+
+[[Go left.|Warehouse hallway left 1]]
+<<endif>>
+[[Go right.|Warehouse hallway right 1]]
+
+::Warehouse hallway left 1[under warehouse]
+
+As you get closer to the door, you realize that you do recognize that voice. Sebastian. You'd know that smarmy, smug tone anywhere.
+
+You freeze, ready to turn around, try another door, but you realize that he's by himself. Sebastian's in there alone, talking on his phone. And you have no idea where Kurt is. You were never friends, not even close, but Sebastian always did have a bad habit of running his mouth around you. Maybe you can take advantage of that.
+
+[[Open the door.|Sebastian confrontation]]
+[[Turn back.|Warehouse hallway corner 1]]
+
+::Sebastian confrontation[under]
+<<set $sebastianconfrontation=true>> You twist the doorknob just as Sebastian hangs up. He raises his eyes when he sees you, after he's spun around in his chair like one of those villains in the old movies you and Sam like to watch together. His desk is coolly efficient, all sleek metal lines and a glass surface. A bottle of chloroform and a wet rag sit on top of it, leftovers from when they took Kurt.
+
+"Blaine," he says, smiling in a way that still has the ability to turn your stomach over. "I was wondering when you were going to show yourself and beg for his life."
+
+"I'm not here to beg," you say.
+
+"Oh?" Sebastian says. "That's too bad. You'd look so pretty doing it."
+
+Responding to Sebastian's comments never does anything but make them worse, so you ignore it, switching the subject. "It's not him you're after, is it? He's barely more than a message boy right now. Even if you take him out of the picture, his father and Mr. Schue are still going to move forward with their plans."
+
+Sebastian stands up, walking forward. When he steps into your space, you jerk back before he can touch you. "Honestly, Blaine. What goes on in that darling little head of yours? He's as much a part of this as they are. Why do you think we went after him in the hospital?"
+
+You circle around, unwilling to let him back you up against the door. "What does Clarington care about reunification anyway? Wouldn't it be better for the company to have a stable government in place? An actual police force?" Last year, one of the local gangs hit one of the shipments leaving the city. Yeah, the Clarington security forces stamped them off the face of the Earth two weeks later, but by then, half the goods had already been cleared out.
+
+Sebastian snorts. "They really did a good job brainwashing you across the border, didn't they? //We like it this way.// Some of the corporations in Over might talk a good game about how much more efficient they are under the Rules, but every single one of those CEOs would chew off their right arms to do business in a world where they don't exist."
+
+He rolls his eyes, getting bored, and you need him to keep talking. Time to switch topics. "Where's Kurt?" you ask.
+
+"You don't think I'm just going to tell you that, are you?" He keeps advancing on you, backing you up against the desk.
+
+You always keep a bottle of mace with you. You never know when you might get into a sticky situation that you can't fight or run your way out of, not in Under and not with the sort of work you do. Sebastian isn't expecting it when you spray some in his face, that much is obvious.  He jumps back with a sharp shout, and you hope that the walls muffle it enough that you won't have ten security guards coming your way.
+
+You turn and grab the cloth, still soaked in chloroform. Sebastian is rubbing his face, eyes squinted shut, cursing, not paying any attention to what you're doing. He struggles for a moment when you press the cloth against his nose and mouth, but then he collapses, his whole body going limp. You manage to catch him, but it's awkward, and you lie him down on the ground with as little noise as possible.
+
+The door is one of those ones that you can lock so that it only opens when you turn the knob from the inside. You flip the lock and close the door behind you. You need to keep looking.
+
+[[Try the other hallway.|Warehouse hallway right 1]]
+
+::Warehouse hallway right 1[under warehouse]
+
+It's yet another hallway lined with offices. You keep still for a moment so that you can focus on listening for clues. It's silent save for the barking of dogs outside. Something in your chest sinks. You have no idea if Kurt is even in this building, if he's even still in this half of the city.
+
+But then you hear a muffled thump coming from behind one of the doors.
+
+[[Investigate.|Investigate door]]
+[[Turn back.|Warehouse hallway corner 1]]
+
+::Investigate door[under warehouse]
+
+The door is locked, but Wes is one of the the best lockpicks in Under, and he's taught you a fair amount of what he knows. This lock is a joke, more of a deterrent than an actual security measure. You barely need to nudge the pins before they slide into place, and you can feel the way the lock gives way underneath your picks.
+
+The muffled noises are louder now that you're closer. It's an uneven thumping, like someone is stomping on the floor.
+
+[[Turn the door knob.|Find Kurt]]
+
+::Find Kurt[under warehouse]
+
+The door swings open. You flip the light switch on. Kurt is there, tied to a wooden chair, mouth gagged with a single strip of white cloth. His eyes widen when he sees you, and you rush over, pulling the gag from his mouth. Your blood thrums. You've found him. He's here.
+
+"Blaine?" he asks, like he's not sure you're actually in front of him. His voice is hoarse.
+
+"Hey," you say. "Let's get you out of here."
+
+They used plastic ties to strap Kurt to the chair, easy to get on, easy to get off. You slice them off with your spare knife, and he stands up, stretching out the stiffness from sitting in the same position for a while.. "What are you--" he asks. He looks so exhausted and so strong, and you think you understand why he has to do this, why it has to be him.
+
+"Quinn came and got me," you say. You grab his hand, and it should be a surprise, how familiar it is to you now, but it's not. It's not a surprise at all.
+
+He smiles like the sun coming out, and your heart turns over in your chest. His fingers tighten around your own. "Wait," he says. He tugs you close and presses a kiss to your lips, soft and sudden. "Okay," he continues after he pulls back. "We can go now."
+
+"Come on," you say.
+
+[[Escape.|Escape warehouse]]
+
+::Escape warehouse[under]
+
+You go out the way you came in, through the second floor window, down the side of the trailer. The two guards have moved to another side of the building, probably during a shift change. The hole in the chain link fence is still there. Kurt isn't quite as good at climbing as you are, but he keeps up, jaw set and eyes focused.
+
+On the other side of the fence, Wes is waiting for you with a car. Its lights and engine are off, hidden in shadow.
+
+"Warbler Blaine, Mr. Hummel," he says. "It's good to see you."
+
+"I could say the same thing to you," you say.
+
+Kurt nods. "Is this our ride?"
+
+"Yes. We were asked to take you back over the border," Wes says. "Your brother also wanted me to give you this." He hands over a plain white envelope, identical to the ones you've delivered over the years.
+
+It's too dark to read it out here. You squeeze Kurt's hand, trying to give him this small bit of comfort.
+
+"I don't think we should wait here much longer," Wes says. He opens the backseat door for the two of you.
+
+[[Get in the car.|In the car]]
+
+::In the car[under]
+
+Even at this time of night, Under is buzzing with activity, and the traffic can get thick as Wes drives. You and Kurt sit in the backseat together. Kurt stares out the window at the city, lit up by the lights that pour in, neon pinks and greens and blues. They bring out a strangeness in his eyes and remind you of the dance floor of the Underground, music humming in your veins and in your chest.
+
+A few minutes in, Kurt seems to remember that he has the letter. He tears it open, scans it quickly. "My dad," he says, breathing out. "He's out of the hospital."
+
+"Good," you say, and you know that this is it. He needs to go back. There's nothing keeping him here anymore.
+
+He looks at you, and his expression is tender. He grabs one of your hands, holding it between his own like he wants the reassurance that it's still there. "I'm glad that it was...that it was you," he says, "for all of it. Thank you."
+
+You can't quite help yourself. You lean over to kiss him, quick and fierce, one hand on the back of his neck to hold him in place. "I--" You don't have words for this, the way he's come into your life and turned it upside down without even trying. "I wish you could stay."
+
+"I can't. This is... this can't be about what I want." Kurt says. He turns his head to the side, bites his lip. He looks guilty.
+
+<<if $sebastianconfrontation>>
+"I know. I ran into Sebastian," you say, your whole body shivering at the memory. "He told me-- well, he told me enough about what Clarington is up to."
+<<else>>
+<<if $huntersoffice>>
+"I know. I found a report," you say, taking a deep breath, "in Hunter Clarington's office. It looks like Reunification doesn't look good for Clarington's bottom line."
+<<else>>
+"I know. It's just--" you say, and your frustration is awful, carving a hole in your chest. "Why you? And why Clarington Industries?"
+
+"They're worried about even the possibility of reunification," Kurt says. He looks so tired, so much older than his years. "It's bad for their business. And they thought it made sense to stop this from happening before it even started."
+
+"Of course they do," you say, and you want to-- you don't know what you want to do, because all you feel is exhausted.
+<<endif>>\
+<<endif>>
+
+Kurt sucks in a shaky breath and rubs his thumb over your knuckles. "This is big," he says. "This is big enough that we'll have enemies everywhere. I don't think Clarington is going to just give up, and the government in Over probably won't see eye-to-eye with us either."
+
+"Probably not," you say.
+
+"You could help," Kurt says. His eyes are so clear, so hopeful. "We need as many people as we can get, and you'd be-- you're a courier."
+
+"I don't--" you start, but it hits you low in the chest, the thought of maybe, of possibly //belonging// to something beyond the next job, the next paycheck, the next performance. Even with the Warblers, you've never figured out what to do with yourself besides survive, and now Kurt is offering a chance to-- "I'll talk to them," you finish.
+
+Kurt beams at you, and it's scary. Not just because of Clarington or the Over government. Under has always run under its own set of rules. It took you years to learn them, and now they're threatening to change. But maybe that's okay. The shape of your world can change, should change, and you can make it happen. You should make it happen.
+
+The car stops. "We're here," Wes says.
+
+[[Get out of the car.|Border]]
+
+::Border[under]
+
+You're right near one of Wes's favorite spots to cross the border, an old overpass. The side of it that's on Over was torn down decades ago, but the side of it that's part of Under has remained stubbornly up, close to the wall. It's overgrown with weeds now, and you're pretty sure that it's on the verge of crumbling, but you've crossed this way dozens of times, and it's always been stable under your feet. Wes shoots a heavy-duty metal wire across into Over, watching as it lands and sticks in the ground. He attaches the other end to the metal pole he's set up for just this purpose. He tugs on the wire, checking its strength.
+
+You lead Kurt to the edge, making sure to watch your step for weak points, stray debris.
+
+Wes is looking pointedly away. The night is dark around you. You're not very high up, not more than twenty feet above the ground, but you have a good view. You can see the glistening skyscrapers of Over, bright and shining, the fluorescents glowing white. Behind you, an orange glow rises up from the squatter buildings of Under, steam and smoke billowing up from the streets below. They're beautiful, you realize, your cities. Both of them. And one day, they might one city, one place, and everything will be different then.
+
+Kurt hasn't let go of your hand since the car, and he reels you in closer, bodies almost touching. "This isn't goodbye," he says, leaning in so he can brush his nose against yours.
+
+"I know," you say, but it feels like one anyway. You cup his cheek with one hand and brush your thumb against his chin. "Here's looking at you, kid."
+
+Kurt barks out an uneven laugh at that, eyes gone watery and soft.
+
+That makes you laugh, too. "Sam's Bogart impression is much better than mine," you say.
+
+He pulls you into a hug, arms tight around your neck as you wrap your arms around his waist. You memorize the way he smells, like coconut and sweat and dusty warehouse, and you don't think you could ever forget the way this feels, squeezing each other tight enough that it becomes difficult to breathe.
+
+"I need to go," he says after he pulls back, rubbing at his eyes with his sleeve. He smiles through it, even though his voice is strained.
+
+He turns away from you, heading towards the border. He's standing tall, not even letting the tiniest bit of discomfort show. You can't do anything but watch. You watch as he takes the zip line trolley from Wes's hands, as he shakes his head and laughs. "Just keep a tight grip on the handles, and you'll be fine," Wes says.
+
+[[Watch.|Kurt leaves]]
+
+::Kurt leaves[under]
+
+You watch as he rides the zip line down, landing unsteady, but safe, on his feet. You watch as he reorients himself, pulling the metal stake out of the ground so Wes can reel the wire and the trolley back in. You watch as he starts running back towards the heart of the city, the darkness of night hiding him from the patrolling guards. You watch as he becomes smaller and smaller until he's nothing but a pinprick on the horizon.
+
+Wes puts a hand on your shoulder. "If it makes you feel any better, Mr. Schuester has already scheduled his next delivery to the Hummels two weeks from now," Wes says. He raises a curious eyebrow in your direction.
+
+You let out a soft laugh, and even through the ache, you can feel your heart beat in your chest, steadier than you expected. Two weeks. For Kurt, you can wait two weeks. "Thank you," you say.
+
+"Does this mean that this is the beginning of a beautiful friendship?" Wes asks, keeping his voice light. Wes is not always good at jokes, but sometimes he manages. The two of you walk back to the car, shoulder to shoulder.
+
+You roll your eyes, breathing in the night air. It feels colder now that the adrenaline is wearing off. Tomorrow, you'll find Mr. Schue and Quinn and offer up whatever help you can give, but that can wait until tomorrow. 
+
+"No," you say as you climb in the car and shut the door behind you, "but tomorrow is another day." The inside of the car is stuffy, quieter now that the sounds of the city are muted. You take a deep breath and try not to think of Kurt, on his way back home now, back to his family, back to his mission, but it's impossible not to remember the bright sound of his laugh and the gentle curl of his fingers.
+
+"Amen to that," Wes says. He starts the engine, and he drives you back into the heart of Under, back home.
+
+
+[[FIN.|Epigraph]]
+
+::Epigraph
+
+"I see a beautiful city and a brilliant people rising from this abyss, and, in their struggles to be truly free, in their triumphs and defeats, through long years to come, I see the evil of this time and of the previous time of which this is the natural birth, gradually making expiation for itself and wearing out... It is [[a far, far better thing|End notes]] that I do, than I have ever done." 
+
+-- //A Tale of Two Cities//, Charles Dickens
+
+
+::End notes
+
+! End Notes
+Thanks so much for reading! This fic was such a blast to get to write and to play around with. It was originally going to be a short thing, just to play around with the framework, but then it ballooned into its own story with its own plot and worldbuilding and, well, a lot of things. I'm not sure everything was successful, but I'm still proud that I managed to pull it off.
+
+I should put a shout out here to Mirror's Edge and Mass Effect for being two video games that were fairly large influences on the original direction of the story. It probably shows.
+
+I also want to thank everyone who listened to me ramble about this for weeks and months on end about how to do this.
+
+I would love any and all feedback on this: [[AO3|]] | [[DW|]] | [[Tumblr|]] | [[LJ|]]
+
+!!! Code
+You can [[view the source code on Github|https://github.com/thedeadparrot/fic-projects/tree/master/edge]]. There are a few more technical details there.
+
+Looking to make your own Twine stories? Anna Anthropy has made [[a good starter tutorial|http://www.auntiepixelante.com/twine/]] that you can use.
+
+Looking to see what other people are doing with the format? You can visit [[TwineHub|http://twinehub.weebly.com/]] for a list of existing stories.
+

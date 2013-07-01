@@ -1,9 +1,9 @@
-[Title]()
+[A Far Better Thing](http://thedeadparrot.github.io/fic-projects/edge/a-far-better-thing.html)
 =========
 
 This story was actually written using [Twee](https://github.com/tweecode/twee), though you might be more interested in Twee's sister program, [Twine](https://github.com/tweecode/twine).
 
-You can also read [the rendered story]() if you would like to see what it looks like.
+You can also read [the rendered story](http://thedeadparrot.github.io/fic-projects/edge/a-far-better-thing.html) if you would like to see what it looks like.
 
 Getting Twine
 -------------
