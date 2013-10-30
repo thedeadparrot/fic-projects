@@ -18,8 +18,11 @@ h1 {
 }
 
 .content {
-    font-family: 'Open Sans', sans-serif;
     padding: 1em;
+}
+
+.content p, h2 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .fic-summary {
