@@ -21,8 +21,17 @@ h1 {
     padding: 1em;
 }
 
-.content p, h2 {
+.text-muted {
+    color: #ccc;
+}
+
+.content p, h2, .buttons {
     font-family: 'Open Sans', sans-serif;
+}
+
+
+.content h2 {
+    font-size: 1.75em;
 }
 
 .fic-summary {

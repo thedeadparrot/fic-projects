@@ -8,7 +8,7 @@ title: thedeadparrot's fic projects
 <div class="pure-g-r fic-summary">
     <div class="pure-u-1">
         <h2>{{ post.title }}</h2>
-        <i class="icon-chevron-right pull-left icon-muted icon-4x"></i>
+        <i class="fa fa-chevron-right pull-left text-muted fa-4x"></i>
         <p class="fandom">
         {{ post.fandom }}
         </p>
@@ -23,13 +23,13 @@ title: thedeadparrot's fic projects
         </p>
         <div class="buttons">
             {% if post.read_url %}
-            <a class="pure-button" href="{{post.read_url}}"><i class="icon-book pull-left icon-fixed-width icon-large"></i> Read Story</a>
+            <a class="pure-button" href="{{post.read_url}}"><i class="fa fa-book pull-left fa-fw fa-lg"></i> Read Story</a>
             {% endif %}
             {% if post.source_url %}
-            <a class="pure-button" href="{{post.source_url}}"><i class="icon-file-alt pull-left icon-large icon-fixed-width"></i> View Source</a>
+            <a class="pure-button" href="{{post.source_url}}"><i class="fa fa-file-text-o pull-left fa-lg fa-fw"></i> View Source</a>
             {% endif %}
             {% if post.comment_url %}
-            <a class="pure-button" href="{{post.comment_url}}"><i class="icon-comments pull-left icon-large icon-fixed-width"></i> Comment</a>
+            <a class="pure-button" href="{{post.comment_url}}"><i class="fa fa-comments pull-left fa-lg fa-fw"></i> Comment</a>
             {% endif %}
         </div>
     </div>
