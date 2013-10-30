@@ -3,6 +3,7 @@ h1 {
     font-size: 2.5em;
     font-style: italic;
     margin: .3em 0px;
+    text-transform: uppercase;
 }
 
 .fandom {
@@ -25,13 +26,18 @@ h1 {
     color: #ccc;
 }
 
-.content p, h2, .buttons {
+.content p, .buttons {
     font-family: 'Open Sans', sans-serif;
 }
 
 
 .content h2 {
-    font-size: 1.75em;
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .15em;
+
 }
 
 .fic-summary {
@@ -44,4 +50,8 @@ h1 {
 
 .buttons {
     clear: both;
+}
+
+.buttons .fa {
+    line-height: 1;
 }
