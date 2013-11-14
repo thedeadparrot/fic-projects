@@ -17,3 +17,9 @@ A Far Better Thing
 ------------------
 
 Written with the [twee](http://gimcrackd.com/etc/src/) engine. You can find the code in the `edge` folder.
+
+
+What You Want
+-------------
+
+A short sequel to A Far Better Thing aiming to pushing the experimental side of things. Also built using twee. You can find the code for this in the `edge-2` folder.
