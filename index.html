@@ -2,8 +2,9 @@
 layout: projects
 title: thedeadparrot's fic projects
 ---
-<h1>{{site.name}}</h1>
-<p>{{site.summary|markdownify}}</p>
+<div class="header-icon"><i class="fa fa-flask fa-3x"></i></div>
+<h1> {{site.name}}</h1>
+<div class="site-summary">{{site.summary|markdownify}}</div>
 {% for post in site.posts %}
 <div class="pure-g-r fic-summary">
     <div class="pure-u-1">

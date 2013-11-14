@@ -1,13 +1,23 @@
 h1 { 
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5em;
-    font-style: italic;
-    margin: .3em 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    margin: 0em 0em .3em 0em;
     text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+.header-icon {
+    text-align: center;
+    font-size: 2.9em;
 }
 
 .fandom {
     font-weight: bold;
+}
+
+.site-summary {
+    text-align: center;
 }
 
 .pairing {
@@ -36,8 +46,8 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: .15em;
-
+    letter-spacing: .06em;
+    margin: 0.3em 0em;
 }
 
 .fic-summary {
@@ -46,6 +56,7 @@ h1 {
 
 #top-menu {
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 .buttons {
