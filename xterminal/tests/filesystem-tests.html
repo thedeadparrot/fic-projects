@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="../js/filesystem.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                    var filesystem = new FileSystem();
+                    filesystem.loadFile('test-data.json');
+                    filesystem.loaded(
+                        function() {
+                            //test changeDirectory
+                            
+                            //test getFile with absolute path
+                            var file = filesystem.getFile('photos/photo.jpg');
+                            console.log('filetype: ' + file.type);
+                            var file = filesystem.getFile('photos');
+                            console.log('filetype: ' + file.type);
+                            var file = filesystem.getFile('photos/');
+                            console.log('filetype: ' + file.type);
+
+                            // test getFile with relative path
+
+
+                        }
+                    );
+            });
+        </script>
+    </head>
+    <body>
+        <div id="test1">
+        </div>
+    </body>
+</html>

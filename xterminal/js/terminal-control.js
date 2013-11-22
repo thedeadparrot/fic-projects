@@ -15,11 +15,15 @@ Last login: Apr 25 08:42:24 EST 2006 \n \
 \n\
 Type 'help' for a list of available commands.\n \
 \n";
-CWD = '~'
+DEFAULT_CWD = '~'
 USER = 'cxavier';
 //TODO: change this to something better later
 PASSWORD = 'hello';
 BASE_PROMPT = USER +'@xterminal:';
+DATA_FILE = '../data/files.json';
+
+filesystem = new FileSystem();
+filesystem.loadFile(DATA_FILE);
 
 /*************************
  *
@@ -91,12 +95,15 @@ function help(term, args) {
   ***************/
 
 $(document).ready(function() {
-    $('body').terminal(
-        xterminal,
-        {
-            login: login,
-            greetings: GREETINGS_STRING,
-            name: 'xterm',
-            prompt: BASE_PROMPT + CWD + '$ '
+    filesystem.loaded(
+        function() {
+            $('body').terminal(
+                xterminal,
+                {
+                    login: login,
+                    greetings: GREETINGS_STRING,
+                    name: 'xterm',
+                    prompt: BASE_PROMPT + DEFAULT_CWD + '$ '
+                });
         });
 });
