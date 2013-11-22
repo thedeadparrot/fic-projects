@@ -1,4 +1,4 @@
-// Useful strings
+// Useful constants to keep around
 GREETINGS_STRING = "Welcome to Xavier's School for the Gifted \n\
 ____      ___ \n\
 `MM(      )M' \n\
@@ -11,19 +11,40 @@ ____      ___ \n\
    d'  `MM.   \n\
   d'    `MM.  \n\
 _M(_    _)MM_ \n\n\
-Last login: Apr 25 08:42:24 EST 2006 \n \n";
+Last login: Apr 25 08:42:24 EST 2006 \n \
+\n\
+Type 'help' for a list of available commands.\n \
+\n";
 CWD = '~'
 USER = 'cxavier';
 //TODO: change this to something better later
 PASSWORD = 'hello';
+BASE_PROMPT = USER +'@xterminal:';
+
+/*************************
+ *
+ * Terminal setup functions
+ *   - these are used by jQuery Terminal directly
+ *
+ ****************************/
+
 
 // xterminal -
 //  jquery terminal expects a function that maps commands to actions
-
+// This also handles any special case handling of the inputs before
+// passing them to the individual functions
 function xterminal(command, term) {
-
-    // rudimentary echo function
-    term.echo(command);
+    parsedCommand = $.terminal.parseCommand(command);
+    switch(parsedCommand['name'])
+    {
+        case 'help':
+            help(term, parsedCommand['args']);
+            break;
+        default:
+            // rudimentary echo function
+            term.echo(command);
+            break;
+    }
 }
 
 // the most insecure login function ever
@@ -36,6 +57,39 @@ function login(user, passwd, callback) {
     }
 }
 
+
+/**********************
+ *
+ * Command functions
+ *  - these handle the individual commands that get typed
+ *    into the terminal
+ *
+ **********************/
+
+
+// Display help text to the user
+// If called without arguments, displays the list of commands with general descriptions
+// If we have been passed in a command (e.g. ls, cd), display help text
+//  for that particular command
+function help(term, args) {
+    if(args.length > 0)
+    {
+        command = args[0];
+        term.echo(command);
+    }
+    else
+    {
+        term.echo('help!');
+    }
+}
+
+
+/******************
+  *
+  * Set up the terminal
+  *
+  ***************/
+
 $(document).ready(function() {
     $('body').terminal(
         xterminal,
@@ -43,6 +97,6 @@ $(document).ready(function() {
             login: login,
             greetings: GREETINGS_STRING,
             name: 'xterm',
-            prompt: 'cxavier@xterminal:' + CWD + '$ '
+            prompt: BASE_PROMPT + CWD + '$ '
         });
 });
