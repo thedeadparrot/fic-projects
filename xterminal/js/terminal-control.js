@@ -15,14 +15,14 @@ Last login: Apr 25 08:42:24 EST 2006 \n \
 \n\
 Type 'help' for a list of available commands.\n \
 \n";
-DEFAULT_CWD = '~'
+ROOT_DIR = '~'
 USER = 'cxavier';
 //TODO: change this to something better later
 PASSWORD = 'hello';
 BASE_PROMPT = USER +'@xterminal:';
 DATA_FILE = '../data/files.json';
 
-filesystem = new FileSystem();
+var filesystem = new FileSystem();
 filesystem.loadFile(DATA_FILE);
 
 /*************************
@@ -43,6 +43,9 @@ function xterminal(command, term) {
     {
         case 'help':
             help(term, parsedCommand['args']);
+            break;
+        case 'cd':
+            cd(term, parsedCommand['args']);
             break;
         default:
             // rudimentary echo function
@@ -88,6 +91,20 @@ function help(term, args) {
 }
 
 
+// change the current working directory
+function cd(term, args) {
+    if(args.length > 0) {
+        directory_path = args[0];
+    }
+    else{
+        directory_path = '~/';
+    }
+    filesystem.changeDirectory(directory_path);
+    // update the prompt so that it 'looks right'
+    root_dir = filesystem.cwd === '' ? '~' : '~/';
+    term.set_prompt(BASE_PROMPT + root_dir + filesystem.cwd.slice(0, -1) + '$ ');
+}
+
 /******************
   *
   * Set up the terminal
@@ -103,7 +120,7 @@ $(document).ready(function() {
                     login: login,
                     greetings: GREETINGS_STRING,
                     name: 'xterm',
-                    prompt: BASE_PROMPT + DEFAULT_CWD + '$ '
+                    prompt: BASE_PROMPT + ROOT_DIR + '$ '
                 });
         });
 });
