@@ -11,13 +11,52 @@
                         function() {
                             //test changeDirectory
                             
-                            //test getFile with absolute path
+                            //test getFile with a simple relative path
                             var file = filesystem.getFile('photos/photo.jpg');
+                            console.log('should be: photo');
                             console.log('filetype: ' + file.type);
+                            console.log('***');
+
                             var file = filesystem.getFile('photos');
+                            console.log('should be: directory');
                             console.log('filetype: ' + file.type);
+                            console.log('***');
+
                             var file = filesystem.getFile('photos/');
                             console.log('filetype: ' + file.type);
+                            console.log('should be: directory');
+                            console.log('***');
+
+                            var file = filesystem.getFile('photos/./');
+                            console.log('filetype: ' + file.type);
+                            console.log('should be: directory');
+                            console.log('***');
+
+                            var file = filesystem.getFile('photos/../');
+                            console.log('filetype: ' + file.type);
+                            console.log('should be: directory');
+                            console.log('should be true');
+                            console.log('contains photos: ' + file.files.hasOwnProperty('photos'));
+                            console.log('***');
+
+                            try {
+                                var file = filesystem.getFile('photo.jpg');
+                            }
+                            catch(e) {
+                                console.log("Error: " + e.error_msg);
+                            }
+                            console.log('should be an error');
+                            console.log('***');
+
+                            try {
+
+                                var file = filesystem.getFile('photo.jpg/');
+                            }
+                            catch(e) {
+                                console.log("Error: " + e.error_msg);
+                            }
+                            console.log('should be an error');
+                            console.log('***');
 
                             // test getFile with relative path
 
