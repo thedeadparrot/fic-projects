@@ -8,6 +8,9 @@
                     "type": "photo"
                 }
             }
+        },
+        ".hello": {
+            "type": "text"
         }
     }
 }

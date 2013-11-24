@@ -33,7 +33,7 @@ var FileSystem = function() {
             var new_files = {};
             var new_data = {'type': 'directory'};
             for(var file in data.files) {
-                var new_file = constructDataTree(data.files[file], data);
+                var new_file = constructDataTree(data.files[file], new_data);
                 new_files[file] = new_file;
             }
             new_data.files = new_files;
@@ -134,15 +134,71 @@ var FileSystem = function() {
 
     // returns the file or directory at the given path
     me.getFile = function(file_path) {
-        //TODO: handle relative and absolute paths
-        var split_file_path = file_path.split('/');
+        // use the absolute path before splitting
+        var absolute_file_path = normalizePaths(file_path);
+        var split_file_path = absolute_file_path.split('/');
         return getObjectHelper(split_file_path, me.root_dir, null);
     }
 
-    me.getFiles = function(directory_path) {
+    // either gets the files in the given directory or returns the single file
+    // all - a boolean indicating that we want all of the file, including the hidden ones
+    me.getFiles = function(path, all) {
+        var file = me.getFile(path);
+        if(file.type === 'directory') {
+            if(all) {
+                return file.files;
+            }
+            else {
+                // filter out files that begin with '.'
+                var files_to_return = {};
+                for(var directory_file in file.files) {
+                    if(directory_file[0] !== '.') {
+                        files_to_return[directory_file] = file.files[directory_file];
+                    }
+                }
+                return files_to_return;
+            }
+        }
+        // if we ls a specific file, it returns that particular file
+        else {
+            var new_file = {};
+            new_file[path] = file;
+            return new_file;
+        } 
     }
 
+    // if we need to reconstruct the absolute file path of a file, use this to do so
+    var constructPathFromFile = function(file) {
+        if(file.parent === null) {
+            return '';
+        }
+        else {
+            // this is sort of a hack from the way we can't get the name from the file
+            // but it shouldn't be too expensive
+
+            // parent is always a directory
+            for(var child_file in file.parent.files) {
+                if(file.parent.files[child_file] === file) {
+                    // put a slash on the end if it's a directory
+                    var decorator = file.type === 'directory' ? '/': ''
+                    return constructPathFromFile(file.parent) + child_file + decorator;
+                }
+
+            }
+        }
+
+    }
+
+    // change the working directory to the given path.
+    // must be a valid directory
     me.changeDirectory = function(directory_path) {
+        var directory = me.getFile(directory_path);
+        if(directory.type === 'directory') {
+            me.cwd = constructPathFromFile(directory);
+        }
+        else {
+            throw new InvalidFileObject('Not a directory.');
+        }
     }
 
 
