@@ -47,6 +47,9 @@ function xterminal(command, term) {
         case 'cd':
             cd(term, parsedCommand['args']);
             break;
+        case 'ls':
+            ls(term, parsedCommand['args']);
+            break;
         default:
             // rudimentary echo function
             term.echo(command);
@@ -99,10 +102,53 @@ function cd(term, args) {
     else{
         directory_path = '~/';
     }
-    filesystem.changeDirectory(directory_path);
-    // update the prompt so that it 'looks right'
-    root_dir = filesystem.cwd === '' ? '~' : '~/';
-    term.set_prompt(BASE_PROMPT + root_dir + filesystem.cwd.slice(0, -1) + '$ ');
+    try {
+        filesystem.changeDirectory(directory_path);
+        // update the prompt so that it 'looks right'
+        root_dir = filesystem.cwd === '' ? '~' : '~/';
+        term.set_prompt(BASE_PROMPT + root_dir + filesystem.cwd.slice(0, -1) + '$ ');
+    } catch (e) {
+        term.echo(e.error_msg);
+    }
+}
+
+function ls(term, args){
+    // use the current working directory by default
+    var directory = '~/' + filesystem.cwd;
+    var all = false;
+    if(args.length > 0) {
+        // if the -a option exists, show all files
+        if(args[0] == '-a') {
+            all = true;
+            // if we have a second argument, assume that's what we're listing
+            directory = args.length > 1 ? args[1] : directory; 
+        }
+        // otherwise, assume that our only argument is what we're listing
+        else {
+            directory = args[0];
+        }
+    }
+
+    // now get the files from the given directory
+    try {
+        var files = filesystem.getFiles(directory, all);
+        var filenames = Object.keys(files);
+        filenames.sort();
+        for(var i = 0; i < filenames.length; i++){
+            var filename = filenames[i];
+            if(files[filename].type === 'directory') {
+                term.echo(filename + '/');
+            }
+            else {
+                term.echo(filename);
+            }
+        }
+
+    } catch(e) {
+        console.log(e);
+        term.echo(e.error_msg);
+    }
+
 }
 
 /******************
