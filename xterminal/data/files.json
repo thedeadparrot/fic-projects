@@ -1,11 +1,27 @@
 {
     "type": "directory",
     "files": {
-        "photos": {
+        "cerebro": {
             "type": "directory",
             "files": {
-                "photo.jpg": {
-                    "type": "photo"
+                "logs": {
+                    "type": "directory",
+                    "files": {
+                        "cerebro-20021007.log": {
+                            "type": "text",
+                            "src": "../data/cerebro/logs/cerebro-20021007.log"
+                        }
+                    }
+                },
+                "video": {
+                    "type": "directory",
+                    "files": {
+                    }
+                },
+                "notes": {
+                    "type": "directory",
+                    "files": {
+                    }
                 }
             }
         }

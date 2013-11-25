@@ -49,6 +49,9 @@ function xterminal(command, term) {
         case 'ls':
             ls(term, parsedCommand['args']);
             break;
+        case 'cat':
+            cat(term, parsedCommand['args']);
+            break;
         default:
             // rudimentary echo function
             term.echo(command);
@@ -111,6 +114,8 @@ function cd(term, args) {
     }
 }
 
+// list the files in a directory. Defaults to the current directory if none given
+// will hide hidden files unless an option is specified 
 function ls(term, args){
     // use the current working directory by default
     var directory = '~/' + filesystem.cwd;
@@ -148,6 +153,32 @@ function ls(term, args){
         term.echo(e.error_msg);
     }
 
+}
+
+// Cat - concatenate files and dump to the standard output
+// grabs the text file and prints it to the terminal
+function cat(term, args) {
+    for(var i = 0; i < args.length; i++) {
+        var filename = args[i];
+        try{
+            var file = filesystem.getFile(filename);
+            // only want the files that are text files and are not encrypted
+            if(file.type === 'text' && !file.hasOwnProperty('encrypted')) {
+                $.get(file.src, function(data) {
+                    // print the associated file to the terminal
+                    term.echo(data);
+                }).fail( function() {
+                    console.log('failure retrieving ' + file.src);
+                });
+            }
+            else {
+                term.echo(filename + ": not a text file.");
+            }
+        } catch(e) {
+            console.log(e);
+            term.echo(e.error_msg);
+        }
+    }
 }
 
 /******************
