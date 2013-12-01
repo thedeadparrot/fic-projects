@@ -7,9 +7,9 @@
                 "logs": {
                     "type": "directory",
                     "files": {
-                        "cerebro-20021007.log": {
+                        "cerebro-19981007.log": {
                             "type": "text",
-                            "src": "../data/cerebro/logs/cerebro-20021007.log"
+                            "src": "../data/cerebro/logs/cerebro-19981007.log"
                         }
                     }
                 },
@@ -21,6 +21,10 @@
                 "notes": {
                     "type": "directory",
                     "files": {
+                        "cerebro-notes-19981007.txt": {
+                            "type": "text",
+                            "src": "../data/cerebro/notes/cerebro-notes-19981007.txt"
+                        }
                     }
                 }
             }
