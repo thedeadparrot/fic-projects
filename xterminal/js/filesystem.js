@@ -167,6 +167,24 @@ var FileSystem = function() {
         } 
     }
 
+    // return just the file names in the path sorted and formated correctly
+    // for directories
+    me.getFileNames = function(path, all) {
+        var files = me.getFiles(path, all);
+        var filenames = Object.keys(files);
+        filenames.sort();
+        // special casing for directories
+        var formatted_names = filenames.map(function(filename) {
+            if(files[filename].type === 'directory') {
+                return filename + '/';
+            }
+            else {
+                return filename;
+            }
+        })
+        return formatted_names;
+    }
+
     // if we need to reconstruct the absolute file path of a file, use this to do so
     var constructPathFromFile = function(file) {
         if(file.parent === null) {

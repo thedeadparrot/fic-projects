@@ -148,6 +148,18 @@ $(document).ready(function() {
                     console.log('file in directory: ' + file + " type: " + files[file].type);
                 }
                 console.log('***');
+
+                var filenames = filesystem.getFileNames('photos/', true);
+                for(var i=0; i < filenames.length; i++) {
+                    console.log('file in directory: ' + filenames[i]);
+                }
+                console.log('***');
+
+                var filenames = filesystem.getFileNames('', true);
+                for(var i=0; i < filenames.length; i++) {
+                    console.log('file in directory: ' + filenames[i]);
+                }
+                console.log('***');
             }
         );
 });

@@ -37,24 +37,23 @@ filesystem.loadFile(DATA_FILE);
 // This also handles any special case handling of the inputs before
 // passing them to the individual functions
 function xterminal(command, term) {
-    parsedCommand = $.terminal.parseCommand(command);
-    switch(parsedCommand['name'])
+    parsed_command = $.terminal.parseCommand(command);
+    switch(parsed_command['name'])
     {
         case 'help':
-            help(term, parsedCommand['args']);
+            help(term, parsed_command['args']);
             break;
         case 'cd':
-            cd(term, parsedCommand['args']);
+            cd(term, parsed_command['args']);
             break;
         case 'ls':
-            ls(term, parsedCommand['args']);
+            ls(term, parsed_command['args']);
             break;
         case 'cat':
-            cat(term, parsedCommand['args']);
+            cat(term, parsed_command['args']);
             break;
         default:
-            // rudimentary echo function
-            term.echo(command);
+            term.echo('Command not found.');
             break;
     }
 }
@@ -69,6 +68,23 @@ function login(user, passwd, callback) {
     }
 }
 
+function complete_file(cmd) {
+    var directory = '~/' + filesystem.cwd;
+    var all = cmd.length > 0 && cmd.charAt(0) === '.';
+    var file_names = filesystem.getFileNames(directory, all);
+    // we could do something cool with this
+    file_names = file_names.filter(function(name) {
+        return name.substring(0, cmd.length) === cmd;
+    });
+    return file_names;
+
+}
+
+// handle tab completion for various commands
+function tab_completion(term, command, callback) {
+    var names = complete_file(command);
+    callback(names);
+}
 
 /**********************
  *
@@ -135,19 +151,10 @@ function ls(term, args){
 
     // now get the files from the given directory
     try {
-        var files = filesystem.getFiles(directory, all);
-        var filenames = Object.keys(files);
-        filenames.sort();
-        for(var i = 0; i < filenames.length; i++){
-            var filename = filenames[i];
-            if(files[filename].type === 'directory') {
-                term.echo(filename + '/');
-            }
-            else {
-                term.echo(filename);
-            }
+        var file_names = filesystem.getFileNames(directory, all);
+        for(var i = 0; i < file_names.length; i++){
+            term.echo(file_names[i]);
         }
-
     } catch(e) {
         console.log(e);
         term.echo(e.error_msg);
@@ -196,7 +203,9 @@ $(document).ready(function() {
                     login: login,
                     greetings: GREETINGS_STRING,
                     name: 'xterm',
-                    prompt: BASE_PROMPT + ROOT_DIR + '$ '
+                    prompt: BASE_PROMPT + ROOT_DIR + '$ ',
+                    tabcompletion: true,
+                    completion: tab_completion
                 });
         });
 });
