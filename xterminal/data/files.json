@@ -9,7 +9,7 @@
                     "files": {
                         "cerebro-19981007.log": {
                             "type": "text",
-                            "src": "../data/cerebro/logs/cerebro-19981007.log"
+                            "src": "../data/cerebro/logs/cerebro-1.log"
                         }
                     }
                 },
@@ -23,7 +23,7 @@
                     "files": {
                         "cerebro-notes-19981007.txt": {
                             "type": "text",
-                            "src": "../data/cerebro/notes/cerebro-notes-19981007.txt"
+                            "src": "../data/cerebro/notes/cerebro-notes-1.txt"
                         }
                     }
                 }
