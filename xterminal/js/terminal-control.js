@@ -69,20 +69,55 @@ function login(user, passwd, callback) {
 }
 
 function complete_file(cmd) {
+    // split the cmd so that we can separate out the filename from the path
+
+    var split_cmd = cmd.split('/');
+    var len = split_cmd.length;
+
+    // assume we are using the current working directory
     var directory = '~/' + filesystem.cwd;
-    var all = cmd.length > 0 && cmd.charAt(0) === '.';
-    var file_names = filesystem.getFileNames(directory, all);
+    var file_name = cmd;
+    var modify_names = false;
+
+    //  if we have a path other than the current working directory to search
+    //  change directory and all
+    if(len > 1) {
+        modify_names = true;
+        file_name = split_cmd.pop();
+
+        // join everything back up without the file name as part of it
+        path = split_cmd.join('/');
+
+        if(path.charAt(0) != '~') {
+            directory = "~/" + filesystem.cwd + path;
+        }
+        else {
+            directory = path + '/';
+        }
+    }
+
+    // then use the splits information to find the files that could match 
+    var file_names = filesystem.getFileNames(directory, true);
     // we could do something cool with this
     file_names = file_names.filter(function(name) {
-        return name.substring(0, cmd.length) === cmd;
+        return name.substring(0, file_name.length) === file_name;
     });
+    if(modify_names) {
+        file_names = file_names.map(function(name) {
+            return path + '/' + name;
+        });
+    }
     return file_names;
 
 }
 
 // handle tab completion for various commands
 function tab_completion(term, command, callback) {
-    var names = complete_file(command);
+    try {
+        var names = complete_file(command);
+    } catch(e) {
+        term.echo(e.error_msg);
+    }
     callback(names);
 }
 
