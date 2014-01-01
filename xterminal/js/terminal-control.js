@@ -19,7 +19,7 @@ USER = 'cxavier';
 //TODO: change this to something better later
 PASSWORD = 'hello';
 BASE_PROMPT = USER +'@xterminal:';
-DATA_FILE = '../data/files.json';
+DATA_FILE = 'data/files.json';
 
 var filesystem = new FileSystem();
 filesystem.loadFile(DATA_FILE);

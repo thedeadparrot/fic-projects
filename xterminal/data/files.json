@@ -9,13 +9,16 @@
                     "files": {
                         "cerebro-19981007.log": {
                             "type": "text",
-                            "src": "../data/cerebro/logs/cerebro-1.log"
+                            "src": "data/cerebro/logs/cerebro-1.log"
                         }
                     }
                 },
                 "video": {
                     "type": "directory",
                     "files": {
+                        "cerebro-recording.mpg": {
+                            "type": "video"
+                        }
                     }
                 },
                 "notes": {
@@ -23,7 +26,15 @@
                     "files": {
                         "cerebro-notes-19981007.txt": {
                             "type": "text",
-                            "src": "../data/cerebro/notes/cerebro-notes-1.txt"
+                            "src": "data/cerebro/notes/cerebro-notes-1.txt"
+                        },
+                        "cerebro-notes-20021123.txt": {
+                            "type": "text",
+                            "src": "data/cerebro/notes/cerebro-notes-2.txt"
+                        },
+                        "cerebro-notes-20050402.txt": {
+                            "type": "text",
+                            "src": "data/cerebro/notes/cerebro-notes-3.txt"
                         }
                     }
                 }
