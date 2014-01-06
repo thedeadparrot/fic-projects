@@ -1,40 +1,45 @@
 {
     "type": "directory",
     "files": {
-        "cerebro": {
+        ".xmen": {
             "type": "directory",
             "files": {
-                "logs": {
+                "cerebro": {
                     "type": "directory",
                     "files": {
-                        "cerebro-19981007.log": {
-                            "type": "text",
-                            "src": "data/cerebro/logs/cerebro-1.log"
-                        }
-                    }
-                },
-                "video": {
-                    "type": "directory",
-                    "files": {
-                        "cerebro-recording.mpg": {
-                            "type": "video"
-                        }
-                    }
-                },
-                "notes": {
-                    "type": "directory",
-                    "files": {
-                        "cerebro-notes-19981007.txt": {
-                            "type": "text",
-                            "src": "data/cerebro/notes/cerebro-notes-1.txt"
+                        "logs": {
+                            "type": "directory",
+                            "files": {
+                                "cerebro-19981007.log": {
+                                    "type": "text",
+                                    "src": "data/cerebro/logs/cerebro-1.log"
+                                }
+                            }
                         },
-                        "cerebro-notes-20021123.txt": {
-                            "type": "text",
-                            "src": "data/cerebro/notes/cerebro-notes-2.txt"
+                        "video": {
+                            "type": "directory",
+                            "files": {
+                                "cerebro-recording.mpg": {
+                                    "type": "video"
+                                }
+                            }
                         },
-                        "cerebro-notes-20050402.txt": {
-                            "type": "text",
-                            "src": "data/cerebro/notes/cerebro-notes-3.txt"
+                        "notes": {
+                            "type": "directory",
+                            "files": {
+                                "cerebro-notes-19981007.txt": {
+                                    "type": "text",
+                                    "src": "data/cerebro/notes/cerebro-notes-1.txt"
+                                },
+                                "cerebro-notes-20021123.txt": {
+                                    "type": "text",
+                                    "src": "data/cerebro/notes/cerebro-notes-2.txt"
+                                },
+                                "cerebro-notes-20050402.txt": {
+                                    "type": "text",
+                                    "src": "data/cerebro/notes/cerebro-notes-3.txt"
+                                }
+                            }
                         }
                     }
                 }
