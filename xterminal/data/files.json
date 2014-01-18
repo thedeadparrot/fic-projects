@@ -22,6 +22,10 @@
                 }
             }
         },
+        ".bashrc": {
+            "type": "text",
+            "src": "data/.bashrc"
+        },
         ".xmen": {
             "type": "directory",
             "files": {
