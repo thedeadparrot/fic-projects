@@ -1,6 +1,27 @@
 {
     "type": "directory",
     "files": {
+        "book": {
+            "type": "directory",
+            "files": {
+                "intro-chapter-v1.txt": {
+                    "type": "text",
+                    "src": "data/book/intro-chapter-1.txt"
+                },
+                "intro-chapter-v2.txt": {
+                    "type": "text",
+                    "src": "data/book/intro-chapter-2.txt"
+                },
+                "intro-chapter-v3.txt": {
+                    "type": "text",
+                    "src": "data/book/intro-chapter-3.txt"
+                },
+                "intro-chapter-v4.txt": {
+                    "type": "text",
+                    "src": "data/book/intro-chapter-4.txt"
+                }
+            }
+        },
         ".xmen": {
             "type": "directory",
             "files": {
