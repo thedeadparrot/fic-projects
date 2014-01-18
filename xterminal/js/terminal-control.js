@@ -129,6 +129,14 @@ function tab_completion(term, command, callback) {
  *
  **********************/
 
+function displayFile(file_src, term) {
+    $.get(file_src, function(data) {
+        // print the associated file to the terminal
+        term.echo(data);
+    }).fail( function() {
+        console.log('failure retrieving ' + file.src);
+    });
+}
 
 // Display help text to the user
 // If called without arguments, displays the list of commands with general descriptions
@@ -206,12 +214,7 @@ function cat(term, args) {
             var file = filesystem.getFile(filename);
             // only want the files that are text files and are not encrypted
             if(file.type === 'text' && !file.hasOwnProperty('encrypted')) {
-                $.get(file.src, function(data) {
-                    // print the associated file to the terminal
-                    term.echo(data);
-                }).fail( function() {
-                    console.log('failure retrieving ' + file.src);
-                });
+                displayFile(file.src, term);
             }
             else {
                 term.echo(filename + ": not a text file.");
