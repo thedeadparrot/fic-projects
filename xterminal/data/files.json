@@ -22,6 +22,37 @@
                 }
             }
         },
+        "music": {
+            "type": "directory",
+            "files": {
+                "playlists" : {
+                    "type": "directory",
+                    "files": {
+                        "playlist1.m3u": {
+                            "type": "text",
+                            "src": "data/playlists/angsty60smusic.m3u"
+                        },
+                        "playlist2.m3u": {
+                            "type": "text",
+                            "src": "data/playlists/disco!.m3u"
+                        },
+                        "playlist3.m3u": {
+                            "type": "text",
+                            "src": "data/playlists/80spophits.m3u"
+                        },
+                        "playlist4.m3u": {
+                            "type": "text",
+                            "src": "data/playlists/boybandz.m3u"
+                        }
+                    }
+                }
+            }
+        },
+        "mail": {
+            "type": "directory",
+            "files": {
+            }
+        },
         ".bashrc": {
             "type": "text",
             "src": "data/.bashrc"
