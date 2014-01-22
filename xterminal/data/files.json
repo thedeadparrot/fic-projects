@@ -53,6 +53,11 @@
             "files": {
             }
         },
+        "pictures": {
+            "type": "directory",
+            "files": {
+            }
+        },
         ".bashrc": {
             "type": "text",
             "src": "data/.bashrc"
@@ -63,15 +68,6 @@
                 "cerebro": {
                     "type": "directory",
                     "files": {
-                        "logs": {
-                            "type": "directory",
-                            "files": {
-                                "cerebro-19981007.log": {
-                                    "type": "text",
-                                    "src": "data/cerebro/logs/cerebro-1.log"
-                                }
-                            }
-                        },
                         "video": {
                             "type": "directory",
                             "files": {
