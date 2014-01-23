@@ -56,6 +56,15 @@
         "pictures": {
             "type": "directory",
             "files": {
+                "scanned": {
+                    "type": "directory",
+                    "files": {
+                        "charles-1962.png": {
+                            "type": "image",
+                            "src": "data/images/charles-filtered.png"
+                        }
+                    }
+                }
             }
         },
         ".bashrc": {

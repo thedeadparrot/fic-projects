@@ -52,8 +52,11 @@ function xterminal(command, term) {
         case 'cat':
             cat(term, parsed_command['args']);
             break;
+        case 'view':
+            view(term, parsed_command['args']);
+            break;
         default:
-            term.echo('Command not found.');
+            term.echo(parsed_command['name'] + ': Command not found.');
             break;
     }
 }
@@ -223,6 +226,38 @@ function cat(term, args) {
             console.log(e);
             term.echo(e.error_msg);
         }
+    }
+}
+
+// View - view image
+function view(term, args) {
+    if(args.length > 0) {
+        var filename = args[0];
+        try {
+            var file = filesystem.getFile(filename);
+            if(file.type === 'image' && !file.hasOwnProperty('encrypted')) {
+                $.magnificPopup.open({
+                    items: {
+                        src: file.src,
+                    },
+                    image: {
+                        titleSrc: function(item) { return filename; }
+                    },
+                    type: "image",
+                    cursor: null
+                });
+            }
+            else {
+                term.echo(filename + ": not an image and cannot be viewed");
+            }
+        } catch(e) {
+            console.log(e);
+            term.echo(e.error_msg);
+        }
+
+    }
+    else {
+        term.echo('No image to view.');
     }
 }
 
