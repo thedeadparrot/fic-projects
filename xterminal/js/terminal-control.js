@@ -11,7 +11,7 @@ ____      ___ \n\
    d'  `MM.   \n\
   d'    `MM.  \n\
 _M(_    _)MM_ \n\n\
-Last login: Apr 25 08:42:24 EST 2006 \n \
+Last login: Mar 25 08:42:24 EST 2006 \n \
 \n\
 Type 'help' for a list of available commands.\n";
 ROOT_DIR = '~'

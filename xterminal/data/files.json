@@ -48,9 +48,49 @@
                 }
             }
         },
-        "mail": {
+        "maildir": {
             "type": "directory",
             "files": {
+                "new" : {
+                    "type": "directory",
+                    "files": {
+                        "1142880739-Introchapter-steven.bunting.com": {
+                            "type": "text",
+                            "src": "data/mail/misc/editor-chapterrequest.eml"
+                        },
+                        "1142898385-Requisitions-omunroe.xavier.org": {
+                            "type": "text",
+                            "src": "data/mail/misc/ororo-requisitions.eml"
+                        }
+                    }
+                },
+                "cur": {
+                    "type": "directory",
+                    "files": {
+                        "1142790205-ReImtryingtofind-hmccoy.xavier.org": {
+                            "type": "text",
+                            "src": "data/mail/misc/hank-hiddenfiles.eml"
+                        }
+                    }
+                },
+                "tmp": {
+                    "type": "directory",
+                    "files": {
+                    }
+                },
+                ".trash": {
+                    "type": "directory",
+                    "files": {
+                        "1142687598-nosubject-mutiekiller.yahoo.com": {
+                            "type": "text",
+                            "src": "data/mail/misc/diemutiescum.eml"
+                        },
+                        "1142617405-IssueswiththeMutant-anne.mckinsey.gmail.com": {
+                            "type": "text",
+                            "src": "data/mail/misc/concerntroll.eml"
+                        }
+                    }
+                }
             }
         },
         "pictures": {
