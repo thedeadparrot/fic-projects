@@ -1,0 +1,5 @@
+play <filename>
+
+Play the given video file.
+
+Only works on video files.

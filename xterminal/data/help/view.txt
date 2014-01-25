@@ -1,0 +1,11 @@
+view <filename>
+
+Bring up a viewer for the given image file. 
+
+Only works on image files.
+
+Examples:
+
+Display a file named 'photo.jpg':
+
+	view photo.jpg

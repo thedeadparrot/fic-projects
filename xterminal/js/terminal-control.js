@@ -149,11 +149,23 @@ function help(term, args) {
     if(args.length > 0)
     {
         command = args[0];
-        term.echo(command);
+        switch(command) {
+            case 'ls':
+            case 'cd':
+            case 'cat':
+            case 'view':
+            case 'play':
+            case 'filenames':
+                displayFile('data/help/' + command + '.txt', term);
+                break;
+            default:
+                term.echo("Sorry, there is no help file for that.");
+                break;
+        }
     }
     else
     {
-        term.echo('help!');
+        displayFile('data/help/general.txt', term);
     }
 }
 

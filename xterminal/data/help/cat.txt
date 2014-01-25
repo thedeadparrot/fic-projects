@@ -1,0 +1,11 @@
+cat <filename> [<filename> …]
+
+Concatenates the text files and prints the contents.
+
+Only works on text files. On this system, text files can have file extensions other than '.txt'
+
+Examples:
+
+Print the contents of a file named 'file.txt':
+
+	cat file.txt

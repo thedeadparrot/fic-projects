@@ -1,0 +1,23 @@
+ls [-a] <directory>
+
+Lists files in the given directory. If no directory is given, defaults to listing the files in the
+current directory.
+
+Directories will be displayed with a trailing slash (i.e. pictures/).
+
+If the -a option is used, hidden files will also be displayed.
+
+Examples:
+
+Display files in the current directory:
+
+  ls
+
+Display files in the pictures directory:
+
+  ls pictures/
+
+Display all files in the pictures directory:
+
+  ls -a pictures/
+
