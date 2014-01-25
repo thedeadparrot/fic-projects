@@ -19,7 +19,13 @@ var FileSystem = function() {
         $.get(json_file, 
               function(data) {
                   // set the root_dir to the data we get
-                  me.root_dir = constructDataTree(data, null);
+                  if(typeof data === 'object') {
+                      json_data = data;
+                  }
+                  else {
+                      json_data = $.parseJSON(data);
+                  }
+                  me.root_dir = constructDataTree(json_data, null);
               }).fail(function(jqXHR, textStatus, errorThrown) {
                   // on failure, log the error
                   console.log(errorThrown);
