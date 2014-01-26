@@ -78,6 +78,51 @@
                     "files": {
                     }
                 },
+                ".erik": {
+                    "type": "directory",
+                    "files": {
+                        "937302798-nosubject-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/dot-com/1.eml"
+                        },
+                        "937481598-Renosubject-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/dot-com/2.eml"
+                        },
+                        "937652605-Renosubject-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/dot-com/3.eml"
+                        },
+                        "946757658-ReHappyNewYear-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/newyears/1.eml"
+                        },
+                        "956915058-prattle-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/boybandz/1.eml"
+                        },
+                        "956999838-Reprattle-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/boybandz/2.eml"
+                        },
+                        "959012418-thebreakingnews-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/preX1/1.eml"
+                        },
+                        "959102418-Rethebreakingnews-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/preX1/2.eml"
+                        },
+                        "959127618-Rethebreakingnews-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/preX1/3.eml"
+                        },
+                        "1118699238-congratulations-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/postX2/1.eml"
+                        }
+                    }
+                },
                 ".trash": {
                     "type": "directory",
                     "files": {
@@ -88,6 +133,14 @@
                         "1142617405-IssueswiththeMutant-anne.mckinsey.gmail.com": {
                             "type": "text",
                             "src": "data/mail/misc/concerntroll.eml"
+                        },
+                        "1118762178-Recongratulations-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/postX2/2.eml"
+                        },
+                        "1120057518-Recongratulations-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/postX2/3.eml"
                         }
                     }
                 }
