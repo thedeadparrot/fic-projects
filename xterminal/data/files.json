@@ -154,7 +154,7 @@
                     "files": {
                         "charles-1962.png": {
                             "type": "image",
-                            "src": "data/images/charles-filtered.png"
+                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/charles-filtered.png"
                         }
                     }
                 }
