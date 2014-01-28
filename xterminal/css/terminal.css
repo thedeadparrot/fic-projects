@@ -7,3 +7,10 @@
 .terminal-output div div, .terminal .prompt {
     line-height: 22px !important;
 }
+
+.video-container {
+    background: transparent;
+    margin: 0px auto;
+    width: 800px;
+    text-align: center;
+}

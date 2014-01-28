@@ -16,8 +16,7 @@ Last login: Mar 25 08:42:24 EST 2006 \n \
 Type 'help' for a list of available commands.\n";
 ROOT_DIR = '~'
 USER = 'cxavier';
-//TODO: change this to something better later
-PASSWORD = 'hello';
+PASSWORD = 'ihavereachedthemountaintop';
 BASE_PROMPT = USER +'@xterminal:';
 DATA_FILE = 'data/files.json';
 
@@ -54,6 +53,9 @@ function xterminal(command, term) {
             break;
         case 'view':
             view(term, parsed_command['args']);
+            break;
+        case 'play':
+            play(term, parsed_command['args']);
             break;
         default:
             term.echo(parsed_command['name'] + ': Command not found.');
@@ -241,13 +243,16 @@ function cat(term, args) {
     }
 }
 
-// View - view image
+// View - view the given image file in a modal dialog
 function view(term, args) {
     if(args.length > 0) {
+        // only use the first argument
         var filename = args[0];
         try {
+            // get the file
             var file = filesystem.getFile(filename);
             if(file.type === 'image' && !file.hasOwnProperty('encrypted')) {
+                // display the image in a modal lightbox
                 $.magnificPopup.open({
                     items: {
                         src: file.src,
@@ -273,6 +278,47 @@ function view(term, args) {
     }
 }
 
+// play - play a video file
+function play(term, args) {
+    if(args.length > 0) {
+        var filename = args[0];
+        try {
+            var file = filesystem.getFile(filename);
+
+            // only allow for video elements
+            if(file.type === 'video' && !file.hasOwnProperty('encrypted')) {
+                // construct video DOM element
+                var container = $('<div>').addClass('video-container');
+                var video = $('<video controls>');
+                var webm_src = $('<source>').attr('type', 'video/webm;codecs="vp8"');
+                webm_src.attr('src', file.webm_src);
+                var mp4_src = $('<source>').attr('type', 'video/webm;codecs="vp8"');
+                mp4_src.attr('src', file.mp4_src);
+                video.append(webm_src, mp4_src);
+                container.append(video);
+
+                //create the video modal
+                $.magnificPopup.open({
+                    items: {
+                        src: container
+                    },
+                    type: "inline",
+                    closeBtnInside: false
+                });
+            }
+            else {
+                term.echo(filename + ": not a video and cannot be played.");
+            }
+        } catch(e) {
+            console.log(e);
+            term.echo(e.error_msg);
+        }
+
+    }
+    else {
+        term.echo('No video to play.');
+    }
+}
 /******************
   *
   * Set up the terminal
