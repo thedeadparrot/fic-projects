@@ -289,7 +289,7 @@ function play(term, args) {
             if(file.type === 'video' && !file.hasOwnProperty('encrypted')) {
                 // construct video DOM element
                 var container = $('<div>').addClass('video-container');
-                var video = $('<video controls id="video-player">').addClass('video-js vjs-default-skin vjs-big-play-centered');
+                var video = $('<video controls>');
                 var webm_src = $('<source>').attr('type', 'video/webm;codecs="vp8"');
                 webm_src.attr('src', file.webm_src);
                 var mp4_src = $('<source>').attr('type', 'video/webm;codecs="vp8"');
@@ -305,7 +305,6 @@ function play(term, args) {
                     type: "inline",
                     closeBtnInside: false
                 });
-                videojs('#video-player',{"width": 720, "height": 480});
             }
             else {
                 term.echo(filename + ": not a video and cannot be played.");
