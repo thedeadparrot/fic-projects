@@ -18,6 +18,8 @@ ROOT_DIR = '~'
 USER = 'cxavier';
 PASSWORD = 'ihavereachedthemountaintop';
 BASE_PROMPT = USER +'@xterminal:';
+// TODO: replace this with actual outro page
+OUTRO_URL = 'http://thedeadparrot.dreamwidth.org';
 DATA_FILE = 'data/files.json';
 
 var filesystem = new FileSystem();
@@ -124,6 +126,11 @@ function tab_completion(term, command, callback) {
         term.echo(e.error_msg);
     }
     callback(names);
+}
+
+// exit the terminal by redirecting
+function exitTerm(term) {
+    window.location.href = OUTRO_URL;
 }
 
 /**********************
@@ -335,6 +342,7 @@ $(document).ready(function() {
                     greetings: GREETINGS_STRING,
                     name: 'xterm',
                     prompt: BASE_PROMPT + ROOT_DIR + '$ ',
+                    onExit: exitTerm,
                     tabcompletion: true,
                     completion: tab_completion
                 });
