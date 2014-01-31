@@ -154,6 +154,7 @@
                     "files": {
                         "charles-1962.png": {
                             "type": "image",
+                            "title": "Look how young I was!",
                             "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/charles-filtered.png"
                         }
                     }
@@ -167,6 +168,16 @@
         ".xmen": {
             "type": "directory",
             "files": {
+                "pictures": {
+                    "type": "directory",
+                    "files": {
+                        "long-day.jpg": {
+                            "type": "image",
+                            "title": "After a Danger Room session",
+                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/x-men-costumed.jpg"
+                        }
+                    }
+                },
                 "cerebro": {
                     "type": "directory",
                     "files": {

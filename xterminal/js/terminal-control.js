@@ -265,7 +265,7 @@ function view(term, args) {
                         src: file.src,
                     },
                     image: {
-                        titleSrc: function(item) { return filename; }
+                        titleSrc: function(item) { return file.title; }
                     },
                     type: "image",
                     cursor: null
