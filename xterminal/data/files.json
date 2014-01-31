@@ -156,6 +156,11 @@
                             "type": "image",
                             "title": "Look how young I was!",
                             "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/charles-filtered.png"
+                        },
+                        "first-class.png": {
+                            "type": "image",
+                            "title": "The first class of Xavier's School for the Gifted",
+                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/first-class.png"
                         }
                     }
                 }
@@ -171,6 +176,21 @@
                 "pictures": {
                     "type": "directory",
                     "files": {
+                        "archive": {
+                            "type": "directory",
+                            "files": {
+                                "first-mission.jpg": {
+                                    "type": "image",
+                                    "title": "before the very first X-Men mission",
+                                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/xmen-old-costumes.jpeg"
+                                }
+                            }
+                        },
+                        "blackbird-diagram.svg": {
+                            "type": "image",
+                            "title": "Plans for the next Blackbird",
+                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/Blackbird.png"
+                        },
                         "long-day.jpg": {
                             "type": "image",
                             "title": "After a Danger Room session",
