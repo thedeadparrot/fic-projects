@@ -163,6 +163,16 @@
                             "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/first-class.png"
                         }
                     }
+                },
+                "teaching.jpg": {
+                    "type": "image",
+                    "title": "I am glad that I could make teaching my life's work.",
+                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/teaching.png"
+                },
+                "teaching-2.jpg": {
+                    "type": "image",
+                    "title": "I love my students! They are so thoughtful and curious.",
+                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/teaching-2.png"
                 }
             }
         },
@@ -183,6 +193,26 @@
                                     "type": "image",
                                     "title": "before the very first X-Men mission",
                                     "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/xmen-old-costumes.jpeg"
+                                }
+                            }
+                        },
+                        ".erik": {
+                            "type": "directory",
+                            "files": {
+                                "erik-portrait.jpg": {
+                                    "type": "image",
+                                    "title": "A portrait",
+                                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/erik-portrait.jpg"
+                                },
+                                "erik.jpg": {
+                                    "type": "image",
+                                    "title": "Erik",
+                                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/erik-bed.jpg"
+                                },
+                                "security-image-5234.jpg": {
+                                    "type": "image",
+                                    "title": "Security Camera Footage - 1995 - 09 - 15",
+                                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/magneto-base.png"
                                 }
                             }
                         },
