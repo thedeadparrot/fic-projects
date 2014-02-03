@@ -67,6 +67,10 @@
                 "cur": {
                     "type": "directory",
                     "files": {
+                        "1142104209-NewBasketballRules-ssummers.xavier.org": {
+                            "type": "text",
+                            "src": "data/mail/misc/scott-basketball.eml"
+                        },
                         "1142790205-ReImtryingtofind-hmccoy.xavier.org": {
                             "type": "text",
                             "src": "data/mail/misc/hank-hiddenfiles.eml"
