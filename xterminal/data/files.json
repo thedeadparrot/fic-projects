@@ -22,6 +22,15 @@
                 }
             }
         },
+        "miscellaneous": {
+            "type": "directory",
+            "files": {
+                "jean.txt": {
+                    "type": "text",
+                    "src": "data/misc-writing/jean-obituary.txt"
+                }
+            }
+        },
         "music": {
             "type": "directory",
             "files": {
