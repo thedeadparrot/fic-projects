@@ -168,7 +168,7 @@ function help(term, args) {
                 displayFile('data/help/' + command + '.txt', term);
                 break;
             default:
-                term.echo("Sorry, there is no help file for that.");
+                term.error("Sorry, there is no help file for that.");
                 break;
         }
     }
@@ -193,7 +193,7 @@ function cd(term, args) {
         root_dir = filesystem.cwd === '' ? '~' : '~/';
         term.set_prompt(BASE_PROMPT + root_dir + filesystem.cwd.slice(0, -1) + '$ ');
     } catch (e) {
-        term.echo(e.error_msg);
+        term.error(e.error_msg);
     }
 }
 
@@ -224,7 +224,7 @@ function ls(term, args){
         }
     } catch(e) {
         console.log(e);
-        term.echo(e.error_msg);
+        term.error(e.error_msg);
     }
 
 }
@@ -245,7 +245,7 @@ function cat(term, args) {
             }
         } catch(e) {
             console.log(e);
-            term.echo(e.error_msg);
+            term.error(e.error_msg);
         }
     }
 }
@@ -272,16 +272,16 @@ function view(term, args) {
                 });
             }
             else {
-                term.echo(filename + ": not an image and cannot be viewed");
+                term.error(filename + ": not an image and cannot be viewed");
             }
         } catch(e) {
             console.log(e);
-            term.echo(e.error_msg);
+            term.error(e.error_msg);
         }
 
     }
     else {
-        term.echo('No image to view.');
+        term.error('No image to view.');
     }
 }
 
@@ -314,16 +314,16 @@ function play(term, args) {
                 });
             }
             else {
-                term.echo(filename + ": not a video and cannot be played.");
+                term.error(filename + ": not a video and cannot be played.");
             }
         } catch(e) {
             console.log(e);
-            term.echo(e.error_msg);
+            term.error(e.error_msg);
         }
 
     }
     else {
-        term.echo('No video to play.');
+        term.error('No video to play.');
     }
 }
 /******************
