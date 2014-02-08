@@ -236,8 +236,8 @@ function cat(term, args) {
         var filename = args[i];
         try{
             var file = filesystem.getFile(filename);
-            // only want the files that are text files and are not encrypted
-            if(file.type === 'text' && !file.hasOwnProperty('encrypted')) {
+            // only want the files that are text files
+            if(file.type === 'text') {
                 displayFile(file.src, term);
             }
             else {
@@ -258,7 +258,7 @@ function view(term, args) {
         try {
             // get the file
             var file = filesystem.getFile(filename);
-            if(file.type === 'image' && !file.hasOwnProperty('encrypted')) {
+            if(file.type === 'image') {
                 // display the image in a modal lightbox
                 $.magnificPopup.open({
                     items: {
@@ -293,7 +293,7 @@ function play(term, args) {
             var file = filesystem.getFile(filename);
 
             // only allow for video elements
-            if(file.type === 'video' && !file.hasOwnProperty('encrypted')) {
+            if(file.type === 'video') {
                 // construct video DOM element
                 var container = $('<div>').addClass('video-container');
                 var video = $('<video controls>');
