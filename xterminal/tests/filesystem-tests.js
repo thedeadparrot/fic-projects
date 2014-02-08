@@ -1,165 +1,166 @@
-$(document).ready(function() {
-        var filesystem = new FileSystem();
+describe("test all the various and sundry filesystem functionality", function() {
+    var filesystem;
+
+    beforeEach(function() {
+        filesystem = new FileSystem();
         filesystem.loadFile('test-data.json');
-        filesystem.loaded(
-            function() {
-                //test changeDirectory
-                filesystem.changeDirectory('photos');
-                console.log('should be: photos/');
-                console.log('current working directory: ' + filesystem.cwd);
-                console.log('***')
-                
-                filesystem.changeDirectory('..');
-                console.log('should be blank (root)');
-                console.log('current working directory: ' + filesystem.cwd);
-                console.log('***')
-                
-                filesystem.changeDirectory('photos/');
-                console.log('should be: photos/');
-                console.log('current working directory: ' + filesystem.cwd);
-                console.log('***')
-                
-                filesystem.changeDirectory('~/');
-                console.log('should be blank (root)');
-                console.log('current working directory: ' + filesystem.cwd);
-                console.log('***')
+        waitsFor(filesystem.isLoaded);
+    });
 
-                try {
-                    filesystem.changeDirectory('.hello');
-                }
-                catch(e) {
-                    console.log("Error: " + e.error_msg);
-                }
-                console.log('should be an error');
-                console.log('***')
-                
-                //test getFile with simple relative paths from root
-                var file = filesystem.getFile('photos/photo.jpg');
-                console.log('should be: photo');
-                console.log('filetype: ' + file.type);
-                console.log('***');
+    describe("testing changing directories", function() {
+        it("single change from root to working dir", function() {
+            filesystem.changeDirectory('photos');
+            expect(filesystem.cwd).toEqual('photos/');
+        });
 
-                var file = filesystem.getFile('photos');
-                console.log('should be: directory');
-                console.log('filetype: ' + file.type);
-                console.log('***');
+        it("test going down a directory and then back up", function() {
+            filesystem.changeDirectory('photos');
+            filesystem.changeDirectory('..');
+            expect(filesystem.cwd).toEqual('');
+        });
 
-                var file = filesystem.getFile('photos/');
-                console.log('filetype: ' + file.type);
-                console.log('should be: directory');
-                console.log('***');
+        it("test using a trailing slash in directory names", function() {
+            filesystem.changeDirectory('photos/');
+            expect(filesystem.cwd).toEqual('photos/');
+        });
 
-                var file = filesystem.getFile('photos/./');
-                console.log('filetype: ' + file.type);
-                console.log('should be: directory');
-                console.log('***');
+        it("test going back to the root directory", function() {
+            filesystem.changeDirectory('photos/');
+            filesystem.changeDirectory('~/');
 
-                var file = filesystem.getFile('./photos');
-                console.log('filetype: ' + file.type);
-                console.log('should be: directory');
-                console.log('***');
+            expect(filesystem.cwd).toEqual('');
+        });
 
-                var file = filesystem.getFile('photos/../');
-                console.log('filetype: ' + file.type);
-                console.log('should be: directory');
-                console.log('should be true');
-                console.log('contains photos: ' + file.files.hasOwnProperty('photos'));
-                console.log('***');
-
-                try {
-                    var file = filesystem.getFile('photo.jpg');
-                }
-                catch(e) {
-                    console.log("Error: " + e.error_msg);
-                }
-                console.log('should be an error');
-                console.log('***');
-
-                try {
-
-                    var file = filesystem.getFile('photo.jpg/');
-                }
-                catch(e) {
-                    console.log("Error: " + e.error_msg);
-                }
-                console.log('should be an error');
-                console.log('***');
-
-                // test getFile with relative path after changing root
-                filesystem.changeDirectory('photos');
-                var file = filesystem.getFile('photo.jpg');
-                console.log('should be: photo');
-                console.log('filetype: ' + file.type);
-                console.log('***');
-
-                var file = filesystem.getFile('../photos/photo.jpg');
-                console.log('should be: photo');
-                console.log('filetype: ' + file.type);
-                console.log('***');
-
-                try {
-                    var file = filesystem.getFile('.hello');
-                }
-                catch(e) {
-                    console.log("Error: " + e.error_msg);
-                }
-                console.log('should be an error');
-                console.log('***');
-                filesystem.changeDirectory('~/');
-
-                // test getFile with absolute paths
-                var file = filesystem.getFile('~/photos/photo.jpg');
-                console.log('should be: photo');
-                console.log('filetype: ' + file.type);
-                console.log('***');
-
-                var file = filesystem.getFile('~/photos');
-                console.log('should be: directory');
-                console.log('filetype: ' + file.type);
-                console.log('***');
-
-                // test getFiles with various parameters
-                var files = filesystem.getFiles('~/');
-                for( var file in files) {
-                    console.log('file in directory: ' + file + " type: " + files[file].type);
-                }
-                console.log('***');
-
-                var files = filesystem.getFiles('', true);
-                for( var file in files) {
-                    console.log('file in directory: ' + file + " type: " + files[file].type);
-                }
-                console.log('***');
-
-                var files = filesystem.getFiles('photos', true);
-                for( var file in files) {
-                    console.log('file in directory: ' + file + " type: " + files[file].type);
-                }
-                console.log('***');
-
-                var files = filesystem.getFiles('photos/photo.jpg', true);
-                for( var file in files) {
-                    console.log('file in directory: ' + file + " type: " + files[file].type);
-                }
-                console.log('***');
-
-                var files = filesystem.getFiles('.hello', true);
-                for( var file in files) {
-                    console.log('file in directory: ' + file + " type: " + files[file].type);
-                }
-                console.log('***');
-
-                var filenames = filesystem.getFileNames('photos/', true);
-                for(var i=0; i < filenames.length; i++) {
-                    console.log('file in directory: ' + filenames[i]);
-                }
-                console.log('***');
-
-                var filenames = filesystem.getFileNames('', true);
-                for(var i=0; i < filenames.length; i++) {
-                    console.log('file in directory: ' + filenames[i]);
-                }
-                console.log('***');
+        it("test that we're getting errors back for trying to change into a file, not a directory", function() {
+            var missingDirectory = function() {
+                filesystem.changeDirectory('.hello');
             }
-        );
+            expect(missingDirectory).toThrow();
+        });
+
+
+    });
+
+    describe("testing getting individual files", function() {
+        it("get a single file with relative path", function() {
+            var file = filesystem.getFile('photos/photo.jpg');
+            expect(file.type).toEqual('photo');
+        });
+
+        it("get a directory", function() {
+            var file = filesystem.getFile("photos");
+            expect(file.type).toEqual('directory');
+        });
+
+        it("get a directory with a trailing slash", function() {
+            var file = filesystem.getFile("photos/");
+            expect(file.type).toEqual('directory');
+        });
+
+        it("get a directory with a funky path", function() {
+            var file = filesystem.getFile("photos/./");
+            expect(file.type).toEqual('directory');
+
+            file = filesystem.getFile("./photos");
+            expect(file.type).toEqual('directory');
+
+            file = filesystem.getFile("photos/../");
+            expect(file.type).toEqual('directory');
+            expect(file.files.hasOwnProperty('photos')).toBe(true);
+        });
+
+        it("throws an error when the files don't exist", function() {
+            expect(function() { filesystem.getFile('photo.jpg'); }).toThrow();
+            expect(function() { filesystem.getFile('photo.jpg/'); }).toThrow();
+        });
+
+        it("test getting files after changing the current working directory", function() {
+            filesystem.changeDirectory('photos');
+            var file = filesystem.getFile('photo.jpg');
+            expect(file.type).toEqual('photo');
+
+            file = filesystem.getFile('../photos/photo.jpg');
+            expect(file.type).toEqual('photo');
+
+            expect(function() { filesystem.getFile('.hello'); }).toThrow();
+        });
+
+        it("test getting files with absolute paths", function () {
+            var file = filesystem.getFile('~/photos/photo.jpg');
+            expect(file.type).toEqual('photo');
+            file = filesystem.getFile('~/photos');
+            expect(file.type).toEqual('directory');
+
+        });
+
+    });
+
+    describe("testing getting all the files in a directory", function() {
+        // convenience function for matching
+        var matchFileNamesAndTypes = function(files, filenames, filetypes) {
+            var i = 0;
+            // match everything up and check to make sure it looks right
+            for(var file in files) {
+                expect(file).toEqual(filenames[i]);
+                expect(files[file].type).toEqual(filetypes[i]);
+                i++;
+            }
+            // we want to make sure we have the correct length of filenames and types
+            expect(i).toEqual(filenames.length);
+            expect(i).toEqual(filetypes.length);
+        }
+
+        it("get all the files in the root directory", function() {
+            var filenames = ['photos', '.hello'];
+            var filetypes = ['directory', 'text'];
+            var files = filesystem.getFiles('~/', true);
+            matchFileNamesAndTypes(files, filenames, filetypes);
+        });
+
+        it("get only visible files in the root directory", function() {
+            files = filesystem.getFiles('', false);
+            filenames = ['photos'];
+            filetypes = ['directory'];
+            matchFileNamesAndTypes(files, filenames, filetypes);
+        });
+
+        it("get the files in a subdirectory", function() {
+            files = filesystem.getFiles('photos', false);
+            filenames = ['photo.jpg'];
+            filetypes = ['photo'];
+            matchFileNamesAndTypes(files, filenames, filetypes);
+        });
+
+        it("get individual files and not a directory", function() {
+            files = filesystem.getFiles('photos/photo.jpg', false);
+            filenames = ['photos/photo.jpg'];
+            filetypes = ['photo'];
+            matchFileNamesAndTypes(files, filenames, filetypes);
+
+            files = filesystem.getFiles('.hello', false);
+            filenames = ['.hello'];
+            filetypes = ['text'];
+            matchFileNamesAndTypes(files, filenames, filetypes);
+        });
+
+    });
+
+    describe("test getting all the filenames in a directory", function() {
+        it("using the root directory", function() {
+            var filenames = filesystem.getFileNames('', false);
+            expected_names = ['photos/'];
+            expect(filenames).toEqual(expected_names);
+
+            filenames = filesystem.getFileNames('~/', true);
+            expected_names = ['.hello', 'photos/'];
+            expect(filenames).toEqual(expected_names);
+        });
+
+        it("using a subdirectory", function() {
+            var filenames = filesystem.getFileNames('photos/', false);
+            expected_names = ['photo.jpg'];
+            expect(filenames).toEqual(expected_names);
+        });
+
+    });
 });
