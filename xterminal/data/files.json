@@ -87,6 +87,10 @@
                         "1142790205-ReImtryingtofind-hmccoy.xavier.org": {
                             "type": "text",
                             "src": "data/mail/misc/hank-hiddenfiles.eml"
+                        },
+                        "1142774419-Youhavebeeninvited-no-reply.friendly.com": {
+                            "type": "text",
+                            "src": "data/mail/misc/friend-request.eml"
                         }
                     }
                 },
@@ -190,6 +194,11 @@
                     "type": "image",
                     "title": "I love my students! They are so thoughtful and curious.",
                     "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/teaching-2.png"
+                },
+                "jean-and-scott.jpg":{
+                    "type": "image",
+                    "title": "Jean and Scott on a quiet day.",
+                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/scott-and-jean.jpg"
                 }
             }
         },
