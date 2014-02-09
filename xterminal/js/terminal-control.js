@@ -292,10 +292,10 @@ function play(term, args) {
         try {
             var file = filesystem.getFile(filename);
 
+            var container = $('<div>').addClass('media-container');
             // only allow for video elements
             if(file.type === 'video') {
                 // construct video DOM element
-                var container = $('<div>').addClass('video-container');
                 var video = $('<video controls>');
                 var webm_src = $('<source>').attr('type', 'video/webm;codecs="vp8"');
                 webm_src.attr('src', file.webm_src);
@@ -303,19 +303,24 @@ function play(term, args) {
                 mp4_src.attr('src', file.mp4_src);
                 video.append(webm_src, mp4_src);
                 container.append(video);
-
-                //create the video modal
-                $.magnificPopup.open({
-                    items: {
-                        src: container
-                    },
-                    type: "inline",
-                    closeBtnInside: false
-                });
+            }
+            // or audio elements
+            else if(file.type == 'audio') {
+                var audio = $('<audio controls>');
+                audio.attr('src', file.src);
+                container.append(audio);
             }
             else {
-                term.error(filename + ": not a video and cannot be played.");
+                term.error(filename + ": not video or audio and cannot be played.");
             }
+            //create the modal
+            $.magnificPopup.open({
+                items: {
+                    src: container
+                },
+                type: "inline",
+                closeBtnInside: false
+            });
         } catch(e) {
             console.log(e);
             term.error(e.error_msg);
