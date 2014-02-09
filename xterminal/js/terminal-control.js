@@ -59,6 +59,9 @@ function xterminal(command, term) {
         case 'play':
             play(term, parsed_command['args']);
             break;
+        case 'decrypt':
+            decrypt(term, parsed_command['args']);
+            break;
         default:
             term.echo(parsed_command['name'] + ': Command not found.');
             break;
@@ -329,6 +332,24 @@ function play(term, args) {
     }
     else {
         term.error('No video to play.');
+    }
+}
+
+
+// decrypt the given file
+var decrypt = function(term, args) {
+    if(args.length > 0) {
+        var given_password = prompt('Enter the password to decrypt this file.');
+        try{
+            filesystem.decryptFile(args[0], given_password);
+            term.echo(args[0] + " has been decrypted.");
+        } catch(e) {
+            console.log(e);
+            term.error(e.error_msg);
+        }
+    }
+    else {
+        term.error('No file or directory to decrypt');
     }
 }
 /******************

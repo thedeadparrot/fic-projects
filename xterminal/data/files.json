@@ -114,6 +114,8 @@
                 },
                 ".erik": {
                     "type": "directory",
+                    "encrypted": true,
+                    "password": "ihaveadream",
                     "files": {
                         "0937302798-nosubject-e1357.hotmail.com": {
                             "type": "text",
@@ -242,6 +244,8 @@
         },
         "grades": {
             "type": "directory",
+            "encrypted": true,
+            "password": "ihaveadream",
             "files": {
                 "marie.txt": {
                     "type": "text",
@@ -283,6 +287,8 @@
                         },
                         ".erik": {
                             "type": "directory",
+                            "encrypted": true,
+                            "password": "ihaveadream",
                             "files": {
                                 "erik-portrait.jpg": {
                                     "type": "image",

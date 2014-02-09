@@ -244,6 +244,7 @@ var FileSystem = function() {
 
     // try decrypting a file with the given password
     me.decryptFile = function(file_path, password) {
+        // try to get the file
         file = me.getFile(file_path, true);
         // check to make sure that we are actually encrypted before modifying it
         if(file.encrypted && file.password === password) {

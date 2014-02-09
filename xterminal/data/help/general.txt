@@ -5,32 +5,13 @@ cd - change the current directory to a given directory
 cat - print the contents of a given text file onto the screen
 view - view the given image 
 play - play a video file
+decrypt - decrypt a file or directory
 exit - logout
-
-To run a command, type it into the terminal followed by any additional arguments.
-
-For example, if you type:
-
-ls music
-
-you will see:
-
-  playlists/
-
-If you type:
-
-  cd music
-
-and then:
-
-  ls
-
-you will also see:
-
-  playlists/
 
 To see more detailed documentation on what each command does, type 'help <command name>'. You can
 also type 'help filenames' to better understand filenames.
 
 Tab completion exists for filenames, so you can start typing out the name of a file or a directory,
 and then press the tab key to try to complete it.
+
+To scroll up or scroll down, use the PgUp and PgDown keys.
