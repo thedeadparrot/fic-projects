@@ -34,6 +34,19 @@
         "music": {
             "type": "directory",
             "files": {
+                "inspirations": {
+                    "type": "directory",
+                    "files": {
+                        "ihaveadream.mp3": {
+                            "type": "audio",
+                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/audio/ihaveadream.mp3"
+                        },
+                        "ivebeentothemountaintop.mp3": {
+                            "type": "audio",
+                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/audio/ivebeentothemountaintop.mp3"
+                        }
+                    }
+                },
                 "playlists" : {
                     "type": "directory",
                     "files": {
