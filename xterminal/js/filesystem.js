@@ -44,6 +44,14 @@ var FileSystem = function() {
             }
             new_data.files = new_files;
             new_data.parent = parent_node;
+            // set encryption on the file if it doesn't have one already
+            if(!data.hasOwnProperty('encrypted')) {
+                new_data.encrypted = false;
+            }
+            else {
+                new_data.encrypted = data.encrypted;
+                new_data.password = data.password;
+            }
             return new_data;
         }
         else {
@@ -88,7 +96,13 @@ var FileSystem = function() {
         return path;
     }
 
-    var getObjectHelper = function(split_file_path, data) {
+    // recursive function that navigates the file tree
+    var getObjectHelper = function(split_file_path, data, encryption_safe) {
+        // if we hit an object that is encrypted, stop and throw an error
+        if(data['encrypted'] && !encryption_safe){
+            file_path = constructPathFromFile(data);
+            throw new AccessDenied(file_path + ' is encrypted and cannot be accessed');
+        }
         // we're assuming if we end up with a blank ending,
         // the filename ended on a '/' indicating a directory
         // Assumes we don't get empty file paths
@@ -120,16 +134,16 @@ var FileSystem = function() {
                     throw new InvalidFileObject('No such file or directory.');
                 }
                 else {
-                    return getObjectHelper(split_file_path.slice(1), data.parent);
+                    return getObjectHelper(split_file_path.slice(1), data.parent, encryption_safe);
                 }
             }
             if(name === '.') {
-                return getObjectHelper(split_file_path.slice(1), data);
+                return getObjectHelper(split_file_path.slice(1), data, encryption_safe);
             }
 
             // find the file or directory and drill down deeper
             if(name in data.files) {
-                return getObjectHelper(split_file_path.slice(1), data.files[name]);
+                return getObjectHelper(split_file_path.slice(1), data.files[name], encryption_safe);
             }
             // otherwise, it does exist
             else {
@@ -139,11 +153,14 @@ var FileSystem = function() {
     }
 
     // returns the file or directory at the given path
-    me.getFile = function(file_path) {
+    me.getFile = function(file_path, encryption_safe) {
+        if(typeof(encryption_safe) === 'undefined') {
+            encryption_safe = false;
+        }
         // use the absolute path before splitting
         var absolute_file_path = normalizePaths(file_path);
         var split_file_path = absolute_file_path.split('/');
-        return getObjectHelper(split_file_path, me.root_dir, null);
+        return getObjectHelper(split_file_path, me.root_dir, encryption_safe);
     }
 
     // either gets the files in the given directory or returns the single file
@@ -225,5 +242,16 @@ var FileSystem = function() {
         }
     }
 
+    // try decrypting a file with the given password
+    me.decryptFile = function(file_path, password) {
+        file = me.getFile(file_path, true);
+        // check to make sure that we are actually encrypted before modifying it
+        if(file.encrypted && file.password === password) {
+            file.encrypted = false;
+        }
+        else if(file.password != password) {
+            throw new AccessDenied("Incorrect password for decryption");
+        }
+    }
 
 };

@@ -164,3 +164,88 @@ describe("test all the various and sundry filesystem functionality", function() 
 
     });
 });
+
+describe("Test filesystem behavior when things are encrypted", function() {
+    var filesystem;
+
+    beforeEach(function() {
+        filesystem = new FileSystem();
+        filesystem.loadFile('test-encryption-data.json');
+        waitsFor(filesystem.isLoaded);
+    });
+
+    it("Test accessing an encrypted file", function () {
+        var accessFile = function() {
+            filesystem.getFile('.hello');
+        }
+        expect(accessFile).toThrow(new AccessDenied('.hello is encrypted and cannot be accessed'));
+
+    });
+
+    it("Test accessing a file in an encrypted directory", function () {
+        var accessFile = function() {
+            filesystem.getFile('photos/photo.jpg');
+        }
+        expect(accessFile).toThrow(new AccessDenied('photos/ is encrypted and cannot be accessed'));
+
+    });
+
+    it("Test changing into an encrypted directory", function () {
+        var changeDirectory = function() {
+            filesystem.changeDirectory('photos');
+        }
+        expect(changeDirectory).toThrow(new AccessDenied('photos/ is encrypted and cannot be accessed'));
+    });
+
+    it("Test getting the directory listing of an encrypted directory", function() {
+        var getEncryptedDirFiles = function() {
+            filesystem.getFiles('photos');
+        }
+        expect(getEncryptedDirFiles).toThrow(new AccessDenied('photos/ is encrypted and cannot be accessed'));
+
+        getEncryptedDirFiles = function() {
+            filesystem.getFileNames('photos');
+        }
+        expect(getEncryptedDirFiles).toThrow(new AccessDenied('photos/ is encrypted and cannot be accessed'));
+        
+        getEncryptedDirFiles = function() {
+            filesystem.getFiles('photos/more-photos');
+        }
+        expect(getEncryptedDirFiles).toThrow(new AccessDenied('photos/ is encrypted and cannot be accessed'));
+    });
+
+    it("Test that we can access files if we're claiming to be encryption safe", function() {
+        var file = filesystem.getFile('.hello', true);
+        expect(file.type).toEqual('text');
+
+        file = filesystem.getFile('photos/photo.jpg', true);
+        expect(file.type).toEqual('photo');
+
+    });
+
+    it("Test decrypting a file with an invalid password", function() {
+        var decryptFiles = function() {
+            filesystem.decryptFile('photos', 'pass');
+        }
+        expect(decryptFiles).toThrow(new AccessDenied('Incorrect password for decryption'));
+        decryptFiles = function() {
+            filesystem.decryptFile('.hello', 'pass');
+        }
+        expect(decryptFiles).toThrow(new AccessDenied('Incorrect password for decryption'));
+    });
+
+    it("Test decrypting a file with a valid password", function() {
+        filesystem.decryptFile('.hello', 'password');
+        var file = filesystem.getFile('.hello');
+        expect(file.type).toEqual('text');
+    });
+
+    it("Test decrypting a directory with a valid password", function() {
+        filesystem.decryptFile('photos', 'password');
+        var file = filesystem.getFile('photos/photo.jpg');
+        expect(file.type).toEqual('photo');
+
+        var files = filesystem.getFiles('photos');
+        expect(Object.keys(files)).toEqual(['photo.jpg', 'more-photos']);
+    });
+});

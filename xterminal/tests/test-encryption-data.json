@@ -1,0 +1,25 @@
+{
+    "type": "directory",
+    "files": {
+        "photos": {
+            "type": "directory",
+            "encrypted": true,
+            "password": "password",
+            "files": {
+                "photo.jpg": {
+                    "type": "photo"
+                },
+                "more-photos": {
+                    "type": "directory",
+                    "files": {
+                    }
+                }
+            }
+        },
+        ".hello": {
+            "type": "text",
+            "password": "password",
+            "encrypted": true
+        }
+    }
+}
