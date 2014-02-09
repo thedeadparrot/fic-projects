@@ -16,7 +16,7 @@ Last login: Mar 25 08:42:24 EST 2006 \n \
 Type 'help' for a list of available commands.\n";
 ROOT_DIR = '~'
 USER = 'cxavier';
-PASSWORD = 'ihavereachedthemountaintop';
+PASSWORD = 'ivebeentothemountaintop';
 BASE_PROMPT = USER +'@xterminal:';
 // TODO: replace this with actual outro page
 OUTRO_URL = 'http://thedeadparrot.dreamwidth.org';
