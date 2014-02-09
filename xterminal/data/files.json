@@ -185,6 +185,26 @@
                         }
                     }
                 },
+                "promotional": {
+                    "type": "directory",
+                    "files": {
+                        "mansion.png": {
+                            "type": "image",
+                            "title": "We need a better quality version of this, but I think it shows the mansion well",
+                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/mansion.png"
+                        },
+                        "xavier-sign.png": {
+                            "type": "image",
+                            "title": "A lovely image of the lovely sign on our front gates",
+                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/xavier-sign.png"
+                        }
+                    }
+                },
+                "charles-2004.jpg": {
+                    "type": "image",
+                    "title": "I look far too severe in this one.",
+                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/charles-2004.jpg"
+                },
                 "teaching.jpg": {
                     "type": "image",
                     "title": "I am glad that I could make teaching my life's work.",
