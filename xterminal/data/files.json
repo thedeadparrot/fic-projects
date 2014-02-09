@@ -228,6 +228,18 @@
                 "marie.txt": {
                     "type": "text",
                     "src": "data/report-cards/marie.txt"
+                },
+                "bobby.txt": {
+                    "type": "text",
+                    "src": "data/report-cards/bobby.txt"
+                },
+                "jubilee.txt": {
+                    "type": "text",
+                    "src": "data/report-cards/jubilee.txt"
+                },
+                "piotr.txt": {
+                    "type": "text",
+                    "src": "data/report-cards/peter.txt"
                 }
             }
         },
