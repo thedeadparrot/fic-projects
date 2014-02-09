@@ -11,12 +11,7 @@
                 },
                 "more-photos": {
                     "type": "directory",
-                    "encrypted": true,
-                    "password": "password"
                     "files": {
-                        "blah.txt": {
-                            "type": "text"
-                        }
                     }
                 }
             }
