@@ -62,6 +62,8 @@ function xterminal(command, term) {
         case 'decrypt':
             decrypt(term, parsed_command['args']);
             break;
+        case '':
+            break;
         default:
             term.error(parsed_command['name'] + ': Command not found.');
             break;
