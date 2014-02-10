@@ -205,7 +205,7 @@
                     "files": {
                         "mansion.png": {
                             "type": "image",
-                            "title": "We need a better quality version of this, but I think it shows the mansion well",
+                            "title": "We need a better quality version of this for our brochures",
                             "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/mansion.png"
                         },
                         "xavier-sign.png": {
@@ -222,7 +222,7 @@
                 },
                 "teaching.jpg": {
                     "type": "image",
-                    "title": "I am glad that I could make teaching my life's work.",
+                    "title": "A typical day at work.",
                     "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/teaching.png"
                 },
                 "teaching-2.jpg": {
@@ -235,10 +235,20 @@
                     "title": "A few students playing a friendly game of foosball.",
                     "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/foosball.png"
                 },
-                "jean-and-scott.jpg":{
+                "jean-and-scott.jpg": {
                     "type": "image",
                     "title": "Jean and Scott on a quiet day.",
                     "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/scott-and-jean.jpg"
+                },
+                "hank.jpg": {
+                    "type": "image",
+                    "title": "Hank, looking quite official",
+                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/hank.jpg"
+                },
+                "kurt.jpg": {
+                    "type": "image",
+                    "title": "Kurt, relaxing for a bit on the front lawn",
+                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/kurt.jpg"
                 }
             }
         },
