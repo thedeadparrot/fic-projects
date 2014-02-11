@@ -13,5 +13,3 @@ also type 'help filenames' to better understand filenames.
 
 Tab completion exists for filenames, so you can start typing out the name of a file or a directory,
 and then press the tab key to try to complete it.
-
-To scroll up or scroll down, use the PgUp and PgDown keys.
