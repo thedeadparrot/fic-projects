@@ -63,7 +63,7 @@ function xterminal(command, term) {
             decrypt(term, parsed_command['args']);
             break;
         default:
-            term.echo(parsed_command['name'] + ': Command not found.');
+            term.error(parsed_command['name'] + ': Command not found.');
             break;
     }
 }
@@ -126,7 +126,7 @@ function tab_completion(term, command, callback) {
     try {
         var names = complete_file(command);
     } catch(e) {
-        term.echo(e.error_msg);
+        term.error(e.error_msg);
     }
     callback(names);
 }
@@ -244,7 +244,7 @@ function cat(term, args) {
                 displayFile(file.src, term);
             }
             else {
-                term.echo(filename + ": not a text file.");
+                term.error(filename + ": not a text file.");
             }
         } catch(e) {
             console.log(e);
