@@ -39,11 +39,11 @@
                     "files": {
                         "ihaveadream.mp3": {
                             "type": "audio",
-                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/audio/ihaveadream.mp3"
+                            "src": "data/audio/ihaveadream.mp3"
                         },
                         "ivebeentothemountaintop.mp3": {
                             "type": "audio",
-                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/audio/ivebeentothemountaintop.mp3"
+                            "src": "data/audio/ivebeentothemountaintop.mp3"
                         }
                     }
                 },
@@ -191,12 +191,12 @@
                         "charles-1962.png": {
                             "type": "image",
                             "title": "Look how young I was!",
-                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/charles-filtered.png"
+                            "src": "data/images/charles-filtered.png"
                         },
                         "first-class.png": {
                             "type": "image",
                             "title": "The first class of Xavier's School for the Gifted",
-                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/first-class.png"
+                            "src": "data/images/first-class.png"
                         }
                     }
                 },
@@ -206,49 +206,49 @@
                         "mansion.png": {
                             "type": "image",
                             "title": "We need a better quality version of this for our brochures",
-                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/mansion.png"
+                            "src": "data/images/mansion.png"
                         },
                         "xavier-sign.png": {
                             "type": "image",
                             "title": "A lovely image of the lovely sign on our front gates",
-                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/xavier-sign.png"
+                            "src": "data/images/xavier-sign.png"
                         }
                     }
                 },
                 "charles-2004.jpg": {
                     "type": "image",
                     "title": "I look far too severe in this one.",
-                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/charles-2004.jpg"
+                    "src": "data/images/charles-2004.jpg"
                 },
                 "teaching.jpg": {
                     "type": "image",
                     "title": "A typical day at work.",
-                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/teaching.png"
+                    "src": "data/images/teaching.png"
                 },
                 "teaching-2.jpg": {
                     "type": "image",
                     "title": "I love my students! They are so thoughtful and curious.",
-                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/teaching-2.png"
+                    "src": "data/images/teaching-2.png"
                 },
                 "students-foosball.jpg": {
                     "type": "image",
                     "title": "A few students playing a friendly game of foosball.",
-                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/foosball.png"
+                    "src": "data/images/foosball.png"
                 },
                 "jean-and-scott.jpg": {
                     "type": "image",
                     "title": "Jean and Scott on a quiet day.",
-                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/scott-and-jean.jpg"
+                    "src": "data/images/scott-and-jean.jpg"
                 },
                 "hank.jpg": {
                     "type": "image",
                     "title": "Hank, looking quite official",
-                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/hank.jpg"
+                    "src": "data/images/hank.jpg"
                 },
                 "kurt.jpg": {
                     "type": "image",
                     "title": "Kurt, relaxing for a bit on the front lawn",
-                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/kurt.jpg"
+                    "src": "data/images/kurt.jpg"
                 }
             }
         },
@@ -291,7 +291,7 @@
                                 "first-mission.jpg": {
                                     "type": "image",
                                     "title": "before the very first X-Men mission",
-                                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/xmen-old-costumes.jpeg"
+                                    "src": "data/images/xmen-old-costumes.jpeg"
                                 }
                             }
                         },
@@ -303,29 +303,29 @@
                                 "erik-portrait.jpg": {
                                     "type": "image",
                                     "title": "A portrait",
-                                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/erik-portrait.jpg"
+                                    "src": "data/images/erik-portrait.jpg"
                                 },
                                 "erik.jpg": {
                                     "type": "image",
                                     "title": "Erik",
-                                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/erik-bed.jpg"
+                                    "src": "data/images/erik-bed.jpg"
                                 },
                                 "security-image-5234.jpg": {
                                     "type": "image",
                                     "title": "Security Camera Footage - 1995 - 09 - 15",
-                                    "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/magneto-base.png"
+                                    "src": "data/images/magneto-base.png"
                                 }
                             }
                         },
                         "blackbird-diagram.svg": {
                             "type": "image",
                             "title": "Plans for the next Blackbird",
-                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/Blackbird.png"
+                            "src": "data/images/Blackbird.png"
                         },
                         "long-day.jpg": {
                             "type": "image",
                             "title": "After a Danger Room session",
-                            "src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/images/x-men-costumed.jpg"
+                            "src": "data/images/x-men-costumed.jpg"
                         }
                     }
                 },
@@ -337,8 +337,8 @@
                             "files": {
                                 "cerebro-recording.avi": {
                                     "type": "video",
-                                    "webm_src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/video/cerebro-final.webm",
-                                    "mp4_src": "https://dl.dropboxusercontent.com/u/2436187/xterminal/video/cerebro-final.mp4"
+                                    "webm_src": "data/video/cerebro-final.webm",
+                                    "mp4_src": "data/video/cerebro-final.mp4"
                                 }
                             }
                         },
