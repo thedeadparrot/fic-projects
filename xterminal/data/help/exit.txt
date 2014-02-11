@@ -1,0 +1,3 @@
+exit
+
+Logs out of the current session. Only run this when you are ready to leave.

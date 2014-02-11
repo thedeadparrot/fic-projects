@@ -1,5 +1,16 @@
 play <filename>
 
-Play the given video file.
+Display a player for the given video or audio file. Only works on audio or video files.
 
-Only works on video files.
+Examples:
+
+Play a video file named 'video.avi'
+    
+    play video.avi
+
+Play an audio file named 'audio.mp3'
+
+    play audio.mp3
+
+
+

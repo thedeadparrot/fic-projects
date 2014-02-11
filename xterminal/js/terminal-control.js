@@ -170,6 +170,8 @@ function help(term, args) {
             case 'view':
             case 'play':
             case 'filenames':
+            case 'decrypt':
+            case 'exit':
                 displayFile('data/help/' + command + '.txt', term);
                 break;
             default:

@@ -22,6 +22,6 @@ You can use '..' to specify the parent directory of your current directory. For 
 current directory is 'pictures', you can use the relative filename ''../music' to specify the
 'music' directory.
 		
-Tab completion exists for filenames and directory names, so you can start typing out the relative of
+Tab completion exists for filenames and directory names, so you can start typing out the relative or
 absolute name of a file or a directory, and then press the TAB key to try to automatically complete
 it.
