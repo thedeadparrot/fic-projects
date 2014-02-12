@@ -1,0 +1,16 @@
+{
+    "type": "directory",
+    "files": {
+        "photos": {
+            "type": "directory",
+            "files": {
+                "photo.jpg": {
+                    "type": "photo"
+                }
+            }
+        },
+        ".hello": {
+            "type": "text"
+        }
+    }
+}

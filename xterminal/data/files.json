@@ -1,0 +1,367 @@
+{
+    "type": "directory",
+    "files": {
+        "book": {
+            "type": "directory",
+            "files": {
+                "intro-chapter-v1.txt": {
+                    "type": "text",
+                    "src": "data/book/intro-chapter-1.txt"
+                },
+                "intro-chapter-v2.txt": {
+                    "type": "text",
+                    "src": "data/book/intro-chapter-2.txt"
+                },
+                "intro-chapter-v3.txt": {
+                    "type": "text",
+                    "src": "data/book/intro-chapter-3.txt"
+                },
+                "intro-chapter-v4.txt": {
+                    "type": "text",
+                    "src": "data/book/intro-chapter-4.txt"
+                }
+            }
+        },
+        "miscellaneous": {
+            "type": "directory",
+            "files": {
+                "jean.txt": {
+                    "type": "text",
+                    "src": "data/misc-writing/jean-obituary.txt"
+                }
+            }
+        },
+        "music": {
+            "type": "directory",
+            "files": {
+                "inspirations": {
+                    "type": "directory",
+                    "files": {
+                        "ihaveadream.mp3": {
+                            "type": "audio",
+                            "src": "data/audio/ihaveadream.mp3"
+                        },
+                        "ivebeentothemountaintop.mp3": {
+                            "type": "audio",
+                            "src": "data/audio/ivebeentothemountaintop.mp3"
+                        }
+                    }
+                },
+                "playlists" : {
+                    "type": "directory",
+                    "files": {
+                        "playlist1.m3u": {
+                            "type": "text",
+                            "src": "data/playlists/angsty60smusic.m3u"
+                        },
+                        "playlist2.m3u": {
+                            "type": "text",
+                            "src": "data/playlists/disco!.m3u"
+                        },
+                        "playlist3.m3u": {
+                            "type": "text",
+                            "src": "data/playlists/80spophits.m3u"
+                        },
+                        "playlist4.m3u": {
+                            "type": "text",
+                            "src": "data/playlists/boybandz.m3u"
+                        }
+                    }
+                }
+            }
+        },
+        "maildir": {
+            "type": "directory",
+            "files": {
+                "new" : {
+                    "type": "directory",
+                    "files": {
+                        "1142880739-Introchapter-steven.bunting.com": {
+                            "type": "text",
+                            "src": "data/mail/misc/editor-chapterrequest.eml"
+                        },
+                        "1142898385-Requisitions-omunroe.xavier.org": {
+                            "type": "text",
+                            "src": "data/mail/misc/ororo-requisitions.eml"
+                        }
+                    }
+                },
+                "cur": {
+                    "type": "directory",
+                    "files": {
+                        "1142104209-NewBasketballRules-ssummers.xavier.org": {
+                            "type": "text",
+                            "src": "data/mail/misc/scott-basketball.eml"
+                        },
+                        "1142165649-WarningDonotgonear-omunroe.xavier.org": {
+                            "type": "text",
+                            "src": "data/mail/misc/ororo-prank.eml"
+                        },
+                        "1142790205-ReImtryingtofind-hmccoy.xavier.org": {
+                            "type": "text",
+                            "src": "data/mail/misc/hank-hiddenfiles.eml"
+                        },
+                        "1142774419-Youhavebeeninvited-no-reply.friendly.com": {
+                            "type": "text",
+                            "src": "data/mail/misc/friend-request.eml"
+                        }
+                    }
+                },
+                "tmp": {
+                    "type": "directory",
+                    "files": {
+                    }
+                },
+                ".erik": {
+                    "type": "directory",
+                    "encrypted": true,
+                    "password": "ihaveadream",
+                    "files": {
+                        "0937302798-nosubject-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/dot-com/1.eml"
+                        },
+                        "0937481598-Renosubject-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/dot-com/2.eml"
+                        },
+                        "0937652605-Renosubject-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/dot-com/3.eml"
+                        },
+                        "0946757658-ReHappyNewYear-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/newyears/1.eml"
+                        },
+                        "0956915058-prattle-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/boybandz/1.eml"
+                        },
+                        "0956999838-Reprattle-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/boybandz/2.eml"
+                        },
+                        "0959012418-thebreakingnews-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/preX1/1.eml"
+                        },
+                        "0959102418-Rethebreakingnews-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/preX1/2.eml"
+                        },
+                        "0959127618-Rethebreakingnews-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/preX1/3.eml"
+                        },
+                        "1118699238-congratulations-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/postX2/1.eml"
+                        }
+                    }
+                },
+                ".trash": {
+                    "type": "directory",
+                    "files": {
+                        "1142687598-nosubject-mutiekiller.yahoo.com": {
+                            "type": "text",
+                            "src": "data/mail/misc/diemutiescum.eml"
+                        },
+                        "1142617405-IssueswiththeMutant-anne.mckinsey.gmail.com": {
+                            "type": "text",
+                            "src": "data/mail/misc/concerntroll.eml"
+                        },
+                        "1118762178-Recongratulations-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/postX2/2.eml"
+                        },
+                        "1120057518-Recongratulations-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/postX2/3.eml"
+                        }
+                    }
+                }
+            }
+        },
+        "pictures": {
+            "type": "directory",
+            "files": {
+                "scanned": {
+                    "type": "directory",
+                    "files": {
+                        "charles-1962.png": {
+                            "type": "image",
+                            "title": "Look how young I was!",
+                            "src": "data/images/charles-filtered.png"
+                        },
+                        "first-class.png": {
+                            "type": "image",
+                            "title": "The first class of Xavier's School for the Gifted",
+                            "src": "data/images/first-class.png"
+                        }
+                    }
+                },
+                "promotional": {
+                    "type": "directory",
+                    "files": {
+                        "mansion.png": {
+                            "type": "image",
+                            "title": "We need a better quality version of this for our brochures",
+                            "src": "data/images/mansion.png"
+                        },
+                        "xavier-sign.png": {
+                            "type": "image",
+                            "title": "A lovely image of the lovely sign on our front gates",
+                            "src": "data/images/xavier-sign.png"
+                        }
+                    }
+                },
+                "charles-2004.jpg": {
+                    "type": "image",
+                    "title": "I look far too severe in this one.",
+                    "src": "data/images/charles-2004.jpg"
+                },
+                "teaching.jpg": {
+                    "type": "image",
+                    "title": "A typical day at work.",
+                    "src": "data/images/teaching.png"
+                },
+                "teaching-2.jpg": {
+                    "type": "image",
+                    "title": "I love my students! They are so thoughtful and curious.",
+                    "src": "data/images/teaching-2.png"
+                },
+                "students-foosball.jpg": {
+                    "type": "image",
+                    "title": "A few students playing a friendly game of foosball.",
+                    "src": "data/images/foosball.png"
+                },
+                "jean-and-scott.jpg": {
+                    "type": "image",
+                    "title": "Jean and Scott on a quiet day.",
+                    "src": "data/images/scott-and-jean.jpg"
+                },
+                "hank.jpg": {
+                    "type": "image",
+                    "title": "Hank, looking quite official",
+                    "src": "data/images/hank.jpg"
+                },
+                "kurt.jpg": {
+                    "type": "image",
+                    "title": "Kurt, relaxing for a bit on the front lawn",
+                    "src": "data/images/kurt.jpg"
+                }
+            }
+        },
+        "grades": {
+            "type": "directory",
+            "encrypted": true,
+            "password": "ihaveadream",
+            "files": {
+                "marie.txt": {
+                    "type": "text",
+                    "src": "data/report-cards/marie.txt"
+                },
+                "bobby.txt": {
+                    "type": "text",
+                    "src": "data/report-cards/bobby.txt"
+                },
+                "jubilee.txt": {
+                    "type": "text",
+                    "src": "data/report-cards/jubilee.txt"
+                },
+                "piotr.txt": {
+                    "type": "text",
+                    "src": "data/report-cards/peter.txt"
+                }
+            }
+        },
+        ".bashrc": {
+            "type": "text",
+            "src": "data/.bashrc"
+        },
+        ".xmen": {
+            "type": "directory",
+            "files": {
+                "pictures": {
+                    "type": "directory",
+                    "files": {
+                        "archive": {
+                            "type": "directory",
+                            "files": {
+                                "first-mission.jpg": {
+                                    "type": "image",
+                                    "title": "before the very first X-Men mission",
+                                    "src": "data/images/xmen-old-costumes.jpeg"
+                                }
+                            }
+                        },
+                        ".erik": {
+                            "type": "directory",
+                            "encrypted": true,
+                            "password": "ihaveadream",
+                            "files": {
+                                "erik-portrait.jpg": {
+                                    "type": "image",
+                                    "title": "A portrait",
+                                    "src": "data/images/erik-portrait.jpg"
+                                },
+                                "erik.jpg": {
+                                    "type": "image",
+                                    "title": "Erik",
+                                    "src": "data/images/erik-bed.jpg"
+                                },
+                                "security-image-5234.jpg": {
+                                    "type": "image",
+                                    "title": "Security Camera Footage - 1995 - 09 - 15",
+                                    "src": "data/images/magneto-base.png"
+                                }
+                            }
+                        },
+                        "blackbird-diagram.svg": {
+                            "type": "image",
+                            "title": "Plans for the next Blackbird",
+                            "src": "data/images/Blackbird.png"
+                        },
+                        "long-day.jpg": {
+                            "type": "image",
+                            "title": "After a Danger Room session",
+                            "src": "data/images/x-men-costumed.jpg"
+                        }
+                    }
+                },
+                "cerebro": {
+                    "type": "directory",
+                    "files": {
+                        "video": {
+                            "type": "directory",
+                            "files": {
+                                "cerebro-recording.avi": {
+                                    "type": "video",
+                                    "webm_src": "data/video/cerebro-final.webm",
+                                    "mp4_src": "data/video/cerebro-final.mp4"
+                                }
+                            }
+                        },
+                        "notes": {
+                            "type": "directory",
+                            "files": {
+                                "cerebro-notes-19981007.txt": {
+                                    "type": "text",
+                                    "src": "data/cerebro/notes/cerebro-notes-1.txt"
+                                },
+                                "cerebro-notes-20021123.txt": {
+                                    "type": "text",
+                                    "src": "data/cerebro/notes/cerebro-notes-2.txt"
+                                },
+                                "cerebro-notes-20050402.txt": {
+                                    "type": "text",
+                                    "src": "data/cerebro/notes/cerebro-notes-3.txt"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+There are two types of filenames and directory names: relative and absolute. Absolute filenames
+begin with '~/' which represents the home directory.
+
+Take this example filesystem:
+
+~/
+	pictures/
+		picture1.jpg
+	music/
+		variousartists/
+			song1.mp3
+
+The absolute filename for 'picture1.jpg' is '~/pictures/picture1.jpg'. The absolute directory name
+for 'variousartists' is '~/music/variousartists/'.
+
+Relative filenames are based on your current directory. These do not start with any special
+characters. For example, if your current directory is 'pictures', the relative filename for
+'picture.jpg' is 'picture.jpg'. If your current directory is the home directory, the relative
+filename for 'picture.jpg' is 'pictures/picture.jpg'
+
+You can use '..' to specify the parent directory of your current directory. For example, if your
+current directory is 'pictures', you can use the relative filename ''../music' to specify the
+'music' directory.
+		
+Tab completion exists for filenames and directory names, so you can start typing out the relative or
+absolute name of a file or a directory, and then press the TAB key to try to automatically complete
+it.

@@ -1,0 +1,17 @@
+.terminal {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Source Code Pro', monospace;
+    overflow: auto;
+}
+
+.terminal-output div div, .terminal .prompt {
+    line-height: 22px !important;
+}
+
+.media-container {
+    background: transparent;
+    margin: 0px auto;
+    width: 800px;
+    text-align: center;
+}
