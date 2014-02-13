@@ -1,13 +1,13 @@
-From hmccoy@xavier.org Sun Mar 19 12:43:19 2006
+From hmccoy@xavier.org Wed Mar 01 12:43:19 2006
 Received: by xavier.org (8.9.3/8.9.3) id XAA24214;
-        Sun, 19 Mar 2006 12:43:25 -0500
-Date: Sun, 19 Mar 2006 12:44:18 -0500
+        Wed, 01 Mar 2006 12:43:25 -0500
+Date: Wed, 01 Mar 2006 12:44:18 -0500
 From: Hank McCoy <hmccoy@xavier.org>
 To: Charles Xavier <cxavier@xavier.org>
 Message-Id: <f3a0dcdf-453d-4e8b-a1a4-79069e8eb70d@xavier.org>
 Subject: Re: I'm trying to find a file
 
-Charles-
+Professor-
 
 I would suggest looking at your .bashrc file in your home (~/) directory. It's a hidden file, so it
 won't show up normally if you type 'ls', but you can see it if you type 'ls -a'. Any files with
@@ -18,9 +18,9 @@ by typing 'cat ~/.bashrc'.
 
 > Hank,
 > 
-> I am trying to follow these instructions to add this new directory to my path. I'm not sure what 
-> that means, but it suggests adding something to my '.bashrc' file. I've looked all over and can't 
-> seem to find it.
-
+> I am trying to follow these instructions to add a new directory to my path. I'm not sure what 
+> that means, exactly, but it mentions adding something to my '.bashrc' file. I've looked all over
+> for that particular file and can't seem to find it.
+>
 > Sincerely,
 > Charles
