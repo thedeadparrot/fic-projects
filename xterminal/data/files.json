@@ -89,6 +89,10 @@
                 "cur": {
                     "type": "directory",
                     "files": {
+                        "1141235058-ReImtryingtofind-hmccoy.xavier.org": {
+                            "type": "text",
+                            "src": "data/mail/misc/hank-hiddenfiles.eml"
+                        },
                         "1142104209-NewBasketballRules-ssummers.xavier.org": {
                             "type": "text",
                             "src": "data/mail/misc/scott-basketball.eml"
@@ -96,10 +100,6 @@
                         "1142165649-WarningDonotgonear-omunroe.xavier.org": {
                             "type": "text",
                             "src": "data/mail/misc/ororo-prank.eml"
-                        },
-                        "1142790205-ReImtryingtofind-hmccoy.xavier.org": {
-                            "type": "text",
-                            "src": "data/mail/misc/hank-hiddenfiles.eml"
                         },
                         "1142774419-Youhavebeeninvited-no-reply.friendly.com": {
                             "type": "text",
@@ -129,7 +129,7 @@
                             "type": "text",
                             "src": "data/mail/charleserik/dot-com/3.eml"
                         },
-                        "0946757658-ReHappyNewYear-e1357.hotmail.com": {
+                        "0946707258-ReHappyNewYear-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/newyears/1.eml"
                         },
@@ -269,7 +269,7 @@
                     "type": "text",
                     "src": "data/report-cards/jubilee.txt"
                 },
-                "piotr.txt": {
+                "peter.txt": {
                     "type": "text",
                     "src": "data/report-cards/peter.txt"
                 }
