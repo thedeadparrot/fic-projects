@@ -19,7 +19,7 @@ USER = 'cxavier';
 PASSWORD = 'ivebeentothemountaintop';
 BASE_PROMPT = USER +'@xterminal:';
 // TODO: replace this with actual outro page
-OUTRO_URL = 'http://thedeadparrot.dreamwidth.org';
+OUTRO_URL = 'http://thedeadparrot.dreamwidth.org/545078.html';
 DATA_FILE = 'data/files.json';
 
 var filesystem = new FileSystem();
