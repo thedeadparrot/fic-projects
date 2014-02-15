@@ -18,7 +18,7 @@ Credits
 
 [JQuery Terminal Emulator Plugin](https://github.com/jcubic/jquery.terminal) - this plugin did so
 much of the heavy lifting on the interface, providing everything from login behavior to
-tab-completion.
+tab-completion. I made a small code change in order to get the logout behavior I wanted.
 
 [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup) - provided lightboxes for images and
 video.
