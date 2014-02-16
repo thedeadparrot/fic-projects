@@ -1,10 +1,12 @@
-decrypt <filename>
+decrypt <file>
 
 Decrypts the given file or directory. 
 
 Some files or directories must be decrypted before they can be accessed. When running this command,
 a prompt will appear, asking for a password. The correct password must be given before the file
 or directory will be decrypted.
+
+To better understand how to interact with particular files, please type in 'help files'.
 
 Examples:
 

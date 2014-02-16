@@ -169,7 +169,7 @@ function help(term, args) {
             case 'cat':
             case 'view':
             case 'play':
-            case 'filenames':
+            case 'files':
             case 'decrypt':
             case 'exit':
                 displayFile('data/help/' + command + '.txt', term);

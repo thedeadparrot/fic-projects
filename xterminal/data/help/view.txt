@@ -1,8 +1,8 @@
-view <filename>
+view <file>
 
-Bring up a viewer for the given image file. 
+Bring up a viewer for the given image file.  Only works on image files.
 
-Only works on image files.
+To better understand how to interact with particular files, type in 'help files'.
 
 Examples:
 
