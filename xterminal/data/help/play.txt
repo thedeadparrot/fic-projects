@@ -1,6 +1,8 @@
-play <filename>
+play <file>
 
 Display a player for the given video or audio file. Only works on audio or video files.
+
+To better understand how to interact with particular files, type in 'help files'.
 
 Examples:
 

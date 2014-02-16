@@ -3,13 +3,15 @@ cd <directory>
 Changes the current directory to the given directory. If no directory is given, changes the current
 directory to the home directory.
 
+To better understand how to interact with particular directories, type 'help files'.
+
 Examples:
 
 Go back to the home directory:
 	
 	cd
 
-Go to the pictures directory:
+Go into the pictures directory:
 
 	cd pictures/
 

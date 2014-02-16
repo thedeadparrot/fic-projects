@@ -7,6 +7,8 @@ In this file listing, directories will be displayed with a trailing slash (i.e. 
 
 If the -a option is used, hidden files will also be displayed.
 
+To better understand how to interact with particular directories, type 'help files'.
+
 Examples:
 
 Display files in the current directory:
@@ -20,4 +22,3 @@ Display files in the pictures directory:
 Display all files in the pictures directory:
 
   ls -a pictures/
-
