@@ -129,6 +129,10 @@
                             "type": "text",
                             "src": "data/mail/charleserik/dot-com/3.eml"
                         },
+                        "0942194327-photographsandmemories-e1357.hotmail.com": {
+                            "type": "text",
+                            "src": "data/mail/charleserik/photographs/1.eml"
+                        },
                         "0946707258-ReHappyNewYear-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/newyears/1.eml"
@@ -159,7 +163,7 @@
                         }
                     }
                 },
-                ".trash": {
+                "trash": {
                     "type": "directory",
                     "files": {
                         "1142687598-nosubject-mutiekiller.yahoo.com": {
@@ -212,6 +216,28 @@
                             "type": "image",
                             "title": "A lovely image of the lovely sign on our front gates",
                             "src": "data/images/xavier-sign.png"
+                        }
+                    }
+                },
+                ".erik": {
+                    "type": "directory",
+                    "encrypted": true,
+                    "password": "ihaveadream",
+                    "files": {
+                        "erik-portrait.jpg": {
+                            "type": "image",
+                            "title": "A portrait",
+                            "src": "data/images/erik-portrait.jpg"
+                        },
+                        "erik.jpg": {
+                            "type": "image",
+                            "title": "Erik",
+                            "src": "data/images/erik-bed.jpg"
+                        },
+                        "security-image-5234.jpg": {
+                            "type": "image",
+                            "title": "Security Camera Footage - 1995 - 09 - 15",
+                            "src": "data/images/magneto-base.png"
                         }
                     }
                 },
@@ -292,28 +318,6 @@
                                     "type": "image",
                                     "title": "before the very first X-Men mission",
                                     "src": "data/images/xmen-old-costumes.jpeg"
-                                }
-                            }
-                        },
-                        ".erik": {
-                            "type": "directory",
-                            "encrypted": true,
-                            "password": "ihaveadream",
-                            "files": {
-                                "erik-portrait.jpg": {
-                                    "type": "image",
-                                    "title": "A portrait",
-                                    "src": "data/images/erik-portrait.jpg"
-                                },
-                                "erik.jpg": {
-                                    "type": "image",
-                                    "title": "Erik",
-                                    "src": "data/images/erik-bed.jpg"
-                                },
-                                "security-image-5234.jpg": {
-                                    "type": "image",
-                                    "title": "Security Camera Footage - 1995 - 09 - 15",
-                                    "src": "data/images/magneto-base.png"
                                 }
                             }
                         },
