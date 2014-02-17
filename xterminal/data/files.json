@@ -277,7 +277,7 @@
         },
         ".bashrc": {
             "type": "text",
-            "src": "data/.bashrc"
+            "src": "data/bashrc"
         },
         ".xmen": {
             "type": "directory",
