@@ -15,10 +15,10 @@ Display files in the current directory:
 
   ls
 
-Display files in the pictures directory:
+Display files in the maildir directory:
 
-  ls pictures/
+  ls maildir/
 
-Display all files in the pictures directory:
+Display all files in the maildir directory:
 
-  ls -a pictures/
+  ls -a maildir/
