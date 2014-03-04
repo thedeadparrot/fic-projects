@@ -76,11 +76,11 @@
                 "new" : {
                     "type": "directory",
                     "files": {
-                        "1142880739-Introchapter-steven.bunting.com": {
+                        "2006-03-20-Introchapter-steven.bunting.com": {
                             "type": "text",
                             "src": "data/mail/misc/editor-chapterrequest.eml"
                         },
-                        "1142898385-Requisitions-omunroe.xavier.org": {
+                        "2006-03-20-Requisitions-omunroe.xavier.org": {
                             "type": "text",
                             "src": "data/mail/misc/ororo-requisitions.eml"
                         }
@@ -89,19 +89,19 @@
                 "cur": {
                     "type": "directory",
                     "files": {
-                        "1141235058-ReImtryingtofind-hmccoy.xavier.org": {
+                        "2006-03-01-ReImtryingtofind-hmccoy.xavier.org": {
                             "type": "text",
                             "src": "data/mail/misc/hank-hiddenfiles.eml"
                         },
-                        "1142104209-NewBasketballRules-ssummers.xavier.org": {
+                        "2006-03-11-NewBasketballRules-ssummers.xavier.org": {
                             "type": "text",
                             "src": "data/mail/misc/scott-basketball.eml"
                         },
-                        "1142165649-WarningDonotgonear-omunroe.xavier.org": {
+                        "2006-03-12-WarningDonotgonear-omunroe.xavier.org": {
                             "type": "text",
                             "src": "data/mail/misc/ororo-prank.eml"
                         },
-                        "1142774419-Youhavebeeninvited-no-reply.friendly.com": {
+                        "2006-03-19-Youhavebeeninvited-no-reply.friendly.com": {
                             "type": "text",
                             "src": "data/mail/misc/friend-request.eml"
                         }
@@ -117,47 +117,47 @@
                     "encrypted": true,
                     "password": "ihaveadream",
                     "files": {
-                        "0937302798-nosubject-e1357.hotmail.com": {
+                        "1999-09-14-nosubject-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/dot-com/1.eml"
                         },
-                        "0937481598-Renosubject-e1357.hotmail.com": {
+                        "1999-09-16-Renosubject-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/dot-com/2.eml"
                         },
-                        "0937652605-Renosubject-e1357.hotmail.com": {
+                        "1999-09-18-Renosubject-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/dot-com/3.eml"
                         },
-                        "0942194327-photographsandmemories-e1357.hotmail.com": {
+                        "1999-11-09-photographsandmemories-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/photographs/1.eml"
                         },
-                        "0946707258-ReHappyNewYear-e1357.hotmail.com": {
+                        "2000-01-01-ReHappyNewYear-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/newyears/1.eml"
                         },
-                        "0956915058-prattle-e1357.hotmail.com": {
+                        "2000-04-28-prattle-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/boybandz/1.eml"
                         },
-                        "0956999838-Reprattle-e1357.hotmail.com": {
+                        "2000-04-29-Reprattle-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/boybandz/2.eml"
                         },
-                        "0959012418-thebreakingnews-e1357.hotmail.com": {
+                        "2000-05-22-thebreakingnews-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/preX1/1.eml"
                         },
-                        "0959102418-Rethebreakingnews-e1357.hotmail.com": {
+                        "2000-05-23-Rethebreakingnews-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/preX1/2.eml"
                         },
-                        "0959127618-Rethebreakingnews-e1357.hotmail.com": {
+                        "2000-05-24-Rethebreakingnews-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/preX1/3.eml"
                         },
-                        "1118699238-congratulations-e1357.hotmail.com": {
+                        "2005-06-13-congratulations-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/postX2/1.eml"
                         }
@@ -166,19 +166,19 @@
                 "trash": {
                     "type": "directory",
                     "files": {
-                        "1142687598-nosubject-mutiekiller.yahoo.com": {
+                        "2006-04-18-nosubject-mutiekiller.yahoo.com": {
                             "type": "text",
                             "src": "data/mail/misc/diemutiescum.eml"
                         },
-                        "1142617405-IssueswiththeMutant-anne.mckinsey.gmail.com": {
+                        "2006-04-17-IssueswiththeMutant-anne.mckinsey.gmail.com": {
                             "type": "text",
                             "src": "data/mail/misc/concerntroll.eml"
                         },
-                        "1118762178-Recongratulations-e1357.hotmail.com": {
+                        "2005-06-14-Recongratulations-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/postX2/2.eml"
                         },
-                        "1120057518-Recongratulations-e1357.hotmail.com": {
+                        "2005-06-29-Recongratulations-e1357.hotmail.com": {
                             "type": "text",
                             "src": "data/mail/charleserik/postX2/3.eml"
                         }
@@ -349,15 +349,15 @@
                         "notes": {
                             "type": "directory",
                             "files": {
-                                "cerebro-notes-19981007.txt": {
+                                "cerebro-notes-1998-10-07.txt": {
                                     "type": "text",
                                     "src": "data/cerebro/notes/cerebro-notes-1.txt"
                                 },
-                                "cerebro-notes-20021123.txt": {
+                                "cerebro-notes-2002-11-23.txt": {
                                     "type": "text",
                                     "src": "data/cerebro/notes/cerebro-notes-2.txt"
                                 },
-                                "cerebro-notes-20050402.txt": {
+                                "cerebro-notes-2005-04-02.txt": {
                                     "type": "text",
                                     "src": "data/cerebro/notes/cerebro-notes-3.txt"
                                 }
