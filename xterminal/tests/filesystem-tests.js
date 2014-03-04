@@ -39,6 +39,14 @@ describe("test all the various and sundry filesystem functionality", function() 
         });
 
 
+        it("test that we can't access the root filesystem", function() {
+            var accessRoot = function() {
+                filesystem.changeDirectory('/');
+            }
+            expect(accessRoot).toThrow(new AccessDenied("You do not have access to the root filesystem."));
+        });
+
+
     });
 
     describe("testing getting individual files", function() {
