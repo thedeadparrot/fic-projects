@@ -38,7 +38,7 @@ filesystem.loadFile(DATA_FILE);
 // This also handles any special case handling of the inputs before
 // passing them to the individual functions
 function xterminal(command, term) {
-    parsed_command = $.terminal.parseCommand(command);
+    parsed_command = $.terminal.splitCommand(command);
     switch(parsed_command['name'])
     {
         case 'help':
