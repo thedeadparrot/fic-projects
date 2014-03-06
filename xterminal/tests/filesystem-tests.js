@@ -256,4 +256,15 @@ describe("Test filesystem behavior when things are encrypted", function() {
         var files = filesystem.getFiles('photos');
         expect(Object.keys(files)).toEqual(['photo.jpg', 'more-photos']);
     });
+
+    it("Test decrypting a file that is not encrypted", function() {
+        filesystem.decryptFile('photos', 'password');
+        
+        decryptUnencrypted = function() {
+            filesystem.decryptFile('photos/photo.jpg');
+        }
+
+        expect(decryptUnencrypted).toThrow(new InvalidFileObject("File or directory is not encrypted"));
+                
+    });
 });
