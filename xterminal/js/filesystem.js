@@ -247,10 +247,13 @@ var FileSystem = function() {
         // try to get the file
         file = me.getFile(file_path, true);
         // check to make sure that we are actually encrypted before modifying it
-        if(file.encrypted && file.password === password) {
+        if(!file.encrypted) {
+            throw new InvalidFileObject("File or directory is not encrypted");
+        }
+        else if(file.password === password) {
             file.encrypted = false;
         }
-        else if(file.password != password) {
+        else {
             throw new AccessDenied("Incorrect password for decryption");
         }
     }
