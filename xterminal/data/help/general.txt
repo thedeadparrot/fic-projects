@@ -11,6 +11,6 @@ exit - logout from this session
 Most of these commands take a complete file path, which means the path to the file as well as the 
 name of the file. You can type 'help files' to better understand how to access files.
 
-To see more detailed documentation on what each command does, type 'help <command name>'. 
+To see more detailed documentation on what each command does and how to use it, type 'help <command name>'. 
 Tab completion exists for filenames, so you can start typing out the name of a file or a directory,
 and then press the tab key to try to complete it.

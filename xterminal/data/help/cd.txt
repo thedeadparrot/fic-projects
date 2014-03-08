@@ -15,7 +15,7 @@ Go into the pictures directory:
 
 	cd pictures/
 
-Go to the parent directory
+Go to the parent directory of the current directory:
 
 	cd ..
 
