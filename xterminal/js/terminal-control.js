@@ -18,8 +18,7 @@ ROOT_DIR = '~'
 USER = 'cxavier';
 PASSWORD = 'ivebeentothemountaintop';
 BASE_PROMPT = USER +'@xterminal:';
-// TODO: replace this with actual outro page
-OUTRO_URL = 'http://thedeadparrot.dreamwidth.org/545078.html';
+OUTRO_URL = 'http://archiveofourown.org/works/1361308/chapters/2842810';
 DATA_FILE = 'data/files.json';
 
 var filesystem = new FileSystem();
