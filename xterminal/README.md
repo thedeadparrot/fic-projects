@@ -1,5 +1,5 @@
-XTerminal
-=========
+[Ghost in the Shell](http://archiveofourown.org/works/1361308/chapters/2842792)
+==========================================================================
 
 Most of this code is in pure Javascript. The things I wrote are `js/filesystem.js` and
 `js/terminal-control.js` as well as everything in `data`.
@@ -7,7 +7,7 @@ Most of this code is in pure Javascript. The things I wrote are `js/filesystem.j
 [Jasmine](http://pivotal.github.io/jasmine/) tests for filesystem code can be found in the `tests`
 directory.
 
-To see the underlying filesystem in the completed product, feel free to poke around at `data/files.json`.
+To see the underlying filesystem in the completed product, feel free to poke around at `data/files.json`. All of the other content can be found in the various directories underneath `data`.
 
 Video support requires HTML5.
 

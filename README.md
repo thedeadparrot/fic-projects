@@ -23,3 +23,9 @@ What You Want
 -------------
 
 A short sequel to A Far Better Thing aiming to pushing the experimental side of things. Also built using twee. You can find the code for this in the `edge-2` folder.
+
+
+Ghost in the Shell
+------------------
+
+An experimental fic about exploring a character's computer. Built using [JQuery Terminal](http://terminal.jcubic.pl/). Can be found in the `xterminal` directory.
