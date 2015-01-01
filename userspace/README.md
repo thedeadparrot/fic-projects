@@ -1,4 +1,4 @@
-[userspace](http://archiveofourown.org/works/2792615/chapters/6268130)
+[userspace](http://thedeadparrot.github.io/fic-projects/userspace/userspace.html)
 ======================================================================
 
 Written in [Twine 2](http://twinery.org) using the Harlowe story format.
