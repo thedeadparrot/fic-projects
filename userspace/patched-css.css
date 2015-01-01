@@ -1,0 +1,19 @@
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
+<style>
+body {
+    background-color: #02222F;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+.enchantment-link, tw-link, a {
+    color: #49CAE5;
+    font-weight: 700;
+    text-decoration: none;
+}
+tw-icon {
+    visibility: hidden;
+}
+#end-link {
+    margin-left: 43%;
+}
+</style>
