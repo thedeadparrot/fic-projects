@@ -1,0 +1,368 @@
+<tw-storydata name="sr:hk backstory" startnode="1" creator="Twine" creator-version="2.0.10" ifid="D0071C9B-6E76-4AFA-952D-55A7FC3F9531" format="Harlowe" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html {
+	background-color: black;
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffd900;
+	font-family: 'Roboto', sans-serif;
+	font-size: .7em;
+	line-height: 1em;
+}
+.transition {
+	background-image: none;
+	background-color: black;
+	opacity: 0;
+	transition: opacity 3s ease-in-out 1s;
+}
+.ending {
+	background-image: url(images/raymond2.png);
+	opacity: 1;
+	transition: opacity 3s ease-in-out 1s;
+}
+.intro, .afterword {
+	background-image: none;
+	opacity: 1;
+}
+tw-story {
+    display: block;
+    width: 40%;
+    float: right;
+    margin: 5% 0% 5% 20%;
+	  height: 85%;
+}
+
+tw-passage {
+	  border:solid #495f5c;
+	  border-width: 2px 0px 2px 5px;
+    border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		padding: 5%;
+	  height: 100%;
+	  background-color: black;
+	  opacity: .6;
+}
+
+a, tw-link {
+	-moz-box-shadow: 0px 1px 0px 0px #77e0ce;
+	-webkit-box-shadow: 0px 1px 0px 0px #77e0ce;
+	box-shadow: 0px 1px 0px 0px #77e0ce;
+	background-color:transparent;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border:1px solid #539fbd;
+	display:inline-block;
+	color:#7bd1ca;
+	font-weight: normal;
+	padding:6px 12px;
+	text-decoration:none;
+	margin: 1% 0%;
+}
+a:hover, tw-link:hover {
+	color:#7bd1ca;
+	background-color: #4e6561;
+}
+a:active, tw-link:active {
+	position:relative;
+	top:1px;
+}
+tw-icon {
+	display:none;
+}
+
+.character tw-sidebar {
+	 height: 278px;
+	 width: 212px;
+	 left: -225px;
+	 border: 3px solid #76b2a9;
+}
+.duncan tw-sidebar {
+	 background-image: url(images/npc_orkmale_wu_03.png);
+}
+
+.lone-star tw-sidebar {
+	background-image: url(images/pc_trollfemale_01b_detective.png);
+}
+
+.ganger1 tw-sidebar {
+	background-image: url(images/pc_dwarfmale_06a_blackbeard.png);
+}
+.ganger2 tw-sidebar {
+	background-image: url(images/pc_elffemale_04_psychopath.png);
+}
+
+body:after{
+    display:none;
+    content: url(images/npc_orkmale_wu_03.png)
+			url(images/pc_trollfemale_01b_detective.png) url(images/pc_dwarfmale_06a_blackbeard.png) url(images/pc_elffemale_04_psychopath.png) url(images/background.jpg)	url(images/yuletide-project/raymond2.png);
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+</script><tw-passagedata pid="1" name="Intro" tags="intro" position="620,86">&lt;h3&gt;機不可失，時不再來&lt;/h3&gt;
+&lt;h4&gt;&quot;An opportunity, once lost, does not come around a second time.&quot;&lt;/h4&gt;
+//for dizzy_fire//
+
+
+
+[[Start|Transition3]]</tw-passagedata>
+<tw-passagedata pid="2" name="Narrator 1" tags="narrator" position="621,229">[The alley is so dim you can barely make out Duncan&#39;s face, but the shakiness in his voice is impossible to miss. Today&#39;s the second day in a row that you&#39;ve been forced to scavenge for food. You&#39;re low on nuyen, and the pickings are scarce, not much better than stale nutrisoy that&#39;s been thrown out. But even with your stomach rumbling, you have other pressing matters on your mind right now.]
+
+[[...|Duncan 1]]</tw-passagedata>
+<tw-passagedata pid="3" name="Duncan 1" tags="duncan pc character" position="621,371">&#39;&#39;Duncan Wu&#39;&#39;
+
+You really think this old guy wants to take us in out of the goodness of his heart?
+
+
+
+[[No, but I&#39;m willing to play the game as long as he is.|Duncan 2A]]
+[[He&#39;s harmless.|Duncan 2B]]
+[[Does it matter? It probably beats this drek.|Duncan 2C]]
+
+</tw-passagedata>
+<tw-passagedata pid="4" name="Duncan 2A" tags="duncan character" position="421,548">&#39;&#39;Duncan Wu&#39;&#39;
+
+Maybe not if his game is chopping up street kids and burying them in his backyard.
+
+[[...|Narrator 2]]</tw-passagedata>
+<tw-passagedata pid="5" name="Duncan 2B" tags="duncan character" position="620,549">&#39;&#39;Duncan Wu&#39;&#39;
+
+Could be that this guy is just doing it out of the goodness of his heart, but then why the hell did he pick the two of us?
+
+[[...|Narrator 2]]</tw-passagedata>
+<tw-passagedata pid="6" name="Duncan 2C" tags="duncan character" position="808,554">&#39;&#39;Duncan Wu&#39;&#39;
+
+Yeah, I&#39;m hearing you on that. One more day of digging through a Stuffer Shack dumpster, and I&#39;d be willing to follow an axe murderer home if he offered me dinner.
+
+[[...|Narrator 2]]</tw-passagedata>
+<tw-passagedata pid="7" name="Narrator 2" tags="narrator" position="622,748">[Duncan hasn&#39;t stopped talking about him, Raymond Black, over the last few days, a steady stream of thoughts, worries, wishes. Duncan&#39;s younger than you -- neither of you know by how much -- and he clings to any illusion of stability in a way that you&#39;ve learned not to. He nearly cried for three days straight when the diner kicked the two of you off their stoop.
+
+He fidgets with his bracelet, a plain metal band that he&#39;s owned as long as you&#39;ve known him.]
+
+[[...|Duncan 3]]</tw-passagedata>
+<tw-passagedata pid="8" name="Duncan 3" tags="duncan pc character" position="622,899">&#39;&#39;Duncan Wu&#39;&#39;
+
+It&#39;s just that we don&#39;t know anything about this guy except that he&#39;s Chinese and he&#39;s got money to burn.
+
+
+[[He&#39;s not married either. No ring.|Duncan 4A]]
+[[We know he&#39;s willing to give us a place to live.|Duncan 4B]]
+[[It probably doesn&#39;t even matter.|Duncan 4C]]</tw-passagedata>
+<tw-passagedata pid="9" name="Duncan 4A" tags="duncan character" position="437,1043">Maybe he&#39;s got a husband or a wife waiting for him back in the homeland.
+
+[[...|Duncan 5]]</tw-passagedata>
+<tw-passagedata pid="10" name="Duncan 4B" tags="duncan character" position="620,1039">&#39;&#39;Duncan Wu&#39;&#39;
+
+Yeah, I just wish we knew what his game was.
+
+[[...|Duncan 5]]</tw-passagedata>
+<tw-passagedata pid="11" name="Duncan 4C" tags="duncan character" position="795,1039">&#39;&#39;Duncan Wu&#39;&#39;
+
+[He shrugs.] Maybe not.
+
+[[...|Duncan 5]]</tw-passagedata>
+<tw-passagedata pid="12" name="Duncan 5" tags="duncan pc character" position="623,1219">&#39;&#39;Duncan Wu&#39;&#39;
+
+Seriously, some stranger shows up out of nowhere when Lone Star is shaking us down? Says he&#39;ll get us off the street if we promise to behave? That doesn&#39;t happen to kids like us.&quot;
+
+[[Well, it obviously did, because we have a decision to make about it.|Duncan 6]]
+[[We should focus on what we need to do next, not why it happened in the first place.|Duncan 6]]
+[[Just do whatever I say and you don&#39;t have to worry about it.|Duncan 6]]</tw-passagedata>
+<tw-passagedata pid="13" name="Duncan 6" tags="duncan character" position="623,1369">&#39;&#39;Duncan Wu&#39;&#39;
+
+I just want to make sure we&#39;re not doing anything obviously stupid.
+
+[[...|Narrator 3]]</tw-passagedata>
+<tw-passagedata pid="14" name="Narrator 3" tags="narrator" position="623,1519">[A noise echoes in the alleyway from the far end. This isn&#39;t the safest part of the Barrens, but it&#39;s the best you&#39;ve been able to find. Most of the nicer places don&#39;t like dirty kids hanging around and are likely to call Lone Star in to get rid of them. That&#39;s what happened the first time Raymond found them.]
+
+[[...|Duncan 7]]</tw-passagedata>
+<tw-passagedata pid="15" name="Duncan 7" tags="duncan pc character" position="624,1663">&#39;&#39;Duncan Wu&#39;&#39;
+
+[Duncan turns towards the noise.] What was that?
+
+[[Probably some tweakers looking for some Jazz.|Duncan 8A]]
+[[Maybe Lone Star got bored and decided to see what they could rustle up in the Barrens?|Duncan 8B]]
+[[We should get out of here ASAP.|Duncan 8C]]</tw-passagedata>
+<tw-passagedata pid="16" name="Duncan 8A" tags="duncan character" position="485,1826">&#39;&#39;Duncan Wu&#39;&#39;
+
+Well it&#39;s not like we have any money for them to steal.
+
+[[...|Narrator 4]]</tw-passagedata>
+<tw-passagedata pid="17" name="Duncan 8B" tags="duncan character" position="628,1826">&#39;&#39;Duncan Wu&#39;&#39;
+
+Damn it. Not again.
+
+[[...|Narrator 4]]</tw-passagedata>
+<tw-passagedata pid="18" name="Duncan 8C" tags="duncan character" position="778,1828">&#39;&#39;Duncan Wu&#39;&#39;
+
+Yeah, that seems like the best option.
+
+[[...|Narrator 4]]</tw-passagedata>
+<tw-passagedata pid="19" name="Narrator 4" tags="narrator" position="633,2001">[Shouting emerges from the shadows, and a burly troll steps into view. She&#39;s dressed in a Lone Star uniform, which is clean and pressed in a way that stands out amongst the grimy grittiness of the alleyway. Her mouth is full of sharp teeth, but her smile is gentle, almost motherly, and she speaks with a lazy Texan drawl.]
+
+[[...|Lone Star 1]]</tw-passagedata>
+<tw-passagedata pid="20" name="Lone Star 1" tags="lone-star pc character" position="633,2151">&#39;&#39;Lone Star Officer&#39;&#39;
+
+You kids should know better than to be out here alone by yourselves like this.
+
+[[Yeah, and what are you going to do about it?|Lone Star 2]]
+[[Did you come all the way out here to tell us that?|Lone Star 2]]
+[[Why do you say that?|Lone Star 2]]</tw-passagedata>
+<tw-passagedata pid="21" name="Lone Star 2" tags="lone-star character" position="633,2301">&#39;&#39;Lone Star Officer&#39;&#39;
+
+Got a guy down at the station asking about you. Name of Black?
+
+[[...|Duncan 9]]</tw-passagedata>
+<tw-passagedata pid="22" name="Duncan 9" tags="duncan pc character" position="633,2451">&#39;&#39;Duncan Wu&#39;&#39;
+
+[Whispers] He really is interested in us, huh?
+
+[You lean over to whisper to him as well.]
+
+[[Maybe he&#39;s actually concerned about our safety.|Duncan 10A]]
+[[Could be that Lone Star&#39;s lying to us.|Duncan 10B]]
+[[We could try to make a run for it.|Duncan 10C]]</tw-passagedata>
+<tw-passagedata pid="23" name="Duncan 10A" tags="duncan character" position="463,2592">&#39;&#39;Duncan Wu&#39;&#39;
+
+Let&#39;s hope it&#39;s that one.
+
+[[...|Lone Star 3]]</tw-passagedata>
+<tw-passagedata pid="24" name="Duncan 10B" tags="duncan character" position="630,2594">&#39;&#39;Duncan Wu&#39;&#39;
+
+Wouldn&#39;t put it past them, though that&#39;s a lot of effort for them to go through for two kids if there isn&#39;t a payout at the end of it.
+
+[[...|Lone Star 3]]</tw-passagedata>
+<tw-passagedata pid="25" name="Duncan 10C" tags="duncan character" position="786,2596">&#39;&#39;Duncan Wu&#39;&#39;
+
+How far do you think we could get? That troll doesn&#39;t look like she&#39;s messing around.
+
+[[...|Lone Star 3]]</tw-passagedata>
+<tw-passagedata pid="26" name="Lone Star 3" tags="lone-star pc character" position="626,2774">&#39;&#39;Lone Star Officer&#39;&#39;
+
+Seemed really concerned about you two getting into trouble out here in the Barrens. How&#39;d you meet him anyway?
+
+[[We tried to steal his wallet.|Lone Star 4A]]
+[[We ran into him at the station.|Lone Star 4B]]
+[[Just showed up out of nowhere.|Lone Star 4C]]</tw-passagedata>
+<tw-passagedata pid="27" name="Lone Star 4A" tags="lone-star character" position="450,2931">&#39;&#39;Lone Star Officer&#39;&#39;
+
+Surprised he didn&#39;t have you guys thrown in the clink for that.
+
+[[...|Duncan 11]]</tw-passagedata>
+<tw-passagedata pid="28" name="Lone Star 4B" tags="lone-star character" position="623,2930">&#39;&#39;Lone Star Officer&#39;&#39;
+
+You seem like a couple of kids who&#39;ve spent a little too much time there as it is.
+
+[[...|Duncan 11]]</tw-passagedata>
+<tw-passagedata pid="29" name="Lone Star 4C" tags="lone-star character" position="809,2937">&#39;&#39;Lone Star Officer&#39;&#39;
+
+I get the feeling there&#39;s more to that story than that.
+
+[[...|Duncan 11]]</tw-passagedata>
+<tw-passagedata pid="30" name="Duncan 11" tags="duncan character" position="617,3097">&#39;&#39;Duncan Wu&#39;&#39;
+
+[To you] Maybe we should just go with her. See what Raymond Black wants with us this time.
+
+[[...|Narrator 5]]
+</tw-passagedata>
+<tw-passagedata pid="31" name="Narrator 5" tags="narrator" position="617,3245">[Another noise from the alleyway. Both Duncan and the Lone Star troll turn to towards it.]
+
+[[...|Lone Star 5]]</tw-passagedata>
+<tw-passagedata pid="32" name="Lone Star 5" tags="lone-star character" position="617,3395">&#39;&#39;Lone Star Officer&#39;&#39;
+
+Hold onto your hats, kids. Sounds like there&#39;s trouble coming our way.
+
+[[...|Narrator 6]]</tw-passagedata>
+<tw-passagedata pid="33" name="Narrator 6" tags="narrator" position="617,3545">[From the place where the alleyway opens up to a street you can see two shadows against the neon glow of the city behind them. Even then, you can see the bright orange logo painted onto their black jackets: a flaming jack &#39;o&#39; lantern. Halloweeners. One of the nastiest and most powerful gangs in Seattle.]
+
+[[...|Ganger1 1]]</tw-passagedata>
+<tw-passagedata pid="34" name="Ganger1 1" tags="ganger1 character" position="620,3694">&#39;&#39;Halloweener&#39;&#39;
+
+Looks like we found a Lone Star all by her lonesome.
+
+[[...|Ganger2 1]]</tw-passagedata>
+<tw-passagedata pid="35" name="Ganger2 1" tags="ganger2 character" position="617,3846">&#39;&#39;Halloweener&#39;&#39;
+
+And she&#39;s got some kids with her, too.
+
+[[...|Lone Star 6]]</tw-passagedata>
+<tw-passagedata pid="36" name="Lone Star 6" tags="lone-star character" position="617,3995">&#39;&#39;Lone Star Officer&#39;&#39;
+
+[She draws her gun.] Nothing here for you, chummers. Best be on your way.
+
+[[...|Ganger1 2]]</tw-passagedata>
+<tw-passagedata pid="37" name="Ganger1 2" tags="ganger1 character" position="617,4145">&#39;&#39;Halloweener&#39;&#39;
+
+Nah. Wonder how much we could get off these two if we were to ransom them off.
+
+[To his friend.] They look like a bunch of street rats, but I&#39;m thinking 30,000 nuyen easily.
+
+[[...|Lone Star 7]]</tw-passagedata>
+<tw-passagedata pid="38" name="Lone Star 7" tags="lone-star character" position="617,4295">&#39;&#39;Lone Star Officer&#39;&#39;
+
+Maybe. Too bad you&#39;re never going to find out.
+
+
+[[...|Narrator 7]]</tw-passagedata>
+<tw-passagedata pid="39" name="Narrator 7" tags="narrator" position="617,4445">[There&#39;s a sixth sense you develop on the streets, an awareness of a situation is going to go south very quickly.
+
+You grab Duncan&#39;s hand and drag him towards the cluster of dumpsters nearby. The two of you are just small enough to fit behind one of them, though there&#39;s still sharp metal bits poking you in the side.
+
+From your vantage point, you can hear the sounds of shots being fired, can smell the acrid tang of gunpowder and blood in the air.]
+
+
+[[...|Narrator 7b]]</tw-passagedata>
+<tw-passagedata pid="40" name="Narrator 8" tags="narrator" position="691,4596">[It&#39;s not the first time you&#39;ve seen a few dead bodies, but it&#39;s the first time they&#39;ve been so fresh. They haven&#39;t even started to smell, yet. Duncan clings to your arm, his ragged fingernails digging into your skin through the thin shirt you&#39;re wearing. His eyes are wide. The Lone Star officer puts away her weapon and turns to the two of you. For a moment, her shoulders slump. She looks tired.]
+
+[[...|Lone Star 8]]</tw-passagedata>
+<tw-passagedata pid="41" name="Lone Star 8" tags="lone-star character" position="617,4743">&#39;&#39;Lone Star Officer&#39;&#39;
+
+Never really liked that part of the job. [She shakes her head.] You kids ready to go?
+
+[[...|Duncan 12]]</tw-passagedata>
+<tw-passagedata pid="42" name="Duncan 12" tags="duncan character" position="617,4893">&#39;&#39;Duncan Wu&#39;&#39;
+
+Whatever this Raymond guy has to offer us, it can&#39;t be any worse than this.
+
+[[...|Narrator 9]]</tw-passagedata>
+<tw-passagedata pid="43" name="Narrator 9" tags="narrator pc" position="615,5036">[You&#39;re still coming down from the fight, leaving you shaky and unsettled as the adrenaline leaves your system. Duncan&#39;s right. You don&#39;t know what Raymond can offer you, but he&#39;s rich. He&#39;s rich enough that you can leave and never come back. There&#39;s only been one choice all along.]
+
+
+[[Yeah, let&#39;s go.|Transition]] </tw-passagedata>
+<tw-passagedata pid="44" name="End" tags="ending" position="615,5187">&#39;&#39;Raymond Black&#39;&#39;
+
+I see that the you of two have reconsidered my offer. I am glad you did. Welcome home.
+
+[[...|Transition2]]</tw-passagedata>
+<tw-passagedata pid="45" name="Header" tags="header" position="872,90">{
+(print: &quot;&lt;script&gt;$(&#39;html&#39;).removeClass(\)&lt;/script&gt;&quot;)
+(if: (passage:)&#39;s tags&#39;s length &gt; 0)[
+(print: &quot;&lt;script&gt;$(&#39;html&#39;).addClass(&#39;&quot; + (passage:)&#39;s tags.join(&#39; &#39;) + &quot;&#39;\)&lt;/script&gt;&quot;)
+]
+}</tw-passagedata>
+<tw-passagedata pid="46" name="Narrator 7b" tags="narrator" position="493,4595">[The troll grunts a few times. The dwarf shrieks. The elf curses. Another gunshot echoes in the narrow space of the alleyway. You hear the heavy thud of bodies landing on pavement.
+
+Then, silence.
+
+Slowly, you emerge from your hiding place, always aware of Duncan&#39;s solid warmth at your side.]
+
+
+[[...|Narrator 8]]</tw-passagedata>
+<tw-passagedata pid="47" name="Afterword" tags="afterword" position="618,5340">&lt;h3&gt;The End&lt;/h3&gt;
+
+
+&#39;&#39;End Notes:&#39;&#39; I was originally going to try to build all of this in the Shadowrun campaign editor, but I didn&#39;t end up having the time to work out all the technical details. Hopefully, it was just as entertaining in this format. Thanks for reading all the way to the end!
+
+
+&lt;a href=&quot;http://archiveofourown.org/works/5418008&quot;&gt;Return to AO3&lt;/a&gt;</tw-passagedata>
+<tw-passagedata pid="48" name="Transition" tags="transition" position="382,5166">{(live: 1s)[
+    (if: time &gt; 2s)[(go-to: &quot;End&quot;)]
+]}</tw-passagedata>
+<tw-passagedata pid="49" name="Transition2" tags="transition" position="798,5185">{(live: 1s)[
+    (if: time &gt; 2s)[(go-to: &quot;Afterword&quot;)]
+]}</tw-passagedata>
+<tw-passagedata pid="50" name="Transition3" tags="transition" position="460,225">{(live: 1s)[
+    (if: time &gt;= 1s)[(go-to: &quot;Narrator 1&quot;)]
+]}</tw-passagedata>
+</tw-storydata>
+
+

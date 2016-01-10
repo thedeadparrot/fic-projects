@@ -34,3 +34,9 @@ userspace
 ---------
 
 A short Transistor fanfic built in Twine 2. Can be found in the `userspace` directory.
+
+
+機不可失，時不再來
+-------------------
+
+A short Shadowrun: Hong Kong fanfic built in Twine 2. Features a lot of heavy CSS modifications to make it imitate the Shadowrun interface. Can be found in the `srhk_backstory` directory. The archive file can be uploaded into Twine 2 if you're interested in seeing the Twine tree and CSS modifications.
