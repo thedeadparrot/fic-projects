@@ -2,14 +2,14 @@
 layout: projects
 title: thedeadparrot's fic projects
 ---
-<div class="header-icon"><i class="fa fa-flask fa-3x"></i></div>
+<div class="header-icon"><i class="fa fa-flask fa-3x" aria-hidden="true"></i></div>
 <h1> {{site.name}}</h1>
 <div class="site-summary">{{site.summary|markdownify}}</div>
 {% for post in site.posts %}
 <div class="pure-g-r fic-summary">
     <div class="pure-u-1">
         <h2>{{ post.title }}</h2>
-        <i class="fa fa-chevron-right pull-left text-muted fa-4x"></i>
+        <i class="fa fa-chevron-right pull-left text-muted fa-4x" aria-hidden="true"></i>
         <p class="fandom">
         {{ post.fandom }}
         </p>
@@ -24,13 +24,13 @@ title: thedeadparrot's fic projects
         </p>
         <div class="buttons">
             {% if post.read_url %}
-            <a class="pure-button" href="{{post.read_url}}"><i class="fa fa-book pull-left fa-fw fa-lg"></i> Read Story</a>
+            <a class="pure-button" href="{{post.read_url}}"><i aria-hidden="true" class="fa fa-book pull-left fa-fw fa-lg"></i> Read Story</a>
             {% endif %}
             {% if post.source_url %}
-            <a class="pure-button" href="{{post.source_url}}"><i class="fa fa-file-text-o pull-left fa-lg fa-fw"></i> View Source</a>
+            <a class="pure-button" href="{{post.source_url}}"><i aria-hidden="true" class="fa fa-file-text-o pull-left fa-lg fa-fw"></i> View Source</a>
             {% endif %}
             {% if post.comment_url %}
-            <a class="pure-button" href="{{post.comment_url}}"><i class="fa fa-comments pull-left fa-lg fa-fw"></i> Comment</a>
+            <a class="pure-button" href="{{post.comment_url}}"><i aria-hidden="true" class="fa fa-comments pull-left fa-lg fa-fw"></i> Comment</a>
             {% endif %}
         </div>
     </div>
