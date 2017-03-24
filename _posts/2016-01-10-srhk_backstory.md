@@ -1,6 +1,6 @@
 ---
 layout: projects
-title:  "An opportunity, once lost, does not come around a second time."
+title:  "機不可失，時不再來"
 date:   2016-01-10
 fandom: Shadowrun Hong Kong
 pairing: Player Character & Duncan Wu
