@@ -1,14 +1,14 @@
-[A Far Better Thing](http://thedeadparrot.github.io/fic-projects/edge/a-far-better-thing.html)
+[A Far Better Thing](https://thedeadparrot.github.io/fic-projects/edge/a-far-better-thing.html)
 =========
 
 This story was actually written using [Twee](https://github.com/tweecode/twee), though you might be more interested in Twee's sister program, [Twine](https://github.com/tweecode/twine).
 
-You can also read [the rendered story](http://thedeadparrot.github.io/fic-projects/edge/a-far-better-thing.html) if you would like to see what it looks like.
+You can also read [the rendered story](https://thedeadparrot.github.io/fic-projects/edge/a-far-better-thing.html) if you would like to see what it looks like.
 
 Getting Twine
 -------------
 
-You can get copies of Twine at [gimcrackd](http://gimcrackd.com/etc/src/).
+You can get copies of Twine at [gimcrackd](https://gimcrackd.com/etc/src/).
 
 Reusing this code in Twine
 --------------------------
@@ -23,12 +23,12 @@ I've modified the default Sugarcane to serve as the `target` for this project wi
 Credits
 -------
 
-Some of the scripts you can find in scripts.twee are from http://glorioustrainwrecks.com
+Some of the scripts you can find in scripts.twee are from https://glorioustrainwrecks.com
 
 They are:
-* [custom CSS passage transitions](http://www.glorioustrainwrecks.com/node/5084)
-* [revision macro](http://www.glorioustrainwrecks.com/node/5239) 
-* [escape using backslashes](http://www.glorioustrainwrecks.com/node/5400)
+* [custom CSS passage transitions](https://www.glorioustrainwrecks.com/node/5084)
+* [revision macro](https://www.glorioustrainwrecks.com/node/5239) 
+* [escape using backslashes](https://www.glorioustrainwrecks.com/node/5400)
 
 
 The rest are written by me. Please feel free to reuse them wherever you like.

@@ -1,7 +1,7 @@
-[userspace](http://thedeadparrot.github.io/fic-projects/userspace/userspace.html)
+[userspace](https://thedeadparrot.github.io/fic-projects/userspace/userspace.html)
 ======================================================================
 
-Written in [Twine 2](http://twinery.org) using the Harlowe story format.
+Written in [Twine 2](https://twinery.org) using the Harlowe story format.
 
 Just import the html file into the Twine 2 editor to get a look at it 
 under the hood.
