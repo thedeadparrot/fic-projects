@@ -1,0 +1,139 @@
+::StoryData
+{
+	"format": "SugarCube",
+	"ifid": "99F30D39-76BD-461B-9F22-4F9DD35CE6AD",
+	"start": "Title Screen"
+}
+
+::StoryTitle
+Drift
+
+:: Stylesheet[stylesheet]
+
+::StoryInit
+<<script>>
+UIBar.destroy();
+<</script>>
+
+::Title Screen
+
+
+[[Intro]]
+
+::Intro
+You are watching his hands. You've always liked his hands, and you especially like them now that you know what they feel like when they're cupping your face and settled on your hips.
+
+Right now, they are framing the restaurant menu, absently flipping between the various pages. His reading glasses have slid low on the bridge of his nose as he peers down at the antipasta offerings. It's cute, because he's always cute, even when he's being prissy and annoying and you want to throw him out the nearest window (which wasn't always very close – Shatterdomes aren't known for their abundance of natural light).
+
+You can't stop watching him. This isn't your first date (that was several months ago at a hole-in-the-wall ramen place in Manhattan, where you spilled soup down the front of your shirt and his lips had twitched like he was trying not to laugh the entire time while he was berating you for being an uncoordinated oaf), but it still feels weird and magical that you asked, and that he said yes, and that now you're here, in this mid-tier Italian restaurant somewhere in the vicinity of the University of Portland.
+
+[[Fidget with your napkin.|Menu]]
+[[Tap your fingers on the table.|Menu]]
+
+::Menu
+"Newton," he says. His peers at you over the rim of his glasses. A softer version of the glares he used to shoot you from across the dividing line of your shared lab.
+
+Your heart does that funny little thing it does every time he looks at you. Fizzes and pops. Baking soda and vinegar. "Yeah, Herms?" you say.
+
+Hermann says, "You seem to be, ah, distracted as of late." His voice is hesitant, careful. "I was wondering if there was something– if I could in any way– if you would like to say anything. To me, in particular."
+
+You do have something to say, but you don't know how to say this. You've never been short on words before. They've always filled your mouth until they spill out in a torrent of speech, sometimes bypassing your conscious brain entirely. But now your tongue feels heavy. Your stomach sinks. Why did you do this? You don't have anything to feel bad about, but you also don't have anything good to feel about, so why this production? Is this even what you want?
+
+Because you can't seem to force your mouth to say anything, you look down at your own menu. The wine pairings for tonight read:
+
+is ours. it's always been ours. once you're gone we will destroy your cities and poison your waters and feast on your bones. you are nothing but worms for us to crush beneath our feet. you are pathetic and you are ours and will always be ours. you think you can escape, little human. you can't escape. you are caught in our jaws and we will grind you between our teeth until you are nothing but us. you will be nothing but us and the world will be us and there is nothing you can do to stop us you
+
+[[Take a sip of water.|Waiter]]
+[[Push your glasses up your nose.|Waiter]]
+
+::Waiter
+"I'm sorry," you say. "I just– Things are a little weird for me right now, you know?" Things have been a little weird for all of you since the closure of the Breach. You've had work to do, all the things that have been put on hold to focus on the end of the world. You've had the first real vacation you've taken in years. You've been doing the lecture tour circuit, now that a few things have been declassified enough for you to present on them publicly. You've also been hounded on all sides by job offers, companies and institutions who are willing to overlook any of your eccentricities if they can take on a little bit of shine in reflected glory, and you–
+
+You reach out, ready to grab one of his hands that you like so much with one of your own, because he is lovely and lovable and all sorts of words that begin with 'love' that don't even exist yet, and you want him to know, need him to know.
+
+But then a waiter steps up to your table, interrupting you. "Are you ready to order?" he asks. His eyes are black from tip-to-tip, no whites at all, and when he smiles a polite customer-service smile, his mouth is full of razor sharp teeth.
+
+Hermann gives his order with his eyes fixed on the menu, not even bothering to look up.
+
+You give your order without being able to look away.
+
+The waiter takes both of the menus from you, leaving the both of you stuck in this uncomfortable conversation with no other way out.
+
+[[Bounce your leg.|Offer]]
+[[Scratch your neck.|Offer]]
+
+::Offer
+"I do need to tell you something, though," you say.
+
+Hermann looks at you with the same focus he used to give his modeling numbers. His glasses are once again hanging around his neck, and you almost wish you had that little bit of a barrier from the intensity of his stare. "Yes?" he asks, scrupulously polite.
+
+Last night, you were in his hotel room. Last night, you pushed him down onto the bed and kissed the bright smile from his lips and put your hands on all the parts of himself he normally keeps buttoned up and hidden away. And now here you are on opposite sides of this small table, and you cannot find the words to tell him what you are going to do. "Uh, so I got an offer from Shao Industries to run their Research and Development department, and I'm going to take it."
+
+Hermann's lips go flat. He's got a surprisingly expressive face despite all the cultural repression. "I see," he says, his voice as flat as his mouth. "I had assumed – incorrectly, it seems – that we would both be continuing our work at the PPDC."
+
+"What can I say, they made me an offer I couldn't refuse." The joke falls flat, not the least because you're sure Hermann has never seen //The Godfather// But that's also just your mouth running on autopilot. Why had you wanted this again? The money would be nice, of course. The resources. The prestige. But you had been desperate for it, pleading with Liwen Shao during your interview. You had needed this job. Your only purpose in this entire world had been to get this job, and you don't even remember why.
+
+[[Clean your glasses.|Tattoo]]
+[[Run your fingers through your hair.|Tattoo]]
+
+::Tattoo
+You can't meet his eyes, so now you are staring at the neat white tablecloth and the silver silverware and the porcelain plates and the bright, colorful ink spread across your arms where they are resting on the table. As you watch, Yamarashi twists and turns, spreading across your skin, growing bigger and bigger, max open and expanding, and all you can remember is the acrid scent of Otachi's breath, the clammy cling of your damp clothes on your body, the smeared neon glow of Otachi's saliva through your rain-water smudged glasses.
+
+Hermann clears his throat, and now you have to look at him. His posture is ramrod straight. He's preparing for something, whatever is going to happen next. "So what does this mean for us?" he asks. "For our relationship, such as it is?"
+
+A liquid blue drop falls from the ceiling. Glowing. As if brought forward from memory, the most scared you'd ever been in your entire life. Another drop falls. Then another. It stains the table cloth. You think of Jackson Pollock paintings made out of Kaiju blue. You say, "Well, I'm going to be in Shanghai." You don't know why you say that. You were going to say something else. You don't remember what that was, but it was going to be something that would smooth the harshness from Hermann's face and bring a smile back to his lips and make the corner of his eyes crinkle.
+
+[[Fiddle with a fork.|Blood]]
+[[Bite your lip.|Blood]]
+
+::Blood
+Hermann says with careful, exacting, hesitant words, "This wouldn't be the first time we've had to bridge a significant physical distance between the two of us."
+
+He's referring to the years you spent writing to each other while he was at Oxford and you were at MIT. Even just the mention brings with it the sweet tinge of nostalgia. You remember the days and weeks of eagerly waiting for every one of his responses. You remember the late nights of scribbling down everything you wanted to say in a messy, continuous rush. You remember his words, a little sharp, a little severe, but always brilliant and engaging. You remember how you fell in love with him that first time.
+
+The waiter comes back with a bread basket and sets it down in the middle of the table.
+
+Hermann takes a breah. "I don't see we couldn't–" Blood drips from his nose, a stream of red that runs over his lips. "– why this would be any different or more difficult." The blood pools in his mouth as he talks, staining his teeth red. "I value our connection." The blood has reached his chin, uneven drips splashing down onto the white plate below. "I would like to continue it if at all possible."
+
+You know Hermann. You know how proud he is, how stubborn. You know what it costs him to say even this much. He may be making your whole – thing – sound like nothing more than a business arrangement, but he hates to ask anyone for anything. You want to say yes. You want to grab onto him, want to hold him both of your hands and never let him go. You've loved him for, fuck, it's been nearly thirteen years at this point. You don't remember what it was like not to be in love him.
+
+Something wet, something heavy and slimy, creeps up from the floor, circling up your ankle, crawling up your calf, your thigh. It squeezes hard enough to hurt, to cut off circulation, to make you lightheaded.
+
+You open your mouth.
+
+<span class="animated-link"><<linkreplace "Say, \"I love you.\"" t8n>><</linkreplace>></span>
+<span class="animated-link"><<linkreplace "Say, \"I never want to leave you.\"" t8n>><</linkreplace>></span>
+<span class="animated-link"><<linkreplace "Say, \"I'm sorry I said all these things, and I don't know why I'm doing this, but I can't seem to stop.\"" t8n>><</linkreplace>></span>
+
+<span class="final-link">[[Say, "I don't think that's going to work for me, Hermann."|Stop]]</span>
+
+
+::Stop
+Hermann stares at you with hurt, all-too-vulnerable eyes, and you know then, that you've broken two hearts tonight, and you don't even know why.
+
+The world has gone red around the edges. //Please,// you think, //please make it stop.//
+
+//make it stop.//
+
+//m̵̺͝a̵̳͛k̴̫̕e̷̱͌ ̵̱̒ȋ̸̩t̶̻́ ̷̖̄s̵̞͗t̴͖̎ȏ̷͖p̶̜͆.//
+
+[[MAKE IT STOP.|End]]
+
+::End
+You come awake in your penthouse. The pons beeps, signaling the end of your Drift. The room is otherwise silent, save for the steady hum of machinery. Even Alice, who is normally bobbing up and down in her tank, seems peaceful and still.
+
+Your heart is still racing, some sort of adrenaline hangover lingering. What had you seen? The more you try to hang onto it, the faster it slips away, like the fading remnants of a dream. A memory, maybe. An echo of a thing long past.
+
+You see things like that in the Drift, sometimes. It was probably a good memory, a happy one. The Drift is nothing but good things. The Drift is blue, blue-blue-blue. Blue like your tongue after 9-Eleven slushees, blue like even numbers and reptiles, blue like the walls of the community pool on a sweltering summer day. You almost feel bad that you've lost the sensation of reliving it again.
+
+Oh well. It will just have to wait until next time. You'll be counting down the hours.
+
+
+[[the end.|End Notes]]
+
+
+::End Notes
+
+
+<<link "Restart">><<script>>Engine.restart();<</script>><</link>>
+
