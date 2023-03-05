@@ -27,10 +27,14 @@ body.blue a {
 	color: #9be0d4;
 }
 
-body.red #story a {
+body.red {
+	background-color: #e8ccc5;
+	transition: background 1s ease-in;
+}
+.stop-link {
 	font-size: 4em;
 }
-body.red #story a:hover {
+.stop-link a:hover {
 	color: #00417d;
 }
 a {
@@ -165,7 +169,7 @@ Hermann says with careful, exacting, hesitant words, "This wouldn't be the first
 ::Stop
 Hermann stares at you with hurt, all-too-vulnerable eyes, and you know then, that you've broken two hearts tonight, and you don't even know why.
 
-<<timed 2s t8n>>The world has gone red around the edges.<<addclass body "red">>
+<<timed 2s t8n>>The world has gone <<link "red">><<addclass body "red">><</link>> around the edges.
 
 <<next>>//Please,// you think, //please make it stop.//
 
@@ -173,7 +177,7 @@ Hermann stares at you with hurt, all-too-vulnerable eyes, and you know then, tha
 
 <<next>>//MAKE IT STOP.//
 
-<<next>>[[M̵̭̫̫̺̞̺̠͚̘̍̍À̶͇͙̚̕K̴͖̤̮͉̓͜Ê̶̙̮̝̈́̄̐̿̾̿.̶͔̗̲͎͇̖͔̈́͗ ̵̥̏͌́̀̐̉̉͠I̷̗̬̹͙̹̺̿̑̎̂T̴̫̮̝̯̳̜́̎̈́̓̚͠.̶̧̦̪̈́̎͐͘ ̶̠̗̙̽̌͑̈̚͠Ş̴̡̖͗͗͛͌̔̕̕T̷̩̤̗̜̉̈͑Ǒ̴̠̞̎̆P̵̖̙̙̻̝̿̑̂͠|End]]
+<<next>><span class="stop-link">[[M̵̭̫̫̺̞̺̠͚̘̍̍À̶͇͙̚̕K̴͖̤̮͉̓͜Ê̶̙̮̝̈́̄̐̿̾̿.̶͔̗̲͎͇̖͔̈́͗ ̵̥̏͌́̀̐̉̉͠I̷̗̬̹͙̹̺̿̑̎̂T̴̫̮̝̯̳̜́̎̈́̓̚͠.̶̧̦̪̈́̎͐͘ ̶̠̗̙̽̌͑̈̚͠Ş̴̡̖͗͗͛͌̔̕̕T̷̩̤̗̜̉̈͑Ǒ̴̠̞̎̆P̵̖̙̙̻̝̿̑̂͠|End]]</span>
 <</timed>>
 
 ::End
@@ -196,7 +200,7 @@ Oh well. It will just have to wait until next time. You'll be counting down the 
 
 This was built in [[Twine|https://twinery.org/]].
 
-[[Return to AO3|https://archiveofourown.org/users/thedeadparrot]]
+[[Kudos/Comment on AO3|https://archiveofourown.org/users/thedeadparrot]]
 [[View Source Code|https://github.com/thedeadparrot/fic-projects/tree/main/drift]]
 
 
