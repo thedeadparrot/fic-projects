@@ -11,7 +11,7 @@ Drift
 :: Stylesheet[stylesheet]
 body {
 	font-size: 1em;
-	background-color: #FFFDF4;
+	background-color: #fff6ec;
 	color: #6D4C3D;
 }
 body.blue {
@@ -31,7 +31,7 @@ a:hover {
 	transition-duration: 2s;
 }
 .eldritch {
-	color: #7D0000;
+	color: #E84855;
 }
 .final-link {
 	opacity: 0;
