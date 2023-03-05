@@ -9,10 +9,27 @@
 Drift
 
 :: Stylesheet[stylesheet]
+body {
+	font-size: 1em;
+}
+.macro-link-append, .macro-timed, .macro-linkreplace, .macro-linkreplace-insert {
+	transition-duration: 2s;
+}
+.final-link {
+	opacity: 0;
+}
+.hidden {
+	opacity: 0;
+	transition: opacity ease-out 2s;
+}
+.visible {
+	opacity: 100;
+	transition: opacity ease-in 2s;
+}
 
 ::StoryInit
 <<script>>
-UIBar.destroy();
+//UIBar.destroy();
 <</script>>
 
 ::Title Screen
@@ -39,9 +56,9 @@ Hermann says, "You seem to be, ah, distracted as of late." His voice is hesitant
 
 You do have something to say, but you don't know how to say this. You've never been short on words before. They've always filled your mouth until they spill out in a torrent of speech, sometimes bypassing your conscious brain entirely. But now your tongue feels heavy. Your stomach sinks. Why did you do this? You don't have anything to feel bad about, but you also don't have anything good to feel about, so why this production? Is this even what you want?
 
-Because you can't seem to force your mouth to say anything, you look down at your own menu. The wine pairings for tonight read:
+Because you can't seem to force your mouth to say anything, you look down at your own <<linkappend "menu." t8n>>The wine pairings for tonight read:
 
-is ours. it's always been ours. once you're gone we will destroy your cities and poison your waters and feast on your bones. you are nothing but worms for us to crush beneath our feet. you are pathetic and you are ours and will always be ours. you think you can escape, little human. you can't escape. you are caught in our jaws and we will grind you between our teeth until you are nothing but us. you will be nothing but us and the world will be us and there is nothing you can do to stop us you
+> your world is ours. it's always been ours. o̵n̴c̷e̷ ̵y̵o̴u̶'̵r̶e̷ ̷g̸o̶n̸e̶ ̶w̸e̶ ̸w̸i̵l̵l̷ ̷d̵e̷s̶t̶r̴o̶y̵ ̷y̴o̶u̷r̸ ̵c̴i̸t̸i̸e̴s̵ ̴a̶n̶d̸ ̸p̶o̴i̷s̷o̷n̴ ̸y̸o̷u̶r̷ ̴w̵a̴t̸e̵r̵s̷ ̶a̴n̵d̴ ̷f̵e̵a̴s̴t̵ ̴o̷n̷ ̴y̸o̶u̸r̷ ̶b̶o̴n̶e̸s̸.̸ ̴̴͕̍͋y̵͖͐̇o̴͓͂͘ṳ̵͕́ ̷̘̙̔͗a̶̩͂̑r̸̤̊̑ḛ̸̮̌̉ ̷̩͐͊n̸̕͜o̴̝̪̒t̸̡̋̿h̸̠̊i̷̢̼̍n̶͙͙͠͠g̵̫͝ ̶͙̚b̷̼̲̂ú̵̪̦̀ț̸̎ ̶̩̥̔w̶͎͗͊ọ̶̑ř̶͓m̴̡̞̓s̵͔͍̕͝ ̵͓̲́͝f̸͓̀ö̶̠̟́r̷̛̳ ̴̲̗̐u̵̦̽̊s̵̗̫͐ ̴̢̳̈́t̶͇̠͛̽o̵̝͎̒̅ ̸̜͠c̶͍̈́̓r̶̟̓̎ú̴̲̂s̴̱͠͝h̸͚̻̀̕ ̷̱͚̌͝b̵̺͌̉e̴̟̼̐n̶̳̳̏ė̵̡͚̆a̴̡͓̒t̴̗̑͊h̶̝̽̉ ̵̘̥̔̒ȯ̸̭̕ṵ̷̘͐̾r̷͍̙̎͌ ̸͆̑ͅf̸̈́ͅe̸̟̼̿e̸̳͌t̷̗̥̿.̵͚̭̽ ̶̯͂͘y̷̞̓͝ó̶͉̈ù̷̧̝̚ ̸̘̱́̎á̵̭̓r̶̦͋̒ḛ̸̬̈́͂ ̷̯̰̊p̷͕͐͘a̷͚͎̓͐t̷̯̰̀̄h̴̗̊͜ë̵͙́t̷̼͝i̶̛̘̊c̷̘͉̊ ̶̡̉a̸͇̳͛̈́ṇ̶̺̂̈́d̶̫͗͘ ̷̣̜͆̈ỹ̴̬̒o̷̦̔͐ư̷͓̯̈ ̶̙̼̍á̵͎̂r̶̰̽e̸̜̙͗ ̴̭͈̇́ö̶͇̫ử̴̭r̴͖̟̋͒s̴̘̥̀́ ̷̰̮̆̔a̸̲͑ṉ̵̒d̶͔̅ ̴̥̌̈w̸̡͚̓i̸̧͊l̴͚̖͆l̷̤̲͊ ̷̱̹̈́͝a̸̗̬͊l̴̗̊ẃ̶̥̲͌a̸̯͎̓̄y̵̮̺͋s̶̖͕͆̑ ̶̭̺̚b̸͝ͅë̷̹̂ ̵̢͇̈́ọ̴̡̓ȕ̴̡̯͌r̴͓̦͋s̶͎̻̈.̵̤̾̎ ̴̙̙̭͉̉́̏̊͝y̷̩͙͚͙͂͆ō̵̟̥͗͊̊ư̶̩̭̓̓͝ ̸̨̬̥̉̌͑͝ṭ̸̰̞̙͂͂͜͝ḫ̷̺͌̌̉̕i̷̛̹̝̺̜̥͋̆̀͘n̴̲̤͑̈́̌ķ̴̥̜̮̘̍̔̔ ̸̜͋̅̇̊͝y̴̭̩͔͕͎̽̽̕͘͠ȯ̴͈͍̳̥u̸͓͗ ̵̜̹̮̙̈č̷̛͔̀͜a̴̺̲̻̒́̃͗͜n̴̡̘̪͖̥͊͐ ̶̡̹̮̩̻̿̓̀̀è̷͚̰̈́͌s̶̯̦̺̀c̵̰͛̑̒̂͠a̴͙̗͐̓̏p̸̥͌̆̎̐̓ę̶̙̥̟̀,̴͙̻̂̈́̏͗̑͜ ̶̢͎̫́̈́͝l̴̝̞͎̖͒i̴̹̪̠̘̇͛t̸̰̪͔̭̰͌̆̓͘t̸̥̘̺̰͛̏l̶̼͛ȅ̴̢̪͇̽͘͜͠ ̷̰̟̉ḫ̷͕͒͌͂͛͜͝u̶̝̮̠̺͒͌̄m̵͇̥̤͍̩̓̑ą̵̠͈̦̑̈́̒n̸̖̄̈́̆.̴̬̲̆͊̿ ̸̥̹̿̈́̈́͜y̵͕͙̯̞͛o̸̠͛̈́̚û̶̹̙̪͑̚͝ ̶̤͘c̸͖̦̺͓̟̅̔ȁ̸͚̫̂̌͗̕n̶̖̮͔̖̾̓'̶̳̙̬̬̲̇͠ţ̷̯͎̯͂̾̚͝͝ ̶̨̫͖͇̌͆̑̚͝e̴̢̦̭͇̗͂̒͝s̷̡̢͍͋́̕c̸̨̛̻̭̽̍͝a̷̫̋p̸̢̛̤͚̯̲̆̍̀ę̷̼̇̽͋̈́.̴̜̭͈͓͒̾̓̿̕ ̸̺̬͌̍̋y̸̖͒o̸̧̡̗͇͉̓ű̵̬̑͝͝ ̸̨͎̾̑̉͝a̸̤͔̠̲͆r̷̩̈ę̸͎̬̹̈͊ ̵̠̎͐̽͒̚c̵̬̦͂̈́a̶̪̬̒͒̓̇ͅu̶̦̍̄͆g̶̭̖̈́͆͘̕͠h̴͔̮͚̗̯̾t̴͙̿͝ ̵͚̩̪̜́ͅi̶͓͋̂ņ̷̡͉̉̆ͅ ̸͕͕̫͔̊o̵̝̯̻̹̬͑̈́͛̈ű̵͚̰͖̜̊̋͜r̴̟͎̒̋̀ ̷̩̟̖͓͙͐̃̑͒j̶̢͉͔̉͜a̵͈̟̥͜͠w̶̛͇̹̹̲̃̍̌́ś̸͙̿̃ ̶̛̜̯̰͍̖̔͐a̷̢̪̜̻̔̓̅̈́ͅn̷̗͉̓͑͂d̸͕̄̓̌ ̶̟̹̐͒ẃ̶̤͙̚͝ĕ̵̙̋͑ ̷͕̬͌̍w̷̢͓̗͎̯͋ì̷̭̠̝̝͝l̶̟͕̳̎̾͌l̴̼͎̲͉͖̈̑̅́ ̸̤͚̦̬̥͋g̷͖͎̙̦͇͒̆̽̉r̴̢̞̤͂́̆͠ǐ̶̹̝̫ͅň̵͍̮͋̂͛d̸̡͇͔͆̂ ̴̠̹̈̿̿y̶̮̒̈́̈́̆͌o̷͚̰̪̱̣̐͐u̵͇͕͇̰̭͋̎͆͛͊ ̶̦̄͘b̶̡̭̒͗e̴̳̬̬͆́̉̏t̴͖̻̒͑w̶͔̺͓͔̱̌͆̉͠e̷͍̤̟̟̍̐̊̈ê̶̩͉̠̈́̄ṋ̴̡͍̜͚̇̓̋ ̶̡̨̙͋̓̀̓o̵͍͗̋͊̓͛u̵̗̦͛͐r̷̛̰̬͌̓̆ ̶͈͔̒͝ẗ̴̫̈́͂̐̐ê̸̢̧̝͕̓é̵̩̗̹̣̾͊t̵̨̠͓͍̝̓͝͝h̸̥̹̆͌̇̈́͠ ̵̺̫̰̀u̴̡̡͐̊͆͝ṅ̵̞̗̖̚ͅṭ̵̙̳͘ǐ̷̹̘͊͐́̕ĺ̸̗̝ ̵͍̩̮̑̂̎͊̄ͅy̴̥̗̥͈͙̎̅̓ȍ̸͍̭̺̪͖͌͘ű̶̖͉̈́̈̕͘ ̵̨̞͓̜͋̀ả̵̦̊ŗ̴͚͉̍ę̶̣̜̝̣͘ ̵̳̓̏̋n̶̮͚͙͖̅̈́̕̕̚ờ̷̪͙̈̓͠t̶̮͓̗͔̯̉̀̽͛h̴̢͎̉͜i̵̟̊̇n̵̩̭̈́̈́̑͛̔g̷̟͆́̄́͠ͅ ̵̝̩̜̱̼̇̿́̇̍b̵̦̩̬͐u̵̺̩͌t̵̢͙̻̭̃̈ ̷̰͐́u̴̖̰͔̾̏ś̵̨̧̛̥̝͍̏́.̸̹͚̒̀͗͂͘ ̶̡̫̻͒͐̿͝ý̸̛̜̮̪̹͝o̸̼̤͕͓͐͂̒͜u̶͎̭̬͙͒͝ ̶͖̫̩̈́̐͑͜ͅw̸̡̛͇̩̦̱̾̈́̃i̸̙̥̞̖̰̍͐͌͛͝l̶̙̹̻̹͝l̸̹̇̌ ̴̊ͅb̷̡̡͕̭͕̉e̷͓͉̎̎ ̷̹̀̾͑͋̈́ṋ̴͓̯͝o̶̖͖͑̂͐͘t̶̰̉̅ẖ̶͔̀̋̄͋į̴̛̖̯͝ͅń̴̬̜̙́̽̊ǧ̴͓͖̱̪͑ ̸̘̭̗̓̄ḃ̸͙͓̮͂̐͌̉u̶̯͔̯͋͆́́t̷̨̻̣̑ ̸̩̯̤̂u̵̹̩͆̉ś̵̞̩͉̦̄ ̸̧̫̗̝̑̽̐̈ǎ̶̛̜͝ǹ̵̮̀́d̶̡̖̲̐͗̉ͅ ̸͙͈͐̈́́͋̕ṱ̷̭̙͔̎͠ḧ̸̠̻̘͚́̂́́͂ȩ̴̲̞̽͒ ̸̤͎̖̎͝w̶̞̠̳̌́̏͝o̵̻͖̦̘̔͌͜͝r̴̰͖͇͖͂̏̔̍͂l̸̙̏̉̚d̸̻̪̽͋̈́̕ ̶̱͚͕̞̜̈̈́̎͋͐w̶̨̰̹͉͆i̷͈̓͆͛͗l̴̳̳̩̂́̕͜͠l̶̼̜̈́̅̈́͌̚ ̷̥̹͆̿̔b̸̜̄̌͋̓͠ȇ̷͙̭̓̾́͊ ̴̨͈̫͒͑̿̇ư̴̢̜͔̑̿̔̉s̶̫͖̣̱̏́͛̓ͅ ̶̨̱̩̅ȧ̴̛̛̜͈͐͝ň̴̨̺̻̪̅̿̓d̷̗̥̖͙͙̏͊́ ̶̭͖̔͑͠t̸̨̠̰̳̱͘͝h̵͎͗͂̾͗͠e̴̞͛̃̆͝r̴̥͙͈̥̊̂̿͠è̶̖͔͖͋̕ ̷̧̟͛͂͝͝į̷͍̲̺̌͛͜s̵̬̊̋́̄͆ ̵̪̩͓̲̾̾ņ̶̛͓͎̮̯̎̄o̸̧̖̯̹̎͐͠t̸̛͇̩̪̣̖̐͛̆ȟ̶̥̘̠̲̘͑͂ȋ̶̼̱͝n̸̞͇̹͑ḡ̸̤̗ ̴̛̣̌̑͑̓y̴̲̤̩̙̿̀̋ö̶̧̭͖́͒ͅǘ̵͍͔̪̀́ ̷̡̱̫̙̬̍̐͊̊̾ç̸̖͇̦̈́à̷͉̱n̸̰̟̄̇̎̚͝ͅ ̷͓͙͠ḑ̴̨̡͔͘ơ̸̪̮̹̘̓̌̐ ̴̙̹̎̎t̷̘̺͉̙͖̊̂͋̒ó̴̰̥͖͉͔̆ ̶͍̦̕s̶͕̺̾̋͠t̷̰̥̱́̂o̵̳̔͊̈́͊́ṕ̸͇͙̇̓ ̷̪̿̓́̒ǘ̸̥̻̺̙͋͝s̸͇̪͉̔͒͒̀ ̵͙̺̈́͐̈̈́͜͠y̷̮̝̍̆ȯ̴͖̑ǘ̷͈͒̄͋̕<</linkappend>>
 
 [[Take a sip of water.|Waiter]]
 [[Push your glasses up your nose.|Waiter]]
@@ -51,7 +68,7 @@ is ours. it's always been ours. once you're gone we will destroy your cities and
 
 You reach out, ready to grab one of his hands that you like so much with one of your own, because he is lovely and lovable and all sorts of words that begin with 'love' that don't even exist yet, and you want him to know, need him to know.
 
-But then a waiter steps up to your table, interrupting you. "Are you ready to order?" he asks. His eyes are black from tip-to-tip, no whites at all, and when he smiles a polite customer-service smile, his mouth is full of razor sharp teeth.
+But then a <<linkreplace "waiter">>waiter<<replace #eyes t8n>>His eyes are black from tip-to-tip, no whites at all, and when he smiles a polite customer-service smile, his mouth is full of razor sharp teeth.<</replace>><</linkreplace>> steps up to your table, interrupting you. "Are you ready to order?" he asks. <span id="eyes"></span>
 
 Hermann gives his order with his eyes fixed on the menu, not even bothering to look up.
 
@@ -77,7 +94,7 @@ Hermann's lips go flat. He's got a surprisingly expressive face despite all the 
 [[Run your fingers through your hair.|Tattoo]]
 
 ::Tattoo
-You can't meet his eyes, so now you are staring at the neat white tablecloth and the silver silverware and the porcelain plates and the bright, colorful ink spread across your arms where they are resting on the table. As you watch, Yamarashi twists and turns, spreading across your skin, growing bigger and bigger, max open and expanding, and all you can remember is the acrid scent of Otachi's breath, the clammy cling of your damp clothes on your body, the smeared neon glow of Otachi's saliva through your rain-water smudged glasses.
+You can't meet his eyes, so now you are staring at the neat white tablecloth and the silver silverware and the porcelain plates and the bright, colorful <<linkreplace "ink">><<replace #tattoos t8n>>As you watch, Yamarashi twists and turns, spreading across your skin, growing bigger and bigger, max open and expanding, and all you can remember is the acrid scent of Otachi's breath, the clammy cling of your damp clothes on your body, the smeared neon glow of Otachi's saliva through your rain-water smudged glasses.<</replace>><</linkreplace>> spread across your arms where they are resting on the table. <span id="tattoos"></span>
 
 Hermann clears his throat, and now you have to look at him. His posture is ramrod straight. He's preparing for something, whatever is going to happen next. "So what does this mean for us?" he asks. "For our relationship, such as it is?"
 
@@ -89,35 +106,35 @@ A liquid blue drop falls from the ceiling. Glowing. As if brought forward from m
 ::Blood
 Hermann says with careful, exacting, hesitant words, "This wouldn't be the first time we've had to bridge a significant physical distance between the two of us."
 
-He's referring to the years you spent writing to each other while he was at Oxford and you were at MIT. Even just the mention brings with it the sweet tinge of nostalgia. You remember the days and weeks of eagerly waiting for every one of his responses. You remember the late nights of scribbling down everything you wanted to say in a messy, continuous rush. You remember his words, a little sharp, a little severe, but always brilliant and engaging. You remember how you fell in love with him that first time.
+<<timed 1s t8n>>He's referring to the years you spent writing to each other while he was at Oxford and you were at MIT. Even just the mention brings with it the sweet tinge of nostalgia. You remember the days and weeks of eagerly waiting for every one of his responses. You remember the late nights of scribbling down everything you wanted to say in a messy, continuous rush. You remember his words, a little sharp, a little severe, but always brilliant and engaging. You remember how you fell in love with him that first time.
 
-The waiter comes back with a bread basket and sets it down in the middle of the table.
+<<next 7s>>The waiter comes back with a bread basket and sets it down in the middle of the table.
 
-Hermann takes a breah. "I don't see we couldn't–" Blood drips from his nose, a stream of red that runs over his lips. "– why this would be any different or more difficult." The blood pools in his mouth as he talks, staining his teeth red. "I value our connection." The blood has reached his chin, uneven drips splashing down onto the white plate below. "I would like to continue it if at all possible."
+<<next 2s>>Hermann takes a breah. "I don't see we couldn't–" <<timed 2s t8n>>Blood drips from his nose, a stream of red that runs over his lips.<</timed>> "– why this would be any different or more difficult." <<timed 4s t8n>>The blood pools in his mouth as he talks, staining his teeth red.<</timed>> "I value our connection." <<timed 6s t8n>>The blood has reached his chin, uneven drips splashing down onto the white plate below.<</timed>> "I would like to continue it if at all possible."
 
-You know Hermann. You know how proud he is, how stubborn. You know what it costs him to say even this much. He may be making your whole – thing – sound like nothing more than a business arrangement, but he hates to ask anyone for anything. You want to say yes. You want to grab onto him, want to hold him both of your hands and never let him go. You've loved him for, fuck, it's been nearly thirteen years at this point. You don't remember what it was like not to be in love him.
+<<next 8s>>You know Hermann. You know how proud he is, how stubborn. You know what it costs him to say even this much. He may be making your whole – thing – sound like nothing more than a business arrangement, but he hates to ask anyone for anything. You want to say yes. You want to grab onto him, want to hold him both of your hands and never let him go. You've loved him for, fuck, it's been nearly thirteen years at this point. You don't remember what it was like not to be in love him.
 
-Something wet, something heavy and slimy, creeps up from the floor, circling up your ankle, crawling up your calf, your thigh. It squeezes hard enough to hurt, to cut off circulation, to make you lightheaded.
+<<next 6s>>Something wet, something heavy and slimy, creeps up from the floor, circling up your ankle, crawling up your calf, your thigh. It squeezes hard enough to hurt, to cut off circulation, to make you lightheaded.
 
-You open your mouth.
+<<next 4s>>You open your mouth.
 
-<span class="animated-link"><<linkreplace "Say, \"I love you.\"" t8n>><</linkreplace>></span>
-<span class="animated-link"><<linkreplace "Say, \"I never want to leave you.\"" t8n>><</linkreplace>></span>
-<span class="animated-link"><<linkreplace "Say, \"I'm sorry I said all these things, and I don't know why I'm doing this, but I can't seem to stop.\"" t8n>><</linkreplace>></span>
-
+<span id="fade-out-1"><<linkreplace "Say, \"I love you.\"">>Say, "I love you."<<addclass #fade-out-1 "hidden">><<set $option1 = true>><<if $option1 and $option2 and $option3>><<addclass .final-link "visible">><<removeclass .final-link "final-link">><</if>><</linkreplace>></span>
+<span id="fade-out-2"><<linkreplace "Say, \"I never want to leave you.\"">>Say, "I never want to leave you."<<addclass #fade-out-2 "hidden">><<set $option2 = true>><<if $option1 and $option2 and $option3>><<addclass .final-link "visible">><<removeclass .final-link "final-link">><</if>><</linkreplace>></span>
+<span id="fade-out-3"><<linkreplace "Say, \"I'm sorry I said all these things, and I don't know why I'm doing this, but I can't seem to stop.\"">>Say, "I'm sorry I said all these things, and I don't know why I'm doing this, but I can't seem to stop."<<addclass #fade-out-3 "hidden">><<set $option3 = true>><<if $option1 and $option2 and $option3>><<addclass .final-link "visible">><<removeclass .final-link "final-link">><</if>><</linkreplace>></span>
 <span class="final-link">[[Say, "I don't think that's going to work for me, Hermann."|Stop]]</span>
-
+<</timed>>
 
 ::Stop
 Hermann stares at you with hurt, all-too-vulnerable eyes, and you know then, that you've broken two hearts tonight, and you don't even know why.
 
-The world has gone red around the edges. //Please,// you think, //please make it stop.//
+<<timed 2s t8n>>The world has gone red around the edges. //Please,// you think, //please make it stop.//
 
-//make it stop.//
+<<next>>//make it stop.//
 
-//m̵̺͝a̵̳͛k̴̫̕e̷̱͌ ̵̱̒ȋ̸̩t̶̻́ ̷̖̄s̵̞͗t̴͖̎ȏ̷͖p̶̜͆.//
+<<next>>//m̵̺͝a̵̳͛k̴̫̕e̷̱͌ ̵̱̒ȋ̸̩t̶̻́ ̷̖̄s̵̞͗t̴͖̎ȏ̷͖p̶̜͆.//
 
-[[MAKE IT STOP.|End]]
+<<next>>[[MAKE IT STOP.|End]]
+<</timed>>
 
 ::End
 You come awake in your penthouse. The pons beeps, signaling the end of your Drift. The room is otherwise silent, save for the steady hum of machinery. Even Alice, who is normally bobbing up and down in her tank, seems peaceful and still.
