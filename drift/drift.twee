@@ -5,23 +5,49 @@
 	"start": "Title Screen"
 }
 
-::StoryTitle
-Drift
-
 :: Stylesheet[stylesheet]
+html {
+	height: 100%;
+}
 body {
 	font-size: 1em;
-	background-color: #fff6ec;
+	background: #fff6ec;
 	color: #6D4C3D;
+	height: 100%;
+	min-height: 100%;
+	background-size: auto 100%;
+}
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0;
 }
 body.blue {
 	background-color: #00417d;
 	color: #fff6ec;
 }
-body.red {
-	background-color: #7D0000;
-	color: #fff6ec;
+
+body.blue a {
+	color: #9be0d4;
 }
+body.red::after {
+    background: radial-gradient(#fff6ec, #fff6ec, #E84855) no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 3s ease-in;
+}
+
 body.red #story a {
 	font-size: 4em;
 }
@@ -40,6 +66,9 @@ a:hover {
 .eldritch {
 	color: #E84855;
 }
+.start-link {
+	font-weight: bold;
+}
 .final-link {
 	opacity: 0;
 }
@@ -49,7 +78,7 @@ a:hover {
 }
 .visible {
 	opacity: 100;
-	transition: opacity ease-in 4s;
+	transition: opacity ease-in 3s;
 }
 
 ::StoryInit
@@ -57,10 +86,16 @@ a:hover {
 UIBar.stow();
 <</script>>
 
+::StoryTitle
+Drifting
+
 ::Title Screen
+<<type 40ms>>! Drifting
+
+A Newt/Hermann Pacific Rim fanfic by thedeadparrot<</type>>
 
 
-[[Start|Intro]]
+<span class="start-link"><<timed 3s t8n>>[[You are...|Intro]]<</timed>></span>
 
 ::Intro
 You are watching his <<linkappend "hands." t8n>> (You've always liked his hands, and you especially like them now that you know what they feel like when they're cupping your face and settled on your hips.)<</linkappend>>
@@ -82,7 +117,8 @@ Hermann says, "You seem to be, ah, distracted as of late." His voice is hesitant
 You do have something to say, but you don't know how to say this. You've never been short on words before. They've always filled your mouth until they spill out in a torrent of speech, sometimes bypassing your conscious brain entirely. But now your tongue feels heavy. Your stomach sinks. Why did you do this? You don't have anything to feel bad about, but you also don't have anything good to feel about, so why this production? Is this even what you want?
 
 Because you can't seem to force your mouth to say anything, you look down at your own <<linkappend "menu." t8n>> <span class="eldritch">The wine pairings for tonight read:
-<blockquote>your world is ours. it's always been ours. o̵n̴c̷e̷ ̵y̵o̴u̶'̵r̶e̷ ̷g̸o̶n̸e̶ ̶w̸e̶ ̸w̸i̵l̵l̷ ̷d̵e̷s̶t̶r̴o̶y̵ ̷y̴o̶u̷r̸ ̵c̴i̸t̸i̸e̴s̵ ̴a̶n̶d̸ ̸p̶o̴i̷s̷o̷n̴ ̸y̸o̷u̶r̷ ̴w̵a̴t̸e̵r̵s̷ ̶a̴n̵d̴ ̷f̵e̵a̴s̴t̵ ̴o̷n̷ ̴y̸o̶u̸r̷ ̶b̶o̴n̶e̸s̸.̸ ̴̴͕̍͋y̵͖͐̇o̴͓͂͘ṳ̵͕́ ̷̘̙̔͗a̶̩͂̑r̸̤̊̑ḛ̸̮̌̉ ̷̩͐͊n̸̕͜o̴̝̪̒t̸̡̋̿h̸̠̊i̷̢̼̍n̶͙͙͠͠g̵̫͝ ̶͙̚b̷̼̲̂ú̵̪̦̀ț̸̎ ̶̩̥̔w̶͎͗͊ọ̶̑ř̶͓m̴̡̞̓s̵͔͍̕͝ ̵͓̲́͝f̸͓̀ö̶̠̟́r̷̛̳ ̴̲̗̐u̵̦̽̊s̵̗̫͐ ̴̢̳̈́t̶͇̠͛̽o̵̝͎̒̅ ̸̜͠c̶͍̈́̓r̶̟̓̎ú̴̲̂s̴̱͠͝h̸͚̻̀̕ ̷̱͚̌͝b̵̺͌̉e̴̟̼̐n̶̳̳̏ė̵̡͚̆a̴̡͓̒t̴̗̑͊h̶̝̽̉ ̵̘̥̔̒ȯ̸̭̕ṵ̷̘͐̾r̷͍̙̎͌ ̸͆̑ͅf̸̈́ͅe̸̟̼̿e̸̳͌t̷̗̥̿.̵͚̭̽ ̶̯͂͘y̷̞̓͝ó̶͉̈ù̷̧̝̚ ̸̘̱́̎á̵̭̓r̶̦͋̒ḛ̸̬̈́͂ ̷̯̰̊p̷͕͐͘a̷͚͎̓͐t̷̯̰̀̄h̴̗̊͜ë̵͙́t̷̼͝i̶̛̘̊c̷̘͉̊ ̶̡̉a̸͇̳͛̈́ṇ̶̺̂̈́d̶̫͗͘ ̷̣̜͆̈ỹ̴̬̒o̷̦̔͐ư̷͓̯̈ ̶̙̼̍á̵͎̂r̶̰̽e̸̜̙͗ ̴̭͈̇́ö̶͇̫ử̴̭r̴͖̟̋͒s̴̘̥̀́ ̷̰̮̆̔a̸̲͑ṉ̵̒d̶͔̅ ̴̥̌̈w̸̡͚̓i̸̧͊l̴͚̖͆l̷̤̲͊ ̷̱̹̈́͝a̸̗̬͊l̴̗̊ẃ̶̥̲͌a̸̯͎̓̄y̵̮̺͋s̶̖͕͆̑ ̶̭̺̚b̸͝ͅë̷̹̂ ̵̢͇̈́ọ̴̡̓ȕ̴̡̯͌r̴͓̦͋s̶͎̻̈.̵̤̾̎ ̴̙̙̭͉̉́̏̊͝y̷̩͙͚͙͂͆ō̵̟̥͗͊̊ư̶̩̭̓̓͝ ̸̨̬̥̉̌͑͝ṭ̸̰̞̙͂͂͜͝ḫ̷̺͌̌̉̕i̷̛̹̝̺̜̥͋̆̀͘n̴̲̤͑̈́̌ķ̴̥̜̮̘̍̔̔ ̸̜͋̅̇̊͝y̴̭̩͔͕͎̽̽̕͘͠ȯ̴͈͍̳̥u̸͓͗ ̵̜̹̮̙̈č̷̛͔̀͜a̴̺̲̻̒́̃͗͜n̴̡̘̪͖̥͊͐ ̶̡̹̮̩̻̿̓̀̀è̷͚̰̈́͌s̶̯̦̺̀c̵̰͛̑̒̂͠a̴͙̗͐̓̏p̸̥͌̆̎̐̓ę̶̙̥̟̀,̴͙̻̂̈́̏͗̑͜ ̶̢͎̫́̈́͝l̴̝̞͎̖͒i̴̹̪̠̘̇͛t̸̰̪͔̭̰͌̆̓͘t̸̥̘̺̰͛̏l̶̼͛ȅ̴̢̪͇̽͘͜͠ ̷̰̟̉ḫ̷͕͒͌͂͛͜͝u̶̝̮̠̺͒͌̄m̵͇̥̤͍̩̓̑ą̵̠͈̦̑̈́̒n̸̖̄̈́̆.̴̬̲̆͊̿ ̸̥̹̿̈́̈́͜y̵͕͙̯̞͛o̸̠͛̈́̚û̶̹̙̪͑̚͝ ̶̤͘c̸͖̦̺͓̟̅̔ȁ̸͚̫̂̌͗̕n̶̖̮͔̖̾̓'̶̳̙̬̬̲̇͠ţ̷̯͎̯͂̾̚͝͝ ̶̨̫͖͇̌͆̑̚͝e̴̢̦̭͇̗͂̒͝s̷̡̢͍͋́̕c̸̨̛̻̭̽̍͝a̷̫̋p̸̢̛̤͚̯̲̆̍̀ę̷̼̇̽͋̈́.̴̜̭͈͓͒̾̓̿̕ ̸̺̬͌̍̋y̸̖͒o̸̧̡̗͇͉̓ű̵̬̑͝͝ ̸̨͎̾̑̉͝a̸̤͔̠̲͆r̷̩̈ę̸͎̬̹̈͊ ̵̠̎͐̽͒̚c̵̬̦͂̈́a̶̪̬̒͒̓̇ͅu̶̦̍̄͆g̶̭̖̈́͆͘̕͠h̴͔̮͚̗̯̾t̴͙̿͝ ̵͚̩̪̜́ͅi̶͓͋̂ņ̷̡͉̉̆ͅ ̸͕͕̫͔̊o̵̝̯̻̹̬͑̈́͛̈ű̵͚̰͖̜̊̋͜r̴̟͎̒̋̀ ̷̩̟̖͓͙͐̃̑͒j̶̢͉͔̉͜a̵͈̟̥͜͠w̶̛͇̹̹̲̃̍̌́ś̸͙̿̃ ̶̛̜̯̰͍̖̔͐a̷̢̪̜̻̔̓̅̈́ͅn̷̗͉̓͑͂d̸͕̄̓̌ ̶̟̹̐͒ẃ̶̤͙̚͝ĕ̵̙̋͑ ̷͕̬͌̍w̷̢͓̗͎̯͋ì̷̭̠̝̝͝l̶̟͕̳̎̾͌l̴̼͎̲͉͖̈̑̅́ ̸̤͚̦̬̥͋g̷͖͎̙̦͇͒̆̽̉r̴̢̞̤͂́̆͠ǐ̶̹̝̫ͅň̵͍̮͋̂͛d̸̡͇͔͆̂ ̴̠̹̈̿̿y̶̮̒̈́̈́̆͌o̷͚̰̪̱̣̐͐u̵͇͕͇̰̭͋̎͆͛͊ ̶̦̄͘b̶̡̭̒͗e̴̳̬̬͆́̉̏t̴͖̻̒͑w̶͔̺͓͔̱̌͆̉͠e̷͍̤̟̟̍̐̊̈ê̶̩͉̠̈́̄ṋ̴̡͍̜͚̇̓̋ ̶̡̨̙͋̓̀̓o̵͍͗̋͊̓͛u̵̗̦͛͐r̷̛̰̬͌̓̆ ̶͈͔̒͝ẗ̴̫̈́͂̐̐ê̸̢̧̝͕̓é̵̩̗̹̣̾͊t̵̨̠͓͍̝̓͝͝h̸̥̹̆͌̇̈́͠ ̵̺̫̰̀u̴̡̡͐̊͆͝ṅ̵̞̗̖̚ͅṭ̵̙̳͘ǐ̷̹̘͊͐́̕ĺ̸̗̝ ̵͍̩̮̑̂̎͊̄ͅy̴̥̗̥͈͙̎̅̓ȍ̸͍̭̺̪͖͌͘ű̶̖͉̈́̈̕͘ ̵̨̞͓̜͋̀ả̵̦̊ŗ̴͚͉̍ę̶̣̜̝̣͘ ̵̳̓̏̋n̶̮͚͙͖̅̈́̕̕̚ờ̷̪͙̈̓͠t̶̮͓̗͔̯̉̀̽͛h̴̢͎̉͜i̵̟̊̇n̵̩̭̈́̈́̑͛̔g̷̟͆́̄́͠ͅ ̵̝̩̜̱̼̇̿́̇̍b̵̦̩̬͐u̵̺̩͌t̵̢͙̻̭̃̈ ̷̰͐́u̴̖̰͔̾̏ś̵̨̧̛̥̝͍̏́.̸̹͚̒̀͗͂͘ ̶̡̫̻͒͐̿͝ý̸̛̜̮̪̹͝o̸̼̤͕͓͐͂̒͜u̶͎̭̬͙͒͝ ̶͖̫̩̈́̐͑͜ͅw̸̡̛͇̩̦̱̾̈́̃i̸̙̥̞̖̰̍͐͌͛͝l̶̙̹̻̹͝l̸̹̇̌ ̴̊ͅb̷̡̡͕̭͕̉e̷͓͉̎̎ ̷̹̀̾͑͋̈́ṋ̴͓̯͝o̶̖͖͑̂͐͘t̶̰̉̅ẖ̶͔̀̋̄͋į̴̛̖̯͝ͅń̴̬̜̙́̽̊ǧ̴͓͖̱̪͑ ̸̘̭̗̓̄ḃ̸͙͓̮͂̐͌̉u̶̯͔̯͋͆́́t̷̨̻̣̑ ̸̩̯̤̂u̵̹̩͆̉ś̵̞̩͉̦̄ ̸̧̫̗̝̑̽̐̈ǎ̶̛̜͝ǹ̵̮̀́d̶̡̖̲̐͗̉ͅ ̸͙͈͐̈́́͋̕ṱ̷̭̙͔̎͠ḧ̸̠̻̘͚́̂́́͂ȩ̴̲̞̽͒ ̸̤͎̖̎͝w̶̞̠̳̌́̏͝o̵̻͖̦̘̔͌͜͝r̴̰͖͇͖͂̏̔̍͂l̸̙̏̉̚d̸̻̪̽͋̈́̕ ̶̱͚͕̞̜̈̈́̎͋͐w̶̨̰̹͉͆i̷͈̓͆͛͗l̴̳̳̩̂́̕͜͠l̶̼̜̈́̅̈́͌̚ ̷̥̹͆̿̔b̸̜̄̌͋̓͠ȇ̷͙̭̓̾́͊ ̴̨͈̫͒͑̿̇ư̴̢̜͔̑̿̔̉s̶̫͖̣̱̏́͛̓ͅ ̶̨̱̩̅ȧ̴̛̛̜͈͐͝ň̴̨̺̻̪̅̿̓d̷̗̥̖͙͙̏͊́ ̶̭͖̔͑͠t̸̨̠̰̳̱͘͝h̵͎͗͂̾͗͠e̴̞͛̃̆͝r̴̥͙͈̥̊̂̿͠è̶̖͔͖͋̕ ̷̧̟͛͂͝͝į̷͍̲̺̌͛͜s̵̬̊̋́̄͆ ̵̪̩͓̲̾̾ņ̶̛͓͎̮̯̎̄o̸̧̖̯̹̎͐͠t̸̛͇̩̪̣̖̐͛̆ȟ̶̥̘̠̲̘͑͂ȋ̶̼̱͝n̸̞͇̹͑ḡ̸̤̗ ̴̛̣̌̑͑̓y̴̲̤̩̙̿̀̋ö̶̧̭͖́͒ͅǘ̵͍͔̪̀́ ̷̡̱̫̙̬̍̐͊̊̾ç̸̖͇̦̈́à̷͉̱n̸̰̟̄̇̎̚͝ͅ ̷͓͙͠ḑ̴̨̡͔͘ơ̸̪̮̹̘̓̌̐ ̴̙̹̎̎t̷̘̺͉̙͖̊̂͋̒ó̴̰̥͖͉͔̆ ̶͍̦̕s̶͕̺̾̋͠t̷̰̥̱́̂o̵̳̔͊̈́͊́ṕ̸͇͙̇̓ ̷̪̿̓́̒ǘ̸̥̻̺̙͋͝s̸͇̪͉̔͒͒̀ ̵͙̺̈́͐̈̈́͜͠y̷̮̝̍̆ȯ̴͖̑ǘ̷͈͒̄͋̕</blockquote></span><</linkappend>>
+<blockquote><<type 30ms>>your world is ours. it's always been ours. o̵n̴c̷e̷ ̵y̵o̴u̶'̵r̶e̷ ̷g̸o̶n̸e̶ ̶w̸e̶ ̸w̸i̵l̵l̷ ̷d̵e̷s̶t̶r̴o̶y̵ ̷y̴o̶u̷r̸ ̵c̴i̸t̸i̸e̴s̵ ̴a̶n̶d̸ ̸p̶o̴i̷s̷o̷n̴ ̸y̸o̷u̶r̷ ̴w̵a̴t̸e̵r̵s̷ ̶a̴n̵d̴ ̷f̵e̵a̴s̴t̵ ̴o̷n̷ ̴y̸o̶u̸r̷ ̶b̶o̴n̶e̸s̸.̸ ̴̴͕̍͋y̵͖͐̇o̴͓͂͘ṳ̵͕́ ̷̘̙̔͗a̶̩͂̑r̸̤̊̑ḛ̸̮̌̉ ̷̩͐͊n̸̕͜o̴̝̪̒t̸̡̋̿h̸̠̊i̷̢̼̍n̶͙͙͠͠g̵̫͝ ̶͙̚b̷̼̲̂ú̵̪̦̀ț̸̎ ̶̩̥̔w̶͎͗͊ọ̶̑ř̶͓m̴̡̞̓s̵͔͍̕͝ ̵͓̲́͝f̸͓̀ö̶̠̟́r̷̛̳ ̴̲̗̐u̵̦̽̊s̵̗̫͐ ̴̢̳̈́t̶͇̠͛̽o̵̝͎̒̅ ̸̜͠c̶͍̈́̓r̶̟̓̎ú̴̲̂s̴̱͠͝h̸͚̻̀̕ ̷̱͚̌͝b̵̺͌̉e̴̟̼̐n̶̳̳̏ė̵̡͚̆a̴̡͓̒t̴̗̑͊h̶̝̽̉ ̵̘̥̔̒ȯ̸̭̕ṵ̷̘͐̾r̷͍̙̎͌ ̸͆̑ͅf̸̈́ͅe̸̟̼̿e̸̳͌t̷̗̥̿.̵͚̭̽ ̶̯͂͘y̷̞̓͝ó̶͉̈ù̷̧̝̚ ̸̘̱́̎á̵̭̓r̶̦͋̒ḛ̸̬̈́͂ ̷̯̰̊p̷͕͐͘a̷͚͎̓͐t̷̯̰̀̄h̴̗̊͜ë̵͙́t̷̼͝i̶̛̘̊c̷̘͉̊ ̶̡̉a̸͇̳͛̈́ṇ̶̺̂̈́d̶̫͗͘ ̷̣̜͆̈ỹ̴̬̒o̷̦̔͐ư̷͓̯̈ ̶̙̼̍á̵͎̂r̶̰̽e̸̜̙͗ ̴̭͈̇́ö̶͇̫ử̴̭r̴͖̟̋͒s̴̘̥̀́ ̷̰̮̆̔a̸̲͑ṉ̵̒d̶͔̅ ̴̥̌̈w̸̡͚̓i̸̧͊l̴͚̖͆l̷̤̲͊ ̷̱̹̈́͝a̸̗̬͊l̴̗̊ẃ̶̥̲͌a̸̯͎̓̄y̵̮̺͋s̶̖͕͆̑ ̶̭̺̚b̸͝ͅë̷̹̂ ̵̢͇̈́ọ̴̡̓ȕ̴̡̯͌r̴͓̦͋s̶͎̻̈.̵̤̾̎<</type>></blockquote></span><</linkappend>>
+
 It doesn't have any answers.
 
 [[Take a sip of water.|Waiter]]
@@ -113,7 +149,7 @@ Last night, <<cycle "$room">><<option "you were in his hotel room">><<option "yo
 
 Hermann's lips go flat. He's got a surprisingly expressive face despite all the cultural repression. "I see," he says, his voice as flat as his mouth. "I had assumed – incorrectly, it seems – that we would both be continuing our work at the PPDC."
 
-"What can I say, they made me an offer I couldn't refuse." The joke falls flat, not the least because you're sure Hermann has never seen //The Godfather// But that's also just your mouth running on autopilot. Why had you wanted this again? The money would be nice, of course. The resources. The prestige. But you had been desperate for it, pleading with Liwen Shao during your interview. You had needed this job. Your only purpose in this entire world had been to get this job, and you don't even remember why.
+"What can I say, they made me an offer I couldn't refuse." The joke falls <<linkappend "flat" t8n>> (not the least because you're sure Hermann has never seen //The Godfather//)<</linkappend>>. But that's also just your mouth running on autopilot. Why had you wanted this again? The money would be nice, of course. The resources. The prestige. But you had been desperate for it, pleading with Liwen Shao during your interview. You had needed this job. Your only purpose in this entire world had been to get this job, and you don't even remember why.
 
 [[Clean your glasses.|Tattoo]]
 [[Run your fingers through your hair.|Tattoo]]
@@ -131,9 +167,9 @@ Hermann clears his throat, and now you have to look at him. His posture is ramro
 ::Blood
 Hermann says with careful, exacting, hesitant words, "This wouldn't be the first time we've had to bridge a significant physical distance between the two of us."
 
-<<timed 1s t8n>>He's referring to the years you spent writing to each other while he was at Oxford and you were at MIT. Even just the mention brings with it the sweet tinge of nostalgia. You remember the days and weeks of eagerly waiting for every one of his responses. You remember the late nights of scribbling down everything you wanted to say in a messy, continuous rush. You remember his words, a little sharp, a little severe, but always brilliant and engaging. You remember how you fell in love with him that first time.
+<<timed 2s t8n>>He's referring to the years you spent writing to each other while he was at Oxford and you were at MIT. Even just the mention brings with it the sweet tinge of nostalgia. You remember the days and weeks of eagerly waiting for every one of his responses. You remember the late nights of scribbling down everything you wanted to say in a messy, continuous rush. You remember his words, a little sharp, a little severe, but always brilliant and engaging. You remember how you fell in love with him that first time.
 
-<<next 7s>>The waiter comes back with a bread basket and sets it down in the middle of the table.
+<<next 5s>>The waiter comes back with a bread basket and sets it down in the middle of the table.
 
 <<next 2s>>Hermann takes a breah. "I don't see we couldn't–" <span class="eldritch"><<linkappend "Blood" t8n>> drips from his nose, a stream of red that runs over his lips.<</linkappend>></span> "– why this would be any different or more difficult." <span class="eldritch"><<linkappend "The blood" t8n>> pools in his mouth as he talks, staining his teeth red.<</linkappend>></span> "I value our connection." <span class="eldritch"><<linkappend "The blood" t8n>> has reached his chin, uneven drips splashing down onto the white plate below.<</linkappend>></span> "I would like to continue it if at all possible."
 
@@ -150,10 +186,9 @@ Hermann says with careful, exacting, hesitant words, "This wouldn't be the first
 <</timed>>
 
 ::Stop
-<<addclass body "red">>
 Hermann stares at you with hurt, all-too-vulnerable eyes, and you know then, that you've broken two hearts tonight, and you don't even know why.
 
-<<timed 2s t8n>>The world has gone red around the edges.
+<<timed 2s t8n>>The world has gone red around the edges.<<addclass body "red">>
 
 <<next>>//Please,// you think, //please make it stop.//
 
@@ -179,6 +214,13 @@ Oh well. It will just have to wait until next time. You'll be counting down the 
 
 
 ::End Notes
+
+!! End Notes
+
+This was built in [[Twine|https://twinery.org/]].
+
+[[Return to AO3|https://archiveofourown.org/users/thedeadparrot]]
+[[View Source Code|https://github.com/thedeadparrot/fic-projects/tree/main/drift]]
 
 
 <<link "Restart">><<script>>Engine.restart();<</script>><</link>>
