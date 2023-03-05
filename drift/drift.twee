@@ -15,11 +15,18 @@ body {
 	color: #6D4C3D;
 }
 body.blue {
-	background-color: #E4FFF8;
+	background-color: #00417d;
+	color: #fff6ec;
 }
 body.red {
 	background-color: #7D0000;
-	color: #FFFDF4;
+	color: #fff6ec;
+}
+body.red #story a {
+	font-size: 4em;
+}
+body.red #story a:hover {
+	color: #00417d;
 }
 a {
 	color: #E84855;
@@ -60,7 +67,7 @@ You are watching his <<linkappend "hands." t8n>> (You've always liked his hands,
 
 Right now, they are framing the restaurant menu, absently flipping between the various pages. His reading glasses have slid low on the bridge of his nose as he peers down at the antipasta offerings. It's cute, because he's always cute, even when he's being prissy and annoying and you want to throw him out the nearest window (which wasn't always very close – Shatterdomes aren't known for their abundance of natural light).
 
-You can't stop watching him. This isn't your first <<linkappend "date" t8n>> (that was several months ago at a hole-in-the-wall ramen place in Manhattan, where you spilled soup down the front of your shirt and his lips had twitched like he was trying not to laugh the entire time while he was berating you for being an uncoordinated oaf)<</linkappend>>, but it still feels weird and magical that you asked, and that he said yes, and that now you're here, in this mid-tier Italian restaurant somewhere in the vicinity of the University of Portland.
+You can't stop watching him. This isn't your first <<linkappend "date" t8n>> (that was several months ago at a hole-in-the-wall ramen place in Manhattan, where you spilled soup down the front of your shirt and his lips had twitched like he was trying not to laugh the entire time even while he was berating you for being an uncoordinated oaf)<</linkappend>>, but it still feels weird and magical that you asked, and that he said yes, and that now you're here, in this mid-tier Italian restaurant somewhere in the vicinity of the University of Portland.
 
 [[Fidget with your napkin.|Menu]]
 [[Tap your fingers on the table.|Menu]]
@@ -146,22 +153,24 @@ Hermann says with careful, exacting, hesitant words, "This wouldn't be the first
 <<addclass body "red">>
 Hermann stares at you with hurt, all-too-vulnerable eyes, and you know then, that you've broken two hearts tonight, and you don't even know why.
 
-<<timed 2s t8n>>The world has gone red around the edges. //Please,// you think, //please make it stop.//
+<<timed 2s t8n>>The world has gone red around the edges.
+
+<<next>>//Please,// you think, //please make it stop.//
 
 <<next>>//make it stop.//
 
-<<next>>//m̵̺͝a̵̳͛k̴̫̕e̷̱͌ ̵̱̒ȋ̸̩t̶̻́ ̷̖̄s̵̞͗t̴͖̎ȏ̷͖p̶̜͆.//
+<<next>>//MAKE IT STOP.//
 
-<<next>>[[MAKE IT STOP.|End]]
+<<next>>[[M̵̭̫̫̺̞̺̠͚̘̍̍À̶͇͙̚̕K̴͖̤̮͉̓͜Ê̶̙̮̝̈́̄̐̿̾̿.̶͔̗̲͎͇̖͔̈́͗ ̵̥̏͌́̀̐̉̉͠I̷̗̬̹͙̹̺̿̑̎̂T̴̫̮̝̯̳̜́̎̈́̓̚͠.̶̧̦̪̈́̎͐͘ ̶̠̗̙̽̌͑̈̚͠Ş̴̡̖͗͗͛͌̔̕̕T̷̩̤̗̜̉̈͑Ǒ̴̠̞̎̆P̵̖̙̙̻̝̿̑̂͠|End]]
 <</timed>>
 
 ::End
-<<removeclass body "red">><<addclass body "blue">>
+<<addclass body "blue">>
 You come awake in your penthouse. The pons beeps, signaling the end of your Drift. The room is otherwise silent, save for the steady hum of machinery. Even Alice, who is normally bobbing up and down in her tank, seems peaceful and still.
 
 Your heart is still racing, some sort of adrenaline hangover lingering. What had you seen? The more you try to hang onto it, the faster it slips away, like the fading remnants of a dream. A memory, maybe. An echo of a thing long past.
 
-You see things like that in the Drift, sometimes. It was probably a good memory, a happy one. The Drift is nothing but good things. The Drift is blue, blue-blue-blue. Blue like <<cycle "$blue">><<option "your tongue after 9-Eleven slushees">><<option "even numbers and reptiles">><<option "the walls of the community pool on a sweltering summer day">><</cycle>>. You almost feel bad that you've lost the sensation of reliving it again.
+You see things like that in the Drift, sometimes. It was probably a good memory, a happy one. The Drift is nothing but good things. The Drift is blue, blue-blue-blue. Blue like <<cycle "$blue">><<option "your tongue after 9-Eleven slushees">><<option "even numbers and reptiles">><<option "the walls of the community pool on a sweltering summer day">><</cycle>>. The only reason your hands are shaking is because you wanted to stay in that memory.
 
 Oh well. It will just have to wait until next time. You'll be counting down the hours.
 
