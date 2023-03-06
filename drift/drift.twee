@@ -64,7 +64,7 @@ a:hover {
 
 ::StoryInit
 <<script>>
-UIBar.stow();
+UIBar.destroy();
 <</script>>
 
 ::StoryTitle
@@ -198,11 +198,10 @@ Oh well. It will just have to wait until next time. You'll be counting down the 
 
 !! End Notes
 
-This was built in [[Twine|https://twinery.org/]].
+This was built with [[TweeGo|https://github.com/tmedwards/tweego]] and [[Twine|https://twinery.org/]]. I think interactive fiction is cool, and I want more people to make it in fandom. Look me up if you have an idea and want someone to help you with implementation.
 
 [[Kudos/Comment on AO3|https://archiveofourown.org/users/thedeadparrot]]
 [[View Source Code|https://github.com/thedeadparrot/fic-projects/tree/main/drift]]
 
 
-<<link "Restart">><<script>>Engine.restart();<</script>><</link>>
-
+<<link "Restart Story">><<script>>Engine.restart();<</script>><</link>>
