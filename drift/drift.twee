@@ -136,7 +136,7 @@ Hermann's lips go flat. He's got a surprisingly expressive face despite all the 
 [[Run your fingers through your hair.|Tattoo]]
 
 ::Tattoo
-You can't meet his eyes, so now you are staring at the neat white tablecloth and the silver silverware and the porcelain plates and the bright, colorful <<linkreplace "ink">><<replace #tattoos t8n>>As you watch, Yamarashi twists and turns, spreading across your skin, growing bigger and bigger, maw open and expanding, and all you can remember is the acrid scent of Otachi's breath, the clammy cling of your damp clothes on your body, the smeared neon glow of Otachi's saliva through your rain-water smudged glasses.<</replace>><</linkreplace>> spread across your arms where they are resting on the table. <span id="tattoos" class="eldritch"></span>
+You can't meet his eyes, so now you are staring at the neat white tablecloth and the silver silverware and the porcelain plates and the bright, colorful <<linkreplace "ink">><<replace #tattoos t8n>>As you watch, Yamarashi twists and turns, spreading across your skin, growing bigger and bigger, maw open and expanding, and all you can remember is the acrid scent of Otachi's breath, the clammy cling of your damp clothes to your body, the smeared neon glow of Otachi's saliva through your rain-water smudged glasses.<</replace>><</linkreplace>> spread across your arms where they are resting on the table. <span id="tattoos" class="eldritch"></span>
 
 Hermann clears his throat, and now you have to look at him. His posture is ramrod straight. He's preparing for something, whatever is going to happen next. "So what does this mean for us?" he asks. "For our relationship, such as it is?"
 
@@ -200,7 +200,7 @@ You want to be back there. Back where everything is blue and quiet and peaceful.
 
 This was built with [[TweeGo|https://github.com/tmedwards/tweego]] and [[Twine|https://twinery.org/]]. I think interactive fiction is cool, and I want more people to make it in fandom. Look me up if you have an idea and want someone to help you with implementation.
 
-[[Kudos/Comment on AO3|https://archiveofourown.org/users/thedeadparrot]]
+[[Kudos/Comment on AO3|https://archiveofourown.org/works/45697567]]
 [[View Source Code|https://github.com/thedeadparrot/fic-projects/tree/main/drift]]
 
 
