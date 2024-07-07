@@ -10,6 +10,7 @@ Untitled Timeloop Fic
 :: Start
 <<set $loops to 0 >>
 <<set $viewedRestart to false>>
+<<set $wifi_known to false>>
 [[Beginning]]
 
 
@@ -23,6 +24,8 @@ Untitled Timeloop Fic
 <<nobr>>
 <<set $biscuit to false>>
 <<set $wifi_given to false>>
+<<set $woman_coffee is false>>
+<<set $lid to false>>
 <<set $loops+= 1>> 
 <<if $loops > 1 and $viewedRestart is false>><<goto "FirstRestart">><</if>>
 <</nobr>>
@@ -43,8 +46,16 @@ You leap to your feet as he slides the book into his backpack. This is your chan
 
 Your tablemate choose this exact moment to try to talk to you. "Hey, Tadej," Bling asks. "Do you know the wifi password?" He fiddles with his iPad as a frown creases his face.
 
-You shake your head. You don't know what it is, and you don't care.
+<<if $wifi_known is true>>
+<<linkappend "Tell him the wifi password.">>"It's 'COFFEE,'" you tell him.
 
+He shoots you a huge grin. "Awesome, thanks," he says.
+
+You try not to breathe an obvious sigh of relief. You love the guy, but you have a more important mission on hand.
+<</linkappend>>
+<<else>>
+You shake your head. You don't know what it is, and you don't care.
+<</if>>
 
 [[Go to the register.|Register]]
 [[Head for the man's table.|Dog]]
@@ -55,12 +66,18 @@ You shake your head. You don't know what it is, and you don't care.
 
 You've been at the register a few times this morning. Not only to get coffee at the counter, but also to sample a variety of different pastries while you stole peeks at your mystery man.
 
-The current line isn't long. The cashier is taking an order and going through payment. If you hurry, you might be able to put in your own order before the cute guy leaves.
+The current line isn't long. The cashier is taking an order and going through payment. If you hurry, you might be able to put in your own order before the cute guy leaves and maybe get the wifi password from the cashier.
 
+<<if $woman_coffee is true>>
+The woman from earlier is still engrossed in a conversation with the man with the iced coffee. They might even be flirting, which you think is rather cute. Maybe you even feel a little smug for playing cupid. She's clearly so distracted that she's not in line anymore.
+
+[[Wait behind the current customer|Get Wifi]]
+<<else>>
 There is also woman standing in front of you. Her head is bent over a menu. Her brow is furrowed in concentration. Is she in line? You can't tell.
 
 [[Slide in front of her.|Cut in Line]]
 [[Get in line behind her.|Wait]]
+<</else>>
 
 :: Get Woman's Attention
 
@@ -107,6 +124,25 @@ Your vision gets fuzzy at the edges. The world starts to tilt. Your stomach lurc
 
 [[And then..|Beginning]]
 
+:: Get Wifi
+
+<<set $wifi_known to true>>
+The person in front of you finishes paying.
+
+You step up to the register. "Can I have the wifi password?" you ask.
+
+The cashier fixes you with a bored, dead-eyed look. "I can't give you the password until you order something."
+
+"I've been here for the last hour," you protest. "You sold me a cheese danish." You gesture in the direction of your table, which is still piled high with the detritus of plates and cups from your various purchases.
+
+"I can't give you the password until you order something," the cashier repeats with the same patient monotone.
+
+You sigh and order yourself a cookie. The man has packed up all his stuff. His backpack is on his back. He's on his way out the door. But you are getting closer to finally getting to talk to him. You can feel it.
+
+"The wifi password is 'COFFEE' by the way," the cashier says.
+
+[[You take a big bite of the cookie. And when you blink...|Beginning]]
+
 :: Dog
 
 You stride purposefully towards the table across the room. You have your target in sight. You refuse to let him get away.
@@ -126,7 +162,7 @@ When you look up again, the man is at the door, entirely uninterested in you or 
 
 But your foot is still caught up in the leash, and you go crashing to the floor. Ugh. Only your shoulder and ego are bruised.
 
-[[Even then, everything goes dark.|Beginning]]
+[[Even then, everything goes dark...|Beginning]]
 <<else>>
 <<linkappend "Offer the dog the biscuit.">>
 After you're done petting, you offer the dog the treat. He gets so distracted by it, he loses interest in you immediately, which is disappointing, but fair.
@@ -144,7 +180,7 @@ But Bling somehow manages to rope you into a conversation with the owner about h
 
 You look up, and the mystery man is gone. You sigh.
 
-[[You close your eyes. Time to try again.|Beginning]]
+[[You close your eyes. Time to try again...|Beginning]]
 <<else>>
 You take a quick look over your shoulder. Bling is still busy with his iPad. Good.
 
@@ -172,19 +208,31 @@ The former owner of said cup of coffee runs up to you. "I am so, so sorry," he s
 
 You try to wave him away. It's only somewhat successful. When you finally get a moment of freedom, the table by the window is empty, and the cute guy has vanished into thin air.
 
-[[You do your best to smile through it, but it doesn't quite reah your eyes.|Beginning]]
+[[You do your best to smile through it, but...|Beginning]]
 <</if>>
 
 :: Dodge
+
+You shift to the side, and as the man yells, the coffee goes flying safely past you and onto the floor. Whew. You look over the table again. What next?
 
 <<include "Avoided">>
 
 :: Nudge
 
-<<include "Avoided">>
+You move the chair out of the way, hoping this means you won't have to deal with any coffee incidents at all. After a moment, you hear the man apologizing profusely to an annoyed woman who was standing near the register. You let their argument fade into the background as you look over the objects in front of you.
+
+<<include "Avoided">><<set $woman_coffee is true>>
 
 :: Avoided 
-<<linkappend "Grab a dog biscuit">> <<set $biscuit to true>>You reach into the jar and pull out a dog biscuit, sliding it into your pocket.<</linkappend>>
+<<linkappend "Grab a dog biscuit">> <<set $biscuit to true>>You reach into the jar and pull out a dog biscuit.
+
+<</linkappend>>
+<<linkappend "Grab a lid">><<set $lid to true>>You lift a lid off the stack.
+
+<</linkappend>>
+<<linkappend "Grab a napkin">><<set $napkin to true>>You yank a napkin out of the dispenser.
+
+<<linkappend>>
 
 [[Go to the register.|Register]]
 [[Head towards the man's table.|Dog]]
