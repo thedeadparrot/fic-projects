@@ -8,13 +8,22 @@
 Untitled Timeloop Fic
 
 :: Start
-
+<<set $loops to 0 >>
+<<set $viewedRestart to false>>
 [[Beginning]]
 
 
+:: FirstRestart
+
+<<set $viewedRestart to true>>You blink your eyes open. You hadn't even realized they were closed. You take a look around. You're back at your table. Bling is still finishing off his croissant. Your heart jumps into your throat as you notice that the man is still at his table. The paperback lays open in front of him as he gazes out of the window. Was it all a dream? A strange fantasy? That doesn't seem so important right now. What does seem important is that you have another chance to talk to your mystery man. You're going to take advantage of it.
+
+[[Okay, you've got this.|Beginning]]
 
 :: Beginning
-
+<<nobr>>
+<<if $loops is 1 and $viewedRestart is false>><<goto "FirstRestart">><</if>>
+<<set $loops+= 1>>
+<</nobr>>
 It is eleven in the morning, and you are sitting in a cafe, and you are staring at the most adorable man alive.
 
 He's sitting on the other side of the cafe, alone, in front of the large windows. The late morning sun catch in his pale blond hair and illuminates the delicate features of his face. For the last hour, he's been engrossed in his book -- a slim paperback hovel with a brightly colored cover -- and you've been engrossed in watching him.
@@ -42,15 +51,14 @@ The current line isn't long. The cashier is taking an order and going through pa
 There is also woman standing in front of you. Her head is bent over a menu. Her brow is furrowed in concentration. Is she in line? You can't tell.
 
 [[Slide in front of her.|Cut in Line]]
-[[Patiently wait behind her.|Wait]]
-[[Try to get her attention.|Get Woman's Attention]]
+[[Get in line behind her.|Wait]]
 
 :: Get Woman's Attention
 
 You try to get her attention. Waving your hands. Nudging her shoulder. Clearing your throat in a pointed and insistent fashion. Nothing seems to work. She is so focused on the menu in her hand, nothing else seems to matter to her. 
 
 [[Slide in front of her.|Cut in Line]]
-[[Patiently wait behind her.|Wait]]
+[[Continue patiently waiting behind her.|Continue Waiting]]
 
 :: Cut in Line
 
@@ -58,7 +66,30 @@ Just as you attempt to dodge forward, she looks up. "What do you think you're do
 
 You blink at her. "Uh, I was just--" you say.
 
+She raises her voice. "I was already waiting here. You can't just cut in front of me."
+
+The back of your neck begins to flush. You can feel the attention of the rest of the cafe shift towards you. "I wasn't--" you protest.
+
+But to no avail. Even the cute guy has turned to look at the commotion, though he's already on his feet with his backpack slung onto his shoulders. He gives you an odd look, and his forehead is creased with a kind of silent judgement. You'll never get his number now.
+
+[[Unless...|Beginning]]
 
 :: Wait
 
-You are waiting.
+You step into the space behind the woman and wait your turn.
+
+The cashier finishes up with his current customer and gives you and the woman a curious glance. She doesn't notice. She's too focused on the menu in front of her.
+
+You fidget, restless, shifting your weight from foot to foot. Your mystery man has finished his packing. You don't have much time left.
+
+[[Slide in front of her.|Cut in Line]]
+[[Try to get her attention.|Get Woman's Attention]]
+[[Continue patiently waiting behind her.|Continue Waiting]]
+
+:: Continue Waiting
+
+All you can do is watch and wait, helplessly, as the man pulls the backpack onto his shoulders. He pushes his way out the door and into the morning sunshine, a smile on his face.
+
+The woman in front of you finally notices that it's her turn to order and steps forward. It's too late, though. You've lost your chance. (Maybe forever?)
+
+[[Unless...|Beginning]]
