@@ -3,15 +3,20 @@
 	"ifid": "1C5FF5CA-9DB0-421C-9F68-8407223E12C9"
 }
 
+::StoryInit
+<<set $loops to 0 >><<set $viewedRestart to false>><<set $wifiKnown to false>>
+<<script>>
+UIBar.destroy();
+<</script>>
+
 :: StoryTitle
 
 Untitled Timeloop Fic
 
 :: Start
-<<set $loops to 0 >>
-<<set $viewedRestart to false>>
-<<set $wifiKnown to false>>
-[[Beginning]]
+! Untitled Timeloop Fic
+
+[[Start the story.|Beginning]]
 
 
 :: FirstRestart
@@ -29,11 +34,9 @@ Untitled Timeloop Fic
 <<set $napkin to false>>
 <<set $loops+= 1>> 
 <<if $loops > 1 and $viewedRestart is false>><<goto "FirstRestart">><</if>>
-<</nobr>><<if $loops is 3>>
-You blink your eyes open. You have another chance. You can figure this out. You just need to get all the pieces to line up in the right order. You believe in yourself.
+<</nobr>><<if $loops is 3>>You blink your eyes open. You have another chance. You can figure this out. You just need to get all the pieces to line up in the right order. You believe in yourself.
 
-<<elseif $loops > 3>>
-//Okay// you think to yourself. One more try. You can do this.
+<<elseif $loops > 3>>//Okay// you think to yourself. One more try. You can do this.
 
 <</if>>It is eleven in the morning, and you are sitting in a cafe, and you are staring at the most adorable man alive.
 
@@ -50,7 +53,8 @@ Your tablemate choose this exact moment to try to talk to you. "Hey, Tadej, mate
 He shoots you a huge grin. "Awesome, thanks," he says.
 
 You try not to breathe an obvious sigh of relief. You love the guy, but you have a more important mission on hand.<</linkreplace>>
-<<else>>You shake your head. You don't know what it is, and you don't care.
+<<else>>
+You shake your head. You don't know what it is, and you don't care.
 <</if>>
 [[Go to the register.|Register]]
 [[Head for the man's table.|Dog]]
@@ -148,7 +152,6 @@ Yes, you have a goal in front of you, but well, there's a friendly dog in front 
 
 You give the dog a few head pats and a few scritches. He slobbers all over your hand. You keep one eye out on your target. He is slowly stacking his used mug on top of his plate. You still have time.
 <<if $biscuit is false>>
-
 As you get up, the dog gets even more excited. He dodges around your legs, tangling his leash around your ankles. You try to extract yourself, but you only seem to get more tangled.
 
 When you look up again, the man is at the door, entirely uninterested in you or your plight. You take a step forward, reckless in your determination.
@@ -273,7 +276,7 @@ Bling comes up to you. "Let's get out of here. The wifi in this place sucks," he
 
 ::Ending
 
-!! End Notes
+!!End Notes
 
 This was built with [[TweeGo|https://github.com/tmedwards/tweego]] and [[Twine|https://twinery.org/]].
 
