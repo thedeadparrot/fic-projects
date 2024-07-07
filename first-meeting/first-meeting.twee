@@ -3,18 +3,45 @@
 	"ifid": "1C5FF5CA-9DB0-421C-9F68-8407223E12C9"
 }
 
+:: Stylesheet[stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	min-height: 100%;
+}
+body {
+	font-size: 1em;
+	background: #fff;
+	color: #432818;
+	height: inherit;
+	min-height: inherit;
+	background-size: auto 100%;
+	padding-bottom: 2.5em;
+	font-family: 'Noto Sans', serif;
+}
+
+a {
+	color: #99582A;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #6F1D1B;
+}
+
 ::StoryInit
 <<set $loops to 0 >><<set $viewedRestart to false>><<set $wifiKnown to false>>
 <<script>>
 UIBar.destroy();
 <</script>>
-
 :: StoryTitle
 
-Untitled Timeloop Fic
+Here It Goes Again
 
 :: Start
-! Untitled Timeloop Fic
+! Here It Goes Again
+
+by thedeadparrot
 
 [[Start the story.|Beginning]]
 
