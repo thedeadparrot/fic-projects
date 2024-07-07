@@ -15,15 +15,24 @@ Untitled Timeloop Fic
 
 :: FirstRestart
 
-<<set $viewedRestart to true>>You blink your eyes open. You hadn't even realized they were closed. You take a look around. You're back at your table. Bling is still finishing off his croissant. Your heart jumps into your throat as you notice that the man is still at his table. The paperback lays open in front of him as he gazes out of the window. Was it all a dream? A strange fantasy? That doesn't seem so important right now. What does seem important is that you have another chance to talk to your mystery man. You're going to take advantage of it.
+<<set $viewedRestart to true>><<set $loops to 1>>You blink your eyes open. You hadn't even realized they were closed. You take a look around. You're back at your table. Bling is still finishing off his croissant. Your heart jumps into your throat as you notice that the man is still at his table. The paperback lays open in front of him as he gazes out of the window. Was it all a dream? A strange fantasy? That doesn't seem so important right now. What does seem important is that you have another chance to talk to your mystery man. You're going to take advantage of it.
 
 [[Okay, you've got this.|Beginning]]
 
 :: Beginning
 <<nobr>>
-<<if $loops is 1 and $viewedRestart is false>><<goto "FirstRestart">><</if>>
-<<set $loops+= 1>>
+<<set $biscuit to false>>
+<<set $wifi_given to false>>
+<<set $loops+= 1>> 
+<<if $loops > 1 and $viewedRestart is false>><<goto "FirstRestart">><</if>>
 <</nobr>>
+<<if $loops is 3>>
+You blink your eyes open. You have another chance. You can figure this out. You just need to get all the pieces to line up in the right order. You believe in yourself.
+
+<<elseif $loops > 3>>
+//Okay// you think to yourself. One more try. You can do this.
+
+<</if>>
 It is eleven in the morning, and you are sitting in a cafe, and you are staring at the most adorable man alive.
 
 He's sitting on the other side of the cafe, alone, in front of the large windows. The late morning sun catch in his pale blond hair and illuminates the delicate features of his face. For the last hour, he's been engrossed in his book -- a slim paperback hovel with a brightly colored cover -- and you've been engrossed in watching him.
@@ -38,15 +47,15 @@ You shake your head. You don't know what it is, and you don't care.
 
 
 [[Go to the register.|Register]]
-[[Head for the man's table.|Dog Table]]
-[[Visit the condiments table.|]]
+[[Head for the man's table.|Dog]]
+[[Visit the condiments station.|Condiments]]
 
 
 :: Register
 
 You've been at the register a few times this morning. Not only to get coffee at the counter, but also to sample a variety of different pastries while you stole peeks at your mystery man.
 
-The current line isn't long. The cashier is taking an order and going through payment. If you hurry, you might be able to put in your own order before your mystery man leaves.
+The current line isn't long. The cashier is taking an order and going through payment. If you hurry, you might be able to put in your own order before the cute guy leaves.
 
 There is also woman standing in front of you. Her head is bent over a menu. Her brow is furrowed in concentration. Is she in line? You can't tell.
 
@@ -56,6 +65,8 @@ There is also woman standing in front of you. Her head is bent over a menu. Her 
 :: Get Woman's Attention
 
 You try to get her attention. Waving your hands. Nudging her shoulder. Clearing your throat in a pointed and insistent fashion. Nothing seems to work. She is so focused on the menu in her hand, nothing else seems to matter to her. 
+
+Maybe you need something much bigger and more dramatic to get her to notice what's going on around her.
 
 [[Slide in front of her.|Cut in Line]]
 [[Continue patiently waiting behind her.|Continue Waiting]]
@@ -90,12 +101,94 @@ You fidget, restless, shifting your weight from foot to foot. Your mystery man h
 
 All you can do is watch and wait, helplessly, as the man pulls the backpack onto his shoulders. He pushes his way out the door and into the morning sunshine, a smile on his face.
 
-The woman in front of you finally notices that it's her turn to order and steps forward. It's too late, though. You've lost your chance. (Maybe forever?)
+The woman in front of you finally notices that it's her turn to order and steps forward. It's too late, though. You've lost your chance.
 
-[[Unless...|Beginning]]
+Your vision gets fuzzy at the edges. The world starts to tilt. Your stomach lurches. You blink once, twice to clear it, but it doesn't help.
 
-:: Dog Table
+[[And then..|Beginning]]
+
+:: Dog
 
 You stride purposefully towards the table across the room. You have your target in sight. You refuse to let him get away.
 
-That is, until a
+That is, until a large, white dog bounds over to say hello. Its tail wags, and it noses at your legs in a friendly way.
+
+"Oh, sorry about him," the owner says. "He just really loves meeting new people."
+
+Yes, you have a goal in front of you, but well, there's a friendly dog in front of you, and you //have// to stop and give him a pet. That's one of the reasons why you like this place. It has a relaxed, friendly vibe, and you love watching and meeting new dogs, even if you are more of a cat person. <<if $biscuit is false>>They even have a tin of dog biscuits at the condiments station.<</if>>
+
+You give the dog a few head pats and a few scritches. He slobbers all over your hand. You keep one eye out on your target. He is slowly stacking his used mug on top of his plate. You still have time.
+
+<<if $biscuit is false>>
+As you get up, the dog gets even more excited. He dodges around your legs, tangling his leash around your ankles. You try to extract yourself, but you only seem to get more tangled.
+
+When you look up again, the man is at the door, entirely uninterested in you or your plight. You take a step forward, reckless in your determination.
+
+But your foot is still caught up in the leash, and you go crashing to the floor. Ugh. Only your shoulder and ego are bruised.
+
+[[Even then, everything goes dark.|Beginning]]
+<<else>>
+<<linkappend "Offer the dog the biscuit.">>
+After you're done petting, you offer the dog the treat. He gets so distracted by it, he loses interest in you immediately, which is disappointing, but fair.
+
+<<if $wifi_given is false>>
+Just as you're going to continue on your way, Bling comes up behind you. "Oh wow, who have you got here?" He leans down to greet the dog by offering up his hand. "Tadej, aren't you going to introduce me to your new friend?"
+
+"But I--" you protest, but it comes out weak. You've always had a hard time saying "no" to Bling.
+
+"Nonsense. I'm just glad I went looking for the wifi password at the register and found you here instead. Always up for meeting new dogs." The dog lets Bling pet him and even flops over for belly rubs, which you're unsure if you find insulting or not.
+
+"I will just--" you try again. You can feel the clock ticking down, one second after another.
+
+But Bling somehow manages to rope you into a conversation with the owner about his own dog at home. You don't even have a dog. You don't know what you're still doing here.
+
+You look up, and the mystery man is gone. You sigh.
+
+[[You close your eyes. Time to try again.|Beginning]]
+<<else>>
+You take a quick look over your shoulder. Bling is still busy with his iPad. Good.
+
+[[Continue on your way.|Meet Jonas]]
+<</if>>
+<</linkappend>>
+<</if>>
+
+:: Condiments
+
+You approach the condiment table. There's a selection of lids for paper cups, a jug of milk, a tin of sugar, a pile of napkins. Right next to them is a glass jar filled with dog treats.
+
+<<if $viewedSpill is true>>
+Wait, you know what's coming next.
+
+[[Step to the side.|Dodge]]
+[[Nudge the chair a little bit to the left.|Nudge]]
+<<else>>
+<<set $viewedSpill to true>>
+As you consider your options, you hear a shout. "Oh shit!" someone yells behind you. You turn just in time to see someone crash into a chair. The cup in his hand goes flying through the air.
+
+You have reasonable reflexes, but you still don't manage to get out the way in time. The iced coffee crashes into your chest, drenching your t-shirt in cold, brown liquid.
+
+The former owner of said cup of coffee runs up to you. "I am so, so sorry," he says. He grabs a fistful of napkins and starts trying to dab at the growing stain.
+
+You try to wave him away. It's only somewhat successful. When you finally get a moment of freedom, the table by the window is empty, and the cute guy has vanished into thin air.
+
+[[You do your best to smile through it, but it doesn't quite reah your eyes.|Beginning]]
+<</if>>
+
+:: Dodge
+
+<<include "Avoided">>
+
+:: Nudge
+
+<<include "Avoided">>
+
+:: Avoided 
+<<linkappend "Grab a dog biscuit">> <<set $biscuit to true>>You reach into the jar and pull out a dog biscuit, sliding it into your pocket.<</linkappend>>
+
+[[Go to the register.|Register]]
+[[Head towards the man's table.|Dog]]
+
+:: Meet Jonas
+
+You did it. Congrats.
