@@ -26,17 +26,16 @@ Untitled Timeloop Fic
 <<set $wifiGiven to false>>
 <<set $womanCoffee is false>>
 <<set $lid to false>>
+<<set $napkin to false>>
 <<set $loops+= 1>> 
 <<if $loops > 1 and $viewedRestart is false>><<goto "FirstRestart">><</if>>
-<</nobr>>
-<<if $loops is 3>>
+<</nobr>><<if $loops is 3>>
 You blink your eyes open. You have another chance. You can figure this out. You just need to get all the pieces to line up in the right order. You believe in yourself.
 
 <<elseif $loops > 3>>
 //Okay// you think to yourself. One more try. You can do this.
 
-<</if>>
-It is eleven in the morning, and you are sitting in a cafe, and you are staring at the most adorable man alive.
+<</if>>It is eleven in the morning, and you are sitting in a cafe, and you are staring at the most adorable man alive.
 
 He's sitting on the other side of the cafe, alone, in front of the large windows. The late morning sun catch in his pale blond hair and illuminates the delicate features of his face. For the last hour, he's been engrossed in his book -- a slim paperback hovel with a brightly colored cover -- and you've been engrossed in watching him.
 
@@ -44,19 +43,15 @@ Your heart quickens as he finishes the last bit of his pastry, snaps the book cl
 
 You leap to your feet as he slides the book into his backpack. This is your chance. You have to take it.
 
-Your tablemate choose this exact moment to try to talk to you. "Hey, Tadej," Bling asks. "Do you know the wifi password?" He fiddles with his iPad as a frown creases his face.
-
+Your tablemate choose this exact moment to try to talk to you. "Hey, Tadej, mate," Bling asks. "Do you know the wifi password?" He fiddles with his iPad as a frown creases his face.
 <<if $wifiKnown is true>>
 <<linkreplace "Tell him the wifi password.">><<set $wifiGiven to true>>"It's 'COFFEE,'" you tell him.
 
 He shoots you a huge grin. "Awesome, thanks," he says.
 
-You try not to breathe an obvious sigh of relief. You love the guy, but you have a more important mission on hand.
-<</linkreplace>>
-<<else>>
-You shake your head. You don't know what it is, and you don't care.
+You try not to breathe an obvious sigh of relief. You love the guy, but you have a more important mission on hand.<</linkreplace>>
+<<else>>You shake your head. You don't know what it is, and you don't care.
 <</if>>
-
 [[Go to the register.|Register]]
 [[Head for the man's table.|Dog]]
 [[Visit the condiments station.|Condiments]]
@@ -67,11 +62,10 @@ You shake your head. You don't know what it is, and you don't care.
 You've been at the register a few times this morning. Not only to get coffee at the counter, but also to sample a variety of different pastries while you stole peeks at your mystery man.
 
 The current line isn't long. The cashier is taking an order and going through payment. If you hurry, you might be able to put in your own order before the cute guy leaves and maybe get the wifi password from the cashier.
-
 <<if $womanCoffee is true>>
 The woman from earlier is still engrossed in a conversation with the man with the iced coffee. They might even be flirting, which you think is rather cute. Maybe you even feel a little smug for playing cupid. She's clearly so distracted that she's not in line anymore.
 
-[[Wait behind the current customer|Get Wifi]]
+[[Wait behind the current customer.|Get Wifi]]
 <<else>>
 There is also woman standing in front of you. Her head is bent over a menu. Her brow is furrowed in concentration. Is she in line? You can't tell.
 
@@ -126,8 +120,7 @@ Your vision gets fuzzy at the edges. The world starts to tilt. Your stomach lurc
 
 :: Get Wifi
 
-<<set $wifiKnown to true>>
-The person in front of you finishes paying.
+<<set $wifiKnown to true>>The person in front of you finishes paying.
 
 You step up to the register. "Can I have the wifi password?" you ask.
 
@@ -154,8 +147,8 @@ That is, until a large, white dog bounds over to say hello. Its tail wags, and i
 Yes, you have a goal in front of you, but well, there's a friendly dog in front of you, and you //have// to stop and give him a pet. That's one of the reasons why you like this place. It has a relaxed, friendly vibe, and you love watching and meeting new dogs, even if you are more of a cat person. <<if $biscuit is false>>They even have a tin of dog biscuits at the condiments station.<</if>>
 
 You give the dog a few head pats and a few scritches. He slobbers all over your hand. You keep one eye out on your target. He is slowly stacking his used mug on top of his plate. You still have time.
-
 <<if $biscuit is false>>
+
 As you get up, the dog gets even more excited. He dodges around your legs, tangling his leash around your ankles. You try to extract yourself, but you only seem to get more tangled.
 
 When you look up again, the man is at the door, entirely uninterested in you or your plight. You take a step forward, reckless in your determination.
@@ -164,9 +157,7 @@ But your foot is still caught up in the leash, and you go crashing to the floor.
 
 [[Even then, everything goes dark...|Beginning]]
 <<else>>
-<<linkreplace "Offer the dog the biscuit.">>
-After you're done petting, you offer the dog the treat. He gets so distracted by it, he loses interest in you immediately, which is disappointing, but fair.
-
+<<linkreplace "Offer the dog the biscuit.">>After you're done petting, you offer the dog the treat. He gets so distracted by it, he loses interest in you immediately, which is disappointing, but fair.
 <<if $wifiGiven is false>>
 Just as you're going to continue on your way, Bling comes up behind you. "Oh wow, who have you got here?" He leans down to greet the dog by offering up his hand. "Tadej, aren't you going to introduce me to your new friend?"
 
@@ -193,14 +184,11 @@ You take a quick look over your shoulder. Bling is still busy with his iPad. Goo
 
 You approach the condiment table. There's a selection of lids for paper cups, a jug of milk, a tin of sugar, a pile of napkins. Right next to them is a glass jar filled with dog treats.
 
-<<if $viewedSpill is true>>
-Wait, you know what's coming next.
+<<if $viewedSpill is true>>Wait, you know what's coming next.
 
 [[Step to the side.|Dodge]]
 [[Nudge the chair a little bit to the left.|Nudge]]
-<<else>>
-<<set $viewedSpill to true>>
-As you consider your options, you hear a shout. "Oh shit!" someone yells behind you. You turn just in time to see someone crash into a chair. The cup in his hand goes flying through the air.
+<<else>><<set $viewedSpill to true>>As you consider your options, you hear a shout. "Oh shit!" someone yells behind you. You turn just in time to see someone crash into a chair. The cup in his hand goes flying through the air.
 
 You have reasonable reflexes, but you still don't manage to get out the way in time. The iced coffee crashes into your chest, drenching your t-shirt in cold, brown liquid.
 
@@ -218,28 +206,67 @@ You shift to the side, and as the man yells, the coffee goes flying safely past 
 <<include "Avoided">>
 
 :: Nudge
-<<set $womanCoffee to true>>
-You move the chair out of the way, hoping this means you won't have to deal with any coffee incidents at all. After a moment, you hear the man apologizing profusely to an annoyed woman who was standing near the register. You let their argument fade into the background as you look over the objects in front of you.
+<<set $womanCoffee to true>>You move the chair out of the way, hoping this means you won't have to deal with any coffee incidents at all. After a moment, you hear the man apologizing profusely to an annoyed woman who was standing near the register. You let their argument fade into the background as you look over the objects in front of you.
 
 <<include "Avoided">>
 
 :: Avoided 
-<<linkreplace "Grab a dog biscuit">> <<set $biscuit to true>>You reach into the jar and pull out a dog biscuit.
-
+<<linkreplace "Grab a dog biscuit.">> <<set $biscuit to true>>You reach into the jar and pull out a dog biscuit.
 <</linkreplace>>
-<<linkreplace "Grab a lid">><<set $lid to true>>You lift a lid off the stack.
-
+<<linkreplace "Grab a lid.">><<set $lid to true>>You lift a lid off the stack.
 <</linkreplace>>
-<<linkreplace "Grab a napkin">><<set $napkin to true>>You yank a napkin out of the dispenser.
-
-<</linkreplace>>
+<<linkreplace "Grab a napkin.">><<set $napkin to true>>You yank a napkin out of the dispenser.<</linkreplace>>
 
 [[Go to the register.|Register]]
 [[Head towards the man's table.|Dog]]
 
 :: Meet Jonas
 
-You reach the doorway just as the cute guy does.
+<<if $napkin>><<set $objectName to "napkin">><<elseif $lid>><<set $objectName to "lid">><<else>><<set $objectName to false>><</if>>
+You reach the doorway just as the cute guy does. He blinks in surprise at you, owl-eyed and curious. For a moment, you're tongue-tied and unsure of what to say.
+
+"Hi," you manage to get out after a second. You put in so much effort to get here. You can't let all of that go to waste.
+
+"Um, hello," he says.
+
+"I'm Tadej," you add, sticking out your hand for a handshake.
+
+He takes it. He has a nice handshake. Not too hard. Not too soft. "Jonas," he says.
+
+You like that name. It fits him. You say, "I saw you were reading, but I couldn't tell what book it was."
+
+"Oh," Jonas says. He flushes slightly. Somehow, this only makes him more adorable. He drops his voice. "It's the latest Colleen Hoover, I know they're kind of trashy, but they're fun, you know?"
+
+You have no idea who Colleen Hoover is -- most of your own reading tends to be historical non-fiction -- but it delights you to know that he has guilty pleasures. "We should all have room for fun in our lives," you say. That is the principle you live your life by, after all.
+
+He smiles at you, a small, secret thing, like he's pleased with your approval. "I agree," he says.
+
+You clear your throat. It's now or never. You have never passed up an opportunity to shoot your shot in your life, and you're not going to stop now. "I know this is a little forward, but could I get your number?"
+
+He takes one long, agonizing moment to respond. "Okay," he says.
+
+You realize all too late that you left your phone back at the table with Bling. "I don't have my phone on me," you say.
+
+He laughs, creasing the lines near his eyes and mouth, and then he fishes a pen out of his pockets. "That's fine," he says. "I can still give it to you anyway."
+
+<<if $objectName>>You offer up the $objectName you grabbed from the condiment station. He takes it and scrawls "Jonas" and then his digits onto it and then hands it back. You clutch it in your fingers. This is precious cargo.<<else>>He takes your hand, turning it palm down. You feel all your nerves light up at the touch. He writes his name and number on the back of your hand. It'll probably last for the rest of the day, at least. You'll be able to look down and see the reminder of this exact moment.<</if>> "Thanks," you say.
+
+"It was nice meeting you," Jonas says. He slides the pen back into his pocket. "Send me a text sometime, okay?"
+
+You nod, probably fast enough that you look slightly insane, but it's hard to care when you //have his number//.
+
+And with that, he pushes his way out the door and once again into the morning sunshine.
+
+You blink once, twice, after he leaves. You want to make sure the world stays in place and stable. It does.
+
+Bling comes up to you. "Let's get out of here. The wifi in this place sucks," he says. "Who was that guy?"
+
+"Jonas," you say, letting the name roll around in your mouth.
+
+"Uh, okay," Bling says, confusion written all over his face. He doesn't understand at all, but then again, how could you possibly explain what had just happened to you here? It doesn't even seem worth it to try. "Sure."
+
+"We can go," you say, curling your fingers protectively around your prize. You got Jonas' name and number, after all. As far as you're concerned, you've already won today.
+
 
 [[The End.|Ending]]
 
@@ -251,6 +278,6 @@ You reach the doorway just as the cute guy does.
 This was built with [[TweeGo|https://github.com/tmedwards/tweego]] and [[Twine|https://twinery.org/]].
 
 [[Comment/Kudos on AO3|]]
-[[View source code]https://github.com/thedeadparrot/fic-projects/tree/main/first-meeting]]
+[[View source code|https://github.com/thedeadparrot/fic-projects/tree/main/first-meeting]]
 
-<<link "Full Restart of the Story">><<script>>Engine.restart();<</script>><</link>>
+<<link "Full Restart">><<script>>Engine.restart();<</script>><</link>>
