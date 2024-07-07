@@ -10,7 +10,7 @@ Untitled Timeloop Fic
 :: Start
 <<set $loops to 0 >>
 <<set $viewedRestart to false>>
-<<set $wifi_known to false>>
+<<set $wifiKnown to false>>
 [[Beginning]]
 
 
@@ -23,8 +23,8 @@ Untitled Timeloop Fic
 :: Beginning
 <<nobr>>
 <<set $biscuit to false>>
-<<set $wifi_given to false>>
-<<set $woman_coffee is false>>
+<<set $wifiGiven to false>>
+<<set $womanCoffee is false>>
 <<set $lid to false>>
 <<set $loops+= 1>> 
 <<if $loops > 1 and $viewedRestart is false>><<goto "FirstRestart">><</if>>
@@ -46,13 +46,13 @@ You leap to your feet as he slides the book into his backpack. This is your chan
 
 Your tablemate choose this exact moment to try to talk to you. "Hey, Tadej," Bling asks. "Do you know the wifi password?" He fiddles with his iPad as a frown creases his face.
 
-<<if $wifi_known is true>>
-<<linkappend "Tell him the wifi password.">>"It's 'COFFEE,'" you tell him.
+<<if $wifiKnown is true>>
+<<linkreplace "Tell him the wifi password.">><<set $wifiGiven to true>>"It's 'COFFEE,'" you tell him.
 
 He shoots you a huge grin. "Awesome, thanks," he says.
 
 You try not to breathe an obvious sigh of relief. You love the guy, but you have a more important mission on hand.
-<</linkappend>>
+<</linkreplace>>
 <<else>>
 You shake your head. You don't know what it is, and you don't care.
 <</if>>
@@ -68,7 +68,7 @@ You've been at the register a few times this morning. Not only to get coffee at 
 
 The current line isn't long. The cashier is taking an order and going through payment. If you hurry, you might be able to put in your own order before the cute guy leaves and maybe get the wifi password from the cashier.
 
-<<if $woman_coffee is true>>
+<<if $womanCoffee is true>>
 The woman from earlier is still engrossed in a conversation with the man with the iced coffee. They might even be flirting, which you think is rather cute. Maybe you even feel a little smug for playing cupid. She's clearly so distracted that she's not in line anymore.
 
 [[Wait behind the current customer|Get Wifi]]
@@ -77,7 +77,7 @@ There is also woman standing in front of you. Her head is bent over a menu. Her 
 
 [[Slide in front of her.|Cut in Line]]
 [[Get in line behind her.|Wait]]
-<</else>>
+<</if>>
 
 :: Get Woman's Attention
 
@@ -126,7 +126,7 @@ Your vision gets fuzzy at the edges. The world starts to tilt. Your stomach lurc
 
 :: Get Wifi
 
-<<set $wifi_known to true>>
+<<set $wifiKnown to true>>
 The person in front of you finishes paying.
 
 You step up to the register. "Can I have the wifi password?" you ask.
@@ -164,10 +164,10 @@ But your foot is still caught up in the leash, and you go crashing to the floor.
 
 [[Even then, everything goes dark...|Beginning]]
 <<else>>
-<<linkappend "Offer the dog the biscuit.">>
+<<linkreplace "Offer the dog the biscuit.">>
 After you're done petting, you offer the dog the treat. He gets so distracted by it, he loses interest in you immediately, which is disappointing, but fair.
 
-<<if $wifi_given is false>>
+<<if $wifiGiven is false>>
 Just as you're going to continue on your way, Bling comes up behind you. "Oh wow, who have you got here?" He leans down to greet the dog by offering up his hand. "Tadej, aren't you going to introduce me to your new friend?"
 
 "But I--" you protest, but it comes out weak. You've always had a hard time saying "no" to Bling.
@@ -186,7 +186,7 @@ You take a quick look over your shoulder. Bling is still busy with his iPad. Goo
 
 [[Continue on your way.|Meet Jonas]]
 <</if>>
-<</linkappend>>
+<</linkreplace>>
 <</if>>
 
 :: Condiments
@@ -218,25 +218,39 @@ You shift to the side, and as the man yells, the coffee goes flying safely past 
 <<include "Avoided">>
 
 :: Nudge
-
+<<set $womanCoffee to true>>
 You move the chair out of the way, hoping this means you won't have to deal with any coffee incidents at all. After a moment, you hear the man apologizing profusely to an annoyed woman who was standing near the register. You let their argument fade into the background as you look over the objects in front of you.
 
-<<include "Avoided">><<set $woman_coffee is true>>
+<<include "Avoided">>
 
 :: Avoided 
-<<linkappend "Grab a dog biscuit">> <<set $biscuit to true>>You reach into the jar and pull out a dog biscuit.
+<<linkreplace "Grab a dog biscuit">> <<set $biscuit to true>>You reach into the jar and pull out a dog biscuit.
 
-<</linkappend>>
-<<linkappend "Grab a lid">><<set $lid to true>>You lift a lid off the stack.
+<</linkreplace>>
+<<linkreplace "Grab a lid">><<set $lid to true>>You lift a lid off the stack.
 
-<</linkappend>>
-<<linkappend "Grab a napkin">><<set $napkin to true>>You yank a napkin out of the dispenser.
+<</linkreplace>>
+<<linkreplace "Grab a napkin">><<set $napkin to true>>You yank a napkin out of the dispenser.
 
-<<linkappend>>
+<</linkreplace>>
 
 [[Go to the register.|Register]]
 [[Head towards the man's table.|Dog]]
 
 :: Meet Jonas
 
-You did it. Congrats.
+You reach the doorway just as the cute guy does.
+
+[[The End.|Ending]]
+
+
+::Ending
+
+!! End Notes
+
+This was built with [[TweeGo|https://github.com/tmedwards/tweego]] and [[Twine|https://twinery.org/]].
+
+[[Comment/Kudos on AO3|]]
+[[View source code]https://github.com/thedeadparrot/fic-projects/tree/main/first-meeting]]
+
+<<link "Full Restart of the Story">><<script>>Engine.restart();<</script>><</link>>
