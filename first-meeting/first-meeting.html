@@ -126,7 +126,8 @@ a:hover {
 UIBar.destroy();
 &lt;&lt;/script&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">! Here It Goes Again
 
-by thedeadparrot
+a timeloop ☕-shop mini-adventure
+//by thedeadparrot//
 
 [[Start the story.|Beginning]]</tw-passagedata><tw-passagedata pid="3" name="FirstRestart" tags="" position="350,100" size="100,100">&lt;&lt;set $viewedRestart to true&gt;&gt;&lt;&lt;set $loops to 1&gt;&gt;You blink your eyes open. You hadn&#39;t even realized they were closed. You take a look around. You&#39;re back at your table. Bling is still finishing off his croissant. Your heart jumps into your throat as you notice that the man is still at his table. The paperback lays open in front of him as he gazes out of the window. Was it all a dream? A strange fantasy? That doesn&#39;t seem so important right now. What does seem important is that you have another chance to talk to your mystery man. You&#39;re going to take advantage of it.
 
@@ -140,7 +141,9 @@ by thedeadparrot
 &lt;&lt;if $loops &gt; 1 and $viewedRestart is false&gt;&gt;&lt;&lt;goto &quot;FirstRestart&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;/nobr&gt;&gt;&lt;&lt;if $loops is 3&gt;&gt;You blink your eyes open. You have another chance. You can figure this out. You just need to get all the pieces to line up in the right order. You believe in yourself.
 
-&lt;&lt;elseif $loops &gt; 3&gt;&gt;//Okay// you think to yourself. One more try. You can do this.
+&lt;&lt;elseif $loops &gt; 3 and $loops is not 10&gt;&gt;//Okay// you think to yourself. One more try. You can do this.
+
+&lt;&lt;elseif $loops is 10&gt;&gt;The frustration mounts with every time you have to try again, but you aren&#39;t one to give up easily. So what if you&#39;ve seen this same scene play out ten times before? That isn&#39;t going to stop you.
 
 &lt;&lt;/if&gt;&gt;It is eleven in the morning, and you are sitting in a cafe, and you are staring at the most adorable man alive.
 
@@ -166,7 +169,7 @@ You shake your head. You don&#39;t know what it is, and you don&#39;t care.
 
 The current line isn&#39;t long. The cashier is taking an order and going through payment. If you hurry, you might be able to put in your own order before the cute guy leaves and maybe get the wifi password from the cashier.
 &lt;&lt;if $womanCoffee is true&gt;&gt;
-The woman from earlier is still engrossed in a conversation with the man with the iced coffee. They might even be flirting, which you think is rather cute. Maybe you even feel a little smug for playing cupid. She&#39;s clearly so distracted that she&#39;s not in line anymore.
+The woman from earlier is still engrossed in a conversation with the man with the iced coffee. They might even be flirting, which you think is rather cute. You even feel a little smug for playing Cupid. She&#39;s clearly so distracted that she&#39;s not waiting to order anymore.
 
 [[Wait behind the current customer.|Get Wifi]]
 &lt;&lt;else&gt;&gt;
@@ -176,10 +179,10 @@ There is also woman standing in front of you. Her head is bent over a menu. Her 
 [[Get in line behind her.|Wait]]
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="Get Woman&#39;s Attention" tags="" position="725,100" size="100,100">You try to get her attention. Waving your hands. Nudging her shoulder. Clearing your throat in a pointed and insistent fashion. Nothing seems to work. She is so focused on the menu in her hand, nothing else seems to matter to her. 
 
-Maybe you need something much bigger and more dramatic to get her to notice what&#39;s going on around her.
+Maybe you might need someone physically bumping into get her to notice what&#39;s going on around her, and well, you&#39;re not sure if that person should be you.
 
 [[Slide in front of her.|Cut in Line]]
-[[Continue patiently waiting behind her.|Continue Waiting]]</tw-passagedata><tw-passagedata pid="7" name="Cut in Line" tags="" position="850,100" size="100,100">Just as you attempt to dodge forward, she looks up. &quot;What do you think you&#39;re doing?&quot; she demands.
+[[Continue patiently waiting behind her.|Continue Waiting]]</tw-passagedata><tw-passagedata pid="7" name="Cut in Line" tags="" position="850,100" size="100,100">As you attempt to dodge forward, she looks up. &quot;What do you think you&#39;re doing?&quot; she demands.
 
 You blink at her. &quot;Uh, I was just--&quot; you say.
 
@@ -197,7 +200,7 @@ You fidget, restless, shifting your weight from foot to foot. Your mystery man h
 
 [[Slide in front of her.|Cut in Line]]
 [[Try to get her attention.|Get Woman&#39;s Attention]]
-[[Continue patiently waiting behind her.|Continue Waiting]]</tw-passagedata><tw-passagedata pid="9" name="Continue Waiting" tags="" position="1100,100" size="100,100">All you can do is watch and wait, helplessly, as the man pulls the backpack onto his shoulders. He pushes his way out the door and into the morning sunshine, a smile on his face.
+[[Continue patiently waiting behind her.|Continue Waiting]]</tw-passagedata><tw-passagedata pid="9" name="Continue Waiting" tags="" position="1100,100" size="100,100">All you can do is watch and wait from the line, helplessly, as the cute guy pulls the backpack onto his shoulders. He pushes his way out the door and into the morning sunshine, a smile on his face.
 
 The woman in front of you finally notices that it&#39;s her turn to order and steps forward. It&#39;s too late, though. You&#39;ve lost your chance.
 
@@ -207,27 +210,27 @@ Your vision gets fuzzy at the edges. The world starts to tilt. Your stomach lurc
 
 You step up to the register. &quot;Can I have the wifi password?&quot; you ask.
 
-The cashier fixes you with a bored, dead-eyed look. &quot;I can&#39;t give you the password until you order something.&quot;
+The cashier fixes you with a bored, dead-eyed look. &quot;I can&#39;t give you the password unless you buy something.&quot;
 
 &quot;I&#39;ve been here for the last hour,&quot; you protest. &quot;You sold me a cheese danish.&quot; You gesture in the direction of your table, which is still piled high with the detritus of plates and cups from your various purchases.
 
-&quot;I can&#39;t give you the password until you order something,&quot; the cashier repeats with the same patient monotone.
+&quot;I can&#39;t give you the password unless you buy something,&quot; the cashier repeats with the same patient monotone.
 
-You sigh and order yourself a cookie. The man has packed up all his stuff. His backpack is on his back. He&#39;s on his way out the door. But you are getting closer to finally getting to talk to him. You can feel it.
+You sigh and order yourself a cookie. Your mystery man has packed up all his stuff. His backpack is on his back. He&#39;s on his way out the door. But you are getting closer to finally getting to talk to him. You can feel it.
 
 &quot;The wifi password is &#39;COFFEE&#39; by the way,&quot; the cashier says.
 
 [[You take a big bite of the cookie. And when you blink...|Beginning]]</tw-passagedata><tw-passagedata pid="11" name="Dog" tags="" position="100,225" size="100,100">You stride purposefully towards the table across the room. You have your target in sight. You refuse to let him get away.
 
-That is, until a large, white dog bounds over to say hello. Its tail wags, and it noses at your legs in a friendly way.
+That is, until a large, fluffy, white dog bounds over to say hello. Its tail wags, and it noses at your legs in a friendly way.
 
-&quot;Oh, sorry about him,&quot; the owner says. &quot;He just really loves meeting new people.&quot;
+&quot;Oh, sorry about him,&quot; the owner says. &quot;She just really loves meeting new people.&quot;
 
-Yes, you have a goal in front of you, but well, there&#39;s a friendly dog in front of you, and you //have// to stop and give him a pet. That&#39;s one of the reasons why you like this place. It has a relaxed, friendly vibe, and you love watching and meeting new dogs, even if you are more of a cat person. &lt;&lt;if $biscuit is false&gt;&gt;They even have a tin of dog biscuits at the condiments station.&lt;&lt;/if&gt;&gt;
+Yes, you have a goal in front of you, but well, there&#39;s a friendly dog in front of you, and you //have// to stop and give her a pet. That&#39;s one of the reasons why you like this place. It has a relaxed, friendly vibe, and you love watching and meeting new dogs, even if you are more of a cat person. &lt;&lt;if $biscuit is false&gt;&gt;They even have a tin of dog biscuits at the condiments station.&lt;&lt;/if&gt;&gt;
 
-You give the dog a few head pats and a few scritches. He slobbers all over your hand. You keep one eye out on your target. He is slowly stacking his used mug on top of his plate. You still have time.
+You give the dog a few head pats and a few scritches. She slobbers all over your hand. You keep one eye out on your target. He is slowly stacking his used mug on top of his plate. You still have time.
 &lt;&lt;if $biscuit is false&gt;&gt;
-As you get up, the dog gets even more excited. He dodges around your legs, tangling his leash around your ankles. You try to extract yourself, but you only seem to get more tangled.
+As you get up, the dog gets even more excited. She dodges around your legs, tangling her leash around your ankles. You try to extract yourself, but you only seem to get more tangled.
 
 When you look up again, the man is at the door, entirely uninterested in you or your plight. You take a step forward, reckless in your determination.
 
@@ -235,21 +238,21 @@ But your foot is still caught up in the leash, and you go crashing to the floor.
 
 [[Even then, everything goes dark...|Beginning]]
 &lt;&lt;else&gt;&gt;
-&lt;&lt;linkreplace &quot;Offer the dog the biscuit.&quot;&gt;&gt;After you&#39;re done petting, you offer the dog the treat. He gets so distracted by it, he loses interest in you immediately, which is disappointing, but fair.
+&lt;&lt;linkreplace &quot;Offer the dog the biscuit.&quot;&gt;&gt;After you&#39;re done petting, you offer the dog the treat. She gets so distracted by it, she loses interest in you immediately, which is disappointing, but fair.
 &lt;&lt;if $wifiGiven is false&gt;&gt;
 Just as you&#39;re going to continue on your way, Bling comes up behind you. &quot;Oh wow, who have you got here?&quot; He leans down to greet the dog by offering up his hand. &quot;Tadej, aren&#39;t you going to introduce me to your new friend?&quot;
 
 &quot;But I--&quot; you protest, but it comes out weak. You&#39;ve always had a hard time saying &quot;no&quot; to Bling.
 
-&quot;Nonsense. I&#39;m just glad I went looking for the wifi password at the register and found you here instead. Always up for meeting new dogs.&quot; The dog lets Bling pet him and even flops over for belly rubs, which you&#39;re unsure if you find insulting or not.
+&quot;Nonsense. I&#39;m just glad I went looking for the wifi password and found you here instead. Always up for meeting new dogs.&quot; The dog lets Bling pet her and even flops over for belly rubs. She didn&#39;t do that for you, and you&#39;re unsure if you find that insulting or not.
 
 &quot;I will just--&quot; you try again. You can feel the clock ticking down, one second after another.
 
 But Bling somehow manages to rope you into a conversation with the owner about his own dog at home. You don&#39;t even have a dog. You don&#39;t know what you&#39;re still doing here.
 
-You look up, and the mystery man is gone. You sigh.
+You take another glance at the table by the window, and the mystery man is gone. Again. You sigh.
 
-[[You close your eyes. Time to try again...|Beginning]]
+[[You close your eyes. One more time around...|Beginning]]
 &lt;&lt;else&gt;&gt;
 You take a quick look over your shoulder. Bling is still busy with his iPad. Good.
 
@@ -268,7 +271,9 @@ You have reasonable reflexes, but you still don&#39;t manage to get out the way 
 
 The former owner of said cup of coffee runs up to you. &quot;I am so, so sorry,&quot; he says. He grabs a fistful of napkins and starts trying to dab at the growing stain.
 
-You try to wave him away. It&#39;s only somewhat successful. When you finally get a moment of freedom, the table by the window is empty, and the cute guy has vanished into thin air.
+You try to wave him away. It&#39;s only somewhat successful. He keeps up a stream of apologetic words and seemingly empties the entire pile of napkins.
+
+When you finally get a moment of freedom, the table by the window is empty, and the cute guy has vanished into thin air.
 
 [[You do your best to smile through it, but...|Beginning]]
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="Dodge" tags="" position="350,225" size="100,100">You shift to the side, and as the man yells, the coffee goes flying safely past you and onto the floor. Whew. You look over the table again. What next?
@@ -309,7 +314,7 @@ You realize all too late that you left your phone back at the table with Bling. 
 
 He laughs, creasing the lines near his eyes and mouth, and then he fishes a pen out of his pockets. &quot;That&#39;s fine,&quot; he says. &quot;I can still give it to you anyway.&quot;
 
-&lt;&lt;if $objectName&gt;&gt;You offer up the $objectName you grabbed from the condiment station. He takes it and scrawls &quot;Jonas&quot; and then his digits onto it and then hands it back. You clutch it in your fingers. This is precious cargo.&lt;&lt;else&gt;&gt;He takes your hand, turning it palm down. You feel all your nerves light up at the touch. He writes his name and number on the back of your hand. It&#39;ll probably last for the rest of the day, at least. You&#39;ll be able to look down and see the reminder of this exact moment.&lt;&lt;/if&gt;&gt; &quot;Thanks,&quot; you say.
+&lt;&lt;if $objectName&gt;&gt;You offer up the $objectName you grabbed from the condiment station. He takes it and scrawls &quot;Jonas&quot; and then his digits onto it before handing it back. You clutch it in your fingers. This is precious cargo.&lt;&lt;else&gt;&gt;He takes your hand, turning it palm down. You feel all your nerves light up at the touch. He writes his name and number on the back of your hand. It&#39;ll probably last for the rest of the day, at least. You&#39;ll be able to look down and see the reminder of this exact moment until it fades.&lt;&lt;/if&gt;&gt; &quot;Thanks,&quot; you say.
 
 &quot;It was nice meeting you,&quot; Jonas says. He slides the pen back into his pocket. &quot;Send me a text sometime, okay?&quot;
 
@@ -330,7 +335,13 @@ Bling comes up to you. &quot;Let&#39;s get out of here. The wifi in this place s
 
 [[The End.|Ending]]</tw-passagedata><tw-passagedata pid="17" name="Ending" tags="" position="850,225" size="100,100">!!End Notes
 
+
 This was built with [[TweeGo|https://github.com/tmedwards/tweego]] and [[Twine|https://twinery.org/]].
+
+Always liked the idea of building interactive time loop fic, but the idea of building a big one with lots of big feelings is very intimidating, and the idea of building a small one with smaller feelings was less so.
+
+Made for the [[Tour de France Fanworks Classification 2024|https://www.tumblr.com/wtfanworkclassification/754507583486836736/announcing-the-tour-de-france-fanwork]] and the prompt &#39;AU: different first meeting.&#39;
+
 
 [[Comment/Kudos on AO3|]]
 [[View source code|https://github.com/thedeadparrot/fic-projects/tree/main/first-meeting]]
