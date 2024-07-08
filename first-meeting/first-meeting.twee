@@ -67,13 +67,13 @@ by thedeadparrot
 
 <</if>>It is eleven in the morning, and you are sitting in a cafe, and you are staring at the most adorable man alive.
 
-He's sitting on the other side of the cafe, alone, in front of the large windows. The late morning sun catch in his pale blond hair and illuminates the delicate features of his face. For the last hour, he's been engrossed in his book -- a slim paperback hovel with a brightly colored cover -- and you've been engrossed in watching him.
+He's sitting on the other side of the cafe, alone, in front of the large windows. The late morning sun catch in his pale blond hair and illuminates the delicate features of his face. For the last hour, he's been engrossed in his book -- a slim paperback novel with a brightly colored cover -- and you've been engrossed in watching him.
 
 Your heart quickens as he finishes the last bit of his pastry, snaps the book closed, and cleans the table in front of him. He's preparing to leave. You are gripped with the sudden, terrible realization that you may never see him again.
 
 You leap to your feet as he slides the book into his backpack. This is your chance. You have to take it.
 
-Your tablemate choose this exact moment to try to talk to you. "Hey, Tadej, mate," Bling asks. "Do you know the wifi password?" He fiddles with his iPad as a frown creases his face.
+Your tablemate chooses this exact moment to try to talk to you. "Hey, Tadej, mate," Bling asks. "Do you know the wifi password?" He fiddles with his iPad as a frown creases his face.
 <<if $wifiKnown is true>>
 <<linkreplace "Tell him the wifi password.">><<set $wifiGiven to true>>"It's 'COFFEE,'" you tell him.
 
