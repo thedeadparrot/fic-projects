@@ -40,3 +40,14 @@ A short Transistor fanfic built in Twine 2. Can be found in the `userspace` dire
 -------------------
 
 A short Shadowrun: Hong Kong fanfic built in Twine 2. Features a lot of heavy CSS modifications to make it imitate the Shadowrun interface. Can be found in the `srhk_backstory` directory. The archive file can be uploaded into Twine 2 if you're interested in seeing the Twine tree and CSS modifications.
+
+The Arithmatic of Memory
+------------------------
+
+For Pacific Rim. Also built using Twine, but using TweeGo as a compiler. Can be found in `drift`.
+
+
+Here It Goes Again
+------------------
+
+Technically Cycling RPF, but it's also an excuse for me to write a small, low-stakes time loop fic. Set in a coffee shop. There's a dog you can pet. Found in `first-meeting`.
