@@ -217,7 +217,7 @@ You take a quick look over your shoulder. Bling is still busy with his iPad. Goo
 
 You approach the condiment table. There's a selection of lids for paper cups, a jug of milk, a tin of sugar, a pile of napkins. Right next to them is a glass jar filled with dog treats.
 
-<<if $viewedSpill is true>>Wait, you know what's coming next.
+<<if $viewedSpill is true>>Wait, you know what's coming next. If you don't act fast, you're going to get a shirt drenched in iced coffee.
 
 [[Step to the side.|Dodge]]
 [[Nudge the chair a little bit to the left.|Nudge]]
